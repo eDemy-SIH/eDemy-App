@@ -18,10 +18,7 @@ class _AirTravelState extends State<AirTravel> {
       
       body: Container(
         decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/images/trees-background.jpg"),
-            fit: BoxFit.cover
-          ),
+
         ),
         child: Center(
           child: FractionallySizedBox(

@@ -82,9 +82,6 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             
-
-
-
                 SizedBox(height: 20,),
 
                 Padding(
@@ -93,19 +90,17 @@ class HomePage extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Tips to reduce footprint"),
-                        SizedBox(height: 10,),
                         SingleChildScrollView(
                           scrollDirection: Axis.horizontal,
                           child: Row(
                             
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 0,),
+                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 0,imagePath: "assets/images/Software-Engineer-Real.jpg",),
                               SizedBox(width: 20,),
-                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 1,),
+                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real.jpg",),
                               SizedBox(width: 20,),
-                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 2,),
+                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real.jpg",),
                             ],
                           ),
                         ),
@@ -113,49 +108,49 @@ class HomePage extends StatelessWidget {
                     ),     
                 ),
 
-                // Padding(
-                //   padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
-                //   child: Container(
-                //     height: 80,
-                //     width: double.infinity,
-                //     decoration: BoxDecoration(
-                //       borderRadius: BorderRadius.circular(10),
-                //       color: context.cardColor
-                //     ),
-                //     child: Row(
-                //       children: [
-                //         Container(
-                //           // ignore: sort_child_properties_last
-                //           child: Center(
-                //             child: Image.asset(
-                //               "assets/images/tea-leaves.png",
-                //               height: 50,
-                //               width: 50,
-                //             ),
-                //           ),
-                //           height: 100,
-                //           width: 100,
-                //           decoration: BoxDecoration(
-                //             borderRadius: BorderRadius.circular(20),
-                //             color: context.cardColor
-                //           ),
-                //         ),
-                //         const SizedBox(width: 10,),
-                //         const Expanded(
-                //           child: Center(                
-                //             child: Text(
-                //               "Learn More About Climate Change",
-                //               style: TextStyle(
-                //                 color: Colors.white,
-                //                 fontSize: 18,
-                //               ),
-                //             ),              
-                //           ),
-                //         ),
-                //       ],
-                //     ),
-                //   ),
-                // ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
+                  child: Container(
+                    height: 80,
+                    width: double.infinity,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color: context.cardColor
+                    ),
+                    child: Row(
+                      children: [
+                        // Container(
+                        //   // ignore: sort_child_properties_last
+                        //   child: Center(
+                        //     child: Image.asset(
+                        //       "assets/images/tea-leaves.png",
+                        //       height: 50,
+                        //       width: 50,
+                        //     ),
+                        //   ),
+                        //   height: 100,
+                        //   width: 100,
+                        //   decoration: BoxDecoration(
+                        //     borderRadius: BorderRadius.circular(20),
+                        //     color: context.cardColor
+                        //   ),
+                        // ),
+                        const SizedBox(width: 10,),
+                        const Expanded(
+                          child: Center(                
+                            child: Text(
+                              "Discover All Jobs",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 18,
+                              ),
+                            ),              
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
 
                 SizedBox(height: 30,),
           
