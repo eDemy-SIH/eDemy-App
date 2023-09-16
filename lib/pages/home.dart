@@ -5,7 +5,8 @@ import 'package:pie_chart/pie_chart.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class HomePage extends StatelessWidget {
-   HomePage({super.key});
+
+   HomePage({super.key,});
 
   final dataMap = <String, double>{
     "Progress": 3,

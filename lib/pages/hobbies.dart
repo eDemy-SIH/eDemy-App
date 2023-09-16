@@ -55,7 +55,7 @@ class _HobbiesState extends State<Hobbies> {
         //_myActivitiesResult = _myActivities.toString();
       });
       Future.delayed(Duration(seconds: 1));
-      Navigator.pushNamed(context, Myroutes.homeRoute);
+      Navigator.pushNamed(context, Myroutes.aptitudeRoute);
     
     db.updateTheme();
   }
