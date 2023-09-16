@@ -1,5 +1,5 @@
 import 'package:sih_app/widgets/drawer.dart';
-import 'package:sih_app/widgets/tips.dart';
+import 'package:sih_app/widgets/career_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:pie_chart/pie_chart.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -96,11 +96,11 @@ class HomePage extends StatelessWidget {
                             
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 0,imagePath: "assets/images/Software-Engineer-Real.jpg",),
+                              CareerCard(text: "Software Engineer",col_index: 0,imagePath: "assets/images/Software-Engineer-Real-min.jpg",),
                               SizedBox(width: 20,),
-                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real.jpg",),
+                              CareerCard(text: "Civil Engineer",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
                               SizedBox(width: 20,),
-                              TipsCont(text: "Lorem ipsum ghyr gtuio oi. lorem ipsum",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real.jpg",),
+                              CareerCard(text: "Mechanical Engineer",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
                             ],
                           ),
                         ),
@@ -108,51 +108,58 @@ class HomePage extends StatelessWidget {
                     ),     
                 ),
 
-                Padding(
-                  padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
-                  child: Container(
-                    height: 80,
-                    width: double.infinity,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: context.cardColor
-                    ),
-                    child: Row(
-                      children: [
-                        // Container(
-                        //   // ignore: sort_child_properties_last
-                        //   child: Center(
-                        //     child: Image.asset(
-                        //       "assets/images/tea-leaves.png",
-                        //       height: 50,
-                        //       width: 50,
-                        //     ),
-                        //   ),
-                        //   height: 100,
-                        //   width: 100,
-                        //   decoration: BoxDecoration(
-                        //     borderRadius: BorderRadius.circular(20),
-                        //     color: context.cardColor
-                        //   ),
-                        // ),
-                        const SizedBox(width: 10,),
-                        const Expanded(
-                          child: Center(                
-                            child: Text(
-                              "Discover All Jobs",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 18,
-                              ),
-                            ),              
+                SizedBox(height: 20,),
+
+                GestureDetector(
+                  onTap: () => {
+                        Navigator.pushNamed(context, '/discover')
+                    },
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
+                    child: Container(
+                      height: 80,
+                      width: double.infinity,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: context.cardColor
+                      ),
+                      child: const Row(
+                        children: [
+                          // Container(
+                          //   // ignore: sort_child_properties_last
+                          //   child: Center(
+                          //     child: Image.asset(
+                          //       "assets/images/tea-leaves.png",
+                          //       height: 50,
+                          //       width: 50,
+                          //     ),
+                          //   ),
+                          //   height: 100,
+                          //   width: 100,
+                          //   decoration: BoxDecoration(
+                          //     borderRadius: BorderRadius.circular(20),
+                          //     color: context.cardColor
+                          //   ),
+                          // ),
+                          SizedBox(width: 10,),
+                          Expanded(
+                            child: Center(                
+                              child: Text(
+                                "Discover All Jobs",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 18,
+                                ),
+                              ),              
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ),
 
-                SizedBox(height: 30,),
+                
           
           
               ],

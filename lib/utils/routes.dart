@@ -5,6 +5,8 @@ class Myroutes{
   static String educationInfoRoute = "/educationInfo";
   static String hobbyRoute = "/hobbyRoute";
   static String airCarbonRoute = "/airCarbon";
-  static String electricBillCarbonRoute = "/electricBill";
   static String authRoute = "/auth";
+  static String discoverRoute = "/discover";
+  static String aptitudeRoute = "/aptitude";
 }
+

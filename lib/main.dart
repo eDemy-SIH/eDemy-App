@@ -1,6 +1,6 @@
 import 'package:sih_app/pages/air_travel.dart';
+import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/education_info.dart';
-import 'package:sih_app/pages/electricity.dart';
 import 'package:sih_app/pages/student_info.dart';
 import 'package:sih_app/pages/get_started.dart';
 import 'package:sih_app/pages/home.dart';
@@ -58,7 +58,7 @@ class _MyAppState extends State<MyApp> {
         Myroutes.educationInfoRoute: (context) => EducationInfo(),
         Myroutes.hobbyRoute: (context) => Hobbies(),  
         Myroutes.airCarbonRoute: (context) => AirTravel(),  
-        Myroutes.electricBillCarbonRoute: (context) => ElectricBill(),
+        Myroutes.discoverRoute: (context) => DiscoverCareers(),
       },
     );   
   }
