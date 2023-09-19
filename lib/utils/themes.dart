@@ -1,6 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
 
+
+import 'package:google_fonts/google_fonts.dart';
+
 class ThemeProvider extends ChangeNotifier {
   ThemeMode themeMode = ThemeMode.system;
 
@@ -22,7 +25,8 @@ class MyThemes {
         color: const Color.fromARGB(255, 205, 78, 228),
         elevation: 0.0,
         iconTheme: IconThemeData(color: Colors.deepPurple),
-      )
+      ),
+      
     );
 
   static final darkTheme = ThemeData(

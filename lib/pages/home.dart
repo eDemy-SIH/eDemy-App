@@ -5,6 +5,7 @@ import 'package:sih_app/widgets/career_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:pie_chart/pie_chart.dart';
 import 'package:velocity_x/velocity_x.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
 
@@ -36,9 +37,6 @@ class _HomePageState extends State<HomePage> {
     super.initState();
   }
 
-  final dataMap = <String, double>{
-    "Progress": 3,
-  };
 
   final colorList = <Color>[
     Colors.greenAccent,
@@ -46,6 +44,11 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+
+      final dataMap = <String, double>{
+        "Progress": score.toDouble(),
+      };
+
     return Scaffold(
       backgroundColor: context.canvasColor,
       appBar: AppBar(
@@ -67,7 +70,12 @@ class _HomePageState extends State<HomePage> {
                 Center(
                   child: Text(
                     "Your Aptitude Score",
-                    style: TextStyle(fontSize: 18),
+                    style: GoogleFonts.workSans(
+                      textStyle:TextStyle(
+                      fontSize: 18
+                      ),
+                    ) 
+                    
                   )
                 ),
 
@@ -108,7 +116,9 @@ class _HomePageState extends State<HomePage> {
               Center(
                 child: Text(      
                   "Based on the score and inputs provided here are some careers recomended for you",
-                  style: TextStyle(fontSize: 14,color: Colors.grey[700]),
+                  style: GoogleFonts.workSans(
+                      textStyle:
+                  TextStyle(fontSize: 14,color: Colors.grey[700])),
                   textAlign: TextAlign.center,
                 ),
               ),

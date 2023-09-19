@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
 import 'package:sih_app/pages/home.dart';
@@ -85,7 +86,8 @@ class _AptitudeTestState extends State<AptitudeTest> {
                   padding: EdgeInsets.only(top: 40,left: 20,right: 20),
                   child: Text(
                     question.question,
-                    style: TextStyle(fontSize: 20),            
+                    style:  GoogleFonts.workSans(
+                      textStyle:TextStyle(fontSize: 20)),            
                   ),                 
                 ),
                 SizedBox(height: 30,),
