@@ -45,8 +45,8 @@ class HomePage extends StatelessWidget {
                 SizedBox(height: 20,),
 
                 PieChart(
-                  chartRadius: 200,
-                  centerText:  "3/5",
+                  chartRadius: 180,
+                  centerText:  "3/6",
                   centerTextStyle: TextStyle(
                     fontSize: 28,
                     color: Colors.black
@@ -67,7 +67,7 @@ class HomePage extends StatelessWidget {
                     ),
                     chartValueBackgroundColor: context.canvasColor
                   ),
-                  totalValue: 5,
+                  totalValue: 6,
               ),
 
 
@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
              
               Center(
                 child: Text(      
-                  "Based on the score here are some careers recomended for you",
+                  "Based on the score and inputs provided here are some careers recomended for you",
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.center,
                 ),
@@ -98,9 +98,9 @@ class HomePage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               CareerCard(text: "Software Engineer",col_index: 0,imagePath: "assets/images/Software-Engineer-Real-min.jpg",),
-                              SizedBox(width: 20,),
+                              SizedBox(width: 25,),
                               CareerCard(text: "Civil Engineer",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
-                              SizedBox(width: 20,),
+                              SizedBox(width: 25,),
                               CareerCard(text: "Mechanical Engineer",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
                             ],
                           ),
@@ -109,19 +109,19 @@ class HomePage extends StatelessWidget {
                     ),     
                 ),
 
-                SizedBox(height: 20,),
+                SizedBox(height: 10,),
 
                 GestureDetector(
                   onTap: () => {
                         Navigator.pushNamed(context, '/discover')
                     },
                   child: Padding(
-                    padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
+                    padding: const EdgeInsets.only(left: 20, right: 20, top: 20,bottom: 10),
                     child: Container(
                       height: 80,
                       width: double.infinity,
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
+                        borderRadius: BorderRadius.circular(5),
                         color: context.cardColor
                       ),
                       child: const Row(

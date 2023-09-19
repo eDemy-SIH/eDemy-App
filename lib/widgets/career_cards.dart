@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 // ignore: must_be_immutable
 class CareerCard extends StatelessWidget {
@@ -15,35 +16,52 @@ class CareerCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 200,
-      width: 180,
+      padding: EdgeInsets.only(left: 12,right: 12,top: 12),
+      height: 270,
+      width: 200,
       decoration: BoxDecoration(
-        color: colors[col_index],
-        borderRadius: BorderRadius.circular(20)
+        color: Color.fromRGBO(210, 247, 245, 1),
+        borderRadius: BorderRadius.circular(12)
       ),
       
         
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ClipRRect(
-              borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20)),
+              borderRadius: BorderRadius.circular(12),
               child: Image.asset(
                 fit: BoxFit.fill,
                 imagePath,
-                width: 180,
-                height: 120,
+                width: 200,
+                height: 150,
               ),
             ),
             
             SizedBox(height: 20,),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
-              child: Text(
-                text,
-                style: TextStyle(fontSize: 16),
-              ),
+            Text(
+              text,
+              style: TextStyle(fontSize: 18),
             ),
+            SizedBox(height: 20,),
+            Container(
+              height: 30,
+              width: 200,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(3),
+                color: context.cardColor
+              ),
+              child: Center(
+                child: Text(
+                  "View More",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 14
+                  ),
+                ),
+              ),
+          )
+
           ],
         ),
       );

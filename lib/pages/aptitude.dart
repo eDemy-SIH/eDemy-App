@@ -53,7 +53,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
               children: [
 
                 Padding(
-                  padding: EdgeInsets.only(top: 30,left: 20,right: 20),
+                  padding: EdgeInsets.only(top: 40,left: 20,right: 20),
                   child: Text(
                     question.question,
                     style: TextStyle(fontSize: 22),            
@@ -90,14 +90,14 @@ class _AptitudeTestState extends State<AptitudeTest> {
                         padding: const EdgeInsets.only(bottom: 20),
                         child: GestureDetector(
                           onTap: () => {
-                              
+                            selectedAnswerIndex!=null ? 
                             Navigator.of(context).pushReplacement(
                               MaterialPageRoute(
                                 builder: (_) => HomePage(
                                   
                                 ),
                               ),
-                            ),
+                            ):null
                             },
                           child: NextButton(text: "Submit")
                         ),
