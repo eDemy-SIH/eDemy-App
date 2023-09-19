@@ -1,12 +1,40 @@
+import 'package:hive/hive.dart';
+import 'package:sih_app/db/db.dart';
 import 'package:sih_app/widgets/drawer.dart';
 import 'package:sih_app/widgets/career_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:pie_chart/pie_chart.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
 
    HomePage({super.key,});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+
+  final aptitudebox = Hive.box("Aptitude_db");
+  AptitudeDB db = AptitudeDB();
+
+  int score=0;
+  @override
+  void initState() {
+
+    if (aptitudebox.get("SCORE") == null) {
+      db.createScore();
+      score = db.score;
+    }
+    else{
+      db.loadScore();
+      score=db.score;
+    }
+
+    // TODO: implement initState
+    super.initState();
+  }
 
   final dataMap = <String, double>{
     "Progress": 3,
@@ -16,15 +44,16 @@ class HomePage extends StatelessWidget {
     Colors.greenAccent,
   ];
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: context.canvasColor,
       appBar: AppBar(
+        iconTheme: IconThemeData(color: context.cardColor),
         backgroundColor: Colors.transparent,
       ),
       drawer: AppDrawer(//creates menu button
+        
       ),
 
 
@@ -46,7 +75,8 @@ class HomePage extends StatelessWidget {
 
                 PieChart(
                   chartRadius: 180,
-                  centerText:  "3/6",
+                  centerText:  "$score/6",
+                  initialAngleInDegree: 270,
                   centerTextStyle: TextStyle(
                     fontSize: 28,
                     color: Colors.black
@@ -78,7 +108,7 @@ class HomePage extends StatelessWidget {
               Center(
                 child: Text(      
                   "Based on the score and inputs provided here are some careers recomended for you",
-                  style: TextStyle(fontSize: 16),
+                  style: TextStyle(fontSize: 14,color: Colors.grey[700]),
                   textAlign: TextAlign.center,
                 ),
               ),

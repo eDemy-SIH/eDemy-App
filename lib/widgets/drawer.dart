@@ -69,17 +69,17 @@ class _AppDrawerState extends State<AppDrawer> {
             SizedBox(height: 20,),
             ListTile(
               leading: CircleAvatar(
-                backgroundColor: Color.fromARGB(60, 206, 59, 59),
+                backgroundColor: Color.fromRGBO(210, 247, 245, 1),
                 child: Icon(
                   Icons.person,
-                  color: const Color.fromARGB(255, 226, 54, 54),
+                  color: const Color.fromRGBO(0, 202, 153, 1),
                   size: 24,
                 ),
               ),
             
               title: Text(
-                "User",style: 
-                TextStyle(color: const Color.fromARGB(255, 226, 54, 54),fontSize: 24),
+                "Priyanshu Dutta",style: 
+                TextStyle(color: Color.fromARGB(255, 0, 68, 51),fontSize: 22),
               ),
             ),
             SizedBox(height: 30,),
@@ -99,7 +99,7 @@ class _AppDrawerState extends State<AppDrawer> {
                 title: Text(
                   "Retake Test",
                   style:
-                      TextStyle(color: context.theme.primaryColor, fontSize: 18),
+                      TextStyle(fontSize: 18),
                 ),
               ),
             ),
@@ -115,7 +115,7 @@ class _AppDrawerState extends State<AppDrawer> {
               title: Text(
                 "Settings",
                 style:
-                    TextStyle(color: context.theme.primaryColor, fontSize: 18),
+                    TextStyle( fontSize: 18),
               ),
             )
           ],

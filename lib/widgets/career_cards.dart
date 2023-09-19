@@ -20,7 +20,7 @@ class CareerCard extends StatelessWidget {
       height: 270,
       width: 200,
       decoration: BoxDecoration(
-        color: Color.fromRGBO(210, 247, 245, 1),
+        color: Color.fromRGBO(215, 243, 242, 1),
         borderRadius: BorderRadius.circular(12)
       ),
       
@@ -41,11 +41,11 @@ class CareerCard extends StatelessWidget {
             SizedBox(height: 20,),
             Text(
               text,
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 20,),
             Container(
-              height: 30,
+              height: 35,
               width: 200,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(3),

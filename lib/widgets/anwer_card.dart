@@ -29,16 +29,16 @@ class AnswerCard extends StatelessWidget {
       child: selectedAnswerIndex != null
           // if one option is chosen
           ? Container(
-              height: 70,
+              height: 60,
               padding: const EdgeInsets.all(16.0),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(10),
                 border: Border.all(
                   color: isCorrectAnswer
-                      ? Colors.green
+                      ? const Color.fromARGB(255, 96, 233, 100)
                       : isWrongAnswer
-                          ? Colors.red
+                          ? const Color.fromARGB(255, 226, 69, 58)
                           : Colors.white,
                   width: 3,
                 ),
@@ -65,7 +65,7 @@ class AnswerCard extends StatelessWidget {
             )
           // If no option is selected
           : Container(
-              height: 70,
+              height: 60,
               padding: const EdgeInsets.all(16.0),
               decoration: BoxDecoration(
                 color: Colors.white,
@@ -93,7 +93,7 @@ class AnswerCard extends StatelessWidget {
 
 Widget buildCorrectIcon() => const CircleAvatar(
       radius: 15,
-      backgroundColor: Colors.green,
+      backgroundColor: Color.fromARGB(255, 96, 233, 100),
       child: Icon(
         Icons.check,
         color: Colors.white,
@@ -102,7 +102,7 @@ Widget buildCorrectIcon() => const CircleAvatar(
 
 Widget buildWrongIcon() => const CircleAvatar(
       radius: 15,
-      backgroundColor: Colors.red,
+      backgroundColor: Color.fromARGB(255, 226, 69, 58),
       child: Icon(
         Icons.close,
         color: Colors.white,

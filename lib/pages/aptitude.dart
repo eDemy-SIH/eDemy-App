@@ -1,6 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
+import 'package:sih_app/db/db.dart';
 import 'package:sih_app/pages/home.dart';
 import 'package:sih_app/widgets/anwer_card.dart';
 import 'package:sih_app/widgets/next_buttons.dart';
@@ -18,6 +20,33 @@ class _AptitudeTestState extends State<AptitudeTest> {
   int ? selectedAnswerIndex;
   int questionIndex=0;
   int score=0;
+
+  final aptitudebox = Hive.box("Aptitude_db");
+  AptitudeDB db = AptitudeDB();
+
+  // @override
+  // void initState() {
+  //   db.createScore();
+  //   score = db.score;
+  //   // TODO: implement initState
+  //   super.initState();
+  // }
+
+
+  void goHome(){
+    setState(() {
+      db.score = score;
+    });
+    db.updateScore();
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (_) => HomePage(
+          
+        ),
+      ),
+    );
+    
+  }
 
   void pickAnswer(int vl){
     selectedAnswerIndex=vl;
@@ -56,7 +85,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                   padding: EdgeInsets.only(top: 40,left: 20,right: 20),
                   child: Text(
                     question.question,
-                    style: TextStyle(fontSize: 22),            
+                    style: TextStyle(fontSize: 20),            
                   ),                 
                 ),
                 SizedBox(height: 30,),
@@ -91,13 +120,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                         child: GestureDetector(
                           onTap: () => {
                             selectedAnswerIndex!=null ? 
-                            Navigator.of(context).pushReplacement(
-                              MaterialPageRoute(
-                                builder: (_) => HomePage(
-                                  
-                                ),
-                              ),
-                            ):null
+                            goHome():null
                             },
                           child: NextButton(text: "Submit")
                         ),

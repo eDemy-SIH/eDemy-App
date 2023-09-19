@@ -15,7 +15,7 @@ class ThemeProvider extends ChangeNotifier {
 
 class MyThemes {
   static final lightTheme = ThemeData(
-      primarySwatch:Colors.deepPurple, // changes all colours with respect to given colour
+      primarySwatch:Colors.green, // changes all colours with respect to given colour
       canvasColor: Color.fromRGBO(238, 238, 238, 1),
       cardColor: Color.fromRGBO(0, 202, 153, 1),
       appBarTheme: AppBarTheme(

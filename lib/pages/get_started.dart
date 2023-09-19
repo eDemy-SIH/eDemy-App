@@ -84,7 +84,9 @@ class _GetStartedState extends State<GetStarted> {
                 child: SmoothPageIndicator(
                   controller: _controller,
                   count: 3,
-                  effect: WormEffect(),
+                  effect: WormEffect(
+                    activeDotColor: context.cardColor
+                  ),
                   onDotClicked: (index)=>_controller.animateToPage(
                     index, 
                     duration: Duration(milliseconds: 500), 

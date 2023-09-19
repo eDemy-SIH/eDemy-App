@@ -18,6 +18,7 @@ void main() async{
   
   await Hive.initFlutter();
   await Hive.openBox("Start_db");
+  await Hive.openBox("Aptitude_db");
   runApp( MyApp());
 }
 
