@@ -1,4 +1,3 @@
-import 'package:sih_app/pages/air_travel.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/education_info.dart';
 import 'package:sih_app/pages/aptitude.dart';
@@ -58,8 +57,7 @@ class _MyAppState extends State<MyApp> {
         Myroutes.homeRoute: (context) => HomePage(),
         Myroutes.basicInfoRoute: (context) => StudentInfo(),
         Myroutes.educationInfoRoute: (context) => EducationInfo(),
-        Myroutes.hobbyRoute: (context) => Hobbies(),  
-        Myroutes.airCarbonRoute: (context) => AirTravel(),  
+        Myroutes.hobbyRoute: (context) => Hobbies(),
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
         Myroutes.aptitudeRoute: (context) => AptitudeTest(),
       },

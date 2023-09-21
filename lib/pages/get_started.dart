@@ -27,7 +27,7 @@ class _GetStartedState extends State<GetStarted> {
           },
           children: const [
             Onboarding(
-              title: "Career Counciling",
+              title: "Career Counselling",
               subtitle: "Here in eDemy, we provides best career counseling using artificial intelligence and machne learning to provide youngsters with best possible career choices",
               imagestring: "assets/images/student1.png",
             ),
