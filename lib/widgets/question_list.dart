@@ -53,44 +53,105 @@ const List<Question> questions = [
     ],
   ),
   Question(
-    question: 'Q6). What is the smallest planet in our solar system?',
-    correctAnswerIndex: 3,
+    question: "Q6). Which of the following words is an antonym (opposite) of ' Eloquent '?",
+    correctAnswerIndex: 0,
     options: [
-      'a) Venus',
-      'b) Mars',
-      'c) Earth',
-      'd) Mercury',
+      'a) Inarticulate',
+      'b) Fluent',
+      'c) Voluble',
+      'd) Loquacious',
     ],
   ),
-  // Question(
-  //   question: '7. Who wrote the play Romeo and Juliet?',
-  //   correctAnswerIndex: 0,
-  //   options: [
-  //     'a) William Shakespeare',
-  //     'b) Oscar Wilde',
-  //     'c) Jane Austen',
-  //     'd) Charles Dickens',
-  //   ],
-  // ),
-  // Question(
-  //   question: '8. What is the highest mountain in the world?',
-  //   correctAnswerIndex: 1,
-  //   options: [
-  //     'a) Mont Blanc',
-  //     'b) Everest',
-  //     'c) Kilimanjaro',
-  //     'd) Aconcagua',
-  //   ],
-  // ),
-  // Question(
-  //   question:
-  //       '9. What is the name of the famous painting by Leonardo da Vinci that depicts a woman?',
-  //   correctAnswerIndex: 3,
-  //   options: [
-  //     'a) Starry Night',
-  //     'b) The Persistence of Memory',
-  //     'c) The Last Supper',
-  //     'd) Mona Lisa',
-  //   ],
-  // ),
+  Question(
+    question: 'Q7). Fill in the blank : If I were you, I _____ consider the job offer seriously.',
+    correctAnswerIndex: 2,
+    options: [
+      'a) Ought',
+      'b) Can',
+      'c) Would',
+      'd) Must',
+    ],
+  ),
+  Question(
+    question: "Q8). Choose the synonym for the word 'Ardent' :",
+    correctAnswerIndex: 1,
+    options: [
+      'a) Lukewarm',
+      'b) Enthusiastic',
+      'c) Apathetic',
+      'd) Indifferent',
+    ],
+  ),
+  Question(
+    question:"Q9). Complete the analogy: 'Ocean is to water as forest is to ______.' :",
+    correctAnswerIndex: 0,
+    options: [
+      'a) Trees',
+      'b) Leaves',
+      'c) Soil',
+      'd) Mountain',
+    ],
+  ),
+    Question(
+    question: '10. Identify the grammatically incorrect sentence :',
+    correctAnswerIndex: 1,
+    options: [
+      'a) She sings beautifully.',
+      'b) They was late for the meeting.',
+      'c) He reads books every evening.',
+      'd) We have already eaten dinner.',
+    ],
+  ),
+  Question(
+    question: '11. Choose the word that best fits in the blank : His actions spoke ______ than his words.',
+    correctAnswerIndex: 2,
+    options: [
+      'a) Lighter',
+      'b) Less',
+      'c) Louder',
+      'd) Lesser',
+    ],
+  ),
+  Question(
+    question:
+        '12. Which of the following is NOT a renewable source of energy ?',
+    correctAnswerIndex: 2,
+    options: [
+      'a) Solar power',
+      'b) Wind power',
+      'c) Natural gas',
+      'd) Hydroelectric power',
+    ],
+  ),
+  Question(
+    question: '13. What is the chemical symbol for the element oxygen ?',
+    correctAnswerIndex: 1,
+    options: [
+      'a) O',
+      'b) Ox',
+      'c) Om',
+      'd) Oz',
+    ],
+  ),
+  Question(
+    question: '14. Who painted the famous artwork - Mona Lisa ?',
+    correctAnswerIndex: 2,
+    options: [
+      'a) Vincent van Gogh',
+      'b) Pablo Picasso',
+      'c) Leonardo da Vinci',
+      'd) Leonardo Di Caprio',
+    ],
+  ),
+  Question(
+    question:
+        '15. Which artistic movement is known for its use of bright colors, bold shapes, and abstraction of reality ?',
+    correctAnswerIndex: 2,
+    options: [
+      'a) Impressionism',
+      'b) Cubism',
+      'c) Surrealism',
+      'd) Abstract Expressionism',
+    ],
+  ),
 ];

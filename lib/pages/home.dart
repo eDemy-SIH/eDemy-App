@@ -5,7 +5,7 @@ import 'package:sih_app/widgets/career_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:pie_chart/pie_chart.dart';
 import 'package:velocity_x/velocity_x.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:sih_app/widgets/question_list.dart';
 
 class HomePage extends StatefulWidget {
 
@@ -21,6 +21,7 @@ class _HomePageState extends State<HomePage> {
   AptitudeDB db = AptitudeDB();
 
   int score=0;
+  int total=questions.length;
   @override
   void initState() {
 
@@ -82,7 +83,7 @@ class _HomePageState extends State<HomePage> {
 
                 PieChart(
                   chartRadius: 180,
-                  centerText:  "$score/6",
+                  centerText:  "$score/$total",
                   initialAngleInDegree: 270,
                   centerTextStyle: TextStyle(
                     fontSize: 28,
@@ -90,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   dataMap: dataMap,
                   chartType: ChartType.ring,
-                  baseChartColor: Color.fromARGB(255, 54, 61, 50)!.withOpacity(0.15),
+                  baseChartColor: Color.fromARGB(255, 54, 61, 50).withOpacity(0.15),
                   colorList: colorList,
                   legendOptions: LegendOptions(
                     showLegends: false
@@ -104,7 +105,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     chartValueBackgroundColor: context.canvasColor
                   ),
-                  totalValue: 6,
+                  totalValue: total.toDouble(),
               ),
 
 
@@ -135,7 +136,7 @@ class _HomePageState extends State<HomePage> {
                             
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              CareerCard(text: "Software Engineer",col_index: 0,imagePath: "assets/images/Software-Engineer-Real-min.jpg",),
+                              CareerCard(text: "Software Engineer",col_index: 0,imagePath: "assets/images/graphics-designer-real-min.jpg",),
                               SizedBox(width: 25,),
                               CareerCard(text: "Mechanical Engineer",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
                               SizedBox(width: 25,),
