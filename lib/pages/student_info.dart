@@ -46,7 +46,8 @@ class _StudentInfoState extends State<StudentInfo> {
                 child: Text(
                   "Student Information",
                   style: TextStyle(
-                    fontSize: 28
+                    fontSize: 30,
+                    fontFamily: 'FontMain'
                   ),
                 ),
               ),
@@ -54,9 +55,10 @@ class _StudentInfoState extends State<StudentInfo> {
               const Padding(
                 padding: EdgeInsets.only(top: 30,left: 20),
                 child: Text(
-                  "Please enter all the details to continue",
+                  "Please enter all the details to continue",                
                   style: TextStyle(
-                    fontSize: 16
+                    fontSize: 16,
+                    fontFamily: 'FontMain'
                   ),
                 ),
               ),

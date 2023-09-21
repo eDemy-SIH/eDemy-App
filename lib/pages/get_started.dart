@@ -52,7 +52,7 @@ class _GetStartedState extends State<GetStarted> {
         }, 
         child: Text(
           "Get Started",
-          style: TextStyle(fontSize: 24),
+          style: TextStyle(fontSize: 24,),
         ),
         style: TextButton.styleFrom(
           shape: RoundedRectangleBorder(

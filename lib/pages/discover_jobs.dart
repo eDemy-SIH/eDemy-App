@@ -14,6 +14,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
     return Scaffold(
     backgroundColor: context.canvasColor,
       appBar: AppBar(
+        iconTheme: IconThemeData(color: context.cardColor),
         backgroundColor: Colors.transparent,
       ),  
       body:  SafeArea(
@@ -26,7 +27,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
               Container(
                 child: Text(
                   "Discover Careers",
-                  style: TextStyle(fontSize: 28,),
+                  style: TextStyle(fontSize: 30, fontFamily: 'FontMain'),
                 ),
               ),
 
@@ -36,7 +37,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                 Container(
                   child: Text(
                     "Check out all the existing careers awaiting for you",
-                    style: TextStyle(fontSize: 16),
+                    style: TextStyle(fontSize: 16, fontFamily: 'FontMain'),
                   ),
                 ),
                 SizedBox(height: 40,),
@@ -309,7 +310,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       textAlign:TextAlign.end,
-                                      "Journalisms\n 5 options",
+                                      "Journalism\n 5 options",
                                       style: TextStyle(
                                         fontSize: 20,
                                         color: Color.fromARGB(255, 225, 225, 225)),

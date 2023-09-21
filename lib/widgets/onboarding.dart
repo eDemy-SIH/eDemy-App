@@ -21,13 +21,13 @@ class Onboarding extends StatelessWidget {
             ),
             Text(
               title,
-              style: TextStyle(fontSize: 28),
+              style: TextStyle(fontSize: 28,fontFamily: 'FontMain'),
             ),
             SizedBox(height: 20,),
             Center(
               child: Text(
                 subtitle,
-                style: TextStyle(fontSize: 16),
+                style: TextStyle(fontSize: 16,fontFamily: 'FontMain'),
                 textAlign: TextAlign.center,
               ),
             ),

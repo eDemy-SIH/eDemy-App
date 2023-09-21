@@ -29,19 +29,24 @@ class CareerCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ClipRRect(
+              
               borderRadius: BorderRadius.circular(12),
               child: Image.asset(
                 fit: BoxFit.fill,
                 imagePath,
                 width: 200,
                 height: 150,
+                color: Color.fromARGB(59, 68, 60, 60),
+                colorBlendMode: BlendMode.darken,
               ),
             ),
             
             SizedBox(height: 20,),
-            Text(
-              text,
-              style: TextStyle(fontSize: 16),
+            Center(
+              child: Text(
+                text,
+                style: TextStyle(fontSize: 16, fontFamily: 'FontMain'),
+              ),
             ),
             SizedBox(height: 20,),
             Container(

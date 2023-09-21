@@ -26,6 +26,7 @@ class MyThemes {
         elevation: 0.0,
         iconTheme: IconThemeData(color: Colors.deepPurple),
       ),
+      //textTheme: GoogleFonts.workSans()
       
     );
 

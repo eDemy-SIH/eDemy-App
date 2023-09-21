@@ -70,10 +70,9 @@ class _HomePageState extends State<HomePage> {
                 Center(
                   child: Text(
                     "Your Aptitude Score",
-                    style: GoogleFonts.workSans(
-                      textStyle:TextStyle(
-                      fontSize: 18
-                      ),
+                    style:TextStyle(
+                      fontSize: 18, 
+                      fontFamily: 'FontMain'
                     ) 
                     
                   )
@@ -116,9 +115,8 @@ class _HomePageState extends State<HomePage> {
               Center(
                 child: Text(      
                   "Based on the score and inputs provided here are some careers recomended for you",
-                  style: GoogleFonts.workSans(
-                      textStyle:
-                  TextStyle(fontSize: 14,color: Colors.grey[700])),
+                  style:
+                  TextStyle(fontSize: 14,color: Colors.grey[700], fontFamily: 'FontMain'),
                   textAlign: TextAlign.center,
                 ),
               ),
@@ -139,9 +137,9 @@ class _HomePageState extends State<HomePage> {
                             children: [
                               CareerCard(text: "Software Engineer",col_index: 0,imagePath: "assets/images/Software-Engineer-Real-min.jpg",),
                               SizedBox(width: 25,),
-                              CareerCard(text: "Civil Engineer",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
+                              CareerCard(text: "Mechanical Engineer",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
                               SizedBox(width: 25,),
-                              CareerCard(text: "Mechanical Engineer",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
+                              CareerCard(text: "Civil Engineer",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
                             ],
                           ),
                         ),
@@ -158,7 +156,7 @@ class _HomePageState extends State<HomePage> {
                   child: Padding(
                     padding: const EdgeInsets.only(left: 20, right: 20, top: 20,bottom: 10),
                     child: Container(
-                      height: 80,
+                      height: 75,
                       width: double.infinity,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(5),

@@ -121,7 +121,8 @@ class _HobbiesState extends State<Hobbies> {
                     child: Text(
                       "Career Information",
                       style: TextStyle(
-                        fontSize: 28
+                        fontSize: 30,
+                        fontFamily: 'FontMain'
                       ),
                     ),
                   ),
@@ -131,7 +132,8 @@ class _HobbiesState extends State<Hobbies> {
                     child: Text(
                       "Which Career do you like the most ?",
                       style: TextStyle(
-                        fontSize: 16
+                        fontSize: 16,
+                        fontFamily: 'FontMain'
                       ),
                     ),
                   ),
@@ -185,7 +187,7 @@ class _HobbiesState extends State<Hobbies> {
                       Container(
                         width: 80,
                         height: 80,
-                        child: CareerButton("assets/images/policeman.png", 4),
+                        child: CareerButton("assets/images/journalist.png", 4),
                       ),
                       const SizedBox(
                         width: 10,
@@ -227,6 +229,39 @@ class _HobbiesState extends State<Hobbies> {
                         width: 80,
                         height: 80,
                         child: CareerButton("assets/images/lawyer.png", 8),
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                    ],
+                   ),
+                 ),
+
+                 Padding(
+                   padding: EdgeInsets.only(top: 30,left: 30,right: 30),
+                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Container(
+                        width: 80,
+                        height: 80,
+                        child: CareerButton("assets/images/policeman.png", 9),
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        width: 80,
+                        height: 80,
+                        child: CareerButton("assets/images/soldier.png", 10),
+                      ),
+                      const SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        width: 80,
+                        height: 80,
+                        child: CareerButton("assets/images/pilot.png", 11),
                       ),
                       const SizedBox(
                         width: 10,

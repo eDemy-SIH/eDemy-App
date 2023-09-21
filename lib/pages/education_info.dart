@@ -52,7 +52,8 @@ class _EducationInfoState extends State<EducationInfo> {
                 child: Text(
                   "Education Information",
                   style: TextStyle(
-                    fontSize: 28
+                    fontSize: 30,
+                    fontFamily: 'FontMain'
                   ),
                 ),
               ),
@@ -62,7 +63,8 @@ class _EducationInfoState extends State<EducationInfo> {
                 child: Text(
                   "Please enter all the details to continue",
                   style: TextStyle(
-                    fontSize: 16
+                    fontSize: 16,
+                    fontFamily: 'FontMain'
                   ),
                 ),
               ),

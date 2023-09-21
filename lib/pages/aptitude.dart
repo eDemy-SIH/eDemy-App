@@ -86,8 +86,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                   padding: EdgeInsets.only(top: 40,left: 20,right: 20),
                   child: Text(
                     question.question,
-                    style:  GoogleFonts.workSans(
-                      textStyle:TextStyle(fontSize: 20)),            
+                    style:  TextStyle(fontSize: 20, fontFamily: 'FontMain'),            
                   ),                 
                 ),
                 SizedBox(height: 30,),
