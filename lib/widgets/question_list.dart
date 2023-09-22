@@ -127,8 +127,8 @@ const List<Question> questions = [
     question: '13. What is the chemical symbol for the element oxygen ?',
     correctAnswerIndex: 1,
     options: [
-      'a) O',
-      'b) Ox',
+      'a) O2',
+      'b) O',
       'c) Om',
       'd) Oz',
     ],
