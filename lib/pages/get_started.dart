@@ -37,7 +37,7 @@ class _GetStartedState extends State<GetStarted> {
               imagestring: "assets/images/student1.png",
             ),
             Onboarding(
-              title: "Aptitude Testing",
+              title: " AI based Aptitude Testing",
               subtitle: "Here in eDemy, we provides best career counseling using artificial intelligence and machne learning to provide youngsters with best possible career choices",
               imagestring: "assets/images/student1.png",
             ),

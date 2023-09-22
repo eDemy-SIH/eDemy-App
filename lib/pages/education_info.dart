@@ -142,7 +142,7 @@ class _EducationInfoState extends State<EducationInfo> {
                                   BorderSide(color: context.primaryColor, width: 3.0),
                             ),
                           ),
-                          keyboardType: TextInputType.emailAddress,
+                          keyboardType: TextInputType.number,
                       
                           validator: (value) {
                             if (value == null || value.isEmpty) {

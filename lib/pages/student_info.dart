@@ -191,7 +191,8 @@ class _StudentInfoState extends State<StudentInfo> {
                                   BorderSide(color: context.primaryColor, width: 3.0),
                               borderRadius: BorderRadius.circular(10.0),
                             ),
-                          ),                     
+                          ),
+                          keyboardType: TextInputType.number,                     
                           onTap: () async {                         
                           },                     
                           validator: (value) {
