@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922242290040",
+    "project_id": "edemy-2b816",
+    "storage_bucket": "edemy-2b816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922242290040:android:89948cb581c738921bf88d",
+        "android_client_info": {
+          "package_name": "com.example.carbon_footprint"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmsdGcaIHZV_yoio-s4i3GIg83lpHkHyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

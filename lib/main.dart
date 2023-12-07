@@ -1,12 +1,16 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:sih_app/firebase_options.dart';
 import 'package:sih_app/pages/aichat.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/education_info.dart';
 import 'package:sih_app/pages/aptitude.dart';
+import 'package:sih_app/pages/login.dart';
 import 'package:sih_app/pages/student_info.dart';
 import 'package:sih_app/pages/get_started.dart';
 import 'package:sih_app/pages/home.dart';
 import 'package:sih_app/pages/hobbies.dart';
 import 'package:sih_app/utils/authenticate.dart';
+import 'package:sih_app/utils/chat-authenticate.dart';
 import 'package:sih_app/utils/routes.dart';
 import 'package:sih_app/utils/themes.dart';
 import 'package:hive_flutter/hive_flutter.dart';
@@ -15,12 +19,18 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() async{
-  WidgetsFlutterBinding.ensureInitialized();
-  
+
   await Hive.initFlutter();
   await Hive.openBox("Start_db");
   await Hive.openBox("Aptitude_db");
-  runApp( MyApp());
+
+
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+    runApp(MyApp());
+  
+ 
+
 }
 
 // ignore: must_be_immutable
@@ -63,6 +73,9 @@ class _MyAppState extends State<MyApp> {
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
         Myroutes.aptitudeRoute: (context) => AptitudeTest(),
         Myroutes.aichatRoute: (context) => ChatScreen(),
+        Myroutes.chatAuthRoute: (context) => AuthPage(),
+        Myroutes.loginRoute: (context) => LoginPage(onTap: (){},),
+
       },
     );   
   }

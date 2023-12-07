@@ -60,16 +60,6 @@ class _HomePageState extends State<HomePage> {
       drawer: AppDrawer(//creates menu button
         
       ),
-      floatingActionButton: FloatingActionButton(
-          onPressed: (){                  
-            Navigator.pushNamed(context, '/aichat');
-          },
-          backgroundColor: context.cardColor,
-          child: const Icon(
-            CupertinoIcons.plus,
-            color: Colors.white,
-          ),
-      ),
 
 
       body: SingleChildScrollView(

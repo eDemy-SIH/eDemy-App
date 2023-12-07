@@ -21,8 +21,9 @@ class MyThemes {
       primarySwatch:Colors.green, // changes all colours with respect to given colour
       canvasColor: Color.fromRGBO(238, 238, 238, 1),
       cardColor: Color.fromRGBO(0, 202, 153, 1),
+      splashColor: Colors.white,
       appBarTheme: AppBarTheme(
-        color: const Color.fromARGB(255, 205, 78, 228),
+        color: const Color.fromARGB(0, 205, 78, 228),
         elevation: 0.0,
         iconTheme: IconThemeData(color: Color.fromRGBO(0, 202, 153, 1)),
       ),

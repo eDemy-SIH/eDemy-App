@@ -9,5 +9,9 @@ class Myroutes{
   static String discoverRoute = "/discover";
   static String aptitudeRoute = "/aptitude";
   static String aichatRoute = "/aichat";
+  static String loginRoute = "/login";
+  static String registerRoute = "/register";
+  static String chathomeRoute = "/chathome";
+  static String chatAuthRoute = "/chatAuth";
 }
 

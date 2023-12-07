@@ -117,7 +117,42 @@ class _AppDrawerState extends State<AppDrawer> {
                 style:
                     TextStyle( fontSize: 18),
               ),
-            )
+            ),
+            ListTile(
+              onTap: () async {
+                Navigator.pushNamed(context, '/aichat');
+              },
+              //5th Title
+              leading: Icon(
+                Icons.chat,
+                color: context.cardColor,
+                
+              ),
+              title: Text(
+                "Chat with AI",
+                style:
+                    TextStyle( fontSize: 18),
+              ),
+              
+            ),
+            ListTile(
+              onTap: () async {
+                Navigator.pushNamed(context, '/chatAuth');
+              },
+              //5th Title
+              leading: Icon(
+                Icons.person,
+                color: context.cardColor,
+                
+              ),
+              title: Text(
+                "Chat with Counselor",
+                style:
+                    TextStyle( fontSize: 18),
+              ),
+              
+            ),
+
           ],
         ),
       ),
