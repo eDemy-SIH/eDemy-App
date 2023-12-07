@@ -1,3 +1,4 @@
+import 'package:sih_app/pages/aichat.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/education_info.dart';
 import 'package:sih_app/pages/aptitude.dart';
@@ -61,6 +62,7 @@ class _MyAppState extends State<MyApp> {
         Myroutes.hobbyRoute: (context) => Hobbies(),
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
         Myroutes.aptitudeRoute: (context) => AptitudeTest(),
+        Myroutes.aichatRoute: (context) => ChatScreen(),
       },
     );   
   }

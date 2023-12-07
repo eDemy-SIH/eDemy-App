@@ -8,5 +8,6 @@ class Myroutes{
   static String authRoute = "/auth";
   static String discoverRoute = "/discover";
   static String aptitudeRoute = "/aptitude";
+  static String aichatRoute = "/aichat";
 }
 

@@ -24,7 +24,7 @@ class MyThemes {
       appBarTheme: AppBarTheme(
         color: const Color.fromARGB(255, 205, 78, 228),
         elevation: 0.0,
-        iconTheme: IconThemeData(color: Colors.deepPurple),
+        iconTheme: IconThemeData(color: Color.fromRGBO(0, 202, 153, 1)),
       ),
       //textTheme: GoogleFonts.workSans()
       

@@ -77,7 +77,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       textAlign:TextAlign.end,
-                                      "Engineering\n 7 options",
+                                      "Engineering\n 8 options",
                                       style: TextStyle(
                                           fontSize: 20,
                                           color: Color.fromARGB(255, 225, 225, 225)),
@@ -110,7 +110,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       textAlign:TextAlign.end,
-                                      "Graphics\n 4 options",
+                                      "Graphics\n 6 options",
                                       style: TextStyle(
                                         fontSize: 20,
                                         color: Color.fromARGB(255, 225, 225, 225)),
@@ -143,7 +143,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       textAlign:TextAlign.end,
-                                      "Medicine\n 8 options",
+                                      "Medicine\n 7 options",
                                       style: TextStyle(
                                         fontSize: 20,
                                         color: Color.fromARGB(255, 225, 225, 225)),
@@ -177,7 +177,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       textAlign:TextAlign.end,
-                                      "Management\n 6 options",
+                                      "Management\n 5 options",
                                       style: TextStyle(
                                         fontSize: 20,
                                         color: Color.fromARGB(255, 225, 225, 225)),
@@ -211,7 +211,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       textAlign:TextAlign.end,
-                                      "Graduate\n 23 options",
+                                      "Graduate\n 6 options",
                                       style: TextStyle(
                                         fontSize: 20,
                                         color: Color.fromARGB(255, 225, 225, 225)),
@@ -244,7 +244,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       textAlign:TextAlign.end,
-                                      "Finance\n 8 options",
+                                      "Finance\n 5 options",
                                       style: TextStyle(
                                         fontSize: 20,
                                         color: Color.fromARGB(255, 225, 225, 225)),
@@ -277,7 +277,7 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     padding: EdgeInsets.all(10),
                                     child: Text(
                                       textAlign:TextAlign.end,
-                                      "Education\n 6 options",
+                                      "Education\n 4 options",
                                       style: TextStyle(
                                         fontSize: 20,
                                         color: Color.fromARGB(255, 225, 225, 225)),
@@ -311,6 +311,138 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                                     child: Text(
                                       textAlign:TextAlign.end,
                                       "Journalism\n 5 options",
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                        color: Color.fromARGB(255, 225, 225, 225)),
+                                )),
+                              ),
+                            )),
+                      ),
+                      GestureDetector(
+                        onTap: () {},
+                        child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.transparent,
+                              borderRadius: BorderRadius.circular(20),
+                              image: const DecorationImage(
+                                  image: AssetImage("assets/images/police-real.png"),
+                                  fit: BoxFit.cover),
+                            ),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                      begin: Alignment.bottomRight,
+                                      colors: [
+                                        Colors.black.withOpacity(.8),
+                                        Colors.black.withOpacity(.2),
+                                      ])),
+                              child: const Align(
+                                alignment: Alignment.bottomRight,
+                                child: Padding(
+                                    padding: EdgeInsets.all(10),
+                                    child: Text(
+                                      textAlign:TextAlign.end,
+                                      "Civil Services\n 5 options",
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                        color: Color.fromARGB(255, 225, 225, 225)),
+                                )),
+                              ),
+                            )),
+                      ),
+                      GestureDetector(
+                        onTap: () {},
+                        child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.transparent,
+                              borderRadius: BorderRadius.circular(20),
+                              image: const DecorationImage(
+                                  image: AssetImage("assets/images/language-real.jpg"),
+                                  fit: BoxFit.cover),
+                            ),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                      begin: Alignment.bottomRight,
+                                      colors: [
+                                        Colors.black.withOpacity(.8),
+                                        Colors.black.withOpacity(.2),
+                                      ])),
+                              child: const Align(
+                                alignment: Alignment.bottomRight,
+                                child: Padding(
+                                    padding: EdgeInsets.all(10),
+                                    child: Text(
+                                      textAlign:TextAlign.end,
+                                      "Humanities\n 8 options",
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                        color: Color.fromARGB(255, 225, 225, 225)),
+                                )),
+                              ),
+                            )),
+                      ),
+                      GestureDetector(
+                        onTap: () {},
+                        child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.transparent,
+                              borderRadius: BorderRadius.circular(20),
+                              image: const DecorationImage(
+                                  image: AssetImage("assets/images/digital-marketing.jpg"),
+                                  fit: BoxFit.cover),
+                            ),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                      begin: Alignment.bottomRight,
+                                      colors: [
+                                        Colors.black.withOpacity(.8),
+                                        Colors.black.withOpacity(.2),
+                                      ])),
+                              child: const Align(
+                                alignment: Alignment.bottomRight,
+                                child: Padding(
+                                    padding: EdgeInsets.all(10),
+                                    child: Text(
+                                      textAlign:TextAlign.end,
+                                      "Marketing\n 5 options",
+                                      style: TextStyle(
+                                        fontSize: 20,
+                                        color: Color.fromARGB(255, 225, 225, 225)),
+                                )),
+                              ),
+                            )),
+                      ),
+                      GestureDetector(
+                        onTap: () {},
+                        child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.transparent,
+                              borderRadius: BorderRadius.circular(20),
+                              image: const DecorationImage(
+                                  image: AssetImage("assets/images/pilot.jpeg"),
+                                  fit: BoxFit.cover),
+                            ),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  gradient: LinearGradient(
+                                      begin: Alignment.bottomRight,
+                                      colors: [
+                                        Colors.black.withOpacity(.8),
+                                        Colors.black.withOpacity(.2),
+                                      ])),
+                              child: const Align(
+                                alignment: Alignment.bottomRight,
+                                child: Padding(
+                                    padding: EdgeInsets.all(10),
+                                    child: Text(
+                                      textAlign:TextAlign.end,
+                                      "Aviation\n 5 options",
                                       style: TextStyle(
                                         fontSize: 20,
                                         color: Color.fromARGB(255, 225, 225, 225)),

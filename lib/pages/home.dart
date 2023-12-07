@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
 import 'package:sih_app/widgets/drawer.dart';
@@ -58,6 +59,16 @@ class _HomePageState extends State<HomePage> {
       ),
       drawer: AppDrawer(//creates menu button
         
+      ),
+      floatingActionButton: FloatingActionButton(
+          onPressed: (){                  
+            Navigator.pushNamed(context, '/aichat');
+          },
+          backgroundColor: context.cardColor,
+          child: const Icon(
+            CupertinoIcons.plus,
+            color: Colors.white,
+          ),
       ),
 
 
