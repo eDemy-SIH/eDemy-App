@@ -1,4 +1,16 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:sih_app/category%20pages/aviation.dart';
+import 'package:sih_app/category%20pages/civil.dart';
+import 'package:sih_app/category%20pages/education.dart';
+import 'package:sih_app/category%20pages/engineering.dart';
+import 'package:sih_app/category%20pages/finance.dart';
+import 'package:sih_app/category%20pages/graduate.dart';
+import 'package:sih_app/category%20pages/graphics.dart';
+import 'package:sih_app/category%20pages/humanities.dart';
+import 'package:sih_app/category%20pages/journalism.dart';
+import 'package:sih_app/category%20pages/management.dart';
+import 'package:sih_app/category%20pages/marketing.dart';
+import 'package:sih_app/category%20pages/medicine.dart';
 import 'package:sih_app/firebase_options.dart';
 import 'package:sih_app/pages/aichat.dart';
 import 'package:sih_app/pages/career_list.dart';
@@ -72,7 +84,21 @@ class _MyAppState extends State<MyApp> {
         Myroutes.educationInfoRoute: (context) => EducationInfo(),
         Myroutes.hobbyRoute: (context) => Hobbies(),
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
-         Myroutes.careerListRote: (context) => CareerListPage(),
+
+        Myroutes.engineerListRote: (context) => EngineeringListPage(),
+        Myroutes.aviationListRote: (context) => AviationListPage(),
+        Myroutes.civilListRote: (context) => CivilListPage(),
+        Myroutes.educationListRote: (context) => EducationListPage(),
+        Myroutes.financeListRote: (context) => FinanceListPage(),
+        Myroutes.graduateListRote: (context) => GraduateListPage(),        
+        Myroutes.graphicsListRote: (context) => GraphicsListPage(),
+        Myroutes.humanitiesListRote: (context) => HumanitiesListPage(),
+
+        Myroutes.journalismListRote: (context) => JournalismListPage(),
+        Myroutes.managementListRote: (context) => ManagemensListPage(),
+        Myroutes.marketingListRote: (context) => MarketingListPage(),
+        Myroutes.medicineListRote: (context) => MedicineListPage(),
+
         Myroutes.aptitudeRoute: (context) => AptitudeTest(),
         Myroutes.aichatRoute: (context) => ChatScreen(),
         Myroutes.chatAuthRoute: (context) => AuthPage(),
