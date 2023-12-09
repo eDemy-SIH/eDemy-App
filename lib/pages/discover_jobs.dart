@@ -53,7 +53,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                     mainAxisSpacing: 20,
                     children: [
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -86,7 +88,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -119,7 +123,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -152,7 +158,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -186,7 +194,8 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
                         },
                         child: Container(
                             decoration: BoxDecoration(
@@ -220,7 +229,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -253,7 +264,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -286,7 +299,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -319,7 +334,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -352,7 +369,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -385,7 +404,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,
@@ -418,7 +439,9 @@ class _DiscoverCareersState extends State<DiscoverCareers> {
                             )),
                       ),
                       GestureDetector(
-                        onTap: () {},
+                        onTap: () => {
+                          Navigator.pushNamed(context, '/careerList')
+                        },
                         child: Container(
                             decoration: BoxDecoration(
                               color: Colors.transparent,

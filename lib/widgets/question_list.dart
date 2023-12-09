@@ -3,155 +3,347 @@ import 'package:sih_app/widgets/question.dart';
 
 const List<Question> questions = [
   Question(
-    question: 'Q1). A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits Rs. 1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is : ',
-    correctAnswerIndex: 1,
-    options: [
-      'a) 121',
-      'b) 122',
-      'c) 123',
-      'd) 124',
-    ],
-  ),
-  Question(
-    question: 'Q2). The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum (in Rs.) is : ',
+    question: "Q1) I like to build things",
     correctAnswerIndex: 0,
     options: [
-      'a) 625',
-      'b) 630',
-      'c) 640',
-      'd) 659',
+      'A. YES',
+      'B. NO',
     ],
   ),
   Question(
-    question: 'Q3). There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate ?',
-    correctAnswerIndex: 2,
-    options: [
-      'a) 2160',
-      'b) 3120',
-      'c) 3972',
-      'd) 6240',
-    ],
-  ),
-  Question(
-    question: 'Q4). What is the difference between the compound interests on Rs. 5000 for 1 years at 4% per annum compounded yearly and half-yearly ?',
+    question: "Q2) I like to take care of animals",
     correctAnswerIndex: 0,
     options: [
-      'a) Rs. 2.04',
-      'b) Rs. 3.06',
-      'c) Rs. 4.80',
-      'd) Rs. 8.30',
+      'A. YES',
+      'B. NO',
     ],
   ),
   Question(
-    question: 'Q5). The compound interest on Rs. 30,000 at 7% per annum is Rs. 4347. The period (in years) is :',
+    question: "Q3) I like putting things together or assembling things",
     correctAnswerIndex: 0,
     options: [
-      'a) 2',
-      'b) 2.5',
-      'c) 3',
-      'd) 4',
+      'A. YES',
+      'B. NO',
     ],
   ),
   Question(
-    question: "Q6). Which of the following words is an antonym (opposite) of ' Eloquent '?",
+    question: "Q3) I like putting things together or assembling things",
     correctAnswerIndex: 0,
     options: [
-      'a) Inarticulate',
-      'b) Fluent',
-      'c) Voluble',
-      'd) Loquacious',
+      'A. YES',
+      'B. NO',
     ],
   ),
   Question(
-    question: 'Q7). Fill in the blank : If I were you, I _____ consider the job offer seriously.',
-    correctAnswerIndex: 2,
-    options: [
-      'a) Ought',
-      'b) Can',
-      'c) Would',
-      'd) Must',
-    ],
-  ),
-  Question(
-    question: "Q8). Choose the synonym for the word 'Ardent' :",
-    correctAnswerIndex: 1,
-    options: [
-      'a) Lukewarm',
-      'b) Enthusiastic',
-      'c) Apathetic',
-      'd) Indifferent',
-    ],
-  ),
-  Question(
-    question:"Q9). Complete the analogy: 'Ocean is to water as forest is to ______.' :",
+    question: 'Q4) I like to cook',
     correctAnswerIndex: 0,
     options: [
-      'a) Trees',
-      'b) Leaves',
-      'c) Soil',
-      'd) Mountain',
-    ],
-  ),
-    Question(
-    question: '10. Identify the grammatically incorrect sentence :',
-    correctAnswerIndex: 1,
-    options: [
-      'a) She sings beautifully.',
-      'b) They was late for the meeting.',
-      'c) He reads books every evening.',
-      'd) We have already eaten dinner.',
+      'A. YES',
+      'B. NO',
     ],
   ),
   Question(
-    question: '11. Choose the word that best fits in the blank : His actions spoke ______ than his words.',
-    correctAnswerIndex: 2,
+    question: 'Q5) I am a practical person',
+    correctAnswerIndex: 0,
     options: [
-      'a) Lighter',
-      'b) Less',
-      'c) Louder',
-      'd) Lesser',
+      'A. YES',
+      'B. NO',
     ],
   ),
-  Question(
-    question:
-        '12. Which of the following is NOT a renewable source of energy ?',
-    correctAnswerIndex: 2,
-    options: [
-      'a) Solar power',
-      'b) Wind power',
-      'c) Natural gas',
-      'd) Hydroelectric power',
-    ],
-  ),
-  Question(
-    question: '13. What is the chemical symbol for the element oxygen ?',
-    correctAnswerIndex: 1,
-    options: [
-      'a) O2',
-      'b) O',
-      'c) Om',
-      'd) Oz',
-    ],
-  ),
-  Question(
-    question: '14. Who painted the famous artwork - Mona Lisa ?',
-    correctAnswerIndex: 2,
-    options: [
-      'a) Vincent van Gogh',
-      'b) Pablo Picasso',
-      'c) Leonardo da Vinci',
-      'd) Leonardo Di Caprio',
-    ],
-  ),
-  Question(
-    question:
-        '15. Which artistic movement is known for its use of bright colors, bold shapes, and abstraction of reality ?',
-    correctAnswerIndex: 2,
-    options: [
-      'a) Impressionism',
-      'b) Cubism',
-      'c) Surrealism',
-      'd) Abstract Expressionism',
-    ],
-  ),
+  // Question(
+  //   question: "Q6). I like working outdoors",
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question: 'Q7) I like to do puzzles',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question: "Q8) I like to do experiments",
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:"Q9) I enjoy science",
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //   Question(
+  //   question: 'Q10) I enjoy trying to figure out how things work',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question: 'Q11) I like to analyze things (problems\/situations)',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q12) I like working with numbers or charts',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question: 'Q13) I am good at math',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question: 'Q14) I am good at working independently',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q15) I like to read about art and music',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q16) I enjoy creative writing',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q17) I am a creative person',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q18) I like to play instruments or sing',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q19) I like acting in plays',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q20) I like to draw',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q21) I like to work in teams',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q22) I like to teach or train people',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q23) I like trying to help people solve their problems',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q24) I am interested in healing people',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q25) I enjoy learning about other cultures',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q26) I like to get into discussions about issues',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q27) I like helping people',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q28) I am an ambitious person',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q29) I set goals for myself',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  //  Question(
+  //   question:'Q30) I like to try to influence or persuade people',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q31) I like selling things',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q32) I am quick to take on new responsibilities',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q33) I would like to start my own business',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q34) I like to lead',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q35) I like to give speeches',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q36) I like to organize things (files, desks, offices)',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q37) I like to have clear instructions to follow',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q38) I wouldn,t mind working 8 hours per day in an office',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q39) I pay attention to details',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q40) I like to do filing or typing',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q41) I am good at keeping records of my work',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
+  // Question(
+  //   question:'Q42) I would like to work in an office',
+  //   correctAnswerIndex: 0,
+  //   options: [
+  //     'A. YES',
+  //     'B. NO',
+  //   ],
+  // ),
 ];

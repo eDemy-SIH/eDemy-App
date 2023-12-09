@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
   AptitudeDB db = AptitudeDB();
 
   int score=0;
-  int total=questions.length;
+  int total=questions.length-1;
   @override
   void initState() {
 
@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
              
               Center(
                 child: Text(      
-                  "Based on the score and inputs provided here are some careers recomended for you",
+                  "Based on the character assessment score and inputs provided here are some careers recomended for you",
                   style:
                   TextStyle(fontSize: 14,color: Colors.grey[700], fontFamily: 'FontMain'),
                   textAlign: TextAlign.center,

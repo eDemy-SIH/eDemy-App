@@ -20,8 +20,8 @@ class AnswerCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    bool isCorrectAnswer = currentIndex == correctAnswerIndex;
-    bool isWrongAnswer = !isCorrectAnswer && isSelected;
+    // bool isCorrectAnswer = currentIndex == correctAnswerIndex;
+    bool isAnswer = isSelected;
     return Padding(
       padding: const EdgeInsets.symmetric(
         vertical: 10.0,
@@ -35,10 +35,10 @@ class AnswerCard extends StatelessWidget {
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(10),
                 border: Border.all(
-                  color: isCorrectAnswer
-                      ? const Color.fromARGB(255, 96, 233, 100)
-                      : isWrongAnswer
-                          ? const Color.fromARGB(255, 226, 69, 58)
+                   color: 
+                      // ? const Color.fromARGB(255, 96, 233, 100)
+                      isAnswer
+                          ? const Color.fromARGB(255, 96, 233, 100)
                           : Colors.white,
                   width: 3,
                 ),
@@ -55,11 +55,10 @@ class AnswerCard extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 10),
-                  isCorrectAnswer
-                      ? buildCorrectIcon()
-                      : isWrongAnswer
-                          ? buildWrongIcon()
-                          : const SizedBox.shrink(),
+                  
+                  isAnswer
+                    ? buildWrongIcon()
+                      : const SizedBox.shrink(),
                 ],
               ),
             )
@@ -102,9 +101,9 @@ Widget buildCorrectIcon() => const CircleAvatar(
 
 Widget buildWrongIcon() => const CircleAvatar(
       radius: 15,
-      backgroundColor: Color.fromARGB(255, 226, 69, 58),
+      backgroundColor: Color.fromARGB(255, 96, 233, 100),
       child: Icon(
-        Icons.close,
+        Icons.check,
         color: Colors.white,
       ),
     );

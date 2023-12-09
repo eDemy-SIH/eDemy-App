@@ -5,6 +5,7 @@ import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
 import 'package:sih_app/pages/home.dart';
 import 'package:sih_app/widgets/anwer_card.dart';
+import 'package:sih_app/widgets/motivate.dart';
 import 'package:sih_app/widgets/next_buttons.dart';
 import 'package:sih_app/widgets/question_list.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -20,6 +21,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
   int ? selectedAnswerIndex;
   int questionIndex=0;
   int score=0;
+  int counter=0;
 
   final aptitudebox = Hive.box("Aptitude_db");
   AptitudeDB db = AptitudeDB();
@@ -62,6 +64,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
       questionIndex++;
       selectedAnswerIndex=null;
     }
+    counter+=1;
     setState(() {});
   }
 
@@ -81,9 +84,12 @@ class _AptitudeTestState extends State<AptitudeTest> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
 
+
                 Padding(
                   padding: EdgeInsets.only(top: 40,left: 20,right: 20),
-                  child: Text(
+                  child: 
+                  counter==3? null: 
+                  Text(
                     question.question,
                     style:  TextStyle(fontSize: 20, fontFamily: 'FontMain'),            
                   ),                 
@@ -92,7 +98,12 @@ class _AptitudeTestState extends State<AptitudeTest> {
 
                 Padding(
                   padding: EdgeInsets.only(top: 30,left: 20,right: 20),
-                  child: ListView.builder(
+
+                  child:  
+                  counter==3? 
+                  MotivateForTest(question: 'You are doing Great', ):
+              
+                  ListView.builder(
                     shrinkWrap: true,
                     itemCount: question.options.length,
                     itemBuilder: (context,index){
@@ -120,7 +131,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                         child: GestureDetector(
                           onTap: () => {
                             selectedAnswerIndex!=null ? 
-                            goHome():null
+                            goHome(): null
                             },
                           child: NextButton(text: "Submit")
                         ),
@@ -135,7 +146,9 @@ class _AptitudeTestState extends State<AptitudeTest> {
                         child: GestureDetector(
                           onTap: () => {
                               
-                            selectedAnswerIndex!=null ? goNext() : null
+                            selectedAnswerIndex!=null ? goNext() : 
+                            counter==3? goNext(): 
+                            null
                             },
                           child: NextButton(text: "Next")
                         ),

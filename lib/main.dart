@@ -1,9 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:sih_app/firebase_options.dart';
 import 'package:sih_app/pages/aichat.dart';
+import 'package:sih_app/pages/career_list.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/education_info.dart';
-import 'package:sih_app/pages/aptitude.dart';
+import 'package:sih_app/pages/character.dart';
 import 'package:sih_app/pages/login.dart';
 import 'package:sih_app/pages/student_info.dart';
 import 'package:sih_app/pages/get_started.dart';
@@ -71,6 +72,7 @@ class _MyAppState extends State<MyApp> {
         Myroutes.educationInfoRoute: (context) => EducationInfo(),
         Myroutes.hobbyRoute: (context) => Hobbies(),
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
+         Myroutes.careerListRote: (context) => CareerListPage(),
         Myroutes.aptitudeRoute: (context) => AptitudeTest(),
         Myroutes.aichatRoute: (context) => ChatScreen(),
         Myroutes.chatAuthRoute: (context) => AuthPage(),
