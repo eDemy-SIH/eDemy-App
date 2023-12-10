@@ -7,6 +7,7 @@ class Myroutes{
   static String airCarbonRoute = "/airCarbon";
   static String authRoute = "/auth";
   static String discoverRoute = "/discover";
+  static String careerDetailsRoute = "/careerDetails";
 
   // category pages
   static String engineerListRote = "/engineer";

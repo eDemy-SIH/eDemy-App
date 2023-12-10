@@ -10,26 +10,31 @@ class JournalismListPage extends StatelessWidget {
         title: 'Mass Communication',
         subtitle: 'Qualification : Bachelor Of Arts)',
         imageUrl: 'https://placekitten.com/80/80', 
+        id: "mascom",
       ),
       CareerTile(
         title: 'Public Relations',
         subtitle: 'Qualification : Bachelor Of Arts',
         imageUrl: 'https://placekitten.com/80/81', 
+        id: "mascom",
       ),
       CareerTile(
         title: 'Writer Editor Copywriter',
         subtitle: 'Qualification : Bachelor Of Arts',
         imageUrl: 'https://placekitten.com/80/82', 
+        id: "mascom",
       ),
       CareerTile(
         title: 'Broadcasting',
         subtitle: 'Qualification : Bachelor Of Arts',
         imageUrl: 'https://placekitten.com/80/83', 
+        id: "mascom",
       ),
       CareerTile(
         title: 'Journalism',
         subtitle: 'Qualification : Bachelor Of Arts',
         imageUrl: 'https://placekitten.com/80/84', 
+        id: "mascom",
       ),
     ];
 

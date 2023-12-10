@@ -9,42 +9,50 @@ class EngineeringListPage extends StatelessWidget {
       CareerTile(
         title: 'Computer Science and Engineering',
         subtitle: 'Qualification : Bachelor of Technology',
-        imageUrl: 'https://placekitten.com/80/80', 
+        imageUrl: 'https://placekitten.com/80/80',
+        id: 'cse',
       ),
       CareerTile(
         title: 'Artificial Intelligence & Machine Learning',
         subtitle: 'Qualification : Bachelor of Technology',
-        imageUrl: 'https://placekitten.com/80/81', 
+        imageUrl: 'https://placekitten.com/80/81',
+        id: 'cse',
       ),
       CareerTile(
         title: 'Electronics and communication Engineering',
         subtitle: 'Qualification : Bachelor of Technology',
-        imageUrl: 'https://placekitten.com/80/82', 
+        imageUrl: 'https://placekitten.com/80/82',
+        id: 'cse', 
       ),
       CareerTile(
         title: 'Electrical Engineering',
         subtitle: 'Qualification : Bachelor of Technology',
         imageUrl: 'https://placekitten.com/80/83', 
+        id: 'cse',
       ),
       CareerTile(
         title: 'Electrical and Instrumentation Engineering',
         subtitle: 'Qualification : Bachelor of Technology',
         imageUrl: 'https://placekitten.com/80/84', 
+        id: 'cse',
       ),
       CareerTile(
         title: 'Aerospace Engineering',
         subtitle: 'Qualification : Bachelor of Technology',
         imageUrl: 'https://placekitten.com/80/85', 
+        id: 'cse',
       ),
       CareerTile(
         title: 'Mechanical engineering',
         subtitle: 'Qualification : Bachelor of Technology',
-        imageUrl: 'https://placekitten.com/80/86', 
+        imageUrl: 'https://placekitten.com/80/86',
+        id: 'cse', 
       ),
       CareerTile(
         title: 'Civil Engineering',
         subtitle: 'Qualification : Bachelor of Technology',
-        imageUrl: 'https://placekitten.com/80/87', 
+        imageUrl: 'https://placekitten.com/80/87',
+        id: 'cse', 
       ),
     ];
 

@@ -1,0 +1,2284 @@
+{"sections":[
+    {
+        "careerid": "doctor",
+        "img1": "assets/images/blog/blog-details-doctor.jpg",
+        "alt1": "Doctor Image",
+        "title": "Doctor",
+        "cat_dir": "medicine.html",
+        "cat": "Medicine",
+        "duration": "5 years",
+        "p1_1": "Do you want to help people and save lives? Then, becoming a doctor is a great career path! We are all well aware of the roles of a doctor. We've interacted with many throughout our lives and we know their importance.",
+        "p1_2": "Doctors help in maintaining a pain-free life and resolving any health or medical concerns we might have. They also help in sustaining our lives by helping us function effectively. Hospital doctors diagnose and treat medical conditions, disorders, and diseases through the application of specialist medical skills and knowledge. Hospital doctors can work in several specialities, from emergency medicine to surgery. Hospital doctors treat those who have been admitted or referred to the hospital. Medical practice correctly necessitates a thorough understanding of academic subjects such as anatomy and physiology.",
+        "desc": "Doctors have one of the most respected yet stressful careers. They see several patients every day, and their job includes assessing these patients, diagnosis and assigning treatment plans. Doctors are on their toes the entire time and they are almost required to be available whenever possible. Their careers are demanding yet rewarding. With more experience, doctors are regarded higher. There are several specializations for doctors, based on which the work-life of a doctor differs. The priority of a doctor's work-life no matter which specialization they choose is the healthcare of the patient.",
+        "skills": [
+            "Empathy: Even though the job is extremely stressful, doctors are required to be empathetic towards their patients.",
+            "Passion: Doctors are required to be passionate about their field. They will be dealing with human lives, and thus an individual needs to be driven. Any kind of disinterest or lack of focus can prove to be problematic and even fatal in some cases.",
+            "Responsibility: As mentioned above the doctor needs to keep in mind that they are working with human lives. Thus they need to be responsible enough to do this job. In case a doctor isn't well or has any other issues then they have to immediately refrain from performing surgery.",
+            "Hard Working: It takes a lot of determination and perseverance to be a doctor. Individuals need to be prepared to work hard and give their best at all times as it is a demanding career.",
+            "Emotional Strength: They have to often encounter cases that might be hard to digest. They could be emotionally overwhelming and painful. In these cases, doctors are required to stay emotionally strong.",
+            "Patience: Doctors would be facing a range of patients. Sometimes trying to get a patient to adhere to the treatment or explain to them the kind of illness they have can be stressful, thus this requires patience."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in any medical field."
+        ],
+        "opp_l": [
+            " General Physicians",
+            " Paediatricians",
+            " General Surgeon",
+            " Cardiologist",
+            " Dentist"
+        ],
+        "opp_r": [
+            " Dermatologists",
+            " Gynaecologist",
+            " ENT Specialist",
+            " Neurologist",
+            " Gasteroenterologist"
+        ],
+        "insti": [
+            {
+                "link": "https://www.aiims.edu/",
+                "name": "All India Institute of Medical Sciences (AIIMS)"
+            },
+            {
+                "link": "https://www.cmch-vellore.edu/",
+                "name": "Christian Medical College Vellore"
+            },
+            {
+                "link": "https://manipal.edu/kmc-manipal.html",
+                "name": "Kasturba Medical College Manipal"
+            },
+            {
+                "link": "http://www.mmc.ac.in/mmc/",
+                "name": "Madras Medical College"
+            }
+        ],
+        "pros": [
+            "The financial stability for doctors is really rewarding once the experience has been gained.",
+            "Job satisfaction for doctors is high as they will be working for the betterment of society.",
+            "It's an extremely respected profession."
+        ],
+        "cons": [
+            "There's a lot of stress as any mistake in this profession could be harmful.",
+            "The workload could be high which could lead to burnout.",
+            "Even the process of getting through M.B.B.S could be stressful and draining."
+        ]
+    },
+    {
+        "careerid": "surgeon",
+        "title": "Surgeon",
+        "cat_dir": "medicine.html",
+        "cat": "Medicine",
+        "duration": "8 years",
+        "p1_1": "Are you intrigued by the innards of a human body? Then, becoming a surgeon could be a great career path for you. Surgeons, as the name specifies, are doctors who specialize in Surgery. These surgeons perform surgery in order to fix abnormalities immediately. In most situations, surgery can be a procedure done for damage control. Thus, surgeons need to be confident in whatever they do. They usually have a team who helps them in the operation theatre.",
+        "p1_2": "Surgeons can choose to be either general surgeons or they can choose a specialization, such as orthopaedics, or neurosurgery and so on. Some general practitioners and family medicine and emergency medicine experts may undertake a restricted spectrum of minor, common, and emergency surgery. Anesthesia is frequently used in conjunction with surgery, and anesthesiologists and nurse anesthetists may be in charge of this component of the procedure.",
+        "img1": "assets/images/blog/blog-details-surgeon.jpg",
+        "alt1": "Surgeon Image",
+        "desc": "A surgeon needs to go through rigorous training before performing surgery. Naturally, because it is a complex job the stress and responsibilities are larger. A surgeon has to view the patients’ health conditions and accordingly device a plan for surgery. They must keep in mind any possible hurdles they can face in the operation theatre and must be prepared for that as well. A surgeon would also have to closely view the patient after surgery in what is known as “Post-op.” Surgeons are required to have dexterity and stamina. If they were under any influence that could compromise these two requirements it would be fatal.",
+        "skills": [
+            "Endurance Skills: It needs to be taken into account that surgeons stand for long hours in the operation theatre. It's extremely important for them to be able to do this with tiring or losing focus. Thus stamina is one of the crucial factors.",
+            "Hardworking Skills: It takes a lot of determination and perseverance to be a surgeon. Individuals need to be prepared to work hard and give it their best at all times as it is a demanding career.",
+            "Learning Skills: Surgeons are required to be passionate about their field. They will be dealing with human lives, thus an individual has to be driven and keep learning."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in General Surgery."
+        ],
+        "opp_l": [
+            " Cardiothoracic Surgery",
+            " Neurosurgery",
+            " Orthopaedic Surgery"
+        ],
+        "opp_r": [
+            " Urology",
+            " Vascular Surgery",
+            " Paediatric Surgery"
+        ],
+        "insti": [
+            {
+                "link": "https://www.aiims.edu/",
+                "name": "All India Institute of Medical Sciences (AIIMS)"
+            },
+            {
+                "link": "https://fathermuller.edu.in/medical-college/",
+                "name": "Father Muller Medical College Mangalore"
+            },
+            {
+                "link": "Kasturba Medical College Manipal",
+                "name": "Grant Medical College Mumbai"
+            }
+        ],
+        "pros": [
+            "The financial stability for doctors is really rewarding once the experience has been gained.",
+            "Job satisfaction for surgeons is high as they will be working for the betterment of society.",
+            "It's an extremely respected profession from older times till now and it will continue to be so."
+        ],
+        "cons": [
+            "The responsibility this job demands is extremely high.",
+            "Commitment required by surgeons is also really high, this could leave you having a poor social life.",
+            "Stress in the job is also quite high."
+        ]
+    },
+    {
+        "careerid": "pathology",
+        "title": "Pathology",
+        "cat_dir": "medicine.html",
+        "cat": "Medicine",
+        "duration": "7 years",
+        "p1_1": "Do you want to help diagnose various health conditions? Then pathology is a great career for you! When we go to a doctor for a particular illness we usually tend to ask them why we’ve gotten this illness. If it’s something that requires the doctor to do blood tests, urine tests then we’d have a lab test result that explains the cause of the illness.",
+        "p1_2": "This is where pathology comes into play. Pathology can be of two types, clinical pathology and anatomic pathology. Where clinical pathology deals with fields such as microbiology, immunology, haematology etc. Anatomic pathology deals with the cells and tissues. Pathology is a very important field in the health care sector. It is the most crucial part when we speak of diagnosis and also the risk factors. General pathology is largely concerned with assessing known clinical abnormalities.",
+        "img1": "assets/images/blog/blog-details-pathology.jpg",
+        "alt1": "Pathology Image",
+        "desc": "Pathologists are the ones who study the samples of various patients and then produce us with a report that helps in the diagnosis. Thus they play a crucial part in the healthcare system. It is also important in the sense that they warn of available risk factors, in case the patient has a certain aversion to a drug or another medical condition that could interfere with the treatment, it is up to a pathologist to report these things if found in a test result. They use laboratory tests to assess the condition of the patient and ascertain what’s causing the sickness.",
+        "skills": [
+            "Analytical Skills: An individual would have to be able to analyse the incoming data and new information and make the right inference.",
+            "Learning Skills: As the field is growing it requires the pathologists to have an open mind in terms of new technology.",
+            "Responsibility: As mentioned above the surgeon needs to keep in mind that they are working with human lives. Thus they need to be responsible enough to do this job. In case a surgeon isn't well or has any other issues then they have to immediately refrain from performing surgery.",
+            "Communication Skills: It is mandatory for them to communicate well with the patients when it comes to making them understand the dose of administration, when to take and how to take medicines.",
+            "Research Skills: Naturally one would have to be good at research as well to understand new problems, their potential solutions and inventions."
+
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in Pathology."
+        ],
+        "opp_l": [
+            " Chemical Pathology",
+            " Neuropathology"
+        ],
+        "opp_r": [
+            " Paediatric Pathology",
+            " Forensic Pathology"
+
+        ],
+        "insti": [
+            {
+                "link": "https://www.aiims.edu/",
+                "name": "All India Institute of Medical Sciences (AIIMS)"
+            },
+            {
+                "link": "https://www.cmch-vellore.edu/",
+                "name": "Christian Medical College Vellore"
+            },
+            {
+                "link": "https://manipal.edu/kmc-manipal.html",
+                "name": "Kasturba Medical College Manipal"
+            },
+            {
+                "link": "http://www.mmc.ac.in/mmc/",
+                "name": "Madras Medical College"
+            }
+        ],
+        "pros": [
+            "There's a large need for pathologists.",
+            "Due to the fast-paced world there's almost always something new to study about.",
+            "It provides a lot of insight to the medical community."
+        ],
+        "cons": [
+            "It can be a slow field.",
+            "The pay is not very rewarding initially.",
+            "The field requires a lot of study and hectic work."
+        ]
+    },
+    {
+        "careerid": "nursing",
+        "img1": "../assets/images/blog/blog-details-nursing.jpg",
+        "alt1": "AIML Image",
+        "id": "nursing",
+        "title": "Nursing",
+        "cat_dir": "../medicine.html",
+        "cat": "Medicine",
+        "duration": "4 years",
+        "p1_1": "Do you want to treat people and do noble jobs? Then, nursing is a great profession for you. Nurses are required to take a preliminary screening of the patient and to also keep a day to day check on the progress of the patient. All this has to be documented by the nurses. The medicines are given, the time at which they were given, any complications, etc, all of this has to be observed and documented by the nurses.",
+        "p1_2": "In some cases, nurses can also choose to be part of schools and their healthcare awareness programs. It also has to be noted that nurses usually communicate every day with the family, thus they also are trained to be sensitive in handling volatile situations. They have to keep the doctors updated and also keep up with the treatment plan and schedule of each patient.",
+        "desc": "A candidate interested in being a nurse is required to have the motivation and the drive to do so. But more importantly, the individual needs to be patient. Whichever area he/she specialises in, there is a large requirement of patience that the nurses have to deliver. The job can get repetitive and mundane. A nurse would also be interacting with patients and their families more closely than the doctors themselves. They thus have to be warm and good with their communication. They could also have long working hours and odd working hours.",
+        "skills": [
+            "Empathy: Even though the job is extremely stressful, nurses are required to be empathetic towards their patients.",
+            "Responsibility: They need to be responsible enough to do this job. In case a nurse isn't well or has any other issues then they have to immediately refrain from interacting with patients as this might affect them.",
+            "Hard Working: It takes a lot of determination and perseverance to be a nurse. Individuals need to be prepared to work hard and give their best at all times as it is a demanding career.",
+            "Emotional Strength: They have to often encounter cases that might be hard to digest. They could be emotionally overwhelming and painful. In these cases, nurses are required to stay emotionally strong.",
+            "Patience: Nurses would be facing a range of patients. Sometimes trying to get a patient to adhere to the treatment or explain to them the kind of illness they have can be stressful, thus this requires patience."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science in Nursing / Bachelor of Science Honours in Nursing.",
+            "Post Graduation: Master of Science in Nursing."
+        ],
+        "opp_l": [
+            " Oncological Nursing",
+            " Nephrological Nursing",
+            " Critical Care Nursing Surgeon",
+            " Psychiatric Nursing"
+        ],
+        "opp_r": [
+            " Craniological/CTVS Nursing",
+            " Neurosciences Nursing",
+            " Paediatric Nursing",
+            " Private Nursing"
+        ],
+        "insti": [
+            {
+                "link": "https://tmc.gov.in/index.php/en/academics/admission-process",
+                "name": "Tata Memorial Hospital Mumbai"
+            },
+            {
+                "link": "https://www.cmch-vellore.edu/",
+                "name": "Christian Medical College Vellore"
+            },
+            {
+                "link": "http://apollohospitalseducation.com/College/index.html",
+                "name": "Apollo College of Nursing Chennai"
+            },
+            {
+                "link": "https://www.hindujahospital.com/",
+                "name": "Hinduja Hospital Mumbai"
+            }
+        ],
+        "pros": [
+            "Due to the growing field of medical science, and the growing need for more hospitals, naturally the need for nurses is also increasing. Thus the job market has a high demand.",
+            "The income in this field is stable and provides good job satisfaction.",
+            "If the candidate likes helping people, then it's the perfect field to work in."
+        ],
+        "cons": [
+            "As mentioned earlier an individual is required to have a lot of patience in this field of work.",
+            "Rules must be strictly followed as it's a matter of healthcare.",
+            "It can become tiring and rigorous."
+        ]
+    },
+    {
+        "careerid": "veterinary",
+        "title": "Veterinary",
+        "cat_dir": "../medicine.html",
+        "cat": "Medicine",
+        "duration": "5 years",
+        "p1_1": "Are you an animal lover and love taking care of them? Then, this is the perfect field for you. Veterinarians, commonly known as vets, are individuals who treat animals. A veterinary clinic is the place you take your pets, injured animals of all kinds to for treatment. This position falls into the category of animal healthcare. ",
+        "p1_2": "These individuals are trained specifically to take care of the needs of animals as doctors in general take care of human beings. It is a field under medicine that focuses on the healthcare necessary for animals, both domestic and wild, in reference to the vets who are present in wildlife sanctuaries that help conserve the animals in that region. Veterinarians can work for private hospitals, government hospitals, Shelters and NGOs as well. They also need to be able to effectively communicate their understanding of the symptoms and the diagnosis.",
+        "img1": "../assets/images/blog/blog-details-vet.jpg",
+        "alt1": "AIML Image",
+        "desc": "Just like human beings, animals tend to fall ill and are at risk for diseases that human beings are not and therefore require medical care at various points, this is where the vet comes in to take care of the animals. Whether it is, vaccinating your pets, ensuring that they are free of disease, treating their infections or tending to the wounds of injured animals, they take care of the needs of these animals. Every animal, just like any other human being is tested and diagnosed by the vet who then after assessing the problem offers specialised and specific treatment for the animal.",
+        "skills": [
+            "Communication Skills: They also need to be able to effectively communicate their understanding of the symptoms and the diagnosis. They also have to consider the emotions of owners of the pets.",
+            "Analytical Skills: As this field puts theory into use, using logic and reasoning becomes important to solve the problems and to come to a conclusion.",
+            "Learning Skills: You need to be aware of upcoming findings and studies conducted and keep up with the recent developments in this field.",
+            "Acceptance Skills: As the medical field is growing it requires them to have an open mind in terms of new technology."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Veterinary Science (BVSc) / Bachelor of Veterinary Medicine and Surgery (BVMS).",
+            "Post Graduation: MD in Veterinary Sciences."
+        ],
+        "opp_l": [
+            "Government Hospitals",
+            "NGOs",
+            "Clinics"
+        ],
+        "opp_r": [
+            "Wildlife Parks",
+            "Conservation Parks"
+        ],
+        "insti": [
+            {
+                "link": "http://www.ivri.nic.in/",
+                "name": "Indian Veterinary Research Institute"
+            },
+            {
+                "link": "http://www.tanuvas.ac.in/",
+                "name": "Tamil Nadu Veterinary and Animal Sciences University"
+            },
+            {
+                "link": "https://svvu.edu.in/",
+                "name": "Sri Venkateswara Veterinary University"
+            },
+            {
+                "link": "http://www.mafsu.in/",
+                "name": "Maharashtra Animal & Fishery Sciences University"
+            }
+        ],
+        "pros": [
+            "This is considered as a noble profession.",
+            "This is a fun job role for anyone who loves animals, as one gets to spend a lot of time with them.",
+            "The job is quite versatile, as if you start your own practice, you also get to manage staff, etc."
+        ],
+        "cons": [
+            "The training for becoming a vet, like any doctor, is very lengthy.",
+            "Not a very highly paid profession, unless one works at a huge hospital, or their practice becomes well reputed.",
+            "Often the vet may have to euthanize the pet (put them down, due to very poor health), which can be very stressful."
+        ]
+    },
+    {
+        "careerid": "orthopaedic",
+        "title": "Orthopaedic",
+        "cat_dir": "../medicine.html",
+        "cat": "Medicine",
+        "duration": "8 years",
+        "p1_1": "Do you want to study bones, muscles, joints, ligaments, tendons or nerves and the probable injuries? If you think you have the right healing touch in your hands and can treat these injuries, and want to help such people, then being an orthopedist might be the right job for you.",
+        "p1_2": "Orthopaedic surgery, often known as orthopaedics, is a discipline of surgery that deals with musculoskeletal problems. Orthopaedic surgeons treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, cancers, and congenital problems with both surgical and nonsurgical methods. Modern orthopedic surgery and musculoskeletal research have aimed to make surgery less invasive while also improving and extending the life of implanted components.",
+        "img1": "../assets/images/blog/blog-details-ortho.jpg",
+        "alt1": "AIML Image",
+        "desc": "Any orthopaedic professional, surgical or not, is qualified to analyze, diagnose, and treat your orthopaedic condition with non-invasive procedures. It's also worth noting that just because orthopaedic surgeons are qualified to perform surgery doesn't mean they would. Reputable orthopaedic doctors who are supported by strong healthcare systems are more likely to restore lives through innovative non-surgical techniques, such as minimally invasive procedures, computer-assisted treatments, and the harvesting and development of your own cells for cartilage regeneration.",
+        "skills": [
+            "Communication Skills: They also need to be able to effectively communicate their understanding of the symptoms and the diagnosis.",
+            "Analytical Skills: As this field puts theory into use, using logic and reasoning becomes important to solve the problems and to come to a conclusion.",
+            "Learning Skills: You need to be aware of upcoming findings and studies conducted and keep up with the recent developments in this field.",
+            "Acceptance Skills: As the medical field is growing it requires them to have an open mind in terms of new technology."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in Orthopaedics."
+        ],
+        "opp_l": [
+            "Hospitals",
+            "Private Clinics"
+        ],
+        "opp_r": [
+            "Sports"
+        ],
+        "insti": [
+            {
+                "link": "https://www.aiims.edu/",
+                "name": "All India Institute of Medical Sciences (AIIMS)"
+            },
+            {
+                "link": "https://fathermuller.edu.in/medical-college/",
+                "name": "Father Muller Medical College Mangalore"
+            },
+            {
+                "link": "https://manipal.edu/kmc-manipal.html",
+                "name": "Kasturba Medical College Manipal"
+            },
+            {
+                "link": "https://ggmcjjh.com/",
+                "name": "Grant Medical College Mumbai"
+            }
+        ],
+        "pros": [
+            "They have great job stability and is well respected in the community.",
+            "The pay as well is rewarding and stable.",
+            "Flexible work hours and room for growth and variety."
+        ],
+        "cons": [
+            "They need to study a lot.",
+            "Sometimes the work can be draining and repetitive.",
+            "MBBS can be a very hectic course."
+        ]
+    },
+    {
+        "careerid": "optha",
+        "title": "Ophthalmology",
+        "cat_dir": "../medicine.html",
+        "cat": "Medicine",
+        "duration": "8 years",
+        "p1_1": "Do you want to study eyes and vision? Then, ophthalmology is the right career. Ophthalmology is a discipline of medicine which deals with the physiology, anatomy and diseases of the eye. The area of ophthalmology requires a lot of expertise due to the speciality's complexity. This field included surgical, medical, and patient care skills ranging from paediatric to geriatric. ",
+        "p1_2": "Ophthalmology is a speciality medicine field with plenty of career prospects. The students have job opportunities in private and government hospitals, health departments, health centres, and NGOs. While all ophthalmologists are educated to treat all types of eye disorders and conditions, some specialize in a specific area of medical or surgical eye care. This individual is referred to as a subspecialist. To rectify visual difficulties, an ophthalmologist diagnoses and treats all eye disorders, conducts eye surgery, and prescribes and fits eyeglasses and contact lenses.",
+        "img1": "../assets/images/blog/blog-details-optha.jpg",
+        "alt1": "AIML Image",
+        "desc": "Ophthalmologists are those people who help in the treatment of eye problems. This can range from a power problem to something serious that might require surgery. They are required to assess the problem and devise a treatment plan. As the population of our planet rises every day, the need for ophthalmologists will grow and there will always be employment opportunities. People who have completed their residency training can continue to pursue fellowship training in Subspecialties of Ophthalmology. Aspirants seeking to become licensed medical practitioners must hold a degree in medicine and complete a residency.",
+        "skills": [
+            "Analytical Skills: An individual would have to be able to analyse the incoming data and new information and make the right inference",
+            "Learning Skills: As the field is growing it requires them to have an open mind in terms of new technology.",
+            "Technical Skills: They must be equipped with enough knowledge about the equipment as well as various health conditions.",
+            "Research Skills: Naturally one would have to be good at research as well to understand new problems, their potential solutions and inventions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Medicine and Bachelor of Surgery (MBBS).",
+            "Post Graduation: MD in Ophthamology."
+        ],
+        "opp_l": [
+            "Hospitals",
+            "Health Centres",
+            "Paediatric Ophthalmology"
+        ],
+        "opp_r": [
+            "NGOs",
+            "Academic Institutes"
+        ],
+        "insti": [
+            {
+                "link": "https://www.kem.edu/",
+                "name": "King Edward Memorial Hospital and College Mumbai"
+            },
+            {
+                "link": "https://fathermuller.edu.in/medical-college/",
+                "name": "Father Muller Medical College Mangalore"
+            },
+            {
+                "link": "https://manipal.edu/kmc-manipal.html",
+                "name": "Kasturba Medical College Manipal"
+            },
+            {
+                "link": "https://ggmcjjh.com/",
+                "name": "Grant Medical College Mumbai"
+            }
+        ],
+        "pros": [
+            "The financial stability for doctors is really rewarding once the experience has been gained.",
+            "Job satisfaction for doctors is high as they will be working for the betterment of society.",
+            "It's an extremely respected profession."
+        ],
+        "cons": [
+            "There's a lot of stress as any mistake in this profession could be harmful.",
+            "The workload could be high which could lead to burnout.",
+            "Even the process of getting through M.B.B.S could be stressful and draining."
+        ]
+    },
+    {
+        "careerid": "cse",
+        "title": "Computer Science & Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated by computers and technology? If so, then you should seriously consider pursuing a career in Computer Science & Engineering. This field of engineering utilizes elements of both computer science and electronics to create computer systems. ",
+        "p1_2": "Computer engineers are involved in tasks ranging from designing microcontrollers, personal computers, and supercomputers to working on circuit design. They deal with various aspects of hardware and software in computing. Beyond understanding the inner workings of computer systems, this field also emphasizes how they fit into the broader landscape of different industries. By merging electrical engineering with computer science, computer engineers are able to develop innovative computer hardware and software. They often work in roles as software and hardware engineers.",
+        "img1": "../assets/images/blog/blog-details-cse.jpg",
+        "alt1": "CSE Image",
+        "desc": "Computer engineers are tasked with the design, creation, and evaluation of computer systems and their integral parts, encompassing processors, circuit boards, memory units, networks, and routers. They hold the responsibility for a wide spectrum of tasks, ranging from software development, system and network establishment, to algorithm implementation and safeguarding system security for sensitive information. Furthermore, computer engineers are frequently relied upon to offer technical support to non-technical colleagues, including board members. Their scope of work encompasses both hardware and software, ensuring seamless integration and optimal functionality.",
+        "skills": [
+            "Technical Skills: The professionals must have solid basic knowledge in science. They must have strong maths skills as math is required for both for the construction of hardware and the programming of software.",
+            "Communication Skills: Computer engineers work in a team and usually require communicating with others regarding their job.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: This is the basic description of the job of a computer engineer. Even the tiny error will enable the programme to run.",
+            "Learning Skills: Learning new skills and technology is a life long process for computer engineers to stay in the market."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Computer Science & Engineering / B.Tech in Software Engineering / B.Tech in Information Technology.",
+            "Post Graduation: M.Tech in Computer Science & Engineering."
+        ],
+        "opp_l": [
+            "Software Developer",
+            "Machine Learning Engineer",
+            "Data Analyst",
+            "DevOps Engineer",
+            "Cybersecurity Analyst"
+        ],
+        "opp_r": [
+            "Database Administrator",
+            "Network Engineer",
+            "Embedded Systems Engineer",
+            "Hardware Engineer",
+            "System Designer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay packages are very good, so would account for a comfortable life.",
+            "The work environment is positive and allows the individual to thrive.",
+            "There is a high possibility of progress, with experience."
+        ],
+        "cons": [
+            "It can be a stressful job with work load and tight deadlines.",
+            "Regular updating of knowledge because of the ever-evolving technology.",
+            "Long sitting hours in front of the computer may have negative health effects."
+        ]
+    },
+    {
+        "careerid": "aiml",
+        "title": "Artificial Intelligence & Machine Learning",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated by the potential of machines to learn and make intelligent decisions? If so, a career in Artificial Intelligence (AI) and Machine Learning (ML) could be the perfect fit for you. This dynamic field revolves around the development of systems that can perform tasks requiring human-like intelligence.",
+        "p1_2": "Artificial Intelligence and Machine Learning professionals utilize advanced algorithms, data analysis, and pattern recognition techniques to enable computers to learn from data and make predictions or decisions. They work on a diverse range of applications, from natural language processing and computer vision to robotics and autonomous systems. This field not only delves into the technical intricacies of AI and ML but also explores how they can revolutionize industries across the spectrum. By merging principles from computer science, mathematics, and cognitive sciences, AI and ML engineers pave the way for groundbreaking advancements in technology.",
+        "img1": "../assets/images/blog/blog-details-aiml.jpg",
+        "alt1": "AIML Image",
+        "desc": "Professionals in Artificial Intelligence and Machine Learning are at the forefront of creating intelligent systems capable of learning and making decisions. They specialize in developing algorithms and models that enable computers to process and understand complex data, allowing them to perform tasks traditionally requiring human intelligence. This involves designing neural networks, fine-tuning algorithms, and optimizing models for various applications. Additionally, AI and Machine Learning experts work on enhancing system security to safeguard sensitive information. They also play a vital role in translating technical concepts for non-technical stakeholders, providing valuable support to the board of directors and colleagues less familiar with these advanced technologies. Their work spans both software and hardware, ensuring seamless integration for optimal performance.",
+        "skills": [
+            "Technical Skills: The professionals must have solid basic knowledge in science. They must have strong maths skills as math is required for both for the construction of hardware and the programming of software.",
+            "Communication Skills: Computer engineers work in a team and usually require communicating with others regarding their job.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It isvery necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: This is the basic description of the job of a computer engineer. Even the tiny error will enable the programme to run.",
+            "Learning Skills: Learning new skills and technology is a life long process for computerengineers to stay in the market."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Artificial Intelligence & Machine Learning / B.Tech in Computer Science & Engineering / B.Tech in Data Science.",
+            "Post Graduation: M.Tech in Artificial Intelligence & Machine Learning."
+        ],
+        "opp_l": [
+            "Computer Vision Engineer",
+            "Machine Learning Engineer",
+            "Data Analyst",
+            "DevOps Engineer",
+            "Natural Language Processing (NLP) Engineer"
+        ],
+        "opp_r": [
+            "AI Ethics and Bias Analyst",
+            "AI Solutions Architect",
+            "Data Scientist",
+            "Robotics Engineer",
+            "AI Automation Designer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay packages are very good, so would account for a comfortable life.",
+            "The work environment is positive and allows the individual to thrive.",
+            "There is a high possibility of progress, with experience."
+        ],
+        "cons": [
+            "It can be a stressful job with work load and tight deadlines.",
+            "Regular updating of knowledge because of the ever-evolving technology.",
+            "Long sitting hours in front of the computer may have negative health effects."
+        ]
+    },
+    {
+        "careerid": "ece",
+        "title": "Electronics & Communications Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Do you possess a keen interest in electronics, telecommunications, and their wide-ranging applications? If so, Electronics and Communications Engineering might be the perfect fit for you! This field of engineering delves into the study, design, and application of devices, systems, and equipment that harness the power of electronics, telecommunications, and electromagnetism. ",
+        "p1_2": "Electronics and Communications Engineering encompasses various specialized areas such as signal processing, telecommunication systems, microelectronics, and more. It combines a strong technical foundation in circuit theory with essential managerial skills. This discipline is a blend of pure science and practical application, offering abundant professional opportunities. Engineers with additional management qualifications can explore administrative roles and venture into the corporate sector, further expanding their career horizons.",
+        "img1": "../assets/images/blog/blog-details-ece.jpg",
+        "alt1": "ECE Image",
+        "desc": "Electronics and Communications Engineers leverage their expertise in the principles of electronics, telecommunications, and signal processing to design and innovate electronic devices and communication systems. They tackle challenges, develop cutting-edge solutions, and rigorously test equipment. In the modern era, Electronics and Communications Engineers employ Computer-Aided Design (CAD) tools to create intricate schematics and circuit layouts. Their projects span a wide spectrum, encompassing areas like wireless communication systems, satellite technology, digital signal processors, integrated circuits, and more. These engineers find themselves in diverse roles including design, research, manufacturing, and supervision within the field of Electronics and Communications Engineering.",
+        "skills": [
+            "Technical Skills: Engineers should have basic circuit knowledge as in large scale projects design can get very complex. Thorough knowledge of maths and physics is also necessary.",
+            "Communication Skills: In every job communication skill is necessary. Professionals should know how to keep their solutions and demands in front of the supervisor or- in front of their clients.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: The job of an engineer is practical. It is a job where theory gets converted into practical application. They have to think logically and revisit the concepts to solve the problem as every problem will be unique.",
+            "Learning Skills: Engineering is a very practical job where new challenges will come and the only way to overcome them is to keep learning.",
+            "Thinking Skills: To solve the unique problems, critical thinking will come into the picture. The ability to approach things differently with innovative techniques will make a difference."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Electronics & Communication Engineering / B.Tech in Electronics & Instrumentation Engineering / B.Tech in Electrical Engineering.",
+            "Post Graduation: M.Tech in Electronics & Communication Engineering."
+        ],
+        "opp_l": [
+            "Broadcasting Engineer",
+            "CAD Technician",
+            "Control & Instrumental Engineer",
+            "Network Engineer",
+            "Embedded Systems Engineer"
+        ],
+        "opp_r": [
+            "Telecommunications Engineer",
+            "Signal Processing Engineer",
+            "Automotive Electronics Engineer",
+            "Control Systems Engineer",
+            "Radio Frequency Engineer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay scale is very good, which accounts for a comfortable lifestyle.",
+            "The work hours are slightly more flexible than other fields, which results in job flexibility as well.",
+            "The field offers a wide range of opporunities."
+        ],
+        "cons": [
+            "The occupation is risky, as it deals with electricity.",
+            "The growth potential is very limited here.",
+            "There is a lot of hard work involved, as well as tight deadlines."
+        ]
+    },
+    {
+        "careerid": "ee",
+        "title": "Electrical Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated by the realm of electricity and its diverse applications? If so, electrical engineering could be the perfect fit for you! This branch of engineering revolves around the exploration, design, and implementation of devices, systems, and assorted equipment that harness the power of electricity, electronics, and electromagnetism.",
+        "p1_2": "Within electrical engineering, there are specialized domains such as power engineering, control engineering, electronic engineering, and instrumentation engineering. It encompasses a broad spectrum of knowledge, encompassing technical aspects like circuit theory, alongside crucial managerial skills. With a substantial professional scope, electrical engineering is a field rooted in pure science. Engineers equipped with a management background have the opportunity to venture into administrative roles and potentially explore the corporate sector, thereby broadening their career horizons.",
+        "img1": "../assets/images/blog/blog-details-ee.jpg",
+        "alt1": "EE Image",
+        "desc": "Electrical engineers leverage their understanding of the principles of electricity, electromagnetism, and electronics, backed by a foundation in physics and mathematics, to conceive and innovate electrical equipment and systems. They address challenges, conduct equipment testing, and employ Computer-Aided Design (CAD) for tasks like schematic creation and circuit layout. In contemporary practice, electrical engineers are engaged in a diverse array of projects spanning from robotics and mobile devices to navigation systems, radars, computers, and more. They contribute their expertise across various domains, including design, manufacturing, supervision, and beyond.",
+        "skills": [
+            "Technical Skills: Engineers should have basic circuit knowledge as in large scale projects design can get very complex. Thorough knowledge of maths and physics is also necessary.",
+            "Communication Skills: In every job communication skill is necessary. Professionals should know how to keep their solutions and demands in front of the supervisor or- in front of their clients.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: The job of an engineer is practical. It is a job where theory gets converted into practical application. They have to think logically and revisit the concepts to solve the problem as every problem will be unique.",
+            "Learning Skills: Engineering is a very practical job where new challenges will come and the only way to overcome them is to keep learning.",
+            "Thinking Skills: To solve the unique problems, critical thinking will come into the picture. The ability to approach things differently with innovative techniques will make a difference."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Electrical Engineering / B.Tech in Electronics & Instrumentation Engineering / B.Tech in Electrical & Electronics Engineering.",
+            "Post Graduation: M.Tech in Electrical Engineering."
+        ],
+        "opp_l": [
+            "Electrical Engineer",
+            "CAD Technician",
+            "Control & Instrumental Engineer",
+            "Network Engineer",
+            "Embedded Systems Engineer"
+        ],
+        "opp_r": [
+            "Telecommunications Engineer",
+            "Electronics Design Engineer",
+            "Automotive Electronics Engineer",
+            "Control Systems Engineer",
+            "Instrumentation Engineer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay scale is very good, which accounts for a comfortable lifestyle.",
+            "The work hours are slightly more flexible than other fields, which results in job flexibility as well.",
+            "The field offers a wide range of opporunities."
+        ],
+        "cons": [
+            "The occupation is risky, as it deals with electricity.",
+            "The growth potential is very limited here.",
+            "There is a lot of hard work involved, as well as tight deadlines."
+        ]
+    },
+    {
+        "careerid": "eie",
+        "title": "Electrical & Instrumentation Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you intrigued by the intricate interplay of instruments and systems in various applications? If so, Electrical & Instrumentation Engineering might be the ideal path for you! This discipline is closely linked to the study, development, and utilization of devices, systems, and specialized equipment that involve electricity, electronics, and instrumentation. ",
+        "p1_2": "Within Electrical & Instrumentation Engineering, there are diverse subfields, including process control systems, industrial automation, and measurement technologies. It encompasses both theoretical understanding, such as signal processing, and practical applications, making it a well-rounded field. Professionals in this domain often find themselves at the intersection of technical expertise and management skills. Moreover, Electrical & Instrumentation Engineering offers a dynamic professional landscape, with opportunities for those interested in administrative roles and corporate sectors to further enhance their career prospects.",
+        "img1": "../assets/images/blog/blog-details-eie.jpg",
+        "alt1": "EIE Image",
+        "desc": "Electrical and Instrumentation Engineers leverage their expertise in electrical systems, instrumentation, and control technologies to conceive, design, and advance sophisticated equipment and systems. They employ principles of electricity, electronics, and control theory to tackle complex challenges, as well as to validate and fine-tune equipment. In today's technological landscape, Electrical and Instrumentation Engineers proficiently utilize Computer-Aided Design (CAD) tools to craft detailed schematics and circuit layouts. Their scope of projects spans a wide spectrum, encompassing endeavors like refining industrial automation processes, optimizing power distribution networks, and enhancing instrumentation systems for precise control and monitoring. These engineers find opportunities in diverse domains, including design, manufacturing, supervision, and more, contributing significantly to sectors ranging from energy production to process control and beyond.",
+        "skills": [
+            "Skills: Engineers should have basic circuit knowledge as in large scale projects design can get very complex. Thorough knowledge of maths and physics is also necessary.",
+            "Communication Skills: In every job communication skill is necessary. Professionals should know how to keep their solutions and demands in front of the supervisor or- in front of their clients.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Problem Solving Skills: The job of an engineer is practical. It is a job where theory gets converted into practical application. They have to think logically and revisit the concepts to solve the problem as every problem will be unique.",
+            "Learning Skills: Engineering is a very practical job where new challenges will come and the only way to overcome them is to keep learning.",
+            "Thinking Skills: To solve the unique problems, critical thinking will come into the picture. The ability to approach things differently with innovative techniques will make a difference."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Electronics & Instrumentation Engineering / B.Tech in Electrical & Electronics Engineering / B.Tech in Electrical Engineering.",
+            "Post Graduation: M.Tech in Electronics & Instrumentation Engineering."
+        ],
+        "opp_l": [
+            "Automation Engineer",
+            "Robotics Engineer",
+            "Control & Instrumental Engineer",
+            "Network Engineer",
+            "Embedded Systems Engineer"
+        ],
+        "opp_r": [
+            "Telecommunications Engineer",
+            "Electronics Design Engineer",
+            "Automotive Electronics Engineer",
+            "Control Systems Engineer",
+            "Instrumentation Engineer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "The pay scale is very good, which accounts for a comfortable lifestyle.",
+            "The work hours are slightly more flexible than other fields, which results in job flexibility as well.",
+            "The field offers a wide range of opporunities."
+        ],
+        "cons": [
+            "The occupation is risky, as it deals with electricity.",
+            "The growth potential is very limited here.",
+            "There is a lot of hard work involved, as well as tight deadlines."
+        ]
+    },
+    {
+        "careerid": "aero",
+        "title": "Aerospace Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated with aircrafts and spacecrafts? If the answer is yes, then aerospace engineering is the perfect choice for you. It is an engineering field which focuses on the science of aircrafts and spacecrafts. ",
+        "p1_2": "It has two specialized fields, namely: aeronautical engineering and astronautical engineering. It involves studying various conditions like atmospheric pressure, temperature etc. and making use of aerodynamics, fluid dynamics propulsion and other such fields, in order to design the perfect aircraft/spacecraft for those conditions. This includes aircrafts, rockets and other spacecrafts as well, built according to the conditions of stratosphere or outer space. The field involves various aspects of science and mathematics. It covers two aspects of engineering: Aeronautical and Astronomical.",
+        "img1": "../assets/images/blog/blog-details-aero.jpg",
+        "alt1": "EIE Image",
+        "desc": "Aerospace engineers are involved in designing, construction, and testing aircraft, missiles, and spacecraft. Professionals can either make them from scratch or they can work on testing and improving the aircraft design. They need to take care of each aspect, be it the radar cross-section used to measure distance or be it fluid dynamics, which helps an aircraft fly with an appropriate speed, without much turbulence. Mistakes in this field cost enormously and can even cost human life hence, professionals spend months working on a single project to eliminate mistakes. This field requires individuals to apply theory to practice.",
+        "skills": [
+            "Technical Skills: Aerospace Engineering is a true field of science and requires the individual to put the theoretical knowledge into practice. It is necessary to have knowledge about fluid and aerodynamics, physics, mathematics, aeronautics, etc.",
+            "Reading And Writing Skills: Majority of the work is done theoretically to eliminate huge losses of resources.",
+            "Communication Skills: Engineers must collaborate with others and express objectives, issues, and requirements.",
+            "Problem Solving Skills: They have to be updated about new technologies, different advancements in the field, etc. Engineer’s day involves solving client problems. Aerospace engineering is often figuring out how to make Aerospace or thermal devices work better, more efficiently or have different capabilities."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Aerospace Engineering.",
+            "Post Graduation: M.Tech in Aerospace Engineering."
+        ],
+        "opp_l": [
+            "Flight Technician",
+            "Aerospace Engineer",
+            "Technical Communicators"
+        ],
+        "opp_r": [
+            "Aerospace Scientist"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "http://flytechaviation.aero/",
+                "name": "Flytech Aviation Academy"
+            },
+            {
+                "link": "http://www.agragamiinstitutions.com/Home/AME",
+                "name": "V.S.M. Institute of Aerospace Engineering and Technology"
+            },
+            {
+                "link": "https://iiaeit.org/",
+                "name": "Indian Institute for Aeronautical Engineering and Information Technology"
+            },
+            {
+                "link": "https://iiaedehradun.org/",
+                "name": "Indian Institute for Aeronautical Engineering"
+            }
+        ],
+        "pros": [
+            "High job satisfaction as the professionals get to do what they are passionate about.",
+            "Job security and good working conditions.",
+            "Experience of helping the community gives the sense of involvement."
+        ],
+        "cons": [
+            "Difficult to get into this field as it requires a lot of studying.",
+            "Highly stressful jobs and working hours are unpredictable.",
+            "Constant learning as the job grows. Professionals have to update about the latest improvements."
+        ]
+    },
+    {
+        "careerid": "mech",
+        "title": "Mechanical Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you interested in the fusion of engineering principles, material science, and mathematical concepts to design, analyze, manufacture, and maintain mechanical systems? If so, then the field of mechanical engineering may be the perfect fit for you. ",
+        "p1_2": "Mechanical engineering revolves around the study of moving systems and objects, exerting a profound influence on virtually every aspect of modern life, including the intricate machinery within the human body. It stands as one of the oldest and most multifaceted branches of engineering, seamlessly integrating elements from aerospace, electrical, civil, chemical, materials science, and even bio-engineering, all underpinned by a strong foundation in physics and mathematics. Additionally, mechanical engineers excel in the creation and testing of technical prototypes, bringing innovative ideas and products to life.",
+        "img1": "../assets/images/blog/blog-details-mech.jpg",
+        "alt1": "EIE Image",
+        "desc": "Mechanical engineers design, manufacture, and assess a variety of mechanical and thermal devices, ranging from tools and engines to machinery. They oversee the production of diverse items, including medical instruments and innovative batteries. Mechanical engineers analyze issues to ascertain if mechanical and thermal systems can offer solutions and oversee the manufacturing process. They employ analytical techniques and utilize computer-aided design for the creation or modification of mechanical and thermal apparatus. Daily responsibilities may involve assessing and diagnosing mechanical and thermal equipment, devising solutions, and conducting necessary repairs.",
+        "skills": [
+            "Creativity Skills: Mechanical engineers are frequently involved in the development and design of goods. Creativity is required when it comes to conceptualizing, creating, and designing whole new things.",
+            "Scientific Skills: Mechanical engineers, like any other profession of engineering, must have a good understanding of the science essential in their field.",
+            "Communication Skills: Engineers must collaborate with others and express objectives, issues, and requirements.",
+            "Problem Solving Skills: Engineer’s day involves solving client problems. Mechanical engineering is often figuring out how to make mechanical or thermal devices work better, more efficiently or have different capabilities."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Mechanical Engineering / B.Tech in Automobile Engineering.",
+            "Post Graduation: M.Tech in Mechanical Engineering."
+        ],
+        "opp_l": [
+            "Robotics Engineer",
+            "Mechanical Design Engineer",
+            "Manufacturing Engineer"
+        ],
+        "opp_r": [
+            "HVAC Engineer",
+            "Mechatronics Engineer",
+            "Control Systems Engineer"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology & Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "http://dtu.ac.in/",
+                "name": "Delhi Technological University (DTU)"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VIT)"
+            }
+        ],
+        "pros": [
+            "It involves a lot of practical work.",
+            "Extensive learning opportunities.",
+            "It is an interesting subject to study."
+        ],
+        "cons": [
+            "It is a difficult subject to study.",
+            "There is a low pay initially.",
+            "Constantly updated knowledge of latest technology."
+        ]
+    },
+    {
+        "careerid": "civil",
+        "title": "Civil Engineering",
+        "cat_dir": "../engineering.html",
+        "cat": "Engineering",
+        "duration": "4 years",
+        "p1_1": "Are you always fascinated by different types of buildings and constructions? If yes then, civil engineering is the way to go. Civil engineering is a branch of engineering that deals with the design, development, and maintenance of the physical and naturally constructed environment, such as highways, bridges, canals, dams, airports, sewerage systems, pipes, building structural components, and railways. ",
+        "p1_2": "It is the broadest of the engineering fields and one of the oldest and broadest engineering disciplines. Civil engineers are responsible for the construction of the world's infrastructure. They silently mold the past of nations all over the world in this way.",
+        "img1": "../assets/images/blog/blog-details-civil.jpg",
+        "alt1": "EIE Image",
+        "desc": "Civil engineers analyze survey reports, maps, and other data to plan projects. They consider construction costs, government regulations, potential environmental hazards, and other factors in planning stages and risk analysis. Engineers use design software to plan and design transportation systems, hydraulic systems, and structures in line with industry and government standards. They perform or oversee, surveying operations to establish reference points, grades, and elevations to guide construction. They also manage the repair, maintenance, and replacement of public and private infrastructure.",
+        "skills": [
+            "Mathematical Skills: Engineering students need to have a thorough understanding of algebra, calculus, trigonometry, and geometry. Knowledge of statistics is the cherry on the top.",
+            "Thinking Skills: Computer engineers work in a team and usually require communication with others regarding their job.",
+            "Leadership Skills: Engineers should have leadership skills because their job requires them to oversee planners, technicians, technologists, surveyors, and contractors.",
+            "Problem Solving Skills: Engineers will experience a variety of variables during the various stages of a project, such as planning and construction, that will affect the outcome or stymie progress.",
+            "Decision Making Skills: While working as a leader and manager of a project, a civil engineer will need to consider the available information, conflicting goals from different parties involved, professional ethics, financial responsibilities, and safety concerns when making decisions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: B.Tech in Civil Engineering.",
+            "Post Graduation: M.Tech in Civil Engineering."
+        ],
+        "opp_l": [
+            "Transport Engineer",
+            "Construction Engineer",
+            "Structural Engineer"
+        ],
+        "opp_r": [
+            "Geotechnical Engineer",
+            "Environmental Engineer",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institute of Technology (IITs)"
+            },
+            {
+                "link": "https://www.bits-pilani.ac.in/",
+                "name": "Birla Institute of Technology and Science (BITS)"
+            },
+            {
+                "link": "https://nitdelhi.ac.in/",
+                "name": "National Institute of Technology (NITs)"
+            },
+            {
+                "link": "https://www.iitism.ac.in/",
+                "name": "Indian School of Mines"
+            },
+            {
+                "link": "https://vit.ac.in/",
+                "name": "Vellore Institute of Technology (VITs)"
+            }
+        ],
+        "pros": [
+            "This job offers a high salary package and perks.",
+            "There’s always high demand for civil engineers",
+            "Opportunity to travel to different parts of the world"
+        ],
+        "cons": [
+            "There are tight deadlines and schedules.",
+            "The job is very stressful.",
+            "Involvement of third party for approval of designs."
+        ]
+    },
+    {
+        "careerid": "businessadministration",
+        "title": "Business Administration",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "3 years",
+        "p1_1": "Do you want to learn about the inner workings of a business enterprise? Then, business administration can be a great field for you! The management of a commercial enterprise is referred to as business administration.",
+        "p1_2": "It entails overseeing and supervising all parts of business operations. From the point of view of management and leadership, it also covers fields that include office building administration, accounting, finance, designing, development, quality assurance, data analysis, sales, project management, information technology management, research and development, and marketing. The execution or management of business operations and decision-making, as well as the effective organization of people and other resources to steer activities toward common goals and objectives, are all part of business administration.",
+        "img1": "../assets/images/blog/blog-details-ba.jpg",
+        "alt1": "EE Image",
+        "desc": "Overseeing and evaluating financial operations, approving purchases and expenditures, mediating between staff and other executives, choosing heads of departments, marketing and promoting the firm, and arranging training programs are all responsibilities of the business administrator. They are expected to drive and supervise positive business growth, detect wastage and improve efficiency, oversee day-to-day business activities, introduce and implement innovative short and long-term business goals, liaise and consult with clients, staff, and suppliers, evaluate and enhance employee performance, improve business programs, technologies, etc.",
+        "skills": [
+            "Communication Skills: These are essential as they need to interact with clients as well as investors/shareholders.",
+            "Writing Skills: These are important for written communication as well as paperwork.",
+            "Time Management Skills: These are essential to be able to run a business smoothly."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: B.Com / BBA Courses should be done.",
+            "Post Graduation: MBA should be done."
+        ],
+        "opp_l": [
+            "Business Analyst",
+            "Finance Manager",
+            "Business Conultant"
+        ],
+        "opp_r": [
+            "Strategic Business Head",
+            "Business Development Manager",
+            "Business Administrator"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iima.ac.in/",
+                "name": "Indian Institute of Management (IIMs)"
+            },
+            {
+                "link": "http://www.fms.edu/",
+                "name": "Faculty of Management Studies"
+            },
+            {
+                "link": "https://www.nibs.org/",
+                "name": "National Institute of Business Studies"
+            }
+        ],
+        "pros": [
+            "The pay scale is very good.",
+            "There is a great opportunity of being able to interact with people and make connections.",
+            "There is a lot of scope, in terms of growth."
+        ],
+        "cons": [
+            "The administration of a business enterprise can be very demanding.",
+            "You may not get good job opportunities, without post-graduation.",
+            "Bachelor’s in Business Administration is a very generalized course, making specialization essential."
+        ]
+    },
+    {
+        "careerid": "sportmanagement",
+        "title": "Sports Management",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "4 years",
+        "p1_1": "Do you love sports and want to be the ones managing them? Then a career in Sports Management just for you. Sports management is a multidisciplinary field that incorporates marketing, legal, finance, and business concepts. Sports management consists of being involved in the administration and working of sporting entities such as leagues, teams or sporting organisations. It is a highly rewarding profession for those who love sports and want to be a part of the events coming as successes.",
+        "p1_2": "The front office system in professional sports, college sports managers, recreational sport managers, sports marketing, event management, facilities management, sports economics, sports finance, and sports information are only a few examples of sport managers. As one is involved in the management of entities, they need to be able to communicate well enough with others that they manage or negotiate with.",
+        "img1": "../assets/images/blog/blog-details-sport.jpg",
+        "alt1": "EE Image",
+        "desc": "A career in Sports Management includes working with the business aspect of the sporting industry. Those working in this field are responsible for overseeing the business and promotion of the entity that they manage. They monitor finances, negotiate upon contracts with the athletes and/or teams and also manage events that may fall into their jurisdiction. This is a booming profession and the opportunities in it are bound to increase. People who want to combine their passion for sports with business skills and pursue a successful career in this industry should pursue a Sports Management degree.",
+        "skills": [
+            "Communication Skills: As one is involved in the management of entities, they need to be able to communicate well enough with others that they manage or negotiate with.",
+            "Organisation Skills: At the end of the day, you are in the management of the industry and are primarily responsible for everything functioning efficiently, making organisational skills very important.",
+            "Time Management Skills: In the business of this industry, time can play a very important role in deciding the financial environment, making time management very important.",
+            "Analytical Skills: Since one needs to monitor finances, they need to have good analytical skills.",
+            "Decision Making Skills: One needs to be able to make decisions correctly and under pressure to work well-enough in this field."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: BA. in Sports Management / BBA in Sports Management",
+            "MBA in Sports Management/PG Diploma in Sports Management   "
+        ],
+        "opp_l": [
+            "Sport Manager",
+            "Facility Manager"
+        ],
+        "opp_r": [
+            "Sport Making Specialist",
+            "Sport Federations"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iismworld.com/",
+                "name": "International Institute of Sports Management"
+            },
+            {
+                "link": "https://www.nasm.edu.in/",
+                "name": "National Academy of Sports Management"
+            },
+            {
+                "link": "https://www.georgecollege.org/george-college",
+                "name": "George College"
+            },
+            {
+                "link": "https://tnpesu.org/",
+                "name": "Tamil Nadu Physical Education And Sports University"
+            }
+        ],
+        "pros": [
+            "With sports growing financially more and more, this field has a very bright scope.",
+            "It allows you to work independently and with all the creativity that you want to.",
+            "It also allows you to work with big athletes and brands."
+        ],
+        "cons": [
+            "It is not a job of fixed working hours and you may rarely get leaves.",
+            "You will have to be ever-present and at sporting events and manage the whole events.",
+            "It is a highly competitive field."
+        ]
+    },
+    {
+        "careerid": "projectm",
+        "title": "Project Management",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "4 years",
+        "p1_1": "Do you think you are the one for a managerial position, then a course in management, and a career in the same sounds right for you? A manager is the position of power that acts as the little cogs that run the machine called the organization. ",
+        "p1_2": "It’s a position that carries many responsibilities and importance. The coordination and administration of tasks to attain a goal are referred to as management. Setting the organization's strategy and organizing employee efforts to achieve these objectives through the application of available resources are examples of administrative activities. Managers in all tiers within a company are together responsible for its smooth functioning as an efficient and successful business entity. Management jobs pay well and have an upward curve for promotions, based on your experience.",
+        "img1": "../assets/images/blog/blog-details-proj.jpg",
+        "alt1": "EE Image",
+        "desc": "Managers must often make decisions about things. The manager is responsible for overseeing and leading the work of a group of people in many instances. The manager is also responsible for planning and maintaining work systems, procedures, and policies that enable and encourage the optimum performance of its people and other resources within a business unit. Organizations offer a wide range of managerial positions, ranging from front-line supervisory positions (Sales Manager, R&D Executive, General Manager, etc.) to the top executive level such as CEO, COO, and CTO.",
+        "skills": [
+            "Negotiation Skills: As a manager, you'll have to work out budgets, timetables, and expectations with clients. You'll also need to collaborate with a group of people who share your objectives.",
+            "Analytical Skills: As previously stated, analyzing the market, trends, patterns, etc. is very crucial for smooth functioning and monitoring of outputs.",
+            "Communication Skills: They are a must in this job because you will be dealing with a variety of clientele. as well as employees."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: BBA Courses should be done.",
+            "Post Graduation: MBA in any field."
+        ],
+        "opp_l": [
+            "Marketing Management",
+            "Finance Manager",
+            "Human Resource Management"
+        ],
+        "opp_r": [
+            "Retail Manager",
+            "Business Manager"
+        ],
+        "insti": [
+            {
+                "link": "https://www.spjimr.org/",
+                "name": "SP Jain Institute of Management and Research"
+            },
+            {
+                "link": "https://liba.edu/",
+                "name": "Loyola Institute of Business Administration"
+            },
+            {
+                "link": "https://www.iima.ac.in/",
+                "name": "Indian Institute Of Management (IIMs)"
+            },
+            {
+                "link": "https://xlri.ac.in/",
+                "name": "Xavier Labor Relations Institute"
+            },
+            {
+                "link": "https://www.isb.edu/en.html",
+                "name": "Indian School of Business"
+            }
+        ],
+        "pros": [
+            "The pay scale is really rewarding in this field.",
+            "The demand and scope is large.",
+            "One gets to be involved in the decision making process."
+        ],
+        "cons": [
+            "Long and hectic working hours.",
+            "Busy and tight schedules due to stringent deadlines.",
+            "Analysing and reviewing performance can be difficult."
+        ]
+    },
+    {
+        "careerid": "eventm",
+        "title": "Event Management",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "3 years",
+        "p1_1": "Do you want to plan and organize events? If yes, then you should consider event management as a career path for yourself. The use of project management techniques in the design and implementation of various large-scale events such as festivals, gatherings, ceremonies, weddings, formal parties, concerts, or conventions is known as event management. ",
+        "p1_2": "Humans live in communities and enjoy organizing activities and social gatherings, so the process of preparing and arranging the event is critical. From the Olympics to corporate breakfast meetings, the events sector now covers events of all sizes. Budgeting, scheduling, site selection, obtaining necessary permits, coordinating transportation and parking, arranging for speakers or entertainers, arranging decor, event security, catering, coordinating with third-party vendors, and emergency plans are all examples of the process of planning and coordinating the event.",
+        "img1": "../assets/images/blog/blog-details-event.jpg",
+        "alt1": "EE Image",
+        "desc": "An event manager is required to take care of the design, set-up, and execution of events that bring people together. The size of the events varies and the manager has to adjust according to that. Managing events is always a people-centric endeavour. The goal is to ensure people get the most from a given event. The jobs are very unpredictable as the plan never runs along so the professionals are more like spontaneous creatures. Networking is the main part of the job to get new assignments and to maintain old ones. The event manager is the person in charge of planning and executing the event, including the creative, technical, and logistical aspects.",
+        "skills": [
+            "People Skills: This is one of the most important skills as an event manager has to connect with their clients along with the people who are working with them to get the task done.",
+            "Management Skills: Organising an event is a multi-task. To ensure the smoothness of the process to achieve a successful event, the manager must have a sort out plan marking all possible changes.",
+            "Communication Skills: This is the most important part of the job. Event managers are also the leader of a team that works together to build an event. Proper communication is the key to perfection.",
+            "Decision Making Skills: Managing an event is not an easy task. Managers have to make quick and spontaneous decisions of the available options and resources."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: Diploma in Event Management / Any graduation course",
+            "Post Graduation: PG Diploma in in Event Management/MBA or MA in PR"
+        ],
+        "opp_l": [
+            "Freelancer",
+            "Entertainment"
+        ],
+        "opp_r": [
+            "Event Manager",
+            "PR Firms"
+        ],
+        "insti": [
+            {
+                "link": "https://www.niemindia.com/",
+                "name": "National Institute of Event Management"
+            },
+            {
+                "link": "https://www.naemd.com/",
+                "name": "National Academy of Event Management & Development"
+            },
+            {
+                "link": "https://institute-of-event-management.com/",
+                "name": "International Institute of Event Management"
+            },
+            {
+                "link": "http://www.coemindia.com/",
+                "name": "College of Events & Media"
+            },
+            {
+                "link": "https://iiemdelhi.in/",
+                "name": "Impact Institute of Event Management"
+            }
+        ],
+        "pros": [
+            "High work satisfaction as it is a creative field.",
+            "Gains a different perspective as one gets to be on the other side of the event.",
+            "Increases network as one travels to different locations related to work."
+        ],
+        "cons": [
+            "No fixed time as the professionals have to be on their toes till the time event ends.",
+            "Patience and openness to criticism is required as the clients spend a lot of money on an event as expects something in return.",
+            "Event managers also have to deal with difficult people at many times ( e.g.: rude, arrogant)."
+        ]
+    },
+    {
+        "careerid": "fash",
+        "title": "Fashion Business Management",
+        "cat_dir": "../management.html",
+        "cat": "Management",
+        "duration": "4 years",
+        "p1_1": "Do you want to learn the mechanics of managing a fashion brand? Then, fashion business management is just the profession for you! Fashion Business Management entails assuming roles like sales, marketing, product development, retail management, etc. within the merchandising industry. ",
+        "p1_2": "The world of fashion and luxury brands is complex and dynamic, thus allowing for a lot of scope. This is a very creative job and requires people to have a great knowledge of fashion along with a good understanding of business and management concepts. One requires a fairly good understanding of the theoretical, practical, and ethical processes involved in textile and clothing design, production, distribution, and consumption. They must also successfully communicate material supply, pricing, and schedules with their teams and manufacturers.",
+        "img1": "../assets/images/blog/blog-details-fashm.jpg",
+        "alt1": "EE Image",
+        "desc": "A fashion manager is in charge of developing fresh and unique marketing techniques for a certain product to improve market demand. As a result, fashion management entails conducting extensive research and analysis of current fashion trends to forecast the success and popularity of a specific product among consumers based on its pricing and usefulness. As a result, fashion managers must have a keen eye for detail, excellent communication skills, and a thorough understanding of current industry trends. The field entails deals with using media and marketing to increase and maintain a product's brand value and awareness.",
+        "skills": [
+            "Communication Skills: Designers and merchandisers, in particular, must master the art of pitching, which necessitates the correct balance of precision, confidence, and succinctness.",
+            "Business Skills: To keep within budget and advertise their products, a great fashion designer has excellent business skills.",
+            "Creativity Skills: Designers must always come up with new and innovative ways to differentiate the apparel they create.",
+            "Computer Skills: Fashion designers should be conversant with computer-aided design (CAD) applications and any graphic editing software that might assist them better their designs.",
+            "Decision-Making Skills: It'll be crucial to your success if you know how to make the proper design alterations and decisions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Arts (Humanities).",
+            "Graduation: BA. (Hons.) Fashion & Lifestyle Business Management / Diploma in Fashion Retail Management.",
+            "Post Graduation: Masters in Fashion Design Management / PG Diploma in Retail Management."
+        ],
+        "opp_l": [
+            "Apparel Brands",
+            "Boutiques"
+        ],
+        "opp_r": [
+            "PR Manager",
+            "Fashion Marketing Manager"
+        ],
+        "insti": [
+            {
+                "link": "https://www.nift.ac.in/",
+                "name": "National Institute of Fashion Technology"
+            },
+            {
+                "link": "https://www.fddiindia.com/",
+                "name": "Footwear Design and Development Institute"
+            },
+            {
+                "link": "https://www.voguefashioninstitute.com/",
+                "name": "Vogue Fashion Institute"
+            },
+            {
+                "link": "https://www.isdi.in/",
+                "name": "Indian School of Design and Innovation"
+            },
+            {
+                "link": "https:/www.mitid.edu.in",
+                "name": "MIT Institute of Design"
+            }
+        ],
+        "pros": [
+            "It's a new field with a lot of room for advancement.",
+            "You will get the chance to travel and interact with others.",
+            "You will master commercial strategies, and you will not be required to be creative because this is not a hard-core design sector."
+        ],
+        "cons": [
+            "It's difficult to make a name for yourself in the community.",
+            "You will be expected to work irregular hours.",
+            "You'd have to be up to date on the newest fashion and business trends."
+        ]
+    },
+    {
+        "careerid": "zoo",
+        "title": "Zoology",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Haven't we all been amazed when we saw wild animals on TV? If you could never get over your fascination for wild animals and everything else to do with them, then zoology is probably an apt choice for you. Zoology deals with the study of the animal kingdom. Zoology studies the behaviour, characteristics, evolutionary trends of the different species of animals. It also studies the changing environment and its impact on these species and vice versa.",
+        "p1_2": "Zoology helps us study animals and their habitat from a closer lens. Those people who specialise in this field are known as zoologists. The study of animals has largely moved on to deal with form and function, adaptations, relationships between groups, behaviour and ecology.",
+        "img1": "../assets/images/blog/blog-details-zoo.jpg",
+        "alt1": "EE Image",
+        "desc": "The career of a zoologist mainly includes a lot of responsibility towards the animal kingdom. Whatever work a zoologist does is to keep us informed about the ways in which the animal kingdom works, thus increasing our awareness. And hopefully, we can live in harmony with them by using the knowledge zoologists give to our world. Zoologists would have to have a great amount of organic knowledge in order to push themselves in this career. They might also have to travel a lot in case they want to study a particular species in a specific region. Systematics is the study of the diversification of living forms, the evolutionary history of a group is known as its phylogeny.",
+        "skills": [
+            "Determination Skills:The syllabus is vast and sometimes crushing. There is a lot of hard work to be done and social life may come to a standstill.",
+            "Research Skills: Naturally one would have to be good at research as well to understand new problems, their potential solutions and inventions.",
+            "Analytical Skills: You would have to have that drive to push yourself in this career in order to achieve highest potential and satisfaction.",
+            "Reading Skills: You need to be aware of upcoming findings and studies conducted and keep up with the recent developments in this field."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science in Zoology / Bachelor of Science in Biotechnology,Zoology / Bachelor of Science in Zoology,Chemistry.",
+            "Post Graduation: Masters of Science in Marine Zoology / Medical Microbiology"
+        ],
+        "opp_l": [
+            "Taxonomist",
+            "Wildlife services",
+            "Conservationist",
+            "Museums"
+        ],
+        "opp_r": [
+            "Researcher",
+            "TV presenter",
+            "Laboratories"
+        ],
+        "insti": [
+            {
+                "link": "http://www.bethunecollege.ac.in/",
+                "name": "Bethune University"
+            },
+            {
+                "link": "https://iiaedehradun.org/",
+                "name": "Periyar University"
+            },
+            {
+                "link": "https://b-u.ac.in/",
+                "name": "Bharathiar University"
+            },
+            {
+                "link": "https://www.sjc.ac.in/",
+                "name": "St. Joseph's College (autonomous)"
+            },
+            {
+                "link": "https://www.christuniversity.in/",
+                "name": "Christ College"
+            }
+        ],
+        "pros": [
+            "The job satisfaction in this field is quite high if you are really driven.",
+            "There are a large number of opportunities as well as options in this field.",
+            "This field offers a consistent set of jobs which will be stable throughout."
+        ],
+        "cons": [
+            "In India the pay is not as rewarding unless you push yourself to reach the top.",
+            "If passion for this career is missing then it will not give you a high pay or job satisfaction.",
+            "If an individual is going into this field for a good pay grade, then it will not serve the purpose because the main factor in this field is to contribute to the existing pool of knowledge and also spread awareness."
+        ]
+    },
+    {
+        "careerid": "botany",
+        "title": "Botany",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Are you intrigued by plants? Then you can consider botany as a profession! Botany is the study of plant life, its mechanisms, etc. It is one of the branches of biology as a larger subject. Botany deals with plant life and its interaction with the environment. Furthermore, it studies the fundamental aspects of plants and focuses on understanding plant life mechanisms. It is very important since plants do photosynthesis and produce glucose, which is a simple sugar as well as oxygen.",
+        "p1_2": "Botany is one of the oldest fields of science, having begun as herbalism with early humans' efforts to identify, and later produce edible, medicinal, and toxic plants. Botany in the modern era is a vast, multidisciplinary subject that incorporates elements from various fields of science and technology.",
+        "img1": "../assets/images/blog/blog-details-bot.jpg",
+        "alt1": "EE Image",
+        "desc": "A botanist would majorly be involved in a lot of research work at the highest level. The main aim should be to contribute to our existing knowledge of plant life. Botanists also study the impact of plant life on other living organisms, including the human species and animal life. It also helps in understanding the impact of different kinds of environments on plant life. These studies are important to build our knowledge and understand the impact we create on plant life and vice versa. Botanists also teach at colleges and help when it comes to agricultural growth.",
+        "skills": [
+            "Analytical Skills: An individual would have to be able to analyse the incoming data and new information and make the right inference.",
+            "Learning Skills: You need to be aware of upcoming findings and studies conducted and keep up with the recent developments in this field.",
+            "Research Skills: Naturally one would have to be good at research as well to understand new problems, their potential solutions and inventions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science in Botany.",
+            "Post Graduation: Masters of Science in Botany."
+        ],
+        "opp_l": [
+            "Plant Explorer",
+            "Conservationist",
+            "Ecologist",
+            "Environment Consultant"
+        ],
+        "opp_r": [
+            "Plant Biochemist",
+            "Molecular Biologist",
+            "Academia"
+        ],
+        "insti": [
+            {
+                "link": "https://www.nagarjunauniversity.ac.in/",
+                "name": "Acharya Nagarjuna University"
+            },
+            {
+                "link": "http://www.andc.ac.in/",
+                "name": "Acharya Narendra Deo College of Pharmacy"
+            },
+            {
+                "link": "https://khalsacollege.edu.in/",
+                "name": "Khalsa College"
+            },
+            {
+                "link": "https://abnscollege.org/",
+                "name": "A.B.N. Seal College"
+            },
+            {
+                "link": "https://www.ethames.ac.in/",
+                "name": "EThames Degree College"
+            }
+        ],
+        "pros": [
+            "One of the pros is that a career as a botanist in India is well paid initially as well.",
+            "Job opportunities are vast because studying botany can be used in so many jobs.",
+            "It is a very intriguing field and has various applications."
+        ],
+        "cons": [
+            "You might feel stagnated after a point because you will be working based on one subject you’ve studied the entire time.",
+            "It's not a highly acclaimed career even though there are so many job opportunities.",
+            "It can be very hectic, due to the heavy amount of studying required."
+        ]
+    },
+    {
+        "careerid": "phyhon",
+        "title": "Physics Honours",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Are you intrigued by the various phenomena in the world of physics? If yes, then you should pursue a career in it. Physics is natural science and probably one of the oldest academic disciplines. It focuses on the study of matter, its motion and behaviour through space and time, and the related entities of energy and force. Physics is one of the most basic scientific disciplines, with the aim of understanding how the world works.",
+        "p1_2": "It is concerned with the nature of matter and the relations between the observable universe's fundamental constituents. Physics advances frequently pave the way for new technologies. Advances in electromagnetism, solid-state physics, and nuclear physics, for example, led directly to the development of new products that have dramatically transformed modern-day society, such as television, computers, domestic appliances, and nuclear weapons.",
+        "img1": "../assets/images/blog/blog-details-phy.jpg",
+        "alt1": "EE Image",
+        "desc": "The physicist has to deal with all aspects related to matter and energy. A physicist studies the effects of forces, systems, and processes on the natural world. This job entails conducting extensive research in order to generate reports and technical papers that benefit the industry as a whole, as well as lecturing and educating students about physics laws. As a part of the analysis and evaluation of data, physicists perform complex calculations using computers. Their studies include the motion and properties of physical objects both large and small, the properties of waves, the properties of states of matter and the fundamental properties of matter and energy.",
+        "skills": [
+            "Technical Skills: Being a physicist is an academic field thus, the clear concepts of science and the passion for science is required.",
+            "Problem Solving Skills: Candidates should be able to identify complex problems and review related information to develop and evaluate options and implement solutions.",
+            "Thinking Skills: Professionals need to use logic and reasoning to find solutions and to reach conclusions.",
+            "Reading Skills: Professionals have to deal with a lot of documents so regular reading becomes an efficient skill.",
+            "Mathematics Skills: Physicists perform complex calculations which require clear concepts and interest in mathematics."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science Honours in Physics or Applied Physics.",
+            "Post Graduation: Masters of Science in Physics "
+        ],
+        "opp_l": [
+            "Healthcare",
+            "Research"
+        ],
+        "opp_r": [
+            "Teaching"
+        ],
+        "insti": [
+            {
+                "link": "https://iisc.ac.in/",
+                "name": "Indian Institute of Science"
+            },
+            {
+                "link": "https://www.iiserpune.ac.in/",
+                "name": "Indian Institute of Science Education and Research"
+            },
+            {
+                "link": "https://www.iist.ac.in/",
+                "name": "Indian Institute of Space Science and Technology"
+            },
+            {
+                "link": "https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site",
+                "name": "Banaras Hindu University"
+            }
+        ],
+        "pros": [
+            "There are various job opportunities ranging from the field of industrial sector to educational sector.",
+            "Job satisfaction as professionals usually spend their day figuring out how the universe works.",
+            "There are lots of scholarships available for studying physics."
+        ],
+        "cons": [
+            "It takes a lot of time, experience and knowledge to become a physicist.",
+            "Professionals have to work for long hours which can make their work boring.",
+            "Others may not have the level of understanding of a physicist so it becomes frustrating to explain others."
+        ]
+    },
+    {
+        "careerid": "chemhon",
+        "title": "Chemistry Honours",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Are you fascinated by the subject of chemistry and love to learn about various phenomena? If yes, then you should think of making a career in chemistry. Chemistry is the scientific field that involves elements and compounds composed of atoms, molecules and ions. This field aims to study their composition, structure, properties, behaviour and the changes they undergo during a reaction with other substances.",
+        "p1_2": "Chemistry is everywhere, even our bodies are made up of chemical compounds. Our daily life activities are also a result of chemical reactions like cooking, fermenting milk to form a curd, lighting matches, making ice, etc. Chemistry helps us to understand our surroundings better by providing us with reasons.",
+        "img1": "../assets/images/blog/blog-details-chem.jpg",
+        "alt1": "EE Image",
+        "desc": "Chemists are required to be creative, careful, and productive, furthermore, they need to think about the future. Chemistry is an academic field that requires experts to observe the basic properties of materials, conduct experiments and test their experimental limits. They do this to find the matter’s usage and application to make a product. Their duties involve modelling, analysis, synthesis, research, limited fieldwork, or even sales and information management. They measure proportions and reaction rates to understand unfamiliar substances and how they behave, or to create new compounds for use in a variety of practical applications.",
+        "skills": [
+            "Reading Skills: Professionals have to deal with a lot of documents so regular reading becomes an efficient skill.",
+            "Critical Thinking Skills: Professionals need to use logic and reasoning to find solutions and to reach conclusions.",
+            "Problem Solving Skills: Candidates should be able to identify complex problems and review related information to develop and evaluate options and implement solutions.",
+            "Technical Skills: Being a chemist is an academic field thus, the clear concepts of science and the passion for science is required."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Science Honours in Chemistry or Biochemistry.",
+            "Post Graduation: Masters of Science in Chemistry / Post Graduate Diploma in Chemistry or Biochemistry or Chemical Engineering "
+        ],
+        "opp_l": [
+            "Healthcare",
+            "Academia"
+        ],
+        "opp_r": [
+            "Consultant",
+            "Pharmaceuticals"
+        ],
+        "insti": [
+            {
+                "link": "https://www.du.ac.in/",
+                "name": "University of Delhi"
+            },
+            {
+                "link": "https://www.loyolacollege.edu/",
+                "name": "Loyola College"
+            },
+            {
+                "link": "https://www.christuniversity.in/",
+                "name": "Christ University"
+            },
+            {
+                "link": "https://www.fergusson.edu/",
+                "name": "Fergusson College"
+            },
+            {
+                "link": "https://xaviers.ac/",
+                "name": "St. Xavier's College"
+            }
+        ],
+        "pros": [
+            "Availability of lots of employers makes it a secure job option.",
+            "High pay for experienced professionals.",
+            "Job satisfaction as it is interesting and intellectually stimulating for interested people."
+        ],
+        "cons": [
+            "It is a long and difficult path to become a professional.",
+            "The job is hazardous as professionals deal with lots of harmful chemicals.",
+            "Long and irregular working hours with tight deadlines."
+        ]
+    },
+    {
+        "careerid": "rj",
+        "title": "Video/Radio Jockey",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Do you like chatting and have a lot of energy? Then you should think about being a radio jockey. A radio jockey is an individual who provides entertainment to radio listeners. They broadcast music, deliver news, interact with listeners, run competitions, and interview guests. On commercial music television stations, a video jockey is an announcer who presents and plays videos.",
+        "p1_2": "The only difference between a radio and a video jockey is that a radio jockey does not appear on the screen, while a video jockey does. The field has seen some major changes, since its inception. The main job of an RJ and a VJ is to communicate with the audience. A prospective candidate should have excellent communication skills. They introduce music videos on Television and also give some background information about the music being played. They bridge the gap between the audience and the musician.",
+        "img1": "../assets/images/blog/blog-details-rj.jpg",
+        "alt1": "EE Image",
+        "desc": "Radio jockeys are in high demand in the private sector since the opening of the airwaves. They will collaborate with a variety of top FM stations as well as private radio projects. Video jockey is becoming an exciting career option for the music-obsessed generation, thanks to the availability of various music channels on television. The VJs' main task is to present the majority of the host music-related shows and music videos on television. Producers of music shows, music networks, and film-based programs are the most common employers of video jockeys. The need for these practitioners is growing all the time.",
+        "skills": [
+            "Vocal Skills: This does not mean that the candidate should have a loud harsh voice instead, it means that they should have a soothing and impactful voice.",
+            "Creative Skills: RJs and VJs sometimes have to be spontaneous. Their articulation should be creative enough to impress the listener.",
+            "Communication Skills: The main job of an RJ and a VJ is to communicate with the audience. A prospective candidate should have excellent communication skills."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelors in Journalism / Mass Communication /Bachelor of Arts Honours. (English/Mass Communication) /Diploma or Certification in Radio/Video.",
+            "Post Graduation: Diploma in Radio Jockey."
+        ],
+        "opp_l": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "opp_r": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "https://www.isdi.in/",
+                "name": "Indian School of Design and Innovation"
+            },
+            {
+                "link": "https://www.sirjjschoolofart.in/",
+                "name": "Sir JJ School of Art"
+            },
+            {
+                "link": "http://www.voguefashioninstitute.com/",
+                "name": "Vogue Fashion Institute"
+            },
+            {
+                "link": "https://cept.ac.in/",
+                "name": "Centre for Environmental Planning and Technology"
+            }
+        ],
+        "pros": [
+            "Job satisfaction is immense as one gets to be creative on duty.",
+            "It is a high paying job once the basic cost is covered.",
+            "Diverse job as one gets to experiment."
+        ],
+        "cons": [
+            "Difficult to start a career because of the competition.",
+            "Long working hours as the deadlines are tight.",
+            "Flexibility according to the client needed."
+        ]
+    },
+    {
+        "careerid": "ent",
+        "title": "Entrepreneurship",
+        "cat_dir": "../graduate.html",
+        "cat": "Graduation",
+        "duration": "3 years",
+        "p1_1": "Do you want to do something of your own and be your boss? Then being an entrepreneur is just for you. Entrepreneurship is defined as the capacity and willingness to create, organize, and run a firm, including all of its risks, to make a profit. The most visible form of entrepreneurship is the establishment of new firms. It revolves around designing and pursuing a business idea and often starting a new business. Although there are no educational requirements for being an entrepreneur, a strong educational background allows you to be a better entrepreneur with you already knowing how to run a business.",
+        "p1_2": "It can be defined as the creation or extraction of value. Entrepreneurs serve as managers, overseeing the start-up and growth of a business. Entrepreneurship is the process through which an individual or a group recognizes a business opportunity and obtains and deploys the resources needed to pursue it.",
+        "img1": "../assets/images/blog/blog-details-ent.jpg",
+        "alt1": "EE Image",
+        "desc": "To be a successful entrepreneur, one needs to have an innovative yet sustainable idea for a business and be extremely dedicated to their cause. It needs a lot of persistence, hard work, and time to often succeed. One often has to take risks and take challenging roads to be a successful entrepreneur. Being an entrepreneur entails having a business idea and putting it into action. Once a business idea is conceived, an entrepreneur must carry out several tasks to make it a reality. It involves market research to investigate competitors (if any) and determine the target audience to professional recruitment, financial management, and overall administration.",
+        "skills": [
+            "Creativity Skills: One needs to be creative to give their product an edge over that of their competitors.",
+            "Leadership Skills: As you are effectively the leader of your business, you need to have good leadership skills.",
+            "Hardworking: Running a business is not easy and one needs to be willing in to put the extra dedication to succeed.",
+            "Networking Skills: One needs to have a strong network to get the big push for their product into the markets.",
+            "Persistence: Successful businesses are not established in a day and one needs to be willing to persevere for success."
+        ],
+        "educ": [
+            "School: School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Business Administration / Bachelor of Commerce",
+            "Post Graduation: Masters of Business Administration in Entrepreneurship /Finances "
+        ],
+        "opp_l": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "opp_r": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "https://www.iimb.ac.in/home",
+                "name": "Indian Institute of Management"
+            },
+            {
+                "link": "https://www.isb.edu/en.html",
+                "name": "Indian School of Business"
+            },
+            {
+                "link": "https://xlri.ac.in/",
+                "name": "Xavier School of Management"
+            },
+            {
+                "link": "https://www.spjimr.org/",
+                "name": "S.P. Jain Institute of Management and Research"
+            }
+        ],
+        "pros": [
+            "You get to create something of your own.",
+            "You get to decide your work hours and thus get flexibility.",
+            "You can also decide what field you work in."
+        ],
+        "cons": [
+            "Starting a new business is a risky venture.",
+            "One may have to work much harder to get the big break.",
+            "One has to take a lot of responsibility and it can often be stressful."
+        ]
+    },
+    {
+        "careerid": "civils",
+        "title": "Civil Services",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Do you want to be a part of the governance system and help in the progress of the country? Then a career in Civil Services is just for you. Civil Servants are career bureaucrats hired based on their merits rather than election or appointment. They work under the direction of the government and form the political executive concerned with enforcing the policies of the state. ",
+        "p1_2": "The Union Public Service Commission conducts a countrywide competitive examination in India for recruitment to several Civil Services of the Government of India, including the Indian Administrative Service, Indian Foreign Service, and Indian Police Service. They are hired on the basis of professional merit rather than being appointed or elected, and their institutional tenure often outlasts changes in political leadership.",
+        "img1": "../assets/images/blog/blog-details-cv.jpg",
+        "alt1": "EE Image",
+        "desc": "Civil Servants are primarily involved in governance and formulation of policies of the government. They can also be assigned various administrative or representative tasks depending on the branch of the Service they work in. It is a highly prestigious career and particularly fulfilling for those who want to serve their country. To be a Civil Servant, however, one has to pass the crucial and extremely difficult exams conducted by Union Public Services Commission. The civil service is a word that refers to a government sector that is mostly made up of career civil employees. ",
+        "skills": [
+            "Learning Skills: A Civil Servant has to be hungry for knowledge as they are required to keep up with the various happenings of the world for better governance and formulation of policies.",
+            "Teamwork Skills: Public Departments are run by groups of Civil Servants rather than individual people bearing the load, making the ability to work with others important.",
+            "Analytical Skills: As a Civil Servant, one may often need to analyse complex information and data, making analytical skills very important.",
+            "Management Skills: As a Civil Servant, one has the responsibility to manage a lot of things on limited resources and sometimes in very tight situations, making resourcefulness very important.",
+            "Communication Skills: A Civil Servant must be able to fluently and eloquently put forward their ideas and perspectives."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Any Graduate programme.",
+            "Post Graduation: UPSC Entrance Exams."
+        ],
+        "opp_l": [
+            "Indian Administrative Service.",
+            "Indian Police Service"
+        ],
+        "opp_r": [
+            "Indian Foreign Service",
+            "Indian Postal Services"
+        ],
+        "insti": [
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "One gets to contribute to society fruitfully.",
+            "It is a very secure job with perks going well into post-retirement.",
+            "It is also a highly respectable profession."
+        ],
+        "cons": [
+            "It is a highly stressful job with a lot of pressure on one at all times.",
+            "One may often have to work in remote areas or be transferred.",
+            "It may put undue stress on their personal life."
+        ]
+    },
+    {
+        "careerid": "rails",
+        "title": "Railway Services",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Pursuing a career in Railway Services in India offers a multitude of compelling reasons. Firstly, it provides an opportunity to contribute significantly to the nation's infrastructure development and connectivity, as the Indian Railways is one of the largest and most extensive railway networks in the world. Secondly, it offers job security and stability, along with competitive salaries and benefits. ",
+        "p1_2": "Railway Services also offer a diverse range of job profiles, catering to various skill sets and qualifications, including engineering, management, and technical roles. Moreover, working in the Indian Railways allows individuals to experience the cultural diversity of the country, as it connects people from all corners of India. Lastly, it presents ample opportunities for career advancement and professional growth. Overall, a career in Railway Services in India not only promises a fulfilling job but also plays a crucial role in the nation's development and progress.",
+        "img1": "../assets/images/blog/blog-details-rails.jpg",
+        "alt1": "EE Image",
+        "desc": "A career in Railway Services in India offers diverse opportunities for those with relevant educational qualifications. This field includes technical roles for engineers, management positions, and various other roles in railway operations. It plays a pivotal role in India's infrastructure development, promising job security, benefits, and a clear path for career progression. Pursuing studies for Railway Services typically involves qualifying competitive examinations conducted by UPSC or RRB, depending on the specific role of interest.",
+        "skills": [
+            "Technical Problem Solving Skills : The ability to analyze and solve technical issues related to railway infrastructure, signaling systems, or rolling stock is crucial.",
+            "Decision-Making Skills : Making informed decisions based on data and operational considerations is vital.",
+            "Team Leadership Skills : Many roles require leading teams of railway employees, so leadership skills are valuable.",
+            "Project Management: For engineering and infrastructure development roles, project management skills are crucial for completing projects on time and within budget.",
+            "Communication Skills: In this field, you are responsible for being the bridge between ideas and their implementation, making communication skills very important."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science.",
+            "Graduation: Bachelor's in any Engineering Role.",
+            "Post Graduation: Not mandatory But MBA is considered."
+        ],
+        "opp_l": [
+            "Locomotive Engineer",
+            "Civil Engineer "
+        ],
+        "opp_r": [
+            "Railway Station Master",
+            "Traffic Controller"
+        ],
+        "insti": [
+            {
+                "link": "https://home.iitd.ac.in/",
+                "name": "Indian Institutes of Technology (IITs)"
+            },
+            {
+                "link": "https://nitdgp.ac.in/",
+                "name": "National Institutes of Technology (NITs)"
+            },
+            {
+                "link": "https://www.irimee.in/",
+                "name": "Indian Railways Institute of Mechanical and Electrical Engineering (IRIMEE)"
+            }
+        ],
+        "pros": [
+            "It is a highly respected field.",
+            "Railway Officers serve the nation.",
+            "It is a high paying methods."
+        ],
+        "cons": [
+            "No particular time schedule.",
+            "It can be a stressful job.",
+            "One needs to be under a lot of responsibility at all times."
+        ]
+    },
+    {
+        "careerid": "ces",
+        "title": "Customs And Excise Services",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Have you ever been intrigued by the import and export of goods? Then, customs and excise would be a great field for you! We have all had objects ordered or seen being ordered from outside our country.",
+        "p1_2": "Have you ever wondered how people deal with the customs of these objects? Customs, Goods & Services Tax, Central Excise, Service Tax, and Narcotics are all administered by the Central Board of Indirect Taxes and Customs, which is India's main national agency. Customs is a government entity or agency in charge of collecting customs and controlling the movement of commodities into and out of a country, including animals, transportation, personal effects, and dangerous materials. But once this exam has been cleared, there’s amazing job security, constant salary and amazing privileges.",
+        "img1": "../assets/images/blog/blog-details-ces.jpg",
+        "alt1": "EE Image",
+        "desc": "A Customs Officer is an agent who, on behalf of the government, enforces custom law. Customs Officers have to deal with the prevention of illegal goods such as drugs, tobacco, alcohol. They have to have a hawkeye to prevent smuggling in India. They are placed at International airports or ports so that they can govern the import and export of goods. They work in groups to prevent such fraudulent activities. The path to being a customs officer is very tough. The candidate has to prepare and give an exam (UPSC) for this job. Not only is its course tough, but also there are many phases to it. ",
+        "skills": [
+            "Decision Making Skills: One often has to make difficult decisions regarding what the best step to take is after assessing risks, making decision-making skills important.",
+            "Teamwork Skills: In this profession, one is often working with teams in analysing information and assessing options, making teamwork very important.",
+            "Communication Skills: One needs to be a very good communicator in order to work with teams of such skilful people."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor's in any stream",
+            "Post Graduation: UPSC Entrance Exams."
+        ],
+        "opp_l": [
+            "Inspector Of Customs And Central Excise.",
+            "Preventive Officer",
+            "",
+            "",
+            ""
+        ],
+        "opp_r": [
+            "Examiner Of Indian Customs",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "It is an extremely high-paying job.",
+            "Job security in this field is relatively high.",
+            "This is a very interesting field."
+        ],
+        "cons": [
+            "The way to this career is very arduous.",
+            "The selection procedure is quite tough.",
+            "You have to sacrifice a lot of your life to study for this job."
+        ]
+    },
+    {
+        "careerid": "its",
+        "title": "Income Tax Services",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Do you have an interest in taxes? Then you can make a career in income tax. An income tax is a tax levied on individuals or businesses based on their earnings or profits. In most cases, income tax is calculated as the product of a tax rate and taxable income.",
+        "p1_2": "Tax rates may differ depending on the taxpayer's kind or qualities, as well as the sort of income. Total income less income producing expenses and other deductions is generally taxable income for taxpayers who live in the jurisdiction. In most cases, income only includes the net gain from the sale of property, including things held for sale. Distributions of earnings from a business are normally included in the income of a firm's shareholders. Total income less income producing expenses and other deductions is generally taxable income for taxpayers who live in the jurisdiction. ",
+        "img1": "../assets/images/blog/blog-details-it.jpg",
+        "alt1": "EE Image",
+        "desc": "Work linked to desk job specifics that come with the title of Income Tax Inspector is included in a job in the assessment part. You will be in charge of determining how much income tax persons, businesses, and partnership firms owe. You will also be responsible for refund requests and TDS (Tax Deduction at Source) questions. Inspectors in this non-assessment division may be a part of the raiding team's fast response team. ITIs who are assigned non-assessment tasks are typically limited to clerical work. Their responsibilities are limited to filing formal documentation and accompanying raid teams on occasion.",
+        "skills": [
+            "Mathematical Skills: It is essential as they need to be able to calculate taxes on income and assets.",
+            "Analytical Skills: They need to be able to analyze numerical data.",
+            "Communication Skills: To make the world of finance accessible to clients who may or may not have financial backgrounds, top experts must have all of the same communication skills — both written and spoken."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor In Any Field.",
+            "Post Graduation: SSC CGL / UPSC Exams."
+        ],
+        "opp_l": [
+            "Assessing Department."
+        ],
+        "opp_r": [
+            "Non Assessing Department."
+        ],
+        "insti": [
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            },
+            {
+                "link": "",
+                "name": ""
+            }
+        ],
+        "pros": [
+            "The salary is quite good.  ",
+            "The job comes with many perks, alongside monetary benefits.",
+            "The working hours are fixed."
+        ],
+        "cons": [
+            "The job entails a lot of calculation and numerical work.",
+            "During an economic crisis, your job may be at stake.",
+            "The schedule is exhaustive."
+        ]
+    },
+    {
+        "careerid": "iess",
+        "title": "Indian Economic System",
+        "cat_dir": "../civilservices.html",
+        "cat": "Civil Services",
+        "duration": "2 years",
+        "p1_1": "Want to contribute to the nation's economic development? Then, an alluring career is awaiting you. A service introduced by Prime Minister Jawaharlal Nehru for formulating and implementing economic policies and programs in India is one of the prestigious job opportunities of the Central Civil Services of the executive branch of the Government of India categorized under Group A.",
+        "p1_2": "The Engineering Services Examination is conducted by the Union Public Service Commission to recruit officers for the services which cater to the technical functions of the Government of India. It is a three-stage competitive examination comprising objective, subjective and personality tests. After being selected, they are assigned to the position of Assistant Executive Engineer or Assistant Director.",
+        "img1": "../assets/images/blog/blog-details-iess.jpg",
+        "alt1": "EE Image",
+        "desc": "IES officers' roles can be categorized in terms of economic administration, implementation of various policies of development, working for the sake of economic reforms followed by price fixation, evaluation and monitoring. In addition to purely economic services, these officials make a critical contribution to policy development in social sectors. They would provide ongoing advice to the relevant ministries/ departments on all the policies influencing domestic and external economic management and facilitating reforms in the relevant fields. Roads, railways, manufacturing, defence, construction, telecommunications, and other technical fields are all covered by an IES Officer. ",
+        "skills": [
+            "Analytical Skills: As an Economist your foremost job is to analyse the patterns of activities and review them, making analytical skills very important.",
+            "Critical Thinking Skills: One needs to be able to assess various factors critically and go in deep depths to draw fruitful conclusions, making this skill very important.",
+            "Communication Skills: In this field, you are responsible for being the bridge between ideas and their implementation, making communication skills very important."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor's in any stream",
+            "Post Graduation: UPSC Entrance Exams."
+        ],
+        "opp_l": [
+            "IES Officer.",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "opp_r": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "insti": [
+            {
+                "link": "https://www.loyolacollege.edu/",
+                "name": "Loyola College"
+            },
+            {
+                "link": "https://www.fergusson.edu/",
+                "name": "Fergusson College"
+            },
+            {
+                "link": "http://econdse.org/",
+                "name": "Delhi School Of Economics"
+            },
+            {
+                "link": "https://www.presiuniv.ac.in/web/",
+                "name": "Presidency University"
+            },
+            {
+                "link": "https://www.mirandahouse.ac.in/",
+                "name": "Miranda House"
+            }
+        ],
+        "pros": [
+            "It is a highly respected field.",
+            "IES Officers serve the nation.",
+            "It is a high-paying field."
+        ],
+        "cons": [
+            "You need to keep studying to keep up with the course of changes in the Economic world.",
+            "It can be a stressful job.",
+            "One needs to be under a lot of responsibility at all times."
+        ]
+    },
+    {
+        "careerid": "mascom",
+        "title": "Mass Communication",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "3 years",
+        "p1_1": "The process of imparting and distributing knowledge to wide parts of the public via mass media is known as mass communication. It is the process of developing, sending, receiving, and analyzing vocal and textual messages for big audiences. It's a broad area that covers not just how and why a message is developed, but also how and why it's delivered. Broadcast television, radio, social media, and print are examples of communication channels. The message is usually provided by a professional communicator who frequently represents an organization. Mass communication is multi-disciplinary, incorporating elements of related fields such as strategic communication, health communication, political communication, integrated marketing communications, journalism, and more.",
+        "p1_2": "",
+        "img1": "../assets/images/mediajournalism/masco.jpg",
+        "alt1": "AIML Image",
+        "desc": "The variety of mass media formats and communication methods provides for professional choices that are both creative and flexible. To design, share, and analyze effective messages to broad, targeted audiences, mass communication experts employ their knowledge of rhetorical principles and strategic media methods. Public relations specialists, journalists, broadcast professionals, advertisers, content writers, graphic designers and illustrators, and other media professionals can use these strategies to create and launch calculated communication plans across nearly every industry, from broadcast news to online marketing campaigns.",
+        "skills": [
+            "Hardworking Skills : Mass communication is a very demanding industry which favours only hard-working people. One has to dedicate exceptionally long hours to succeed in this field",
+            "Learning Skills: One has to have proper knowledge and understanding regarding media ethics. One should be aware of the thin line between responsible journalism and invading the privacy of a person.",
+            "Managerial Skills: Progress of a computer engineer is through leading their teams. It is very necessary to have management skills to progress in a career.",
+            "Communication Skills: This skill will help one to get good projects and build a rapport among their clients and colleagues."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Bachelors in Journalism/Bachelors in Mass Communication/BA. Hons. (English/Mass Communication)",
+            "Post Graduation:Masters in Mass Communication/Masters in Journalism"
+        ],
+        "opp_l": [
+            "Journalist",
+            "News Media Director",
+            "Teacher"
+        ],
+        "opp_r": [
+            "Content Specialist & Web Producer",
+            "Marketing Director",
+            "Public Relations Specialist"
+        ],
+        "insti": [
+            {
+                "link": "https://manipal.edu/soc.html",
+                "name": "Manipal School of Communication, Manipal"
+            },
+            {
+                "link": "https://www.christuniversity.in/",
+                "name": "Christ University, Bangalore"
+            },
+            {
+                "link": "https://scmc.edu.in/",
+                "name": "Symbiosis Centre of Media & Communication, Pune"
+            },
+            {
+                "link": "https://www.xaviercomm.org/",
+                "name": "Xavier Institute of Communications, Mumba"
+            }
+        ],
+        "pros": [
+            "One gets to work with well-educated people.",
+            "The scope of this field is very wide.",
+            "One gets recognition, fame and money, as well as opportunity to travel"
+        ],
+        "cons": [
+            "It can be a stressful job with work load and tight deadlines.",
+            "Regular updating of knowledge because of the ever-evolving technology.",
+            "There is a lot of field work involved"
+        ]
+    },
+    {
+        "careerid": "mediaandjournalism.html",
+        "title": "Public Relation ",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "4 years",
+        "p1_1": "Do you want to have the capacity to change/improve the reputation of an organization? If yes, then PR is the right job for you. The art of actively managing the spread of knowledge between a person or an entity and the general public is known as public relations. An organization or person can use public relations to gain attention to their audiences by using topics of public interest and news articles that do not require payment. Most multinational corporations have a public relations department that is in charge of all media relations. The public relations specialist is in charge of community outreach and volunteer services. They establish connections with potential investors. They also appear on a cable television news show to answer difficult questions. A good PR director not only knows which platform to use for what but has the skills to use each platform to its fullest potential.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Public Relation.jpg",
+        "alt1": "AIML Image",
+        "desc": "Performance in public relations necessitates a thorough understanding of each of the client's multiple publics' desires and concerns. The most important weapon in the PR trade is publicity, and the public relations professional must know how to effectively answer such concerns. In certain cases, the primary responsibility of a public relations professional is to write news releases that are sent to specific members of the media. However, limiting the concept of public relations to only publicity would be an underestimation of PR's increasing power and reach.",
+        "skills": [
+            "Communication Skills: A publicist needs to write captivating content for clients, from press releases to magazine articles to blog posts. The text must not only communicate the client’s message compellingly and engagingly, but it must also serve the needs of the publisher",
+            "Social Media Skills PR practitioners must be familiar with all forms of social media currently in use — a list that is constantly changing. A good PR director not only knows which platform to use for what but has the skills to use each platform to its fullest potential.",
+            "Research Skills: Public relations practitioners work with many kinds of clients in a wide variety of fields. To serve each client well, the practitioner must be able to get “up to speed” with the client’s brand, industry, and the market as quickly as possible.",
+            "Time Management Skills Public relations specialists must be able to juggle multiple clients and projects, all of whom expect to be considered important and need their work to be completed as soon as possible. Mastering deadlines and prioritizing tasks are a must"
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Bachelors in Journalism/Bachelors in Mass Communication/BA. Hons. (English/Mass Communication)",
+            "Post Graduation:Masters in Journalism and Mass Communication/Diploma in Mass communication and Journalism"
+        ],
+        "opp_l": [
+            "Media Relations Manager",
+            "Government PR Departments",
+            "Self Employed"
+        ],
+        "opp_r": [
+            "Director",
+            "Marketing Director",
+            "Public Relations Specialist"
+        ],
+        "insti": [
+            {
+                "link": "https://www.bvbdelhi.org/",
+                "name": "Bhartiya Vidya Bhawan, New Delhi"
+            },
+            {
+                "link": "http://iimc.nic.in/",
+                "name": "Indian Institute of Mass Communication, Pune"
+            },
+            {
+                "link": "https://www.newdelhiymca.in/imsit/",
+                "name": "YMCA Institute for Media Studies & Information Technology, New Delhi"
+            },
+            {
+                "link": "https://www.xaviercomm.org/",
+                "name": "Xavier Institute of Communications, Mumbai"
+            }
+        ],
+        "pros": [
+            "Credibility as the position is of responsibility.",
+            "High demand because of the increase in social media.",
+            "Greater readership as the work gets recognised"
+        ],
+        "cons": [
+            "Repetition as it is the same job to be done every day.",
+            "Message distortion as reception of a message is subjective",
+            "Stressful job because of its need to work on perception of people"
+        ]
+    },
+    {
+        "careerid": "writer",
+        "title": "Writer Editor Copywriter",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "4 years",
+        "p1_1": "Do you love writing? If yes, becoming a writer can be a great career path for you! Copywriters, authors, novelists, blog writers, and editors are only a few examples of various styles of writers. Writing professionals work in a variety of fields, including academia, business, journalism, and entertainment. Since the majority of authors are self-employed, it is a special profession. Along with superior writing skills, authors are often required to conduct extensive research while writing, so they must also possess superior research skills. Content has become a vital way for brands to support and endorse their company and goods in today's fast-paced internet era. This necessitates the recruiting of workers with strong writing skills and a broad knowledge base. They can revise or rewrite sections with the assistance of editors, looking for the best arrangement and phrasing.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Editor.jpg",
+        "alt1": "AIML Image",
+        "desc": "Writers and writers create written content for books, magazines, and online publications, such as stories and advertising. Strong research and the use of appropriate sources and citations are required for writers to build their reputation with editors and readers. Writers and writers choose the content they want to use and then communicate it to their readers. They were able to do this with the assistance of editors. Several authors work as freelancers, earning their living by selling their written material to book and magazine publishers, news media, advertising agencies, and film, theatre, and television producers.",
+        "skills": [
+            "Research Skills: Good research is key for good content writing – it adds credibility and, most importantly, value",
+            "SEO Skills : It’s important to know how to craft SEO-friendly titles and descriptions, use keywords effectively and keep up with Google’s latest algorithm changes",
+            "Organizational Skills Turning an assignment late sends a bad message to your customers and often won’t give the editors as much time to prove your article, thus maintaining a deadline is important.",
+            "Writing Skills Articles should be engaging and grammatically correct."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Bachelors in Journalism/Bachelors in Mass Communication/BA. Hons. (English/Mass Communication)",
+            "Post Graduation:Masters in Journalism and Mass Communication"
+        ],
+        "opp_l": [
+            "Journalist",
+            "Freelancer",
+            "Managing Editor",
+            "Copy Editor",
+            "Editor Assistants"
+        ],
+        "opp_r": [
+            "Content Specialist & Web Producer",
+            "Broadcast Journalist",
+            "Investigate Journalist"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iijnm.org/",
+                "name": "Indian Institute of Journalism and New Media, Bangalore"
+            },
+            {
+                "link": "http://www.timesmediastudies.com/",
+                "name": "Times School of Journalism, New Delhi"
+            },
+            {
+                "link": "http://www.du.ac.in/",
+                "name": "University of Delhi, New Delhi"
+            },
+            {
+                "link": "https://www.knc.edu.in/",
+                "name": "University of Delhi, New Delhi"
+            }
+        ],
+        "pros": [
+            "Able to make an impact on readers.",
+            "Job satisfaction is there since it is a creative field.",
+            "There are no age limits."
+        ],
+        "cons": [
+            "Criticism is a major part of the job",
+            "No guaranteed job stability.",
+            "The job offers a low pay."
+        ]
+    },
+    {
+        "careerid": "Broadcasting",
+        "title": "Broadcasting ",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "4 years",
+        "p1_1": "Do you want to learn media and communication? Then, broadcasting may interest you! Broadcasting is the one-to-many distribution of audio or video content to a dispersed audience by any electronic mass communications media, but most commonly one that uses the electromagnetic spectrum. Over-the-air broadcasting is primarily linked with radio and television, while cable has lately begun to distribute both radio and television signals (cable television). The signal can be received by anyone with the necessary receiving technology and equipment (e.g., a radio or television set); the point is that anyone with the appropriate receiving technology and equipment can receive it. Later on, it came to be used to describe the mass dissemination of knowledge via printed materials or the telegraph.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Broadcasting.jpg",
+        "alt1": "AIML Image",
+        "desc": "The majority of personnel in this business work in broadcast stations and studios that are clean and comfortable. Some personnel are involved in show creation and broadcasting, while others are involved in advertising, sales, promotions, and marketing. On electronic newsgathering trucks, broadcast personnel must ensure that the antenna on the mobile device is properly positioned for best transmission quality and to avoid electrocution from power lines. Field service engineers work on outdoor transmitting equipment and may be required to climb poles or antenna towers in a variety of weather conditions",
+        "skills": [
+            "Technical Skills : Technical knowledge enables one to respond effectively to instructions from the production team. They must be familiar with studio equipment and editing techniques to edit the program material.",
+            "Interview Skills : While covering a news story, a broadcast journalist may interview eyewitnesses or experts.",
+            "Reading Skills: This is required to be able to comprehend written sentences and paragraphs, in work-related materials",
+            "Decision-Making Skills Considering the relative costs and benefits of many options to select the best one"
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: BSc. in Broadcasting/BA. in Broadcasting/BA. in Political Science/BA. (Hons) in Journalism",
+            "Post Graduation:MSc. in Broadcasting/MA. in Broadcasting/MA. in Journalism"
+        ],
+        "opp_l": [
+            "Journalists",
+            "Operator",
+            "Meteorologists"
+        ],
+        "opp_r": [
+            "Broadcaster",
+            "Sports Commentator"
+        ],
+        "insti": [
+            {
+                "link": "http://www.sbc.ac.in/",
+                "name": "School of Broadcasting and Communication, Mumbai"
+            },
+            {
+                "link": "http://iimc.nic.in/",
+                "name": "Indian Institute of Mass Communication, Multiple Locations"
+            },
+            {
+                "link": "http://www.du.ac.in/",
+                "name": "Delhi University, New Delhi"
+            },
+            {
+                "link": "https://www.xaviercomm.org/",
+                "name": "Xavier Institute of Communications, Mumbai"
+            }
+        ],
+        "pros": [
+            "Interviewing public figures and spending time with them.",
+            "Professionals challenge themselves every day",
+            "It is a highly respected job."
+        ],
+        "cons": [
+            "Risky jobs as professionals may have to go to dangerous places for reporting.",
+            "Long and hectic work hours",
+            "Affects one’s social and personal life."
+        ]
+    },
+    {
+        "careerid": "journalism",
+        "title": "Journalism",
+        "cat_dir": "../mediaandjournalism.html",
+        "cat": "Media and Journalism",
+        "duration": "4 years",
+        "p1_1": "Are you passionate about reporting the news and happenings? If yes, then journalism is a great career option for you. Journalism is the process of creating and disseminating event reports. Gathering, evaluating, producing, and presenting news and information is what it is all about. Print, television, radio, the Internet, and, in the past, newsreels are examples of journalistic media. It is unique because it is a one-way message, or story, from the journalist to the audience. It is most unique because the message isn't the journalist's personal story or subjective thoughts. The story comes first, and journalists do whatever it takes to make it accurate and thought-provoking. News organizations face a difficult task in properly monetizing their digital arm while also improvising on the context in which they publish in print",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Journalism.jpg",
+        "alt1": "AIML Image",
+        "desc": "Journalism helps to explain the events that impact our lives and is developed in several forms and styles. Each journalistic form and style uses different techniques and writes for different purposes and audiences. Beyond fact-checking, interviews, proofreads and contacts, a journalist is expected to be on the edge of their culture. No two days for a journalist are ever the same. Finding the best material for a story could mean attending a press conference, holding an interview over the phone, trawling through professional contacts, or hammering out paragraphs.",
+        "skills": [
+            "Creativity Skills: Journalists have to come up with their new content, generating ideas and the means of realising them",
+            "Adaptability Skills: Professional life of a journalist is unpredictable. They should be able to adjust to new projects and work environments.",
+            "Communication Skills: It is a necessary skill as a journalist to interview various people regularly to get information for their story.",
+            "Social Skills: Without social skills, a journalist cannot get far in their career as on a day to day basis they have to meet people because it is their story that they publish."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Bachelors in Journalism/Bachelors in Mass Communication/BA. Hons. (English/Mass Communication)",
+            "Post Graduation:Bachelors/Diploma in Journalism/Mass Communication"
+        ],
+        "opp_l": [
+            "Journalist",
+            "Foreign Correspondent",
+            "Newspaper Reporter",
+            "Freelance Writer",
+            "Broadcast Journalist"
+        ],
+        "opp_r": [
+            "Content Specialist & Web Producer",
+            "Broadcast Journalist",
+            "Investigate Journalist"
+        ],
+        "insti": [
+            {
+                "link": "https://lsr.edu.in/",
+                "name": "Lady Shri Ram College, New Delhi"
+            },
+            {
+                "link": "http://dcac.du.ac.in/",
+                "name": "Delhi College of Arts & Commerce, New Delhi"
+            },
+            {
+                "link": "https://www.christuniversity.in/",
+                "name": "Christ University, Bangalore"
+            },
+            {
+                "link": "https://www.knc.edu.in/",
+                "name": "Kamala Nehru College, New Delhi"
+            }
+        ],
+        "pros": [
+            "Interviewing public figures and spending time with them.",
+            "Professionals challenge themselves every day.",
+            "Highly respected job"
+        ],
+        "cons": [
+            "Risky jobs as professionals may have to go to dangerous places for reporting.",
+            "Long and hectic work hours.",
+            "Affects one’s social and personal life."
+        ]
+    }
+        
+
+
+
+]}

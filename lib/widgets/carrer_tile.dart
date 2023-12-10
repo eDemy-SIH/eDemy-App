@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sih_app/pages/career_details.dart';
 
 
 
@@ -6,8 +7,9 @@ class CareerTile extends StatelessWidget {
   final String title;
   final String subtitle;
   final String imageUrl;
+  final String id;
 
-  CareerTile({required this.title, required this.subtitle, required this.imageUrl});
+  CareerTile({required this.title, required this.subtitle, required this.imageUrl,required this.id});
 
   @override
   Widget build(BuildContext context) {
@@ -46,8 +48,13 @@ class CareerTile extends StatelessWidget {
               child: Text(subtitle,style: TextStyle(fontSize: 12),),
             ),
             onTap: () {
-              // Add any action you want to perform when the tile is tapped
-              print('Tapped on $title');
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => CareerPage(careerId: id),
+                ),
+              );
+              
             },
           ),
         ),

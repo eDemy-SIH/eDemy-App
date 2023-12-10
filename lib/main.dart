@@ -13,6 +13,7 @@ import 'package:sih_app/category%20pages/marketing.dart';
 import 'package:sih_app/category%20pages/medicine.dart';
 import 'package:sih_app/firebase_options.dart';
 import 'package:sih_app/pages/aichat.dart';
+import 'package:sih_app/pages/career_details.dart';
 import 'package:sih_app/pages/career_list.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/education_info.dart';
@@ -84,6 +85,7 @@ class _MyAppState extends State<MyApp> {
         Myroutes.educationInfoRoute: (context) => EducationInfo(),
         Myroutes.hobbyRoute: (context) => Hobbies(),
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
+        Myroutes.careerDetailsRoute: (context) => CareerPage(careerId: 'doctor'),
 
         Myroutes.engineerListRote: (context) => EngineeringListPage(),
         Myroutes.aviationListRote: (context) => AviationListPage(),
@@ -93,7 +95,6 @@ class _MyAppState extends State<MyApp> {
         Myroutes.graduateListRote: (context) => GraduateListPage(),        
         Myroutes.graphicsListRote: (context) => GraphicsListPage(),
         Myroutes.humanitiesListRote: (context) => HumanitiesListPage(),
-
         Myroutes.journalismListRote: (context) => JournalismListPage(),
         Myroutes.managementListRote: (context) => ManagemensListPage(),
         Myroutes.marketingListRote: (context) => MarketingListPage(),
