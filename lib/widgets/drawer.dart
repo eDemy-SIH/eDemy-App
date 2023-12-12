@@ -20,10 +20,17 @@ class AppDrawer extends StatefulWidget {
   State<AppDrawer> createState() => _AppDrawerState();
 }
 
+
+
+
 class _AppDrawerState extends State<AppDrawer> {
 
   final startbox = Hive.box("Start_db");
   StartPointer db = StartPointer();
+
+  final infobox = Hive.box("BasicInfo-db");
+  //list of to do tasks
+  BasicDB sdb = BasicDB();
 
   String userName = "";
   String userimg = "";
@@ -31,6 +38,7 @@ class _AppDrawerState extends State<AppDrawer> {
   int count = 0;
 
   bool testake=false;
+
 
   @override
   void initState() {
@@ -42,7 +50,19 @@ class _AppDrawerState extends State<AppDrawer> {
       db.loadTheme();
       testake=db.startHome;
     }
-    
+
+    if (infobox.get("NAMEDB") == null) {
+      sdb.createInitialInfo();
+      userName=sdb.userName;
+      
+    }
+    //already exist data
+    else {
+      sdb.loadDataInfo();
+      userName=sdb.userName;
+      
+    }
+    // sdb.updateDbInfo();
     // TODO: implement initState
     super.initState();
   }
@@ -78,7 +98,7 @@ class _AppDrawerState extends State<AppDrawer> {
               ),
             
               title: Text(
-                "Priyanshu Dutta",style: 
+                userName,style: 
                 TextStyle(color: Color.fromARGB(255, 0, 68, 51),fontSize: 22),
               ),
             ),
@@ -147,6 +167,24 @@ class _AppDrawerState extends State<AppDrawer> {
               ),
               title: Text(
                 "Chat with Counselor",
+                style:
+                    TextStyle( fontSize: 18),
+              ),
+              
+            ),
+
+            ListTile(
+              onTap: () async {
+                Navigator.pushNamed(context, '/report');
+              },
+              //5th Title
+              leading: Icon(
+                Icons.edit_document,
+                color: context.cardColor,
+                
+              ),
+              title: Text(
+                "View Report",
                 style:
                     TextStyle( fontSize: 18),
               ),

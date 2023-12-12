@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // Add this import for rootBundle
 import 'dart:convert';
 
+import 'package:velocity_x/velocity_x.dart';
+
 class CareerData {
   final String careerId;
   final String img1;
@@ -99,41 +101,87 @@ class _CareerPageState extends State<CareerPage> {
     futureCareerData = CareerDataProvider.getCareerData(widget.careerId);
   }
 
-  @override
+    @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Career Page'),
-      ),
-      body: Center(
-        child: FutureBuilder<CareerData>(
-          future: futureCareerData,
-          builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return CircularProgressIndicator();
-            } else if (snapshot.hasError) {
-              return Text('Error: ${snapshot.error}');
-            } else if (!snapshot.hasData) {
-              return Text('No data found');
-            } else {
-              CareerData careerData = snapshot.data!;
-              return Column(
+    return FutureBuilder<CareerData>(
+      future: futureCareerData,
+      builder: (context, snapshot) {
+        CareerData careerData = snapshot.data!;
+        return Scaffold(  
+        appBar: AppBar(
+          title: Text(careerData.title,style: TextStyle(color: context.cardColor),),
+        ),
+
+        body: SingleChildScrollView(
+          child: Center(
+                    
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+              child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    careerData.title,
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  SizedBox(height: 16),
+                  Text(careerData.duration),
+                  Text(careerData.p1_1),
+                  Text(careerData.p1_2),
+                  Text(careerData.desc),
+                  SizedBox(height: 16),
+                  Text('Skills:'),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: careerData.skills.map((skill) => Text("- $skill")).toList(),
+                  ),
+                  SizedBox(height: 16),
+                  Text('Education:'),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: careerData.educ.map((edu) => Text("- $edu")).toList(),
                   ),
                   SizedBox(height: 16),
                   // Display other information as needed
-                  Text(careerData.desc),
-                  // ... Add more widgets to display other information
+                  Text('Opportunities on the Left:'),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: careerData.oppL.map((opp) => Text("- $opp")).toList(),
+                  ),
+                  SizedBox(height: 16),
+                  Text('Opportunities on the Right:'),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: careerData.oppR.map((opp) => Text("- $opp")).toList(),
+                  ),
+                  SizedBox(height: 16),
+                  Text('Institutes:'),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: careerData.insti.map((institute) =>
+                        Text("- ${institute['name']} (${institute['link']})")).toList(),
+                  ),
+                  SizedBox(height: 16),
+                  Text('Pros:'),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: careerData.pros.map((pro) => Text("- $pro")).toList(),
+                  ),
+                  SizedBox(height: 16),
+                  Text('Cons:'),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: careerData.cons.map((con) => Text("- $con")).toList(),
+                  ),
                 ],
-              );
-            }
-          },
-        ),
-      ),
+              ),
+            )
+                
+              
+            ),
+          ),
+        );
+      
+        
+      }
+      
     );
   }
 }

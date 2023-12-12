@@ -14,7 +14,6 @@ import 'package:sih_app/category%20pages/medicine.dart';
 import 'package:sih_app/firebase_options.dart';
 import 'package:sih_app/pages/aichat.dart';
 import 'package:sih_app/pages/career_details.dart';
-import 'package:sih_app/pages/career_list.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/education_info.dart';
 import 'package:sih_app/pages/character.dart';
@@ -23,6 +22,7 @@ import 'package:sih_app/pages/student_info.dart';
 import 'package:sih_app/pages/get_started.dart';
 import 'package:sih_app/pages/home.dart';
 import 'package:sih_app/pages/hobbies.dart';
+import 'package:sih_app/pages/user_report.dart';
 import 'package:sih_app/utils/authenticate.dart';
 import 'package:sih_app/utils/chat-authenticate.dart';
 import 'package:sih_app/utils/routes.dart';
@@ -31,12 +31,14 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:http/http.dart';
 
 void main() async{
 
   await Hive.initFlutter();
   await Hive.openBox("Start_db");
   await Hive.openBox("Aptitude_db");
+  await Hive.openBox("BasicInfo-db");
 
 
     WidgetsFlutterBinding.ensureInitialized();
@@ -82,10 +84,12 @@ class _MyAppState extends State<MyApp> {
         Myroutes.getStartedRoute: (context) => GetStarted(),
         Myroutes.homeRoute: (context) => HomePage(),
         Myroutes.basicInfoRoute: (context) => StudentInfo(),
-        Myroutes.educationInfoRoute: (context) => EducationInfo(),
-        Myroutes.hobbyRoute: (context) => Hobbies(),
+        // Myroutes.educationInfoRoute: (context) => EducationInfo(),
+        // Myroutes.hobbyRoute: (context) => Hobbies(),
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
         Myroutes.careerDetailsRoute: (context) => CareerPage(careerId: 'doctor'),
+         Myroutes.reportRoute: (context) => UserReport(),
+
 
         Myroutes.engineerListRote: (context) => EngineeringListPage(),
         Myroutes.aviationListRote: (context) => AviationListPage(),

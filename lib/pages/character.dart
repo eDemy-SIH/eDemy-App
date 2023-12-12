@@ -23,23 +23,44 @@ class _AptitudeTestState extends State<AptitudeTest> {
   int score=0;
   int counter=0;
 
+  List<int> ria = [];
+
   final aptitudebox = Hive.box("Aptitude_db");
   AptitudeDB db = AptitudeDB();
 
-  // @override
-  // void initState() {
-  //   db.createScore();
-  //   score = db.score;
-  //   // TODO: implement initState
-  //   super.initState();
-  // }
+  final startbox = Hive.box("Start_db");
+  StartPointer sdb = StartPointer();
 
 
-  void goHome(){
+  bool testake=false;
+
+  @override
+  void initState() {
+    if (startbox.get("START") == null) {
+      sdb.createTheme();
+      testake = sdb.startHome;
+    }
+    else{
+      sdb.loadTheme();
+      testake=sdb.startHome;
+    }
+
+    
+    super.initState();
+  }
+
+
+  _goHome(){
+    setState(() {
+      sdb.startHome = !sdb.startHome;
+    });
     setState(() {
       db.score = score;
+      db.riasec=ria;
     });
     db.updateScore();
+    db.updateArray();
+    sdb.updateTheme();
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
         builder: (_) => HomePage(
@@ -55,6 +76,10 @@ class _AptitudeTestState extends State<AptitudeTest> {
     final question=questions[questionIndex];
     if(selectedAnswerIndex==question.correctAnswerIndex){
       score+=1;
+      ria.add(1);
+    }
+    else{
+      ria.add(0);
     }
     setState(() {});
   }
@@ -88,7 +113,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                 Padding(
                   padding: EdgeInsets.only(top: 40,left: 20,right: 20),
                   child: 
-                  counter==3? null: 
+                  counter==20? null: 
                   Text(
                     question.question,
                     style:  TextStyle(fontSize: 20, fontFamily: 'FontMain'),            
@@ -100,8 +125,8 @@ class _AptitudeTestState extends State<AptitudeTest> {
                   padding: EdgeInsets.only(top: 30,left: 20,right: 20),
 
                   child:  
-                  counter==3? 
-                  MotivateForTest(question: 'You are doing Great', ):
+                  counter==20? 
+                  MotivateForTest(question: 'You Are Doing Great ! Just A Few More Questions !', ):
               
                   ListView.builder(
                     shrinkWrap: true,
@@ -131,7 +156,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                         child: GestureDetector(
                           onTap: () => {
                             selectedAnswerIndex!=null ? 
-                            goHome(): null
+                            _goHome(): null
                             },
                           child: NextButton(text: "Submit")
                         ),
@@ -147,7 +172,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                           onTap: () => {
                               
                             selectedAnswerIndex!=null ? goNext() : 
-                            counter==3? goNext(): 
+                            counter==20? goNext(): 
                             null
                             },
                           child: NextButton(text: "Next")

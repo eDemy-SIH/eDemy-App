@@ -1,3 +1,6 @@
+import 'package:hive/hive.dart';
+import 'package:sih_app/db/db.dart';
+import 'package:sih_app/utils/routes.dart';
 import 'package:sih_app/widgets/next_buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -20,11 +23,90 @@ class _StudentInfoState extends State<StudentInfo> {
   //Mobile controller
   TextEditingController mobilecontroller = TextEditingController();
   //Date controler
-  TextEditingController _date = TextEditingController();
-  //gender
-  String gender = "";
-  List<String> genderList = ["Select Gender", "Male", "Female", "Other"];
-  String? selectedGender = "Select Gender";
+  TextEditingController agecontroller = TextEditingController();
+  //City controler
+  TextEditingController citycontroller = TextEditingController();
+  //state
+  String state = "";
+  List<String> stateList = [
+    "Select State", 
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal",
+    "Andaman and Nicobar Islands",
+    "Chandigarh",
+    "Dadra and Nagar Haveli",
+    "Daman and Diu"
+    "Lakshadweep",
+    "Delhi",
+    "Puducherry"
+  ];
+  String? selectedState = "Select State";
+
+  final infobox = Hive.box("BasicInfo-db");
+  //list of to do tasks
+  BasicDB db = BasicDB();
+
+  @override
+  void initState() {
+    //first time app? default data
+    if (infobox.get("NAMEDB") == null) {
+      db.createInitialInfo();
+    }
+    //already exist data
+    else {
+      db.loadDataInfo();
+    }
+    super.initState();
+    
+  }
+
+
+
+  _saveForm() {
+    setState(() {
+      db.userName = usercontroller.text;
+      db.userAge = agecontroller.text;
+      db.userCity = citycontroller.text;
+      db.userPhn = mobilecontroller.text;
+      db.userMail=emailcontroller.text;
+      db.userState=state;
+    });
+    if (formKey.currentState!.validate()) {
+      Future.delayed(Duration(seconds: 1));
+      Navigator.pushNamed(context, Myroutes.aptitudeRoute);
+    }
+    usercontroller.clear();
+    // weightcontroller.clear();
+    // heightcontroller.clear();
+    // db.updateDb();
+    db.updateDbInfo();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -105,7 +187,7 @@ class _StudentInfoState extends State<StudentInfo> {
                             return null;
                           },
                         ),
-                        SizedBox(height: 20),
+                        const SizedBox(height: 20),
                         TextFormField(
                           //Email
                           controller: emailcontroller,
@@ -137,7 +219,7 @@ class _StudentInfoState extends State<StudentInfo> {
                             return null;
                           },
                         ),
-                        SizedBox(height: 20),
+                        const SizedBox(height: 20),
                         TextFormField(
                           //Mobile
                           controller: mobilecontroller,
@@ -169,10 +251,10 @@ class _StudentInfoState extends State<StudentInfo> {
                             return null;
                           },
                         ),
-                        SizedBox(height: 20),
+                        const SizedBox(height: 20),
                         TextFormField(
                           //date of birth
-                          controller: _date,
+                          controller: agecontroller,
                           decoration: InputDecoration(
                             labelText: "Year of birth",
                             labelStyle: TextStyle(
@@ -202,14 +284,13 @@ class _StudentInfoState extends State<StudentInfo> {
                             return null;
                           },
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 20,
                         ),
                         DropdownButtonFormField(
-                          //Gender
-                        // controller:_gender,
-                          value: selectedGender,
-                          items: genderList
+                          //state
+                          value: selectedState,
+                          items: stateList
                               .map((selectedGender) => DropdownMenuItem(
                                     value: selectedGender,
                                     child: Text(selectedGender),
@@ -217,10 +298,19 @@ class _StudentInfoState extends State<StudentInfo> {
                               .toList(),
                           onChanged: (newValue) {
                             setState((){
-                              selectedGender = newValue;
-                              gender=newValue!;
+                              selectedState = newValue;
+                              state=newValue!;
                               });
                           },
+                          style: selectedState=="Select State"?
+                           TextStyle(
+                              color: context.primaryColor,
+                              fontSize: 18
+                            ):
+                            TextStyle(
+                              color: Colors.black,
+                              fontSize: 16
+                            ) ,
                           decoration: InputDecoration(
                             labelStyle: TextStyle(
                               color: context.primaryColor,
@@ -228,7 +318,7 @@ class _StudentInfoState extends State<StudentInfo> {
                             ),
                             filled: true,
                             fillColor: Colors.white,
-                            prefixIcon: Icon(Icons.female),
+                            prefixIcon: Icon(Icons.landscape),
                             enabledBorder: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10.0),
                               borderSide: BorderSide.none,
@@ -241,12 +331,48 @@ class _StudentInfoState extends State<StudentInfo> {
                           ),
                           validator: (value) {
                             //gender=value!;
-                            if (value == "Select Gender") {
+                            if (value == "Select State") {
                               return "This Field Required *";
                             }
                             return null;
                           },
                         ),
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        TextFormField(
+                          //citycontroller or district
+                          controller: citycontroller,
+                          decoration: InputDecoration(
+                            labelText: "City/District",
+                            labelStyle: TextStyle(
+                              color: context.primaryColor,
+                              fontSize: 18,
+                            ),
+                            filled: true,
+                            fillColor: Colors.white,
+                            prefixIcon: Icon(Icons.location_city),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10.0),
+                              borderSide: BorderSide.none,
+                            ),
+                            focusedBorder: OutlineInputBorder(
+                              borderSide:
+                                  BorderSide(color: context.primaryColor, width: 3.0),
+                              borderRadius: BorderRadius.circular(10.0),
+                            ),
+                          ),
+                          keyboardType: TextInputType.text,                     
+                          onTap: () async {                         
+                          },                     
+                          validator: (value) {
+                            if (value == null || value.isEmpty) {
+                              return "This Field Required *";
+                            }
+                            return null;
+                          },
+                        ),
+
        
                       ],
                     ).px8(),
@@ -261,7 +387,7 @@ class _StudentInfoState extends State<StudentInfo> {
                     padding: const EdgeInsets.only(bottom: 20),
                     child: GestureDetector(
                       onTap: () => {
-                        Navigator.pushNamed(context, '/educationInfo')
+                        _saveForm()
                       },
                       child: NextButton(text: "Next")
                     ),

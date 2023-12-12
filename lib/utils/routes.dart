@@ -2,12 +2,14 @@ class Myroutes{
   static String homeRoute = "/home";
   static String getStartedRoute = "/getStarted";
   static String basicInfoRoute = "/basicInfo";
-  static String educationInfoRoute = "/educationInfo";
-  static String hobbyRoute = "/hobbyRoute";
+  // static String educationInfoRoute = "/educationInfo";
+  // static String hobbyRoute = "/hobbyRoute";
   static String airCarbonRoute = "/airCarbon";
   static String authRoute = "/auth";
   static String discoverRoute = "/discover";
   static String careerDetailsRoute = "/careerDetails";
+  static String aptitudeRoute = "/aptitude";
+  static String reportRoute = "/report";
 
   // category pages
   static String engineerListRote = "/engineer";
@@ -25,7 +27,7 @@ class Myroutes{
 
 
 
-  static String aptitudeRoute = "/aptitude";
+  
   static String aichatRoute = "/aichat";
   static String loginRoute = "/login";
   static String registerRoute = "/register";
