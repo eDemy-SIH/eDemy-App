@@ -125,21 +125,6 @@ class _AppDrawerState extends State<AppDrawer> {
             ),
             ListTile(
               onTap: () async {
-              },
-              //5th Title
-              leading: Icon(
-                CupertinoIcons.gear,
-                color: context.cardColor,
-                
-              ),
-              title: Text(
-                "Settings",
-                style:
-                    TextStyle( fontSize: 18),
-              ),
-            ),
-            ListTile(
-              onTap: () async {
                 Navigator.pushNamed(context, '/aichat');
               },
               //5th Title
@@ -185,6 +170,24 @@ class _AppDrawerState extends State<AppDrawer> {
               ),
               title: Text(
                 "View Report",
+                style:
+                    TextStyle( fontSize: 18),
+              ),
+            ),
+
+
+            ListTile(
+              onTap: () async {
+                // Navigator.pushNamed(context, '/report');
+              },
+              //5th Title
+              leading: Icon(
+                Icons.web,
+                color: context.cardColor,
+                
+              ),
+              title: Text(
+                "Visit Our Website",
                 style:
                     TextStyle( fontSize: 18),
               ),

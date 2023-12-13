@@ -60,27 +60,7 @@ class _HomePageState extends State<HomePage> {
     _getPrediction();
   }
 
-  Future<void> _sendDataToServer() async {
-    final String apiUrl = 'http://192.168.0.107:8080'; // Update with your server details
-    final Map<String, dynamic> data = {'numbers': array};
-
-    final response = await http.post(
-      Uri.parse(apiUrl),
-      headers: <String, String>{
-        'Content-Type': 'application/json; charset=UTF-8',
-      },
-      body: jsonEncode(data),
-    );
-
-    if (response.statusCode == 200) {
-      final Map<String, dynamic> responseData = jsonDecode(response.body);
-      print('Server response: ${responseData['prediction']}');
-      // Handle the response as needed
-    } else {
-      print('Failed to send data. Status code: ${response.statusCode}');
-    }
-  }
-
+ 
   final colorList = <Color>[
     Colors.greenAccent,
   ];
@@ -139,106 +119,130 @@ class _HomePageState extends State<HomePage> {
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
       
-                GestureDetector(
-                   onTap: () {
-                    _getPrediction();
-                   },
-                  child: Center(
-                    child: Text(
-                      "Your Aptitude Score",
-                      style:TextStyle(
-                        fontSize: 18, 
-                        fontFamily: 'FontMain'
-                      ) 
+              //   GestureDetector(
+              //      onTap: () {
+              //       _getPrediction();
+              //      },
+              //     child: Center(
+              //       child: Text(
+              //         "Your Aptitude Score",
+              //         style:TextStyle(
+              //           fontSize: 18, 
+              //           fontFamily: 'FontMain'
+              //         ) 
                       
-                    )
-                  ),
-                ),
+              //       )
+              //     ),
+              //   ),
 
-                SizedBox(height: 20,),
+              //   SizedBox(height: 20,),
 
-                PieChart(
-                  chartRadius: 180,
-                  centerText:  "$score/$total",
-                  initialAngleInDegree: 270,
-                  centerTextStyle: TextStyle(
-                    fontSize: 28,
-                    color: Colors.black
-                  ),
-                  dataMap: dataMap,
-                  chartType: ChartType.ring,
-                  baseChartColor: Color.fromARGB(255, 54, 61, 50).withOpacity(0.15),
-                  colorList: colorList,
-                  legendOptions: LegendOptions(
-                    showLegends: false
-                  ),
+              //   PieChart(
+              //     chartRadius: 180,
+              //     centerText:  "$score/$total",
+              //     initialAngleInDegree: 270,
+              //     centerTextStyle: TextStyle(
+              //       fontSize: 28,
+              //       color: Colors.black
+              //     ),
+              //     dataMap: dataMap,
+              //     chartType: ChartType.ring,
+              //     baseChartColor: Color.fromARGB(255, 54, 61, 50).withOpacity(0.15),
+              //     colorList: colorList,
+              //     legendOptions: LegendOptions(
+              //       showLegends: false
+              //     ),
               
-                  chartValuesOptions:  ChartValuesOptions(
-                    showChartValuesInPercentage: true,
-                    chartValueStyle: TextStyle(
-                      fontSize: 10,
-                      color: Colors.black
-                    ),
-                    chartValueBackgroundColor: context.canvasColor
-                  ),
-                  totalValue: total.toDouble(),
+              //     chartValuesOptions:  ChartValuesOptions(
+              //       showChartValuesInPercentage: true,
+              //       chartValueStyle: TextStyle(
+              //         fontSize: 10,
+              //         color: Colors.black
+              //       ),
+              //       chartValueBackgroundColor: context.canvasColor
+              //     ),
+              //     totalValue: total.toDouble(),
+              // ),
+
+
+              //  SizedBox(height: 20,),
+              SizedBox(height: 10,),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal:10.0), 
+                child: Text(      
+                  "eDemy",
+                  style:
+                  TextStyle(
+                    fontSize: 36,color:context.cardColor, 
+                    fontFamily: 'FontMain',fontWeight: 
+                    FontWeight.bold,
+                    shadows: [
+                      Shadow(
+                        color: Color.fromARGB(98, 0, 0, 0),      // Choose the color of the shadow
+                        blurRadius: 2.0,          // Adjust the blur radius for the shadow effect
+                        offset: Offset(2.0, 2.0), // Set the horizontal and vertical offset for the shadow
+                      ),
+                    ],
+                    ), 
+                               
+                ),         
               ),
 
+              SizedBox(height: 10,),
 
-               SizedBox(height: 20,),
-
-
-             
-              Center(
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal:10.0), 
                 child: Text(      
-                  "Based on the character assessment score and inputs provided here are some careers recomended for you: $_prediction",
+                  "Based on the character assessment test here are some careers recomended for you: $_prediction",
                   style:
-                  TextStyle(fontSize: 14,color: Colors.grey[700], fontFamily: 'FontMain'),
-                  textAlign: TextAlign.center,
-                ),
+                  TextStyle(fontSize: 14,color: Colors.grey[700], fontFamily: 'FontMain'),               
+                ),         
               ),
             
-                SizedBox(height: 20,),
+              SizedBox(height: 20,),
 
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
-                  
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        SingleChildScrollView(
-                          scrollDirection: Axis.horizontal,
-                          child: Row(
-                            
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              CareerCard(text: "Software Engineer",col_index: 0,imagePath: "assets/images/graphics-designer-real-min.jpg",),
-                              SizedBox(width: 25,),
-                              CareerCard(text: "Mechanical Engineer",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
-                              SizedBox(width: 25,),
-                              CareerCard(text: "Civil Engineer",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
-                            ],
-                          ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      SingleChildScrollView(
+                        
+                        child: Column(
+                          
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            CareerCard(text: "Software Engineer",col_index: 0,imagePath: "assets/images/graphics-designer-real-min.jpg",),
+                            SizedBox(height: 25,),
+                            CareerCard(text: "Mechanical Engineer",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
+                            SizedBox(height: 25,),
+                            CareerCard(text: "Civil Engineer",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
+                          ],
                         ),
-                      ],
-                    ),     
-                ),
+                      ),
+                    ],
+                  ),     
+              ),
 
-                SizedBox(height: 10,),
+              SizedBox(height: 30,),
 
-                GestureDetector(
-                  onTap: () => {
-                        Navigator.pushNamed(context, '/discover')
-                    },
-                  child: Padding(
-                    padding: const EdgeInsets.only(left: 20, right: 20, top: 20,bottom: 10),
+              GestureDetector(
+                onTap: () => {
+                      Navigator.pushNamed(context, '/discover')
+                  },
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 10, right: 10, top: 20,bottom: 10),
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
                     child: Container(
                       height: 75,
                       width: double.infinity,
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(5),
+                        borderRadius: BorderRadius.circular(15),
                         color: context.cardColor
                       ),
                       child: const Row(
@@ -276,6 +280,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+              ),
 
                 
           

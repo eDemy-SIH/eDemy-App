@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sih_app/pages/career_details.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 // ignore: must_be_immutable
@@ -16,56 +17,69 @@ class CareerCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(left: 12,right: 12,top: 12),
-      height: 270,
-      width: 200,
+      padding: EdgeInsets.only(left: 20,right: 20,top: 20,bottom: 20),
+
       decoration: BoxDecoration(
-        color: Color.fromRGBO(215, 243, 242, 1),
-        borderRadius: BorderRadius.circular(12)
+        color: context.theme.splashColor,
+        borderRadius: BorderRadius.circular(20)
       ),
       
         
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             ClipRRect(
               
-              borderRadius: BorderRadius.circular(12),
+              borderRadius: BorderRadius.circular(20),
               child: Image.asset(
                 fit: BoxFit.fill,
                 imagePath,
-                width: 200,
-                height: 150,
+                width: 90,
+                height: 90,
                 color: Color.fromARGB(59, 68, 60, 60),
                 colorBlendMode: BlendMode.darken,
               ),
             ),
             
-            SizedBox(height: 20,),
-            Center(
-              child: Text(
-                text,
-                style: TextStyle(fontSize: 16, fontFamily: 'FontMain'),
-              ),
+            SizedBox(width: 40,),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+                children: [    
+                  Text(
+                    text,
+                    style: TextStyle(fontSize: 16, fontFamily: 'FontMain'),
+                  ),                 
+                  SizedBox(height: 20,),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => CareerPage(careerId: 'cse'),
+                        ),
+                      );
+                    },
+                    child: Container(
+                      height: 35,
+                      width: 120,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(6),
+                        color: context.cardColor
+                      ),
+                      child: Center(
+                        child: Text(
+                          "View More",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 14
+                          ),
+                        ),
+                      ),                     
+                    ),
+                  )
+                ],
             ),
-            SizedBox(height: 20,),
-            Container(
-              height: 35,
-              width: 200,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(3),
-                color: context.cardColor
-              ),
-              child: Center(
-                child: Text(
-                  "View More",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 14
-                  ),
-                ),
-              ),
-          )
+           
 
           ],
         ),

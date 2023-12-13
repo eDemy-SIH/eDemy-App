@@ -65,7 +65,7 @@ class _UserReportState extends State<UserReport> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-
+      backgroundColor: context.canvasColor,
       appBar: AppBar(
           
         ),
