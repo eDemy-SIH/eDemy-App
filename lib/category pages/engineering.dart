@@ -9,13 +9,13 @@ class EngineeringListPage extends StatelessWidget {
       CareerTile(
         title: 'Computer Science and Engineering',
         subtitle: 'Qualification : Bachelor of Technology',
-        imageUrl: 'https://placekitten.com/80/80',
+        imageUrl: 'https://i.postimg.cc/c45CcGbn/lawyer.jpg',
         id: 'cse',
       ),
       CareerTile(
         title: 'Artificial Intelligence & Machine Learning',
         subtitle: 'Qualification : Bachelor of Technology',
-        imageUrl: 'https://placekitten.com/80/81',
+        imageUrl: 'https://i.postimg.cc/c45CcGbn/lawyer.jpg',
         id: 'cse',
       ),
       CareerTile(
