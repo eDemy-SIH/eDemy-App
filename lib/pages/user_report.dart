@@ -3,17 +3,12 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
-import 'package:sih_app/widgets/pdf_data.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:printing/printing.dart';
 
-import 'package:pdf/pdf.dart';
-
-
-import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:path_provider/path_provider.dart';
-import 'package:printing/printing.dart';
+
 
 class UserReport extends StatefulWidget {
   @override

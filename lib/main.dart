@@ -15,13 +15,12 @@ import 'package:sih_app/firebase_options.dart';
 import 'package:sih_app/pages/aichat.dart';
 import 'package:sih_app/pages/career_details.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
-import 'package:sih_app/pages/education_info.dart';
 import 'package:sih_app/pages/character.dart';
 import 'package:sih_app/pages/login.dart';
 import 'package:sih_app/pages/student_info.dart';
 import 'package:sih_app/pages/get_started.dart';
 import 'package:sih_app/pages/home.dart';
-import 'package:sih_app/pages/hobbies.dart';
+
 import 'package:sih_app/pages/user_report.dart';
 import 'package:sih_app/utils/authenticate.dart';
 import 'package:sih_app/utils/chat-authenticate.dart';
@@ -31,7 +30,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:http/http.dart';
+
 
 void main() async{
 
