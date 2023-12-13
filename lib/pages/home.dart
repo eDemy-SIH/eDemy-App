@@ -1,4 +1,4 @@
-
+import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:hive/hive.dart';
@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:pie_chart/pie_chart.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:sih_app/widgets/question_list.dart';
+import 'package:http/http.dart' as http;
 
 class HomePage extends StatefulWidget {
 
@@ -26,11 +27,8 @@ class _HomePageState extends State<HomePage> {
   int score=0;
   int total=questions.length-1;
   var array=[1,2,3];
-  List<int> myArray = [1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1];
-  List<int> originalList = [];
-
-
-
+  String _prediction="yolo";
+ 
 
 
 
@@ -55,91 +53,65 @@ class _HomePageState extends State<HomePage> {
       db.loadArray();
       array=db.riasec;
     }
-
+    
     // TODO: implement initState
     super.initState();
     // checkAndRequestPermissions(); 
+    _getPrediction();
   }
 
-  // Future<void> checkAndRequestPermissions() async {
-  //   // Check if permission is granted
-  //   // var status = await Permission.storage.status;
-  //   final status = await Permission.manageExternalStorage.request();
-  //   if (status.isGranted) {
-  //     // Permission is already granted, load data
-  //     loadJsonData();
-  //    }
-  //   else if (status.isPermanentlyDenied) {
-  //     // Open settings page to grant permission manually
-  //       await openAppSettings();
-  //   } else {
-  //     print('Permission denied');
-  //   }
-     
-     
-  //     //else {
-  //   //   // Permission is not granted, request it
-  //   //   await Permission.storage.request();
-  //   //   // Check the permission status again after the request
-  //   //   status = await Permission.storage.status;
-  //   //   if (status.isGranted) {
-  //   //     // Permission granted, load data
-  //   //     loadJsonData();
-  //   //   } else {
-  //   //     // Permission denied
-  //   //     print('Permission denied');
-  //   //   }
-  //   // }
-  // }
+  Future<void> _sendDataToServer() async {
+    final String apiUrl = 'http://192.168.0.107:8080'; // Update with your server details
+    final Map<String, dynamic> data = {'numbers': array};
 
-  //  Future<void> loadJsonData() async {
-  //   // Get the application documents directory
-  //   final directory = await getApplicationDocumentsDirectory();
-  //   final filePath = '${directory.path}/num.json';
+    final response = await http.post(
+      Uri.parse(apiUrl),
+      headers: <String, String>{
+        'Content-Type': 'application/json; charset=UTF-8',
+      },
+      body: jsonEncode(data),
+    );
 
-  //   // Read the content of num.json
-  //   final file = File(filePath);
-  //   final exists = await file.exists();
-
-  //   if (!exists) {
-  //     // File doesn't exist, create it with initial data
-  //     await file.writeAsString(jsonEncode([0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]));
-  //   }
-
-  //   // Parse the JSON content and update the originalList
-  //   final decodedList = jsonDecode(await file.readAsString());
-  //   updateState(decodedList);
-  // }
-
-  // void updateState(List<int> newList) {
-  //   setState(() {
-  //     originalList = List<int>.from(newList);
-  //   });
-  // }
-
-  // Future<void> updateList() async {
-  //   // Your logic to update the list goes here
-  //   // For example, let's reverse the list
-  //   final updatedList = originalList.reversed.toList();
-
-  //   // Save the updated list back to num.json
-  //   await saveToJsonFile(updatedList);
-
-  //   // Update the UI with the new list
-  //   updateState(updatedList);
-  // }
-
-  // Future<void> saveToJsonFile(List<int> updatedList) async {
-  //   final directory = await getApplicationDocumentsDirectory();
-  //   final filePath = '${directory.path}/num.json';
-
-  //   final file = File(filePath);
-  //   await file.writeAsString(jsonEncode(updatedList));
-  // }
+    if (response.statusCode == 200) {
+      final Map<String, dynamic> responseData = jsonDecode(response.body);
+      print('Server response: ${responseData['prediction']}');
+      // Handle the response as needed
+    } else {
+      print('Failed to send data. Status code: ${response.statusCode}');
+    }
+  }
 
   final colorList = <Color>[
     Colors.greenAccent,
   ];
+
+  void _getPrediction() async {
+    String myString = array.join('');
+    String inputString = myString;
+
+    if (inputString.isEmpty) {
+      
+      setState(() {
+        _prediction = 'Input is empty';
+      });
+      return;
+    }
+    
+    final response = await http.get(Uri.parse('https://model-server-mxrg.onrender.com/$inputString'));
+    print(response);
+    print("Helloooo:$response.body");
+    if (response.statusCode == 200) {
+      setState(() {
+        
+        _prediction = response.body;
+        print(_prediction);
+      });
+    } else {
+      setState(() {
+        _prediction = 'Error: ${response.statusCode}';
+      });
+    }
+  }
 
 
   @override
@@ -160,6 +132,8 @@ class _HomePageState extends State<HomePage> {
       ),
 
 
+
+
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(
@@ -168,7 +142,9 @@ class _HomePageState extends State<HomePage> {
               children: [
       
                 GestureDetector(
-                   onTap: () {},
+                   onTap: () {
+                    _getPrediction();
+                   },
                   child: Center(
                     child: Text(
                       "Your Aptitude Score",
@@ -217,7 +193,7 @@ class _HomePageState extends State<HomePage> {
              
               Center(
                 child: Text(      
-                  "Based on the character assessment score and inputs provided here are some careers recomended for you",
+                  "Based on the character assessment score and inputs provided here are some careers recomended for you: $_prediction",
                   style:
                   TextStyle(fontSize: 14,color: Colors.grey[700], fontFamily: 'FontMain'),
                   textAlign: TextAlign.center,

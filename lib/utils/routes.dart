@@ -10,6 +10,7 @@ class Myroutes{
   static String careerDetailsRoute = "/careerDetails";
   static String aptitudeRoute = "/aptitude";
   static String reportRoute = "/report";
+  // static String home2Route = "/home2";
 
   // category pages
   static String engineerListRote = "/engineer";

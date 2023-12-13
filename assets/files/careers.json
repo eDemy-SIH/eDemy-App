@@ -938,10 +938,7 @@
         ],
         "opp_r": [
             "Geotechnical Engineer",
-            "Environmental Engineer",
-            "",
-            "",
-            ""
+            "Environmental Engineer"
         ],
         "insti": [
             {
@@ -1557,18 +1554,8 @@
             "Post Graduation: Diploma in Radio Jockey."
         ],
         "opp_l": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "opp_r": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "insti": [
             {
@@ -1623,18 +1610,8 @@
             "Post Graduation: Masters of Business Administration in Entrepreneurship /Finances "
         ],
         "opp_l": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "opp_r": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "insti": [
             {
@@ -1697,22 +1674,6 @@
             "Indian Postal Services"
         ],
         "insti": [
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            }
         ],
         "pros": [
             "One gets to contribute to society fruitfully.",
@@ -1804,35 +1765,12 @@
         ],
         "opp_l": [
             "Inspector Of Customs And Central Excise.",
-            "Preventive Officer",
-            "",
-            "",
-            ""
+            "Preventive Officer"
         ],
         "opp_r": [
-            "Examiner Of Indian Customs",
-            "",
-            "",
-            "",
-            ""
+            "Examiner Of Indian Customs"
         ],
         "insti": [
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            }
         ],
         "pros": [
             "It is an extremely high-paying job.",
@@ -1873,22 +1811,6 @@
             "Non Assessing Department."
         ],
         "insti": [
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            },
-            {
-                "link": "",
-                "name": ""
-            }
         ],
         "pros": [
             "The salary is quite good.  ",
@@ -1923,18 +1845,9 @@
             "Post Graduation: UPSC Entrance Exams."
         ],
         "opp_l": [
-            "IES Officer.",
-            "",
-            "",
-            "",
-            ""
+            "IES Officer"
         ],
         "opp_r": [
-            "",
-            "",
-            "",
-            "",
-            ""
         ],
         "insti": [
             {
@@ -2031,14 +1944,14 @@
         ]
     },
     {
-        "careerid": "mediaandjournalism.html",
+        "careerid": "pr",
         "title": "Public Relation ",
         "cat_dir": "../mediaandjournalism.html",
         "cat": "Media and Journalism",
         "duration": "4 years",
         "p1_1": "Do you want to have the capacity to change/improve the reputation of an organization? If yes, then PR is the right job for you. The art of actively managing the spread of knowledge between a person or an entity and the general public is known as public relations. An organization or person can use public relations to gain attention to their audiences by using topics of public interest and news articles that do not require payment. Most multinational corporations have a public relations department that is in charge of all media relations. The public relations specialist is in charge of community outreach and volunteer services. They establish connections with potential investors. They also appear on a cable television news show to answer difficult questions. A good PR director not only knows which platform to use for what but has the skills to use each platform to its fullest potential.",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/Public Relation.jpg",
+        "img1": "../assets/images/humanities2/Public%20Relation.jpg",
         "alt1": "AIML Image",
         "desc": "Performance in public relations necessitates a thorough understanding of each of the client's multiple publics' desires and concerns. The most important weapon in the PR trade is publicity, and the public relations professional must know how to effectively answer such concerns. In certain cases, the primary responsibility of a public relations professional is to write news releases that are sent to specific members of the media. However, limiting the concept of public relations to only publicity would be an underestimation of PR's increasing power and reach.",
         "skills": [
@@ -2093,7 +2006,7 @@
     },
     {
         "careerid": "writer",
-        "title": "Writer Editor Copywriter",
+        "title": "Writer, Editor, Copywriter",
         "cat_dir": "../mediaandjournalism.html",
         "cat": "Media and Journalism",
         "duration": "4 years",
@@ -2275,6 +2188,1878 @@
             "Risky jobs as professionals may have to go to dangerous places for reporting.",
             "Long and hectic work hours.",
             "Affects one’s social and personal life."
+        ]
+    },
+    {
+        "careerid": "fashiondesigner",
+        "title": "Fashion Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Have you always had an interest in clothes and accessories? If yes, then fashion designing is a potential career option for you. Fashion design is one of the most popular creative courses among students.",
+        "p1_2": "Fashion design is a humanities specialisation that encompasses the vast range of fabrics, designs, patterns, colours, and trends that characterize a given era's fashion. The art of applying style, aesthetics, and natural beauty to clothing and accessories is known as fashion design. Within a decade, the apparel industry has advanced by leaps and bounds. Manufacturers employ their unique designs. The essence of a designer's role is to interpret trends; however, there is variation within this that is determined by the buying and merchandising approach, as well as product quality; for example, budget retailers will use inexpensive fabrics to interpret trends, whereas high-end retailers will use the best available fabrics.",
+        "img1": "../assets/images/blog/blog-details-fashd.jpg",
+        "alt1": "EE Image",
+        "desc": "Designers study fashion trends and translate them for their target audience. The purchasing and merchandising strategy, as well as product quality, decide the difference within this; for example, budget retailers will use cheap fabrics to interpret patterns, while high-end retailers will use the best available fabrics. Fashion designers generally work on wearable garments and try to make them aesthetically pleasing. Designers work within a wide range of materials, colours, patterns and styles, and choose the best option according to the client’s taste. Designers study fashion trends and interpret them for their target audience.",
+        "skills": [
+            "Creativity Skills: It is the main essence of the job. Only highly creative people can sustain this job.",
+            "Artistic Skills: Fashion designing is about applying art to fabrics thus, it requires artistic thinking.",
+            "Competition Skills: Fashion designing is a very competitive field as it is ever-changing and there is the constant addition of new talent in the field. Thus, to sustain in the field, one has to be very competitive.",
+            "Communication Skills: Designers are in direct contact with the clients. They need to understand the demands of the clients to deliver the expected product.",
+            "Drawing Skills: Designers first make the sketches before working on the project."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Science in Fashion Design / Bachelor of Design (Fashion Design).",
+            "Post Graduation: Master of Science in Fashion Design / Master of Design (Fashion Design)."
+        ],
+        "opp_l": [
+            "Self-employed",
+            "Retail Brands",
+            "Expert Houses"
+        ],
+        "opp_r": [
+            "Television and Film Industry",
+            "Academia"
+        ],
+        "insti": [
+            {
+                "link": "https://srishti.ac.in/",
+                "name": "Srishti Institute of Art, Design and Technology"
+            },
+            {
+                "link": "https://nift.ac.in/",
+                "name": "National Institute of Fashion Technology"
+            },
+            {
+                "link": "https://sid.edu.in/",
+                "name": "Symbiosis Institute of Design"
+            },
+            {
+                "link": "https://www.mitid.edu.in/",
+                "name": "MIT Institute of Design"
+            },
+            {
+                "link": "https://jdinstitute.co/",
+                "name": "JD Institute of Fashion design"
+            }
+        ],
+        "pros": [
+            "Satisfaction and sense of achievement as one gets to be creative.",
+            "Travel opportunities to meet potential customers or for business meetings.",
+            "Higher pay possibilities after covering the invested amount."
+        ],
+        "cons": [
+            "Tight deadlines as the clients expect delivery on time and the work depends on clients which restrict the creative ability of the designer.",
+            "High competition because of the incentives in this fields.",
+            "Need a lot of time, patience and hard work to sustain and create a name for themselves in the field."
+        ]
+    },
+    {
+        "careerid": "uiux",
+        "title": "UI/UX Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Do you want to be a digital expert and influence the brands? If yes, then you should consider UI/UX Design as a career option. The design of user interfaces for equipment and software, such as computers, home appliances, mobile devices, and other electronic devices, to optimize usability and the user experience, is known as user interface design or user interface engineering.",
+        "p1_2": "User interface design (UI) is the design of user interfaces used for machines and software with the focus on maximizing usability and the User Experience (UX). The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing goals. UI/UX Designers have to work on various software’s. They have to design facilitators and conductors who rapidly conduct research.",
+        "img1": "../assets/images/blog/blog-details-uiux.jpg",
+        "alt1": "EE Image",
+        "desc": "UI/UX Designing is a technical job. The job of a UI/UX designer is to design all the screens through which a user will move and to create the visual elements—and their interactive properties—that facilitate this movement. Designers are responsible for the technical aspect of the product. Their work attracts customers and they make products convenient for the users. They do not work on the product as a physical entity instead, they work on the websites which help the product to sell and build its brand name. A UI/UX Designer requires specialized training as this position needs the elements of programming, psychology and digital design.",
+        "skills": [
+            "Communication Skills: Along with vocal communication, designers need to communicate visually. As a storyteller, they have to be convincing to make customers buy products.",
+            "Software Skills: UI/UX Designers have to work on various software’s. They have to design facilitators and conductors who rapidly conduct research.",
+            "Reading and Writing Skills: Majority of the work is done theoretically to eliminate huge losses of resources.",
+            "Business Skills: Designers help to build a business and in need to do so, they should themselves have business skills.",
+            "Revising Skills: Designers do not always build from scratch instead; the majority of their time is spent in improving the previous designs using the feedback."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Computer Application / Bacheor of Science (Computer Science) / Graduation in any Stream.",
+            "Post Graduation: Certifications in UI/UX Designing."
+        ],
+        "opp_l": [
+            "Freelancer",
+            "Web Designer",
+            "Usability Analyst"
+        ],
+        "opp_r": [
+            "Mobile App Designer",
+            "Information Architect",
+            "User Researcher"
+        ],
+        "insti": [
+            {
+                "link": "http://du.ac.in/",
+                "name": "University of Delhi"
+            },
+            {
+                "link": "https://www.nid.edu/",
+                "name": "National Institute of Design"
+            },
+            {
+                "link": "https://sid.edu.in/",
+                "name": "Symbiosis Institute of Design"
+            },
+            {
+                "link": "https://www.mitid.edu.in/",
+                "name": "MIT Institute of Design"
+            },
+            {
+                "link": "https://www.loyolacollege.edu/",
+                "name": "Loyola College"
+            }
+        ],
+        "pros": [
+            "As new products launch every single day the demand for designers is increasing.",
+            "Designers get to make a lasting impact on the company and customers.",
+            "It is a very creative job."
+        ],
+        "cons": [
+            "The working hours can be long according to the deadline.",
+            "Because of attractive incentives, there is high competition in this sector.",
+            "There is a lot of editing and improvement required, so might seem redundant."
+        ]
+    },
+    {
+        "careerid": "graphic",
+        "title": "Graphic Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Are you interested in digital designs and digital art? If yes, then you should consider graphic designing as a career option. Graphic design is the method of using typography, photography, and illustration to communicate visually and solve problems.",
+        "p1_2": "A graphic designer is a person who works in the graphic design and graphic arts industry and creates designs by combining photographs, typography, and motion graphics. They use photographs and the style of websites and printed pages to convey ideas by combining art and technology. On projects, often graphic designers partner with colleagues or clients. Designers generally take up more than one project and work on them simultaneously. Graphic design as a field of application encompasses a wide range of skills centered on any visual communication system. It can be used in advertising campaigns or in the aviation industry, for example.",
+        "img1": "../assets/images/blog/blog-details-graphic.jpg",
+        "alt1": "EE Image",
+        "desc": "Graphic design is an integral part of promoting and selling goods, as well as brochures and logos. Graphic designers, also known as graphic artists or communication designers, often collaborate with people in the advertising, public relations, and marketing fields. Graphic designers typically work in studios with drawing tables, computers, and the internet. Graphic designers usually work in studios with computers, and the tools they required to make their designs. Despite the fact that many graphic designers work alone, those who work for specialized graphic design firms are often part of a design team.",
+        "skills": [
+            "Creative Skills: Any designer should have this skill as this is the basic and necessary skill for them.",
+            "Analytical Skills: Designers should be able to understand the demand of the clients and make it reach to the consumers.<",
+            "Computer Skills: Earlier designers used to illustrate on the paper but now the illustrations are done on computers. Designers must have the software.",
+            "Communication Skills: In every job communication is very important. A designer must know how to communicate with clients, consumers, etc to ensure the desired results.",
+            "Time Management Skills: There are deadlines for almost all the projects. Designers must know how they manage their time in order to deliver projects on time."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Design (Graphics) / Diploma in Graphic Design.",
+            "Post Graduation: Masters of Design (Graphics) / PG Diploma in Graphic Design."
+        ],
+        "opp_l": [
+            "Art Directors",
+            "Desktop Publishers"
+        ],
+        "opp_r": [
+            "Industrial Designers",
+            "Animators & Multimedia Artists"
+        ],
+        "insti": [
+            {
+                "link": "https://www.nid.edu/",
+                "name": "National Institute of Design"
+            },
+            {
+                "link": "https://nift.ac.in/",
+                "name": "National Institute of Fashion Technology"
+            },
+            {
+                "link": "https://iiaedehradun.org/",
+                "name": "National Institute of Design and Innovation"
+            },
+            {
+                "link": "https://pearlacademy.com/",
+                "name": "Pearl Academy"
+            },
+            {
+                "link": "http://www.idc.iitb.ac.in/",
+                "name": "IDC School of Design"
+            }
+        ],
+        "pros": [
+            "Opportunity to become a freelancer.",
+            "Steady demand for designers who can work with technology.",
+            "The field offers interchangeable career options."
+        ],
+        "cons": [
+            "Competitive job, since it attracts a lot of people.",
+            "Clients can ask for untimely edits, multitasking and tight deadlines.",
+            "Constant updates in the technology and design keeps one on foot."
+        ]
+    },
+    {
+        "careerid": "interior",
+        "title": "Interior Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Are you fascinated by interiors? If yes, then you should look into interior designing as a career option. Interior design is the art and science of improving a building's interior to make it cleaner and more aesthetically appealing for the people who use it.",
+        "p1_2": "Interior design is all about how we interact with our surroundings. Designers use a diverse range of skills and technological expertise to create environments that anticipate our desires and cater to our emotions. The world of interior design has evolved dramatically since the early 20th century when it was just beginning to emerge as a profession. Interior designers must be able to read blueprints and be familiar with building codes and inspection requirements. Most interior designers use computer-aided design (CAD) software, even though some sketches or drawings are done freehand.",
+        "img1": "../assets/images/blog/blog-details-interior.jpg",
+        "alt1": "EE Image",
+        "desc": "An interior designer is a professional who designs, researches, coordinates, and manages certain improvements. To decide how interior spaces can act, look, and be furnished, interior designers collaborate closely with architects, structural engineers, mechanical engineers, and builders. They determine space specifications and pick decoration to make interior spaces usable, safe, and beautiful. They determine space specifications and choose decorative objects such as colours, lighting, and materials to make interior spaces usable, safe, and beautiful.",
+        "skills": [
+            "Imagination Skills: Interior designers should have the imagination to visualize what the spaces could be.",
+            "Flexibility: Working hours are not fixed and designers have to shift their schedule according to the convenience of the client.",
+            "Creativity: Any designing job demands creativity. it is important to know the trends and blend according to them.",
+            "Communication Skills: Designers are in direct contact with the clients. They need to understand the demands of the client and communicate effectively to get the desired results."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Design (Interior Design) / Diploma in Interior Designing.",
+            "Post Graduation: Masters of Design (Interior Design) / PG Diploma in Interior Designing."
+        ],
+        "opp_l": [
+            "Self-employed",
+            "Design Studios",
+            "Town & City Planning Bureaus"
+        ],
+        "opp_r": [
+            "Architect Firms",
+            "Real Estate Companies"
+        ],
+        "insti": [
+            {
+                "link": "https://www.isdi.in/",
+                "name": "Indian School of Design and Innovation"
+            },
+            {
+                "link": "http://www.voguefashioninstitute.com/",
+                "name": "Vogue Fashion Institute"
+            },
+            {
+                "link": "https://www.sirjjschoolofart.in/",
+                "name": "Sir JJ School of Art"
+            },
+            {
+                "link": "https://cept.ac.in/",
+                "name": "Centre for Environmental Planning and Technology"
+            }
+        ],
+        "pros": [
+            "Job satisfaction is immense as one gets to be creative on duty.",
+            "It is a high paying job once the basic cost is covered.",
+            "Diverse job as one gets to experiment."
+        ],
+        "cons": [
+            "Difficult to start a career because of the competition.",
+            "Long working hours as the deadlines are tight.",
+            "Flexibility according to the client needed."
+        ]
+    },
+    {
+        "careerid": "jewellery",
+        "title": "Jewellery Designer",
+        "cat_dir": "../designgraphics.html",
+        "cat": "Design & Graphics",
+        "duration": "4 years",
+        "p1_1": "Do you want to work on jewellery for a living? If yes, jewellery designing is an attractive field for you. Jewellery is the amalgamation of the creative skills of a designer and the accuracy of skilled artisans. The jewellery doesn't need to be made of precious stone; ornaments worn by the early humans can also be categorized as jewellery. Earlier artisans were also the designers of the jewellery and the market was in the hands of few but now the field of jewellery making has opened its doors to everyone.",
+        "p1_2": "Jewellery designing can be proven as a flourishing career if the candidate is creative enough. In the Indian economy, jewelry is a key source of investment and has a significant economic impact. Jewelry designers create wearable works of art using precious metals, diamonds, beads, and gemstones.",
+        "img1": "../assets/images/blog/blog-details-jewellery.jpg",
+        "alt1": "EE Image",
+        "desc": "Making jewellery does not limit itself to designing but it progresses to manufacturing and then trade. Although most of the professionals stick to the designing part it is important to have knowledge of the stone and their cutting, polishing and testing. The knowledge of stone is necessary for the designer to envision the capacity, lustre and life of the stone. They need to make a practical design to ensure that the stone fits in the design. Computers play a significant role in today’s market. Designers must update themselves with the newly available software.",
+        "skills": [
+            "Creativity Skills: It is the main essence of the job. Only highly creative people can sustain this job.",
+            "Artistic Skills: Jewellery designing is about applying art to accessories thus, it requires artistic thinking.",
+            "Communication Skills: Designers are in direct contact with the clients. They need to understand the demands of the clients to deliver the expected product.",
+            "Drawing Skills: Designers first make the sketches before working on the project."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: BSc. Fashion Designing / B.Des. Accessory Design / B.Des. Jewellery Retail and Export Management / Diploma in Jewellery Designing.",
+            "Post Graduation: Masters in Fashion Design / M.Des. Accessory Design / Advanced Diploma in Jewellery Designing."
+        ],
+        "opp_l": [
+            "Jewellery Designer",
+            "Lapidary",
+            "Manufacturer"
+        ],
+        "opp_r": [
+            "Fashion Jewellery",
+            "Repair Person"
+        ],
+        "insti": [
+            {
+                "link": "https://iigj.org/",
+                "name": "Indian Institute of Gems & Jewellery"
+            },
+            {
+                "link": "https://nift.ac.in/",
+                "name": "National Institute of Fashion Technology"
+            },
+            {
+                "link": "http://www.iijd.co.in/",
+                "name": "Indian Institute of Jewellery Design"
+            },
+            {
+                "link": "https://pearlacademy.com/",
+                "name": "Pearl Academy"
+            },
+            {
+                "link": "https://www.mitid.edu.in/",
+                "name": "MIT Institute of Design"
+            },
+            {
+                "link": "https://jdinstitute.co/",
+                "name": "JD Institute of Fashion design"
+            }
+        ],
+        "pros": [
+            "It is an evergreen path and is highly rewarding.",
+            "High in demand and has a scope for growth.",
+            "Ideal to start a business."
+        ],
+        "cons": [
+            "It is difficult to find a job.",
+            "High cost of setting business.",
+            "Takes time to get skilled."
+        ]
+    },
+    {
+        "careerid": "ca",
+        "title": "Chartered Accountant",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "5 years",
+        "p1_1": "Are you interested in numbers and finances? Then you can consider accountancy as a career! Auditing, accounting, administrative, and general management are all areas of business and finance where chartered accountants work. Some work in public practice, while others work in the private sector, and still others work for government agencies.",
+        "p1_2": "The CA (Chartered Accountant) is a prestigious and demanding profession. The ICAI (Institute of Chartered Accountants of India) runs the chartered accountant program in India (Indian Chartered Accountants Institute). They are members of the Institute of Chartered Accountants of India (ICAI). The membership may be renewed by paying the prescribed fees or paying an annual charge.",
+        "img1": "../assets/images/blog/blog-details-ca.jpg",
+        "alt1": "EE Image",
+        "desc": "Chartered accountants manage financial systems and budgets, and undertake financial audits. They liaise with clients and provide financial information and advice. They advise clients on business transactions, such as mergers and acquisitions and also counsel clients on areas of business improvement, or dealing with insolvency. They help to detect and prevent fraud. They prepare financial statements, including monthly and annual accounts arranging financial management reports, including financial planning and forecasting. They advise on tax and treasury issues and also negotiate terms with suppliers.",
+        "skills": [
+            "Mathematical Skills: Accuracy and speed in general mathematics help hugely.",
+            "Analytical Skills: They obtain technical qualifications and improve analytical skills when working on practical examples during their articles.",
+            "Communication Skills: During the internship, the applicant may interact with clients from various industries and provide customized services tailored to their needs."
+        ],
+        "educ": [
+            "School: Any subject combination taking Commerce as the main stream.",
+            "Graduation: Bachelor of Commerce in Finance.",
+            "Post Graduation: Master of Commerce / Master of Business Administration."
+        ],
+        "opp_l": [
+            "Public/Private Practice",
+            "Government Organizations",
+            "Banking and Insurance Sector"
+        ],
+        "opp_r": [
+            "Corporate Finance",
+            "NGOs",
+            "Law Firms"
+        ],
+        "insti": [
+            {
+                "link": "https://www.icai.org/",
+                "name": "Institute of Chartered Accountants of India"
+            }
+        ],
+        "pros": [
+            "Good salary as they deal with many clients simultaneously.",
+            "Social status as this is a respectable job.",
+            "High demand as the business culture is growing."
+        ],
+        "cons": [
+            "Requires hard work as the exams are difficult to pass.",
+            "Long working hours especially during the end of the financial year.",
+            "Takes time to build a career as experience is required."
+        ]
+    },
+    {
+        "careerid": "cmt",
+        "title": "Chartered Market Technician",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "3 years",
+        "p1_1": "Do you hold a keen interest in finances and stocks? Then chartered market technician might be the right career path for you. The CMT Association certifies that an individual is equipped in conducting technical analysis, via the Chartered Market Technician designation. They look for patterns in prices and past trends in price movement to identify key indicators on the basis of market psychology.",
+        "p1_2": "Professionals who achieve this designation have vast knowledge related to investment risk in portfolio management. Essentially, a CMT designation is a very prestigious designation in the technical analysis field. The Financial Industry Regulatory Authority recognized Chartered Market Technician Designation establishes credibility for those seeking new employment prospects in the financial services industry.",
+        "img1": "../assets/images/blog/blog-details-cmt.jpg",
+        "alt1": "EE Image",
+        "desc": "The Market Technicians Association has given the duty of checking the proficiency of an analyst in technical analysis, to the CMT Association. Employers who commonly hire CMT-designated analysts include stock brokerage firms, investment banks, mutual fund companies, and so on. To forecast the performance and market action of a stock, a business sector, or the economy, these analysts often employ a holistic approach to securities analysis that combines both fundamental and technical methods. On the basis of their analysis, these analysts make buy-and-sell recommendations for the company's exclusive portfolio or for customers of the particular firm.",
+        "skills": [
+            "Excel Modelling Skills: MTA charter holders, work on a lot of Excel sheet and also the models.",
+            "Analytical Skills: It gives them the ability to visualize, articulate, conceptualize or solve both complex and uncomplicated problems by making decisions that are sensible given the available information.",
+            "Communication Skills: They have to communicate with clients, investors, stockbrokers and many others.",
+            "Computer Skills: They may have to learn new software to create portfolios, analyse financial data, see trends, and make forecasts.",
+            "Mathematics Skills: MTA designation uses mathematical skills when estimating the value of financial securities."
+        ],
+        "educ": [
+            "School: Any subject combination taking Sience or Commerce or Humanities.",
+            "Graduation: Any Graduation Course / Bachelor of Commerce in Finance.",
+            "Post Graduation: 3 Level CMT Examination."
+        ],
+        "opp_l": [
+            "Portfolio Manager",
+            "Risk Managers"
+        ],
+        "opp_r": [
+            "Quantitative Financial Research and Trading"
+        ],
+        "insti": [
+            {
+                "link": "https://cmtassociation.org/",
+                "name": "CMT Association"
+            }
+        ],
+        "pros": [
+            "Payout is good and you can work in different roles.",
+            "There is role flexibility as you can work with a team and/or independently.",
+            "There are different kinds of work settings available, so you can explore."
+        ],
+        "cons": [
+            "Some employers may require master's degrees.",
+            "Extensive financial knowledge required.",
+            "A lot of technicians work over 40 hours each week in tensed environments."
+        ]
+    },
+    {
+        "careerid": "cfa",
+        "title": "Chartered Financial Analyst",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "4 years",
+        "p1_1": "Do you have a keen interest in finance and its technicalities? Then CFA might be the perfect role for you! The Chartered Financial Analyst (CFA) Program is a postgraduate professional certification provided to investment and financial professionals worldwide by the American-based CFA Institute (formerly the Association for Investment Management and Research, or AIMR). Candidates must pass three levels of exams. These include topics like accounting, economics, ethics, financial management, and security analysis.",
+        "p1_2": "The CFA charter is generally regarded as the gold standard in the field of investment research and is one of the most prestigious designations in finance. The CFA designation is meant to show that you have a solid foundation in advanced investment analysis and portfolio management, as well as a strong commitment to ethical behaviour.",
+        "img1": "../assets/images/blog/blog-details-cfa.jpg",
+        "alt1": "EE Image",
+        "desc": "Any work that involves large-scale wealth management, financial analysis, or complex accounting is likely to be held by a Chartered Financial Analyst (CFA). A financial analyst is in charge of collecting data, arranging information, analyzing historical results, forecasting and projecting future results, making suggestions, and creating Excel models and presentations. Depending on the company they work for, the sector they work in, and their level of seniority, analysts have a wide range of duties and responsibilities. The role encompasses relationship and asset management, credit analysis, trading, accounting and auditing, financial planning, etc.",
+        "skills": [
+            "Excel Modelling Skills: CFA charter holders deal with a lot of Excel sheets and templates.",
+            "Analytical Skills: They can visualize, articulate, conceptualize, or solve both complicated and basic problems by making rational decisions based on the information they have.",
+            "Communication Skills: They must interact with a variety of people, including customers, investors, stockbrokers, and others.",
+            "Computer Skills: To build portfolios, analyze financial data, spot patterns, and make predictions, they will need to learn new technologies.",
+            "Mathematics Skills: When calculating the value of financial instruments, the CFA classification employs mathematical skills."
+        ],
+        "educ": [
+            "School: Any subject combination taking Commerce as the main stream.",
+            "Graduation: Bachelor of Commerce in Finance.<",
+            "Post Graduation: CFA Program."
+        ],
+        "opp_l": [
+            "Investment Banking",
+            "Hedge Funds"
+        ],
+        "opp_r": [
+            "Research Analyst",
+            "Financial Advisor / Consultant"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iibms.org/",
+                "name": "Indian institute of Business Management and Studies"
+            }
+        ],
+        "pros": [
+            "The curriculum covers many aspects of the financial/investment industry and can be done at one’s own pace.",
+            "The field has international brand recognition.",
+            "It yields respect from peers and there is a high demand for it."
+        ],
+        "cons": [
+            "It requires a lot of time and commitment.",
+            "It's not an academic degree.",
+            "It is a very time-consuming course."
+        ]
+    },
+    {
+        "careerid": "coa",
+        "title": "Cost Accountant",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "4 years",
+        "p1_1": "Do you have a flair for numbers and management, and are ready to put in your hours sincerely? Then, cost accounting is the right job for you! Cost accounting is a type of managerial accounting that tries to capture a company's entire cost of production by measuring both variable and fixed costs, such as a leasing fee. It is a job that involves reviewing costs in a company. It requires utmost sincerity and precision. Any risks, any potential business, you need to be wary of.",
+        "p1_2": "A cost accountant is a job that is very taxing and very risky, but the rewards are often very ample and fulfilling. Cost accounting offers managers the complete cost data they need to manage present operations and plan for the future. Cost accounting, unlike financial accounting, which gives information to external financial statement consumers, is not bound by set standards and can be flexible to match management's needs.",
+        "img1": "../assets/images/blog/blog-details-coa.jpg",
+        "alt1": "EE Image",
+        "desc": "As a cost accountant, you’ll be required to analyze and improve the cost control of a company. You will be required to plan budgets for the organization you’ll be working for. You’ll be asked to measure the performance based on the success of the company. The job is tailored to suit the needs of the agency or the company you’re working in. Basically, accounting for every last task in the company is your job. Its final purpose is to advise management on how to optimize corporate practices and procedures based on cost efficiency and capabilities. It is often considered a subset of managerial accounting.",
+        "skills": [
+            "Technical Skills: They must have the knowledge and skills required for cost accounting analysis.",
+            "Analytical Skills: Because a cost accountant's job is to look for new and unusual ways to increase profitability by decreasing expenses, having a strong analytical mind is a must.",
+            "Communication Skills: Cost accountants must collaborate and communicate with large groups, external vendor partners, stakeholders, financial accountants, risk managers, and other professionals. That is why it is critical to have a firm grasp on your corporate communication abilities and depiction tactics.",
+            "Computer Skills: Cost accountants need to be computer savvy because they are required to use a variety of accounting software and tools."
+        ],
+        "educ": [
+            "School: Any subject combination taking Sience or Commerce or Humanities.",
+            "Graduation: Bachelor of Business Administration.",
+            "Post Graduation: Master of Business Administration."
+        ],
+        "opp_l": [
+            "Accounting and auditing clerk",
+            "Chief Accounting Officer",
+            "Investment Analyst"
+        ],
+        "opp_r": [
+            "Economic Officer",
+            "Banking Manager"
+        ],
+        "insti": [
+            {
+                "link": "https://www.cuchd.in/",
+                "name": "Chandigarh University"
+            },
+            {
+                "link": "http://ignou.ac.in/",
+                "name": "Indira Gandhi National Open University"
+            },
+            {
+                "link": "https://www.drmgrdu.ac.in/",
+                "name": "Dr. M.G.R. Educational and Research Institute"
+            }
+        ],
+        "pros": [
+            "You will be in charge of the profits and losses of a company.",
+            "It is a very rewarding job, there’s a lot of money in it.",
+            "It is a highly demanded job role."
+        ],
+        "cons": [
+            "It’s a very tasking job, you will be at the receiving end of a lot of pressure.",
+            "You need to be very precise in your calculations, a small mistake can be very punishing.",
+            "Plenty of experience is required, to be able to gain a good repute."
+        ]
+    },
+    {
+        "careerid": "cpa",
+        "title": "Certified Public Accountant",
+        "cat_dir": "../financeandaccounts.html",
+        "cat": "Finance & Accounts",
+        "duration": "5 years",
+        "p1_1": "Are you intrigued by accountancy and similar fields? Then, CPA can be a great profession for you! Certified public accountants provide their services to public organizations. If you think you have a flair for accounts and want to serve the community, for the betterment of the community, then the work of a CPA might be the best job for you.",
+        "p1_2": "Certified Public Accountant is a designation given to certified accountants in many English-speaking countries. In other English-speaking nations, it is roughly equal to the title of a chartered accountant. The CPA is a license that allows you to conduct public accounting services in the United States. State licensing standards vary, but the Uniform Certified Public Accountant Examination, 150 semester units of college education, and one year of accounting-related work are the minimum requirements.",
+        "img1": "../assets/images/blog/blog-details-cpa.jpg",
+        "alt1": "EE Image",
+        "desc": "Certified Public Accountant or CPA provides accounting services to the public and organizations. They are primarily involved in auditing and attestation procedures. They should be well versed with accounting principles, business and financial concepts, tax, etc. CPAs are hired by organizations in the role of finance manager, financial analyst, chief financial officer, etc. They are usually hired by NGOs. As needed, organizing and updating accounting records (digital and physical) Creating and evaluating transaction reports. Conducting rigorous audits on a regular basis to check the accuracy of financial documentation, expenditures, and investments.",
+        "skills": [
+            "Excel Modelling Skills: CPAs have to deal with a lot of Excel sheets and templates.",
+            "Analytical Skills: They can visualize, articulate, conceptualize, or solve both complicated and basic problems by making rational decisions based on the information they have.",
+            "Communication Skills: They must interact with a variety of people, including customers, investors, stockbrokers, and others.",
+            "Mathematical Skills: When calculating the value of financial instruments, they need to employ mathematical skills."
+        ],
+        "educ": [
+            "School: Any subject combination taking Commerce as the main stream.",
+            "Graduation: Bachelor of Commerce in Finance / Bachelor of Commerce in (Hons.) / Bachelor of Business Administration.",
+            "Post Graduation: Master of Business Administration in Finance / Chartered Accountant / Company Secretary."
+        ],
+        "opp_l": [
+            "Public Accountant",
+            "Management Accountant"
+        ],
+        "opp_r": [
+            "Financial Analyst",
+            "Corporate Accounting"
+        ],
+        "insti": [
+            {
+                "link": "http://www.iimkashipur.ac.in/",
+                "name": "Indian Institute Of Management"
+            },
+            {
+                "link": "http://www.iift.edu/",
+                "name": "Indian Institute of Foreign Trade"
+            },
+            {
+                "link": "https://www.xlri.ac.in/",
+                "name": "Xavier Labor Relations Institute"
+            }
+        ],
+        "pros": [
+            "CPAs can work in a plethora of industries.",
+            "Excellent opportunity for CA/ ICWA/CS/ Law/MBA (Finance), M.Com and Commerce Graduates who aspire for an International Certification.",
+            "It yields respect from peers and there is a high demand for it."
+        ],
+        "cons": [
+            "It requires a lot of time and commitment.",
+            "The work and the level of responsibility is very stressful.",
+            "You may have to work for long hours."
+        ]
+    },
+    {
+        "careerid": "counsellor",
+        "title": "Counsellor",
+        "cat_dir": "../educationandtraining.html",
+        "cat": "Education And Training",
+        "duration": "5 years",
+        "p1_1": "Do you think your heart is a gem and you can devote to the service of your society? Then, being a counsellor is the right career path for you. A counsellor understands the troubles of their clients, emotional, mental, psychological, career oriented etc. and helps them solve it. Their job is to provide guidance to people who require it, particularly on personal issues. Children who have suffered in this way should seek help from a bereavement counselor.",
+        "p1_2": "Professional counseling is a type of professional interaction that helps individuals, families, and groups achieve their mental health, wellness, education, and career goals. Counselors operate in a number of community settings to provide counseling, rehabilitation, and support services to people. Their responsibilities differ significantly based on their expertise, which is defined by the environment in which they work.",
+        "img1": "../assets/images/blog/blog-details-couns.jpg",
+        "alt1": "EE Image",
+        "desc": "A counsellor gets to know people and solve any trouble they’re having mentally. They’re supposed to build trust with their clients. They help them resolve their feelings. They let people rise above themselves and become better versions of themselves. They let people watch things from a new perspective and let them heal their minds. They have to assist clients in reaching their optimal level of psychosocial functioning through resolving negative patterns. They help them in rehabilitation and improving their quality of life. Counsellors must be aware of these difficulties in order to provide proper therapy and assistance to their clients.",
+        "skills": [
+            "Communication Skills: To effectively communicate with a variety of people, you must have great verbal communication abilities. Counselors will frequently be asked to question clients and conduct interviews, and they must be skilled in doing so so as not to upset or stress clients further.",
+            "Interpersonal Skills: Counselors must be able to communicate successfully with a variety of people, including clients and coworkers.",
+            "Compassion Skills: You should want to help people, be compassionate, and be able to empathize with their sorrow and other issues. You must be able to put your patients at ease and make them feel at ease in your presence."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor of Science / Bachelor of Arts  in Psychology or Sociology.",
+            "Post Graduation: Masters of Science / Masters of Arts  in Psychology or Sociology."
+        ],
+        "opp_l": [
+            "Career Counsellor",
+            "Rehabilitation Counsellor"
+        ],
+        "opp_r": [
+            "Mental Health Counsellor",
+            "Marriage Counsellor"
+        ],
+        "insti": [
+            {
+                "link": "https://www.jmi.ac.in/",
+                "name": "Jamia Millia Islamia"
+            },
+            {
+                "link": "https://sxca.edu.in/",
+                "name": "St. Xavier’s College"
+            },
+            {
+                "link": "https://aud.ac.in/",
+                "name": "Ambedkar University"
+            },
+            {
+                "link": "https://www.knc.edu.in/",
+                "name": "Kamala Nehru College"
+            },
+            {
+                "link": "https://www.fergusson.edu/",
+                "name": "Fergusson College"
+            }
+        ],
+        "pros": [
+            "It offers great job satisfaction.",
+            "It can be emotionally demanding.",
+            "It provides multiple employment opportunities."
+        ],
+        "cons": [
+            "It can be emotionally demanding.",
+            "It takes time and hard work.",
+            "Constant learning as the job grows."
+        ]
+    },
+    {
+        "careerid": "teacher",
+        "title": "Teacher",
+        "cat_dir": "../educationandtraining.html",
+        "cat": "Education And Training",
+        "duration": "6 years",
+        "p1_1": "Do you love to share your knowledge and help others improve? If so, then a career in Teaching is just for you. Teachers are responsible for imparting knowledge and educating younger generations of people. They are responsible for the mental development of students at one of their most crucial stages of life and can have a lifelong impact on their students.",
+        "p1_2": "Teachers are, without a doubt, the most important people in our society. They provide children with a sense of purpose, prepare them for success as global citizens, and instil in them a desire to do well and thrive in life. A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
+        "img1": "../assets/images/blog/blog-details-tec.jpg",
+        "alt1": "EE Image",
+        "desc": "Working as a teacher can be a very rewarding job. They are responsible for assessing their students, taking into account their strengths and weaknesses and creating ways to impart education on their basis. Beyond simply teaching, they are also responsible for encouraging positive behaviours and discourage misbehaviour. A teacher thus gets the opportunity to help in the overall betterment of their pupils. They must design successful lessons, grade student classwork and provide them feedback, manage classroom materials, navigate the curriculum effectively, and communicate with other staff to accomplish this.",
+        "skills": [
+            "Communication Skills: A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
+            "Compassion Skills: One needs to be very empathetic to the needs of their students and show care for them.",
+            "Creativity Skills: One may need to devise creative ways to impart education to increase the amount of what the students understand and retain.",
+            "Organization Skills: As one is responsible for the creation of various modules, they need to show organisational ability."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor course in any field / Bachelor of Elementary Education.",
+            "Post Graduation: Master of Education."
+        ],
+        "opp_l": [
+            "School Teachers",
+            "Playschool Teachers"
+        ],
+        "opp_r": [
+            "Institutes"
+        ],
+        "insti": [
+            {
+                "link": "https://www.du.ac.in/",
+                "name": "University of Delhi"
+            },
+            {
+                "link": "https://sxca.edu.in/",
+                "name": "St. Xavier’s College"
+            },
+            {
+                "link": "https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site",
+                "name": "Banaras Hindu University"
+            }
+        ],
+        "pros": [
+            "One gets to have an impact on developing minds for the better.",
+            "It also allows you to get leaves on school holidays.",
+            "You get to impart to students the gift of knowledge."
+        ],
+        "cons": [
+            "One needs to have a lot of patience to deal with some children.",
+            "It can get a bit monotonous after some time.",
+            "It can be hectic, to grade so many papers and assignments."
+        ]
+    },
+    {
+        "careerid": "speced",
+        "title": "Special Educator",
+        "cat_dir": "../educationandtraining.html",
+        "cat": "Education And Training",
+        "duration": "4 years",
+        "p1_1": "Do you want to help children who have trouble learning at a regular pace in classes? Then, being a special educator can be a great career path for you! We have all watched the movie ‘Taare Zameen Par’. There are a lot of kids out there with such disabilities, an inability to read, write or even understand. If you feel that you want to help by teaching them, then being a special educator might be the right task for you. It involves helping such children grow, and overcome their troubles.",
+        "p1_2": "Learning disabilities (such as dyslexia), communication disorders, emotional and behavioral disorders (such as ADHD), physical disabilities (such as osteogenesis imperfecta, cerebral palsy, muscular dystrophy, spina bifida, and Friedreich's ataxia), and developmental disabilities (such as autistic spectrum disorders) are all addressed in special education.",
+        "img1": "../assets/images/blog/blog-details-spec.jpg",
+        "alt1": "EE Image",
+        "desc": "A career in special education is for those who have an incredible passion for teaching and attachment and concern for children with special needs. Special education means personalised schooling given to children with different disabilities both physical and mental. Children with such disabilities need special training and instruction by well-trained professionals in the field of special education. Special education offers different career opportunities including teaching, instruction and curriculum development for children with special needs and adults. The major responsibility of any special educator is to teach and interact with children who have a variety of disabilities.",
+        "skills": [
+            "Communication Skills: A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
+            "Compassion Skills: One needs to be very empathetic to the needs of their students and show care for them.",
+            "Creativity Skills: One may need to devise creative ways to impart education to increase the amount of what the students understand and retain.",
+            "Organization Skills: As one is responsible for the creation of various modules, they need to show organisational ability."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor course in any field / Bachelor of Elementary Education / Bachelor of Education in Special Education",
+            "Post Graduation: Post Graduate Diploma in Special Education"
+        ],
+        "opp_l": [
+            "Special Educator for Early/ Pre-KG to Class 12",
+            "Special Educator in College/ University",
+            "Special Educator for Low-Incidence Disabilities/ Sensory Development"
+        ],
+        "opp_r": [
+            "Special Educator for High-Incidence Disabilities",
+            "Special Educator for Emotional or Behavioural Disorders",
+            "Special Educator for Autism Spectrum Disorders"
+        ],
+        "insti": [
+            {
+                "link": "https://www.bpmarineacademy.in/",
+                "name": "B.P. Marine Academy"
+            },
+            {
+                "link": "https://nsnis.org/",
+                "name": "Netaji Subhas National Institute of Sports"
+            },
+            {
+                "link": "https://www.imeindia.in/",
+                "name": "Institution Of Mechanical Engineers"
+            }
+        ],
+        "pros": [
+            "The hours for a special educator are chosen by the teachers themselves.",
+            "There’s a lot of freedom for these teachers.",
+            "You get a satisfaction when the children you teach grow to be successful."
+        ],
+        "cons": [
+            "One needs to have a lot of patience to deal with some children.",
+            "The salary paid to special educators is quite less.",
+            "There is less scope for promotion."
+        ]
+    },
+    {
+        "careerid": "prof",
+        "title": "Professor",
+        "cat_dir": "../educationandtraining.html",
+        "cat": "Education And Training",
+        "duration": "7 years",
+        "p1_1": "Do you love to share your knowledge and help others improve? If so, then a career in Teaching is just for you. Teachers are responsible for imparting knowledge and educating younger generations of people. They are responsible for the mental development of students at one of their most crucial stages of life and can have a lifelong impact on their students. Teachers are, without a doubt, the most important people in our society. They provide children with a sense of purpose, prepare them for success as global citizens, and instil in them a desire to do well and thrive in life.",
+        "p1_2": "They supervise the performance of the faculties in the university and ensure student discipline on the campus. Professors are typically specialists in their fields and top-tier educators. Full professors have prominent management positions at many institutions, including directing departments, research teams, and institutes, as well as serving as president, principal, or vice-chancellor.",
+        "img1": "../assets/images/blog/blog-details-prof.jpg",
+        "alt1": "EE Image",
+        "desc": "Professors often carry out original research and give regular teachings to undergraduate, vocational, or postgraduate courses in their fields of expertise. In universities and institutions, they instruct and supervise students while conducting their research. Besides, they have several other duties to perform such as supervising the academic progress of the departments & students, monitoring the functions of Class Advisor’s I & II, Test Coordinators, Assessment Coordinators, holding the responsibility of approving the Internal Assessment marks for all students in all classes of both UG & PG.",
+        "skills": [
+            "Communication Skills: A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
+            "Compassion Skills: One needs to be very empathetic to the needs of their students and show care for them.",
+            "Creativity Skills: One may need to devise creative ways to impart education to increase the amount of what the students understand and retain.",
+            "Organization Skills: As one is responsible for the creation of various modules, they need to show organisational ability."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Bachelor course in any field",
+            "Post Graduation: Masters course in any field."
+        ],
+        "opp_l": [
+            "Technical Education Teacher"
+        ],
+        "opp_r": [
+            "Instructional Coordinator"
+        ],
+        "insti": [
+            {
+                "link": "https://www.du.ac.in/",
+                "name": "University of Delhi"
+            },
+            {
+                "link": "https://sxca.edu.in/",
+                "name": "St. Xavier’s College"
+            },
+            {
+                "link": "https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site",
+                "name": "Banaras Hindu University"
+            }
+        ],
+        "pros": [
+            "One gets to have an impact on developing minds for the better.",
+            "It also allows you to get leaves on school holidays.",
+            "You get to impart to students the gift of knowledge."
+        ],
+        "cons": [
+            "One needs to have a lot of patience to deal with some students.",
+            "It can get a bit monotonous after some time.",
+            "It can be hectic, to grade so many papers and assignments."
+        ]
+    },
+    {
+        "careerid": "digi",
+        "title": "Digital Marketing",
+        "cat_dir": "../marketing.html",
+        "cat": "Sales And Marketing",
+        "duration": "3 years",
+        "p1_1": "Do you want to work in a creative field and learn all about internet presence? The, digital marketing is the choice for you!Digital Marketing is the new age market. Right from logos to giant banner advertisements on screen, digital marketing is now a huge requirement for anyone coming into the field of marketing.",
+        "p1_2": "Right down from content writing to scripting advertisements, a lot of attention goes into the attention span of putting across a message digitally. As a digital marketer, the job is to deliver the message as quickly and as impactful as possible. At a high level, digital marketing refers to advertising delivered through digital channels such as search engines, websites, social media, email, and mobile apps. ",
+        "img1": "../assets/images/blog/blog-details-digi.jpg",
+        "alt1": "EE Image",
+        "desc": "A career in digital marketing can be kick-started right from the comfort of your home. A blogger can successfully captivate minds if he/she can send the right idea across. Selling or buying isn’t the only end goal in digital marketing. The agenda includes adding more traffic to a website (like what’s happening here), forming the image of an organization or simply just conveying a message to the audience. They plan and execute all web, SEO/SEM, database marketing, email, social media, and display advertising campaigns. They also design, build, and maintain our social media presence.",
+        "skills": [
+            "Management Skills: Working for a large mass requires anticipating future trends and executing plans based on that data.",
+            "Creativity Skills: It is an important aspect in digital marketing. Bloggers, influencers, creative heads and writers are always successful on creative and original ideas."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Digital Marketing Course / BSc. in Computer Science  ",
+            "Post Graduation: MSc. in Computer Science / MA. In English."
+        ],
+        "opp_l": [
+            "Blogger",
+            "Content Writer",
+            "Entertainment",
+            "Web Designing"
+        ],
+        "opp_r": [
+            "Social Media Marketing",
+            "Data Analyst",
+            "AI Developer"
+        ],
+        "insti": [
+            {
+                "link": "https://dsim.in/",
+                "name": "Delhi School of Internet Marketing"
+            },
+            {
+                "link": "https://manipal.edu/",
+                "name": "Manipal ProLearn"
+            },
+            {
+                "link": "https://iimskills.com/",
+                "name": "Indian Institute of Management Skills"
+            },
+            {
+                "link": "https://www.aima.in/",
+                "name": "All India Management Association"
+            }
+        ],
+        "pros": [
+            "It's easy to pave a way for your future on this career path.    ",
+            "Digital Marketing will always be a need in this time and generation.",
+            "Freelance options available as well, this opens us the scope of the field."
+        ],
+        "cons": [
+            "It's Competitive and challenging, this is because it's a field that's easily accessible to all.",
+            "Career calls for too much screen time that can harm your health if not balanced.",
+            "You have to sacrifice a lot of your life to study for this job.Constant need to be creative and original, this could prove to be incredibly draining."
+        ]
+    },
+    {
+        "careerid": "ad",
+        "title": "Advertisement Marketing",
+        "cat_dir": "../marketing.html",
+        "cat": "Sales And Marketing",
+        "duration": "3 years",
+        "p1_1": "Are you always fascinated by different types of advertisements? Then advertising is the appropriate career pathway for you! Advertising is not a new field, everyone has seen advertisement in some form or the other. Advertising is a means of selling, by highlighting the key features of a product or service.",
+        "p1_2": "It is often catchy, to attract the customers. It is one aspect of mass communication, and it involves communicating with a large audience, by the means of your advert. It requires quite a bit of market research, in order to narrow down the targeted demographic. Advertisements, or ads for short, are the real commercial messaging. Advertising's purpose is to contact those who are most inclined to pay for a company's products or services and persuade them to buy.",
+        "img1": "../assets/images/blog/blog-details-ad.jpg",
+        "alt1": "EE Image",
+        "desc": "Advertising involves being creative and thinking out of the box. The adverts need to be very catchy and attractive. They need to convey to the customer how your product or service would add value to their lives. Experts in this field also need to possess good communication skills. The advertisements are specifically curated for different groups of people, divided based on factors like gender, age, preferences, geographical location, etc. The advertisements often use means of mass media, such as print media (magazines, newspapers, posters, flyers, billboards), or broadcast media (radio, television).",
+        "skills": [
+            "Negotiation Skills: As an advertiser you’ll have to negotiate with clients on budgets, timelines, and expectations. You also need to work with a team that works to achieve the same goals as you.",
+            "Creativity Skills: Creativity is what earns you brownie points in this field, you need to be able to step out and think differently if you want to stand out in the market.",
+            "Analysing Skills: Analysing the market, the trends and patterns are also extremely important. ",
+            "Communication Skills: One will be primarily interacting with a lot of people on a daily basis. "
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Diploma in Advertising",
+            "Post Graduation: PG Diploma in Advertising / MA. In Mass Communication."
+        ],
+        "opp_l": [
+            "Copywriters",
+            "Graphic Designer"
+        ],
+        "opp_r": [
+            "Visualizer",
+            "Media Planning"
+        ],
+        "insti": [
+            {
+                "link": "http://iimc.nic.in/",
+                "name": "Indian Institute of Mass Communication, New Delhi"
+            },
+            {
+                "link": "https://www.mica.ac.in/",
+                "name": "Mudra Institute of Communications"
+            },
+            {
+                "link": "http://www.sbc.ac.in/",
+                "name": "School of Broadcasting & Communication"
+            },
+            {
+                "link": "https://www.asianmedia.org.in/",
+                "name": "Asian College of Journalism"
+            },
+            {
+                "link": "https://www.simc.edu/",
+                "name": "Symbiosis Institute of Media and Communication"
+            }
+        ],
+        "pros": [
+            "The pay scale is rewarding in this field.",
+            "Get to meet new people in the field on a continuous basis.",
+            "Many opportunities to travel around the country or even the world due to work."
+        ],
+        "cons": [
+            "Long working hours, so can affect personal life.",
+            "Busy and tight schedules due to stringent deadlines.",
+            "Can be frustrating, due to back and forth with the clients over corrections."
+        ]
+    },
+    {
+        "careerid": "sales",
+        "title": "Sales",
+        "cat_dir": "../marketing.html",
+        "cat": "Sales And Marketing",
+        "duration": "3 years",
+        "p1_1": "Do you think you can work in pitching sales and convincing people to do (buy) stuff? hen the sales career path might be a match made in heaven for you. It involves (as you guessed) making sales to potential customers.",
+        "p1_2": "It also involves effective communication, analytics, and the most important of all, patience. An inquisitive person today will be a customer tomorrow. A sale is a transaction in which the buyer obtains tangible or intangible products, services, or assets in return for money from two or more parties. In the financial markets, a sale can also refer to a pricing agreement between a buyer and a seller for security. You must have good communication skills to be a successful salesperson. A successful salesperson achieves sales goals while remaining courteous and helpful to consumers.",
+        "img1": "../assets/images/blog/blog-details-sales.jpg",
+        "alt1": "EE Image",
+        "desc": "A salesperson is responsible for selling products or services that meet customer needs. They identify prospective customers, establish trust, nurture prospects through the company's sales funnel, provide information on offerings, and bring in new customers by convincing people to make a purchase. Choosing a career in sales depends on your experience, company, and industry. It’s a background with a plethora of opportunities if you’re decent at what you do. Customers are greeted, assisted in finding things in the store, and transactions are rung up by the salesperson. ",
+        "skills": [
+            "Negotiation Skills: As a salesperson, you'll have to work out budgets, timetables, and expectations with clients. You'll also need to collaborate with a group of people who share your objectives.",
+            "Creativity Skills: This is what gives you brownie points in this sector; if you want to stand out in the market, you must be able to think outside the box.",
+            "Communication Skills: They are a must in this job because you will be dealing with a variety of clientele. "
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: BCom. / BBA / BBM / Diploma in Sales",
+            "Post Graduation: MBA in Marketing and Sales"
+        ],
+        "opp_l": [
+            "Company Sales Person"
+        ],
+        "opp_r": [
+        ],
+        "insti": [
+            {
+                "link": "https://www.spjimr.org/",
+                "name": "SP Jain Institute of Management and Research"
+            },
+            {
+                "link": "https://liba.edu/",
+                "name": "Loyola Institute of Business Administration"
+            },
+            {
+                "link": "http://www.iimkashipur.ac.in/",
+                "name": "Indian Institute Of Management"
+            },
+            {
+                "link": "https://sibm.edu/",
+                "name": "Symbiosis Institute of Business Management"
+            }
+        ],
+        "pros": [
+            "The pay scale is really rewarding in this field.",
+            "Get to meet new people of the field on a continuous basis.",
+            "Many opportunities to travel around the country or even world due to work."
+        ],
+        "cons": [
+            "Long and hectic working hours.",
+            "Busy and tight schedules due to stringent deadlines.",
+            "The field has a lot of competition."
+        ]
+    },
+    {
+        "careerid": "prod",
+        "title": "Product Designer",
+        "cat_dir": "../marketing.html",
+        "cat": "Product Designer",
+        "duration": "3 years",
+        "p1_1": "Do you want to design and create a product? If yes, then product designing is the favoured career option for you. The process of product design entails imagining and producing mass-produced products. The concept includes both the physical and functional characteristics that goods should have.",
+        "p1_2": "It's an observational technique that uses a problem-solving approach to enhance the end-quality user's life and interactions with the environment. Certain experts, such as engineers and marketers, collaborate with product designers. Although they are not in control of the product's strictly mechanical and technical elements, they are concerned with usability. Understanding technology, production methods and materials is necessary as the designers use 3-D models, drawings and computer designs to express their ideas. ",
+        "img1": "../assets/images/blog/blog-details-prod.jpg",
+        "alt1": "EE Image",
+        "desc": "Product designers use their design experience and technological expertise to enhance the functionality and appearance of existing products. Designers also work to reduce the product's expense by rethinking the development. Designers can not only work on existing products, but they can also work on the development of a completely new product. Product designers work closely with colleagues and clients. They even have to work with engineers, model makers, sales and marketing professionals, and other skilled people. Doing all the work designers do, they have to be on a budget and make it to the deadlines. ",
+        "skills": [
+            "Technical Skills: Product designers usually practice on the computer. They need to be familiar with the software and should know the technical specs of the job. They must have IT and CAD skills.",
+            "Creativity Skills: Any field of designing is a creative field. In such fields theory does not work instead practicality works.",
+            "Communication Skills: Designers need to coordinate with clients and colleagues. They even need to work with professionals of other fields such as engineers, sales and marketing, etc. "
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: B. Des in Industrial design / B. Des in Product designing / B. Tech in Mechanical / B. Tech in Automobile / B. Tech in Electrical Engineering",
+            "Post Graduation: Diploma / M. Des in Product Designing / Diploma / M. Des in Industrial Designing"
+        ],
+        "opp_l": [
+            "Product Designer",
+            "Furniture Designer",
+            "Exhibition Designer",
+            "Color Technologist"
+        ],
+        "opp_r": [
+            "Textile Technologist",
+            "CAD Technician"
+        ],
+        "insti": [
+            {
+                "link": "https://www.nid.edu/",
+                "name": "National Institute of Design"
+            },
+            {
+                "link": "https://www.mitid.edu.in/",
+                "name": "MIT Institute of Design"
+            },
+            {
+                "link": "https://www.iisc.ac.in/",
+                "name": "Indian Institute of Science"
+            },
+            {
+                "link": "https://www.iitb.ac.in/",
+                "name": "Indian Institute of Technology"
+            }
+        ],
+        "pros": [
+            "Job satisfaction is the biggest pro of this sector.",
+            "High paying job because of the high demand in the market.",
+            "Highly creative as one gets to work on a product from scratch."
+        ],
+        "cons": [
+            "Stressful job as there are tight deadlines to be met.",
+            "Perfection is required, as one is building a product that will be sold under a company's name.",
+            "It requires a high level of skills as it is a complex job with different dimensions."
+        ]
+    },
+    {
+        "careerid": "mark",
+        "title": "Marketing",
+        "cat_dir": "../marketing.html",
+        "cat": "Marketing",
+        "duration": "3 years",
+        "p1_1": "Do you want to design advertisements and marketing strategies for different companies? Then, marketing is a great field for you. Marketing is a means of understanding the ways in which our world is working at the moment, and using that as a way of promoting a product or service. ",
+        "p1_2": "It's one of the most important aspects of business and trade. Marketers can target other firms or consumers directly with their goods. Creating demand in the market is also something that candidates who choose this career do. The environment surrounding the product, the results of marketing research and market research, and the features of the product's target market all influence the marketing mix, which describes the specifics of the product and how it will be sold.",
+        "img1": "../assets/images/blog/blog-details-mark.jpg",
+        "alt1": "EE Image",
+        "desc": "Marketing requires you to be on your toes. You need to brainstorm a lot in this field and come up with different ways to sell your product or service. Marketing executives strive to maximize revenues by creating sales tactics that are tailored to the needs of their customers and by pushing products, services, or ideas. Marketing executives plan and implement product and service promotion initiatives. There are other things also that fall under marketing such as keeping a track of data, looking at how your own products are doing in the market. Keeping a track of the market and its demand is also important. ",
+        "skills": [
+            "Negotiation Skills: As a marketer, you'll have to work out budgets, timetables, and expectations with clients. You'll also need to collaborate with a group of people who share your objectives.",
+            "Analytical Skills: As previously stated, analyzing the market, trends, and patterns is very crucial.",
+            "Creativity Skills: This is what gives you brownie points in this sector; if you want to stand out in the market, you must be able to think outside the box. ",
+            "Communication Skills: They are a must in this job because you will be dealing with a variety of clientele. "
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: B.Com. / BBA / BBM / Diploma in marketing",
+            "Post Graduation: MBA in Digital Marketing / MBA in oversees marketing"
+        ],
+        "opp_l": [
+            "Digital Marketing",
+            "Direct Marketing",
+            "Market Research",
+            "Public Relation"
+        ],
+        "opp_r": [
+            "Brand Management",
+            "Advertising"
+        ],
+        "insti": [
+            {
+                "link": "https://www.spjimr.org/",
+                "name": "SP Jain Institute of Management and Research"
+            },
+            {
+                "link": "https://liba.edu/",
+                "name": "Loyola Institute of Business Administration"
+            },
+            {
+                "link": "Indian Institute Of Management",
+                "name": "Indian Institute Of Management"
+            },
+            {
+                "link": "https://www.sibm.edu/",
+                "name": "Symbiosis Institute of Business Management"
+            }
+        ],
+        "pros": [
+            "The pay scale is really rewarding in this field.",
+            "Get to meet new people of the field on a continuous basis.",
+            "Many opportunities to travel around the country or even world due to work."
+        ],
+        "cons": [
+            "Long and hectic working hours.",
+            "Busy and tight schedules due to stringent deadlines.",
+            "The field has a lot of competition."
+        ]
+    },
+    {
+        "careerid": "atc",
+        "title": "Air Traffic Controller",
+        "cat_dir": "../aviation.html",
+        "cat": "Aviation",
+        "duration": "3 years",
+        "p1_1": "Have you always been intrigued by how aircrafts are controlled? If yes, then you should think of becoming an air traffic controller. Land-based air traffic controllers provide air traffic control (ATC), which directs aircraft on the ground and through controlled airspace, as well as providing advisory services to aircraft in non-controlled airspace.",
+        "p1_2": "They help pilots by preventing collisions, coordinating air traffic flow, and providing information and assistance. They communicate with pilots and track aircraft in their assigned airspace using radar. Air Traffic Controller enforces traffic separation laws to avoid accidents by ensuring that each aircraft has a minimum amount of empty space around it. This role is key, to the aviation sector.",
+        "img1": "../assets/images/blog/blog-details-atc.jpg",
+        "alt1": "EE Image",
+        "desc": "The air traffic controller is the instructor of the pilots. They assist the pilot’s landings and take-offs by monitoring and directing the movement of aircraft on the ground and in the air. They make use of radar tracking, computer systems, or visual references. They even control all ground traffic at airports, including baggage vehicles and airport workers. They even provide information to pilots, such as weather updates, runway closures, and other critical information. The air traffic controller plays a critical role in an emergency since they must immediately inform the appropriate authorities and warn emergency response personnel.",
+        "skills": [
+            "Mathematical Skills: It is an essential skill to become an ATC as they need to do math accurately and quickly as the whole aeroplane’s landing and take offs are dependent on them including pilots.",
+            "Concentration Skills: In the airport tower, lots of people work together but each individual should be able to focus on their job.",
+            "Communication Skills: Controllers must be able to give clear, concise instructions, listen carefully to pilot’s requests, and respond by speaking clearly.",
+            "Decision Making Skills: Flying an aircraft is an unpredictable job as the weather or other factors can change suddenly and the controller is the first person to respond to such changes.",
+            "Organizational Skills: Controller coordinates the actions of multiple flights. But it is the controller’s job to prioritize and give time to each pilot to give them complete information."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Technology / Bachelor of Science in Physics and Mathematics.",
+            "Post Graduation: Master of Technology / Master of Science in Physics and Mathematics."
+        ],
+        "opp_l": [
+            "Tower Controllers",
+            "En Route Controllers"
+        ],
+        "opp_r": [
+            "Approach and Departure Controllers"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iitm.ac.in/",
+                "name": "Indian Institute of Technology"
+            },
+            {
+                "link": "https://www.iiserpune.ac.in/",
+                "name": "Indian Institute of Science Education and Research"
+            },
+            {
+                "link": "https://jaipur.manipal.edu/",
+                "name": "Manipal University Jaipur"
+            }
+        ],
+        "pros": [
+            "It is a great job for those who have a high ability of strategic thinking and quick decision-making ability.",
+            "It is a highly respectable job in the aviation industry as they are in charge of the security of the aeroplane.",
+            "Professionals do not take their work home so they have time for their hobbies."
+        ],
+        "cons": [
+            "It is stressful with no room for errors as the whole aeroplane depends on them.",
+            "Successful ATC requires years of training and working hours.",
+            "Professionals might have to work for longer hours."
+        ]
+    },
+    {
+        "careerid": "ame",
+        "title": "Aircraft Maintenance Engineer",
+        "cat_dir": "../aviation.html",
+        "cat": "Aviation",
+        "duration": "3 years",
+        "p1_1": "Do you love aircraft and working with machines? If so, then a career as an Aircraft Maintenance Engineer is just for you. Aircraft maintenance is the execution of tasks required to ensure an aircraft or aircraft part's continued airworthiness, such as overhaul, inspection, replacement, defect rectification, and the embodiment of modifications, compliance with airworthiness directives, and repair.",
+        "p1_2": "This is a very crucial profession as such professionals are responsible for maintenance, control and repairing of specialised aircraft parts and instrumentations. They are responsible for assessing the safety of the aircraft and repairing any inconsistency so as to prevent any malfunctioning. Assessing and handling repairs, executing regular inspections, and updating aircraft as needed are all part of this work.",
+        "img1": "../assets/images/blog/blog-details-ame.jpg",
+        "alt1": "EE Image",
+        "desc": "A licensed person who performs and certifies aircraft maintenance is known as an Aircraft Maintenance Engineer. The primary job of such professionals is to detect any detriment present in parts of the aircraft and repair or replace such flawed parts. They follow the engineering designs and plans and service the aircraft. They are also responsible for testing various gauges and instruments for any errors and work to solve any complaints registered by the pilots or co-pilots during the travel of the flight. It is a relatively challenging but rewarding profession. They are responsible for ensuring an aircraft operates properly and safely.",
+        "skills": [
+            "A licensed person who performs and certifies aircraft maintenance is known as an Aircraft Maintenance Engineer. The primary job of such professionals is to detect any detriment present in parts of the aircraft and repair or replace such flawed parts. They follow the engineering designs and plans and service the aircraft. They are also responsible for testing various gauges and instruments for any errors and work to solve any complaints registered by the pilots or co-pilots during the travel of the flight. It is a relatively challenging but rewarding profession. They are responsible for ensuring an aircraft operates properly and safely.",
+            "Concentration Skills: In this profession, missing even the slightest details can have disastrous consequences, making such skills very important.",
+            "Time Management Skills: You have to service an aircraft in between flights and thus have strict deadlines where delays may spell huge losses.",
+            "Pressure Handling Skills: The pressure to perform immaculate jobs in strict times makes pressure-handling skills very important.",
+            "Learning Skills: Even after studying, one has to keep up with the latest innovations in the field so as to ensure that all aircraft are fitted with up-to-date technology."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor of Technology in Aeronautical Engineering  / Aircraft Maintenance Engineering License / Bachelor of Science.",
+            "Post Graduation: Aircraft Maintenance Engineer Training Courses."
+        ],
+        "opp_l": [
+            "Airlines",
+            "Airport Authorities"
+        ],
+        "opp_r": [
+            "Aircraft Manufacturing Firms"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iameaurangabad.com/",
+                "name": "Institute of Aircraft Maintenance Engineering"
+            },
+            {
+                "link": "http://flytechaviation.aero/",
+                "name": "Flytech Aviation Academy"
+            },
+            {
+                "link": "https://www.hindustanacademy.edu.in/",
+                "name": "Hindustan Aviation Academy"
+            },
+            {
+                "link": "https://www.iiae.in/",
+                "name": "Indian Institute for Aeronautical Engineering"
+            }
+        ],
+        "pros": [
+            "Full of challenging and exciting opportunities.",
+            "Perks and high salary after establishing one as a competent engineer.",
+            "Perks and high salary after establishing one as a competent engineer."
+        ],
+        "cons": [
+            "Low pay in the beginning.",
+            "A high amount of labour is required.",
+            "Perfection is a must, in this profession."
+        ]
+    },
+    {
+        "careerid": "cc",
+        "title": "Cabin Crew",
+        "cat_dir": "../aviation.html",
+        "cat": "Aviation",
+        "duration": "3 years",
+        "p1_1": "Do you love travelling and interacting and helping people? If so, then a career as a part of the Cabin Crew is just for you. Cabin Crew members travel on flights to ensure that the journey of all people in the aeroplane is comfortable and without any problem. They are also responsible for ensuring everyone’s safety and lead in times of emergency.",
+        "p1_2": "They are also supposed to fill out the flight reports and do the necessary paperwork for the flight. They also have to greet passengers as they board and exit the plane. show passengers to their seats, serve meals and refreshments, check the condition and provision of emergency equipment and information for passengers. Flight attendants are prepared to handle a wide range of emergencies and are first-aid certified.",
+        "img1": "../assets/images/blog/blog-details-cc.jpg",
+        "alt1": "EE Image",
+        "desc": "Being a part of the Cabin Crew is of great responsibility. The crew is responsible for checking all of the safety measures and look into the passenger list and facilitate the special requirements for some passengers. They also help passengers with any difficulty they might have during the flight and serve them refreshments. They are responsible for some of the important work to ensure that the passengers have a great experience of travelling. They have to answer queries and provide assistance to passengers to ensure their pleasure. Before taking off, they inspect the cabin for conformity with safety rules.",
+        "skills": [
+            "MInterpersonal Skills: This profession requires you to interact with multitudes of people regularly, making good interpersonal skills important.",
+            "Pressure Handling Skills: You have to be ready to act efficiently and smartly under emergencies despite all of the pressure that may come upon you.",
+            "Teamwork Skills: You work in teams of crews, making teamwork very important."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Diploma in Cabin Crew / Bachelor in Hotel Management Catering and Technology.",
+            "Post Graduation: PG Diploma in Cabin Crew."
+        ],
+        "opp_l": [
+            "Domestic Airlines"
+        ],
+        "opp_r": [
+            "International Airlines"
+        ],
+        "insti": [
+            {
+                "link": "https://www.iiagroup.co.in/",
+                "name": "All India Institute of Aeronautics"
+            },
+            {
+                "link": "https://www.airindiaexpress.in/",
+                "name": "Air India Express"
+            },
+            {
+                "link": "http://www.hihmhospitality.com/",
+                "name": "Hope Institute of Hospitality Management Pvt Ltd"
+            },
+            {
+                "link": "https://www.thebombayflyingclub.com/",
+                "name": "The Bombay Flying Club, College of Aviation"
+            },
+            {
+                "link": "https://www.avalonacademy.in/",
+                "name": "Avalon Academy"
+            }
+        ],
+        "pros": [
+            "You get to interact with a huge array of people.",
+            "You may also get discounted or free flights as per the perks of the job.",
+            "You get to develop your personality."
+        ],
+        "cons": [
+            "The working hours are long and exhausting.",
+            "You may also have to encounter a few passengers who are difficult to handle but still be pleasing to them.",
+            "You may sometimes be deprived of sleep in cases of night flights, about the latest improvements."
+        ]
+    },
+    {
+        "careerid": "fa",
+        "title": "Flight Attendant",
+        "cat_dir": "../aviation.html",
+        "cat": "Aviation",
+        "duration": "3 years",
+        "p1_1": "Do you aspire to fly high? If yes then, the flight attendant is the perfect job for you. A flight attendant is a member of an aircrew employed by airlines aboard commercial flights, primarily to ensure the comfort of passengers.",
+        "p1_2": "Their job is not just to serve people snacks and drinks but flight attendants are also in charge of the safety of the passengers onboard. Flight attendants are also responsible for briefing the passengers on safety standards specific to the aircraft in a safety demonstration. Passengers are made aware of how to locate their nearest emergency exit, how to properly buckle their safety belts, what to do in the event of turbulence, how to operate safety vests or flotation devices, and how to use the drop-down oxygen masks.",
+        "img1": "../assets/images/blog/blog-details-fa.jpg",
+        "alt1": "EE Image",
+        "desc": "The job of the flight attendant begins way before the flight takes off and ends with the landing of the flight. It begins with a briefing about the weather conditions, journey time, possible emergency situations, etc. The primary job of flight attendants is to keep passengers safe and to ensure that everyone follows security regulations. Along with that, they also serve and sometimes sell beverages, meals, or snacks or other items available on flight. Working hours of a flight attendant are not fixed; instead, it depends on the flight schedule and duration.",
+        "skills": [
+            "Physical Stamina: Flight attendants have to pass medical evaluation where their height and weight are checked. They need to have a vision that is correctable to at least 20/40. This is done because they have to lift heavy luggage and stand for long hours.",
+            "Customer Service Skills: A flight attendant’s primary job is to serve people boarding the flight. They should be poise, tact, and resourceful to handle stressful situations.",
+            "Communication Skills: Flight attendants should be able to speak, listen attentively, and interact comfortably with passengers and other crew members.",
+            "Decision Making Skills: Flight attendants should have a clear head at the time of emergencies and should be quick enough to make effective decisions."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science or Commerce or Humanities.",
+            "Graduation: Diploma in Cabin Crew / Bachelor in Hotel Management Catering and Technology.",
+            "Post Graduation: PG Diploma in Cabin Crew."
+        ],
+        "opp_l": [
+        ],
+        "opp_r": [
+        ],
+        "insti": [
+            {
+                "link": "https://iiaedehradun.org/",
+                "name": "Indian Institute for Aeronautical Engineering"
+            },
+            {
+                "link": "https://www.airindiaexpress.in/",
+                "name": "Air India Express"
+            },
+            {
+                "link": "http://www.hihmhospitality.com/",
+                "name": "Hope Institute of Hospitality Management Pvt Ltd"
+            },
+            {
+                "link": "https://www.thebombayflyingclub.com/",
+                "name": "The Bombay Flying Club, College of Aviation"
+            },
+            {
+                "link": "https://www.avalonacademy.in/",
+                "name": "Avalon Academy"
+            }
+        ],
+        "pros": [
+            "It is a great opportunity to meet new people and to travel to different locations.",
+            "One does not need any specific degree to become a flight attendant.",
+            "The pay is satisfactory and it increases every year, alongwith free flights and hotel discounts for the attendants and their family."
+        ],
+        "cons": [
+            "Seniority gets picked first every time, whether in the promotion or in the recommendation.",
+            "There is a tough competition to get into this field as companies receive thousands of applications.",
+            "Inconsistency in schedule makes the attendants work even on holidays."
+        ]
+    },
+    {
+        "careerid": "pilot",
+        "title": "Pilot",
+        "cat_dir": "../aviation.html",
+        "cat": "Aviation",
+        "duration": "3 years",
+        "p1_1": "Do you dream of taking control of the skies? If the answer is yes, then becoming a pilot might be your perfect career choice. A pilot is a skilled aviator responsible for operating aircraft, including airplanes and helicopters.",
+        "p1_2": "Their role goes beyond simply flying the aircraft; pilots are entrusted with the safety and navigation of the entire flight. They must undergo extensive training and possess in-depth knowledge of aviation regulations, weather conditions, and flight systems. Pilots not only ensure a smooth takeoff, flight, and landing but also make critical decisions during emergencies, ensuring the safety and well-being of everyone on board.",
+        "img1": "../assets/images/blog/blog-details-pilot.jpg",
+        "alt1": "EE Image",
+        "desc": "The role of a pilot is essential in ensuring the safe and efficient operation of an aircraft. Their responsibilities extend well before the plane takes off and continue until it safely lands. Their day typically starts with a comprehensive briefing, covering aspects such as weather conditions, flight duration, potential challenges, and more. Pilots are primarily responsible for the safe navigation and control of the aircraft, ensuring adherence to all aviation regulations and safety protocols. They collaborate closely with the flight crew, air traffic controllers, and ground staff to ensure a smooth flight. The working hours of a pilot can vary significantly, depending on factors such as flight routes, layovers, and the type of aircraft they operate.",
+        "skills": [
+            "Technical Proficiency: A pilot's primary duty is to safely operate the aircraft. They must have in-depth knowledge of aviation systems, navigation, and aeronautical principles, along with the ability to effectively use various flight instruments.",
+            "Problem-Solving Skills: Pilots are trained to handle unexpected situations and emergencies that may arise during flights. They must be able to think critically and make timely decisions to ensure the safety of the aircraft and its passengers.",
+            "Situational Awareness: It's crucial for pilots to have a keen sense of their surroundings, be aware of air traffic, and understand weather conditions. This helps them navigate and respond appropriately to changing circumstances during the flight.",
+            "Communication Proficiency: Pilots must communicate clearly and effectively with air traffic controllers, co-pilots, flight attendants, and other crew members. This ensures smooth coordination and information exchange throughout the flight."
+        ],
+        "educ": [
+            "School: Any subject combination taking Science as the main stream.",
+            "Graduation: Bachelor's Degree in Aviation Science / Diploma in Commercial Pilot Training (CPL).",
+            "Post Graduation: Commercial Pilot License (CPL) with Multi-Engine and Instrument Ratings."
+        ],
+        "opp_l": [
+            "Commercial Airline Pilot",
+            "Cargo Pilot"
+        ],
+        "opp_r": [
+            "Corporate Pilot",
+            "Flight Instructor"
+        ],
+        "insti": [
+            {
+                "link": "https://www.igrua.gov.in/",
+                "name": "Indira Gandhi Rashtriya Uran Akademi (IGRUA)"
+            },
+            {
+                "link": "http://nfticharsoo.com/",
+                "name": "National Flying Training Institute (NFTI)"
+            },
+            {
+                "link": "http://www.chimesaviationacademy.com/",
+                "name": "Chimes Aviation Academy"
+            },
+            {
+                "link": "https://www.thebombayflyingclub.com/",
+                "name": "The Bombay Flying Club, College of Aviation"
+            },
+            {
+                "link": "http://www.rgaviation.com/",
+                "name": "Rajiv Gandhi Aviation Academy"
+            }
+        ],
+        "pros": [
+            "Being a pilot offers a unique chance to command an aircraft and travel to various destinations.",
+            "The profession doesn't necessarily require a specific degree, opening up opportunities for passionate individuals.",
+            "Pilots generally enjoy competitive salaries that tend to rise annually, along with perks like free flights and discounted hotel accommodations for themselves and their families."
+        ],
+        "cons": [
+            "Seniority plays a crucial role in decision-making, be it in promotions or recommendations, which can sometimes be challenging for those lower in seniority.",
+            "The aviation industry is highly competitive, with companies often receiving an overwhelming number of applications, making it a tough field to break into.",
+            "Pilots often face an irregular and unpredictable work schedule, which may require them to work on holidays and weekends, impacting their work-life balance."
+        ]
+    },
+    {
+        "careerid": "arch",
+        "title": "Archaelogy ",
+        "cat_dir": "../humanities.html",
+        "cat": "Humanities",
+        "duration": "4 years",
+        "p1_1": "Have you ever wondered about the ancient eras, and want to study them? Then Archaeology is the right choice for you! Archaeology is the study of the human past, human civilisations and living conditions from remains. A person who studies archaeology for a living is known as an archaeologist. The study of human activity via the recovery and examination of material culture is known as archaeology. Although archaeology is frequently thought of as a branch of socio-cultural anthropology, archaeologists also use biological, geological, and environmental systems in their research. Archaeology is especially essential for understanding about prehistoric societies because there are no written records for them. From the Paleolithic through the introduction of literacy in communities around the world, prehistory encompasses almost 99 percent of human history.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities3/archaeology.jpg",
+        "alt1": "AIML Image",
+        "desc": "An archaeologist mainly works with evidence found. In other words, they try and excavate material remains that can be evidence for human existence, civilizations, history, etc. These archaeologists then try to study their origin, describe the remains, and try to give it more context and build on to give us knowledge about an entire time period or era to pass on information to the world about their findings, they also publish their research. They also research the habits, values, and social patterns of many cultures. In their job, many archaeologists employ advanced instruments and technologies.",
+        "skills": [
+            "Research Skills: Research skills are like the foundation for archaeologists. For research they also need to have a good command of their writing skills to publish their findings.",
+            "Analytical Skills This is important because Archaeologists usually read and analyse data. They also need to apply the knowledge they have to make appropriate inferences.",
+            "Reading Skills: This is required to be able to comprehend written sentences and paragraphs, in work-related materials",
+            "Communication Skills It’s highly important because they'll be working with different people and surroundings. And they need to be able to effectively communicate their ideas and suggestions."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: Communication Skills It’s highly important because they'll be working with different people and surroundings. And they need to be able to effectively communicate their ideas and suggestions.",
+            "Post Graduation:MA. in Archaeology"
+        ],
+        "opp_l": [
+            "Archaeologists",
+            "Conservation officer",
+            "Gallery Curator"
+        ],
+        "opp_r": [
+            "Lecturer",
+            "Document Specialist"
+        ],
+        "insti": [
+            {
+                "link": "https://www.loyolacollege.edu/",
+                "name": "Loyola College, Chennai,"
+            },
+            {
+                "link": "http://www.punjabiuniversity.ac.in/",
+                "name": "Patiala College, Patiala"
+            },
+            {
+                "link": "https://www.tiss.edu/",
+                "name": "Stella Maris College, Chennai"
+            },
+            {
+                "link": "https://www.xaviercomm.org/",
+                "name": "Tata institute of Social Sciences, Mumbai"
+            }
+        ],
+        "pros": [
+            "If you're experienced and good at the job the pay is rewarding",
+            "It can also be rewarding as a profession if you discover something new.",
+            "You get to travel a lot if you're working on the field"
+        ],
+        "cons": [
+            "The working conditions are not easy and can be difficult.",
+            "Long and hectic work hours",
+            "It requires extensive study and research"
+        ]
+    },
+    {
+        "careerid": "PA",
+        "title": "Public Administration ",
+        "cat_dir": "../humanities.html",
+        "cat": "Humanities",
+        "duration": "4 years",
+        "p1_1": "Public administration is a field where various functions that are expected from the government are executed by public administrators. The success of a well-functioning country solely lies in the performance of every small job performed. The aim of educating people in public administration is to train them in democratic values such as equality, justice, security, effectiveness, and order. It also prepares such human resources who can critically analyse and review public policies of the government. It is the process of putting government policies into action, as well as an academic subject that examines this process and trains civil servants to work in government. These public administrators are enabled to bear the responsibility of determining the policies and programs of the government like planning, organizing, directing, coordinating, and controlling government operations.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities3/publicadministration.jpg",
+        "alt1": "AIML Image",
+        "desc": "Public administrators are government officials who work in government departments and agencies at all levels. Due to several changes happening every day, there is always a promising career in public administration. Public administration requires a high level of diplomatic skills and thorough knowledge of public issues. Everyday tasks include a variety of jobs to analyse, observe and execute plans. They investigate, design, and recommend policies and programs that are both cost-effective and adhere to administrative and federal regulations.",
+        "skills": [
+            "Strategic Skills : Working for a large mass requires anticipating future trends and executing plans based on that data.",
+            "Responsibility Skills : This is key to Public Administration. Taking responsibility for the good and bad decisions show honesty in your work which is important in this line of work.",
+            "Leadership Skills : They are useful even at the beginning. This ensures that you are ready for prospects and roles to take better decisions."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: BA. In Public Administration",
+            "Post Graduation: MA. In Public Administration"
+        ],
+        "opp_l": [
+            "Research Assistant",
+            "Government Relations",
+            "Analyst"
+        ],
+        "opp_r": [
+            "Consultant",
+            "Academia"
+        ],
+        "insti": [
+            {
+                "link": "https://www.presiuniv.ac.in/web/",
+                "name": "Indian Institute of Public Administration, New Delhi"
+            },
+            {
+                "link": "https://www.amucontrollerexams.com/",
+                "name": "Jawaharlal Nehru University, New Delhi"
+            },
+            {
+                "link": "https://mu.ac.in/",
+                "name": "St. Xavier's College, Mumbai"
+            },
+            {
+                "link": "https://www.mirandahouse.ac.in/",
+                "name": "Nizam College, Hyderabad"
+            }
+        ],
+        "pros": [
+            "The job sector focuses on the administration of the government. A good perspective and better functioning only aides better governance in the country.",
+            "Large exposure to various workings of the government",
+            "You get to travel a lot if you're working on the field"
+        ],
+        "cons": [
+            "Immense preparation and dedication needed to enter the field. ",
+            "The job can take a toll on you if the work-life balance is not maintained. This balance cannot be easily maintained in the initial years of your career",
+            "It entails huge responsibilities."
+        ]
+    },
+    {
+        "careerid": "HomeSc",
+        "title": "Home Science ",
+        "cat_dir": "../humanities.html",
+        "cat": "Humanities",
+        "duration": "4 years",
+        "p1_1": "Do you want to learn a lot of different areas under one subject? Then, this is the subject to study. Home science isn't just a subject that teaches you how to cook. There's a lot that this subject encounters. Even though it might be seen as a subject merely for women, this is a stereotypical idea. The subject goes from nutrition, to child development and even financial management as well as leadership skills. Thus as you can see it's an umbrella subject. Home science has great opportunities in the tourism industry and/or in hotels, tourist resorts, etc. as catering agents, interior designer, cook, food analysts, bakers as well as a healthcare professional. They are employed as dieticians in hospitals, schools and various other organizations. There are 5 streams of home science: Food and Nutrition, Resource Management, Human Development, Fabric and Apparel Science and Communication and Extension.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities3/homescience.jpg",
+        "alt1": "AIML Image",
+        "desc": "As mentioned above, home science focuses on a number of topics. Thus an individual can Branch out and choose a career that best suits him/her. Nutrition is one of the foremost careers that people go for after choosing to study home science. Interior designing, child development are other fields that they can branch into as well. Home science is a vast field where the student can learn about nutrition, resources, home management, hygiene, general health, effective communication skills, ethics, clothing and textile management. One can specialize in any of the five streams of home science",
+        "skills": [
+            "Creativity Skills : There's a lot of room and opportunity to be creative in home science.",
+            "Analytical Skills This is important because Archaeologists usually read and analyse data. They also need to apply the knowledge they have to make appropriate inferences."
+        ],
+        "educ": [
+            "School: Any subject combination (Home Science as an option) ",
+            "Graduation: BSc. in Home Science",
+            "Post Graduation: MSc. in Home Science "
+        ],
+        "opp_l": [
+            "Production industry",
+            "Healthcare",
+            "Nutrition Consultant"
+        ],
+        "opp_r": [
+            "Dietician",
+            "Interior Designing "
+        ],
+        "insti": [
+            {
+                "link": "https://ladyirwin.edu.in/",
+                "name": "Lady Irwin College, New Delhi"
+            },
+            {
+                "link": "https://nimsuniversity.org/",
+                "name": "NIMS University, Jaipur"
+            },
+            {
+                "link": "https://mccblr.edu.in/",
+                "name": "Mount Carmel College, Bengaluru"
+            },
+            {
+                "link": "https://www.rpcau.ac.in/",
+                "name": "Dr.Rajendra Prasad Central Agricultural University, Samastipur"
+            }
+        ],
+        "pros": [
+            "The field is growing and thus job opportunities are more in number",
+            "It also has a lot of options and scope for a career",
+            "This teaches various skills, useful even in personal life."
+        ],
+        "cons": [
+            "Initially, the salary might not be very good",
+            "It's not a well recognized profession as of now.",
+            "It is often stereotypes as just cooking, and looked down upon"
+        ]
+    },
+    {
+        "careerid": "Geo",
+        "title": "Geography ",
+        "cat_dir": "../humanities.html",
+        "cat": "Humanities",
+        "duration": "4 years",
+        "p1_1": "Do you enjoy learning about different places and their terrains? Then geography is the right choice for you! Geography is the study of the physical features of our planet Earth. In geography, a person usually studies the terrains, vegetation, formations and other such aspects. It's an in-depth study of the planet we live on about aspects such as weather and natural calamities as well. It is the study of places and people's interactions with their surroundings. Geographers study the physical features of the Earth's surface as well as the human societies that live there. An active interest in the environment and everything that affects life on Earth is important. Geography tries to figure out where things are, why they're there, and how they evolve and change over time.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities3/geography (1).jpg",
+        "alt1": "AIML Image",
+        "desc": "A geographer is a physical scientist, social scientist, or humanist who studies geography. The career and work-life of a geographer can be quite interesting. Different jobs could hire a geographer such as working with national geographic, to working with the forest department. The work-life thus depends on the course that a geographer chooses to take. Geographers examine the distribution of phenomena, processes, and features in space and time and the interaction of humans and their environment. Geography is very interdisciplinary since space and place have an impact on a wide range of themes, including economics, health, climate, plants, and animals",
+        "skills": [
+            "Research Skills: Research skills are like the foundation for archaeologists. For research they also need to have a good command of their writing skills to publish their findings.",
+            "Analytical Skills This is important because Archaeologists usually read and analyse data. They also need to apply the knowledge they have to make appropriate inferences.",
+            "Reading Skills: This is required to be able to comprehend written sentences and paragraphs, in work-related materials",
+            "Communication Skills It’s highly important because they'll be working with different people and surroundings. And they need to be able to effectively communicate their ideas and suggestions."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: BA. in Geography",
+            "Post Graduation:MA. in Geography/MSc. in Cartography/MA. in Demographic Studie"
+        ],
+        "opp_l": [
+            "Regional Planner",
+            "Urban Planner",
+            "Cartographer"
+        ],
+        "opp_r": [
+            "Forest managers",
+            "Demographer"
+        ],
+        "insti": [
+            {
+                "link": "https://www.presiuniv.ac.in/web/",
+                "name": "Presidency University, Kolkata"
+            },
+            {
+                "link": "https://www.amucontrollerexams.com/",
+                "name": "Aligarh Muslim University, Aligarh"
+            },
+            {
+                "link": "https://mu.ac.in/",
+                "name": "University of Mumbai, Mumbai"
+            },
+            {
+                "link": "https://www.mirandahouse.ac.in/",
+                "name": "Miranda House, New Delhi"
+            }
+        ],
+        "pros": [
+            "It is an interesting field and has plenty of areas to be explored.",
+            "There's very little chance of feeling burnt out, or stagnant..",
+            "You get to travel a lot if you're working on the field"
+        ],
+        "cons": [
+            "The working conditions are not easy and can be difficult.",
+            "Long and hectic work hours",
+            "The pay may not be very rewarding unless you manage to achieve a high position"
+        ]
+    },
+    {
+        "careerid": "PoliSc",
+        "title": "Political Science ",
+        "cat_dir": "../humanities.html",
+        "cat": "Humanities",
+        "duration": "4 years",
+        "p1_1": "Do you want to learn about the inner workings of a government? Then, politics is a great choice for you! Politics is the working of people in communities to grow and solve problems effectively. Politicians are the ones who are involved in law-making and enforcement for the betterment of the country. Anything involved in this context would be considered politics. Political science is the study of politics, political scenarios, strategies and more in a university or institution. Within a society, a political system is a framework that determines permissible political techniques. They'll have to keep their knowledge updated about the political scenario and the politicians. Some of them can even move forward and enter politics.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Pol Sc.jpg",
+        "alt1": "AIML Image",
+        "desc": "Candidates who study political science would have to be great at communication. The more languages they know the greater their flexibility. This is because these Candidates would have to be involved with the political scenario and stay in touch with ground reality as much as they can. They can then work for political parties as campaign strategists or analysts. They can also work to build policies and work with government agencies. Law and political consultancy is also something they work with. Mostly these candidates will interact with people minute by minute.",
+        "skills": [
+            "People Skills : As this field puts theory into use, using logic and reasoning becomes important to solve the problems and to come to a conclusion.",
+            "Analytical Skills This is important because Archaeologists usually read and analyse data. They also need to apply the knowledge they have to make appropriate inferences.",
+            "Reading Skills: This is required to be able to comprehend written sentences and paragraphs, in work-related materials",
+            "Communication Skills It’s highly important because they'll be working with different people and surroundings. And they need to be able to effectively communicate their ideas and suggestions.",
+            "Learning Skills: Learning new skills and technology is a life long process for computer engineers to stay in the market."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: BA. in Political Science",
+            "Post Graduation:MA. in Political Science"
+        ],
+        "opp_l": [
+            "Law Firms",
+            "Local and National Government",
+            "Councils"
+        ],
+        "opp_r": [
+            "Political Journalists",
+            "Academia"
+        ],
+        "insti": [
+            {
+                "link": "https://www.presiuniv.ac.in/web/",
+                "name": "Presidency University, Kolkata"
+            },
+            {
+                "link": "https://www.amucontrollerexams.com/",
+                "name": "Aligarh Muslim University, Aligarh"
+            },
+            {
+                "link": "https://mu.ac.in/",
+                "name": "University of Mumbai, Mumbai"
+            },
+            {
+                "link": "https://www.mirandahouse.ac.in/",
+                "name": "Miranda House, New Delhi"
+            }
+        ],
+        "pros": [
+            "The world of politics is ever-changing. Thus there'll always be something to catch up with and learn",
+            "In case you are someone who likes to work for the betterment but also likes to stay behind the scenes, this would be perfect",
+            "It also requires candidates to think fast and act faster and there's always room to grow"
+        ],
+        "cons": [
+            "This job demands high responsibility, in case you're at positions like being the campaign manager.",
+            "You'd have to be quick on your feet and always be on your toes trying to analyse and understand situations.",
+            "Stress in the job is also quite high as it's fast-paced only if you're working in the field."
+        ]
+    },
+    {
+        "careerid": "lang",
+        "title": "Language ",
+        "cat_dir": "../humanities.html",
+        "cat": "Humanities",
+        "duration": "4 years",
+        "p1_1": "Do you want to study languages, and learn about words and their origins? Then you should choose languages as a major! A language is a systematic system of communication used by humans that is based on speech and gestures, sign language, and, in some cases, writing. The grammar of a language is its structure, whereas the vocabulary is its free component. All of us can communicate with each other only because of the medium of language that exists between us. Language as we all know helps us communicate effectively and also understand a lot more about cultures and communities. Linguistics is the scientific study of language. Critical studies of languages, such as language philosophy, the links between language and cognition, and how words express reality, have been argued at least since the time of Gorgias and Plato in ancient Greece.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities3/language.jpg",
+        "alt1": "AIML Image",
+        "desc": "Linguists research language and the elements that influence how people communicate. They can work in a variety of fields, including translation, analysis, research, and interpretation. Linguists work in a variety of settings, including education, government, and other public and commercial organizations. Studying languages and especially foreign languages takes a different kind of dedication. These people would mostly have to interact with a lot of people from various backgrounds. Especially with foreign languages, it could involve travelling also. They would also have to read and be good at analyzing.",
+        "skills": [
+            "Analytical Skills This is important because Archaeologists usually read and analyse data. They also need to apply the knowledge they have to make appropriate inferences.",
+            "Reading Skills: This is required to be able to comprehend written sentences and paragraphs, in work-related materials",
+            "Communication Skills It’s highly important because they'll be working with different people and surroundings. And they need to be able to effectively communicate their ideas and suggestions."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: BA. in Languages",
+            "Post Graduation: MA. in Languages "
+        ],
+        "opp_l": [
+            "Translator"
+        ],
+        "opp_r": [
+            "Publishing houses",
+            "Academia "
+        ],
+        "insti": [
+            {
+                "link": "https://delhi.afindia.org/",
+                "name": "Alliance Française, New Delhi"
+            },
+            {
+                "link": "https://www.jfindia.org.in/",
+                "name": "Japanese Information and Cultural Centre, New Delhi"
+            },
+            {
+                "link": "https://www.jnu.ac.in/sllcs",
+                "name": "School of Language, New Delhi"
+            },
+            {
+                "link": "https://www.bhu.ac.in/",
+                "name": "Banaras Hindu University, Varanasi"
+            }
+        ],
+        "pros": [
+            "It provides really great experiences as you'll be meeting people from all walks of life.",
+            "You can travel a lot and have an interesting lifestyle",
+            "If you work for international organizations then the pay is really good and rewarding"
+        ],
+        "cons": [
+            "It can prove to be difficult initially because the pay will be less.",
+            "Sometimes it can be difficult to deal with different kinds of people.",
+            "You need to persevere as you'll be learning a new language."
+        ]
+    },
+    {
+        "careerid": "sociology",
+        "title": "Sociology ",
+        "cat_dir": "../humanities.html",
+        "cat": "Humanities",
+        "duration": "4 years",
+        "p1_1": "How have we grown as a community? Haven’t we changed from generation to generation? How does this social change occur? These are a few questions that sociology addresses. Sociology is the study of human social behaviour. It's focused on studying the original and evolution of humans as social beings, in context with their surroundings. It focuses on how people interact with each other and live together in the same community. It is the study of social life, social change, and the social causes and consequences of human conduct. Sociologists study the structure of groups, organizations, and communities, as well as how people interact with them. They are required to thus, help in increasing the welfare of communities and individuals collectively. Communication Skills are key to becoming a sociologist as you need to be able to communicate with various groups and understand the ways of their culture",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/Sociology.jpg",
+        "alt1": "AIML Image",
+        "desc": "Sociologists need to be aware of their surroundings constantly. Sociologists examine society and social behaviour using several methodologies. They study how people form groups, cultures, organizations, social institutions, and processes, then apply what they learn in the actual world. They need to closely observe human behaviour and try to understand how environmental factors contribute to such behaviour. Especially in a diverse country like India, sociology helps in understanding the effects of different cultures on human behaviour. Based on the course an individual decides to take, sociology as a career can be flexible or stressful.",
+        "skills": [
+            "People Skills : As this field puts theory into use, using logic and reasoning becomes important to solve the problems and to come to a conclusion.",
+            "Analytical Skills This is important because Archaeologists usually read and analyse data. They also need to apply the knowledge they have to make appropriate inferences.",
+            "Adaptability Skills Adaptability to adapt to new conditions, circumstances, and diverse people.",
+            "Communication Skills It’s highly important because they'll be working with different people and surroundings. And they need to be able to effectively communicate their ideas and suggestions.",
+            "Learning Skills: Learning new skills and technology is a life long process for computer engineers to stay in the market."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: BA. (Hons) Sociology/BA. In Sociology",
+            "Post Graduation:MA. in Sociology"
+        ],
+        "opp_l": [
+            "Research Institutes",
+            "Human resources"
+        ],
+        "opp_r": [
+            "Government organis=zations",
+            "Law Firms"
+        ],
+        "insti": [
+            {
+                "link": "https://www.presiuniv.ac.in/web/",
+                "name": "Presidency University, Kolkata"
+            },
+            {
+                "link": "https://www.amucontrollerexams.com/",
+                "name": "Aligarh Muslim University, Aligarh"
+            },
+            {
+                "link": "https://mu.ac.in/",
+                "name": "University of Mumbai, Mumbai"
+            },
+            {
+                "link": "https://www.mirandahouse.ac.in/",
+                "name": "Miranda House, New Delhi"
+            }
+        ],
+        "pros": [
+            "It's an interesting field of study.",
+            "There's room for a lot of research to understand human social behaviour better.",
+            "It helps in increasing welfare."
+        ],
+        "cons": [
+            "It could take longer to achieve the kind of growth and rewards a person wants.",
+            "The pay may not be as rewarding.",
+            "It is not a very conventional profession."
+        ]
+    },
+    {
+        "careerid": "intreln",
+        "title": "International Relations ",
+        "cat_dir": "../humanities.html",
+        "cat": "Humanities",
+        "duration": "4 years",
+        "p1_1": "Do you want to interact with international state representatives? Then you should pursue international relations. The study of the interactions of nation-states and non-governmental organizations in subjects such as politics, economics, and security is known as international relations. The evolving nature of state and non-state players involved in international decision-making. International relations (sometimes known as international affairs) serves a broad purpose in modern society by attempting to comprehend the causes of conflict and how to keep the peace, within the global system, the nature and exercise of power, the evolving nature of state and non-state actors involved in international decision-making. The role entails discussing, negotiating and mediating with the local government issues about peace and war, trade, commerce, economics, as well as social and cultural aspects.",
+        "p1_2": "",
+        "img1": "../assets/images/humanities2/international.jpg",
+        "alt1": "AIML Image",
+        "desc": "In this globally interconnected world, you'll have the chance to maintain positive diplomatic relations between countries, prevent international wars, and ensure that things operate smoothly between governments. In addition to politics, you will have a wide range of professional opportunities as an international relations specialist, including economics, social systems, and community culture. The job would entail acting as a link between the country you represent and the country where you are stationed, collecting and reporting on all the information that would affect the interests of your nation",
+        "skills": [
+            "Teamwork Skills: In the field of international relations, collaboration is essential. Government officials, organization leaders, diplomats, and other key international relations specialists are frequently involved in choices taken at the international level.",
+            "Analytical Skills This is important because Archaeologists usually read and analyse data. They also need to apply the knowledge they have to make appropriate inferences.",
+            "Reading Skills: This is required to be able to comprehend written sentences and paragraphs, in work-related materials",
+            "Communication Skills It’s highly important because they'll be working with different people and surroundings. And they need to be able to effectively communicate their ideas and suggestions."
+        ],
+        "educ": [
+            "School: Any subject combination ",
+            "Graduation: BA in Political Science/BA in International Relations",
+            "Post Graduation: MA in International Relations "
+        ],
+        "opp_l": [
+            "Policy Officer",
+            "Public Affairs Consultants"
+        ],
+        "opp_r": [
+            "Intelligence Analysts",
+            "Government Relations Consultant"
+        ],
+        "insti": [
+            {
+                "link": "https://www.ashoka.edu.in/",
+                "name": "Ashoka University, Haryana"
+            },
+            {
+                "link": "http://www.ilsass.edu.in/",
+                "name": "Institute of Language Studies and Applied Social Sciences, Gujarat"
+            },
+            {
+                "link": "https://jgu.edu.in/jsia/",
+                "name": "Jindal School of International Affairs, Haryana"
+            },
+            {
+                "link": "https://www.jnu.ac.in/main/",
+                "name": "Jawaharlal Nehru University, New Delhi"
+            }
+        ],
+        "pros": [
+            "Skills learnt here are transferable to any other profession.",
+            "The career is stable and lucrative",
+            "The career is stable and lucrative"
+        ],
+        "cons": [
+            "Due to terrorism and conflicts, the work environment y be dangerous at times.",
+            "The job is quite stressful, as the entire country’s fate is dependent on the international relations department.",
+            "It entails a lot of hard work and extensive study"
         ]
     }
         

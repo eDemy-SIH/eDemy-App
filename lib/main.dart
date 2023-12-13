@@ -16,6 +16,7 @@ import 'package:sih_app/pages/aichat.dart';
 import 'package:sih_app/pages/career_details.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/character.dart';
+
 import 'package:sih_app/pages/login.dart';
 import 'package:sih_app/pages/student_info.dart';
 import 'package:sih_app/pages/get_started.dart';
@@ -107,6 +108,7 @@ class _MyAppState extends State<MyApp> {
         Myroutes.aichatRoute: (context) => ChatScreen(),
         Myroutes.chatAuthRoute: (context) => AuthPage(),
         Myroutes.loginRoute: (context) => LoginPage(onTap: (){},),
+
 
       },
     );   
