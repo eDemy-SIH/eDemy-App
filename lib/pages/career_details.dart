@@ -106,66 +106,143 @@ class _CareerPageState extends State<CareerPage> {
     return FutureBuilder<CareerData>(
       future: futureCareerData,
       builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+        return Scaffold(body: Center(child: CircularProgressIndicator())); // or any other loading indicator
+      } else if (snapshot.hasError) {
+        return Text('Error: ${snapshot.error}');
+      } else if (!snapshot.hasData) {
+        return Text('Data not available');
+      }
+      else{     
         CareerData careerData = snapshot.data!;
         return Scaffold(  
+        backgroundColor: context.canvasColor,
         appBar: AppBar(
           title: Text(careerData.title,style: TextStyle(color: context.cardColor),),
         ),
 
         body: SingleChildScrollView(
+          
           child: Center(
-                    
+            
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+
                   SizedBox(height: 16),
-                  Text(careerData.duration),
+                  Container(
+                    width: 130,
+                    decoration: BoxDecoration(
+                      color: context.cardColor,
+                      borderRadius: BorderRadius.circular(10)
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text("Duration:",style: TextStyle(color: context.theme.splashColor),),
+                        Text(careerData.duration,style: TextStyle(color: context.theme.splashColor),)
+                      ],
+                      
+                    )
+                  ),
+                  SizedBox(height: 16),
+                  Text("What Makes This Career Worth Pursuing?",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 8),
                   Text(careerData.p1_1),
+                  SizedBox(height: 8),
                   Text(careerData.p1_2),
+
+                  SizedBox(height: 16),
+                  Container(
+                    width: double.infinity,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(16.0),
+                      child: Image.network(
+                        'https://i.postimg.cc/CLqqQ1pg/Journalism.jpg',
+                        fit: BoxFit.cover,
+                      ),
+                    )
+                  ),
+
+                  SizedBox(height: 16),
+                  Text("Description",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 8),
                   Text(careerData.desc),
                   SizedBox(height: 16),
-                  Text('Skills:'),
+                  Text("Skills You Need",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.skills.map((skill) => Text("- $skill")).toList(),
+                    children: careerData.skills.map((skill) => Text("-$skill")).toList(),
                   ),
                   SizedBox(height: 16),
-                  Text('Education:'),
+                  Text("How To Pursue",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.educ.map((edu) => Text("- $edu")).toList(),
+                    children: careerData.educ.map((edu) => Text("-$edu")).toList(),
                   ),
                   SizedBox(height: 16),
-                  // Display other information as needed
-                  Text('Opportunities on the Left:'),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.oppL.map((opp) => Text("- $opp")).toList(),
+
+
+                  Text("Job Opportunities",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 8),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        width: 170,
+                        child: Column( 
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: careerData.oppL.map((opp) => Text("-$opp")).toList(),
+                        ),
+                      ),
+                      Container(
+                        width: 170,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: careerData.oppR.map((opp) => Text("-$opp")).toList(),
+                        ),
+                      ),
+                    ],
                   ),
+                  // Column(
+                  //   crossAxisAlignment: CrossAxisAlignment.start,
+                  //   children: careerData.oppL.map((opp) => Text("- $opp")).toList(),
+                  // ),
+                  // SizedBox(height: 16),
+                  // Text('Opportunities on the Right:'),
+                  // Column(
+                  //   crossAxisAlignment: CrossAxisAlignment.start,
+                  //   children: careerData.oppR.map((opp) => Text("- $opp")).toList(),
+                  // ),
                   SizedBox(height: 16),
-                  Text('Opportunities on the Right:'),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.oppR.map((opp) => Text("- $opp")).toList(),
-                  ),
-                  SizedBox(height: 16),
-                  Text('Institutes:'),
+
+                  Text("Top Indian Institutes",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: careerData.insti.map((institute) =>
                         Text("- ${institute['name']} (${institute['link']})")).toList(),
                   ),
                   SizedBox(height: 16),
-                  Text('Pros:'),
+
+                  Text("Pros",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: careerData.pros.map((pro) => Text("- $pro")).toList(),
                   ),
                   SizedBox(height: 16),
-                  Text('Cons:'),
+
+                  Text("Cons",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: careerData.cons.map((con) => Text("- $con")).toList(),
@@ -178,7 +255,7 @@ class _CareerPageState extends State<CareerPage> {
             ),
           ),
         );
-      
+      }
         
       }
       

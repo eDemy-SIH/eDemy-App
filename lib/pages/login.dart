@@ -124,7 +124,7 @@ class _LoginPageState extends State<LoginPage> {
                   "Welcome Back!",
                   style: TextStyle(
                     fontSize: 24,
-                    color: context.theme.primaryColor,
+                    color: context.cardColor,
                   ),
                 ),
                 Padding(
@@ -149,7 +149,7 @@ class _LoginPageState extends State<LoginPage> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5.0),
                         borderSide: BorderSide(
-                            color: context.theme.dividerColor, width: 3.0),
+                            color: context.theme.cardColor, width: 3.0),
                       ),
                     ),
                   ),
@@ -176,7 +176,7 @@ class _LoginPageState extends State<LoginPage> {
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5.0),
                         borderSide: BorderSide(
-                            color: context.theme.dividerColor, width: 3.0),
+                            color: context.theme.cardColor, width: 3.0),
                       ),
                     ),
                   ),

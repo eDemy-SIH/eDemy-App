@@ -70,7 +70,7 @@ class _UserReportState extends State<UserReport> {
           
         ),
       body: SingleChildScrollView(
-        key: _globalKey,
+        
         child: Padding(
           key:_globalKey,
           padding: const EdgeInsets.all(16.0),
@@ -360,7 +360,7 @@ class _UserReportState extends State<UserReport> {
     final file = File('${output.path}/captured_page.pdf');
     await file.writeAsBytes(pdf);
 
-    Printing.sharePdf(bytes: pdf, filename: 'captured_page.pdf');
+    Printing.sharePdf(bytes: pdf, filename: 'eDemy_career_report.pdf');
   }
 
   Future<Uint8List> generatePDF() async {
