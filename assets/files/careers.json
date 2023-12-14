@@ -1,7 +1,7 @@
 {"sections":[
     {
         "careerid": "doctor",
-        "img1": "assets/images/blog/blog-details-doctor.jpg",
+        "img1": "https://i.postimg.cc/wjSKq2Jf/blog-details-doctor.jpg",
         "alt1": "Doctor Image",
         "title": "Doctor",
         "cat_dir": "medicine.html",
@@ -74,7 +74,7 @@
         "duration": "8 years",
         "p1_1": "Are you intrigued by the innards of a human body? Then, becoming a surgeon could be a great career path for you. Surgeons, as the name specifies, are doctors who specialize in Surgery. These surgeons perform surgery in order to fix abnormalities immediately. In most situations, surgery can be a procedure done for damage control. Thus, surgeons need to be confident in whatever they do. They usually have a team who helps them in the operation theatre.",
         "p1_2": "Surgeons can choose to be either general surgeons or they can choose a specialization, such as orthopaedics, or neurosurgery and so on. Some general practitioners and family medicine and emergency medicine experts may undertake a restricted spectrum of minor, common, and emergency surgery. Anesthesia is frequently used in conjunction with surgery, and anesthesiologists and nurse anesthetists may be in charge of this component of the procedure.",
-        "img1": "assets/images/blog/blog-details-surgeon.jpg",
+        "img1": "https://i.postimg.cc/kD38MkJM/blog-details-surgeon.jpg",
         "alt1": "Surgeon Image",
         "desc": "A surgeon needs to go through rigorous training before performing surgery. Naturally, because it is a complex job the stress and responsibilities are larger. A surgeon has to view the patients’ health conditions and accordingly device a plan for surgery. They must keep in mind any possible hurdles they can face in the operation theatre and must be prepared for that as well. A surgeon would also have to closely view the patient after surgery in what is known as “Post-op.” Surgeons are required to have dexterity and stamina. If they were under any influence that could compromise these two requirements it would be fatal.",
         "skills": [
@@ -130,7 +130,7 @@
         "duration": "7 years",
         "p1_1": "Do you want to help diagnose various health conditions? Then pathology is a great career for you! When we go to a doctor for a particular illness we usually tend to ask them why we’ve gotten this illness. If it’s something that requires the doctor to do blood tests, urine tests then we’d have a lab test result that explains the cause of the illness.",
         "p1_2": "This is where pathology comes into play. Pathology can be of two types, clinical pathology and anatomic pathology. Where clinical pathology deals with fields such as microbiology, immunology, haematology etc. Anatomic pathology deals with the cells and tissues. Pathology is a very important field in the health care sector. It is the most crucial part when we speak of diagnosis and also the risk factors. General pathology is largely concerned with assessing known clinical abnormalities.",
-        "img1": "assets/images/blog/blog-details-pathology.jpg",
+        "img1": "https://i.postimg.cc/CKYNsfVM/blog-details-pathology.jpg",
         "alt1": "Pathology Image",
         "desc": "Pathologists are the ones who study the samples of various patients and then produce us with a report that helps in the diagnosis. Thus they play a crucial part in the healthcare system. It is also important in the sense that they warn of available risk factors, in case the patient has a certain aversion to a drug or another medical condition that could interfere with the treatment, it is up to a pathologist to report these things if found in a test result. They use laboratory tests to assess the condition of the patient and ascertain what’s causing the sickness.",
         "skills": [
@@ -186,7 +186,7 @@
     },
     {
         "careerid": "nursing",
-        "img1": "../assets/images/blog/blog-details-nursing.jpg",
+        "img1": "https://i.postimg.cc/Kz0JzcwG/blog-details-nursing.jpg",
         "alt1": "AIML Image",
         "id": "nursing",
         "title": "Nursing",
@@ -257,7 +257,7 @@
         "duration": "5 years",
         "p1_1": "Are you an animal lover and love taking care of them? Then, this is the perfect field for you. Veterinarians, commonly known as vets, are individuals who treat animals. A veterinary clinic is the place you take your pets, injured animals of all kinds to for treatment. This position falls into the category of animal healthcare. ",
         "p1_2": "These individuals are trained specifically to take care of the needs of animals as doctors in general take care of human beings. It is a field under medicine that focuses on the healthcare necessary for animals, both domestic and wild, in reference to the vets who are present in wildlife sanctuaries that help conserve the animals in that region. Veterinarians can work for private hospitals, government hospitals, Shelters and NGOs as well. They also need to be able to effectively communicate their understanding of the symptoms and the diagnosis.",
-        "img1": "../assets/images/blog/blog-details-vet.jpg",
+        "img1": "https://i.postimg.cc/8PMXdGrH/blog-details-vet.jpg",
         "alt1": "AIML Image",
         "desc": "Just like human beings, animals tend to fall ill and are at risk for diseases that human beings are not and therefore require medical care at various points, this is where the vet comes in to take care of the animals. Whether it is, vaccinating your pets, ensuring that they are free of disease, treating their infections or tending to the wounds of injured animals, they take care of the needs of these animals. Every animal, just like any other human being is tested and diagnosed by the vet who then after assessing the problem offers specialised and specific treatment for the animal.",
         "skills": [
@@ -317,7 +317,7 @@
         "duration": "8 years",
         "p1_1": "Do you want to study bones, muscles, joints, ligaments, tendons or nerves and the probable injuries? If you think you have the right healing touch in your hands and can treat these injuries, and want to help such people, then being an orthopedist might be the right job for you.",
         "p1_2": "Orthopaedic surgery, often known as orthopaedics, is a discipline of surgery that deals with musculoskeletal problems. Orthopaedic surgeons treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, cancers, and congenital problems with both surgical and nonsurgical methods. Modern orthopedic surgery and musculoskeletal research have aimed to make surgery less invasive while also improving and extending the life of implanted components.",
-        "img1": "../assets/images/blog/blog-details-ortho.jpg",
+        "img1": "https://i.postimg.cc/hPkMh5yd/blog-details-ortho.jpg",
         "alt1": "AIML Image",
         "desc": "Any orthopaedic professional, surgical or not, is qualified to analyze, diagnose, and treat your orthopaedic condition with non-invasive procedures. It's also worth noting that just because orthopaedic surgeons are qualified to perform surgery doesn't mean they would. Reputable orthopaedic doctors who are supported by strong healthcare systems are more likely to restore lives through innovative non-surgical techniques, such as minimally invasive procedures, computer-assisted treatments, and the harvesting and development of your own cells for cartilage regeneration.",
         "skills": [
@@ -375,7 +375,7 @@
         "duration": "8 years",
         "p1_1": "Do you want to study eyes and vision? Then, ophthalmology is the right career. Ophthalmology is a discipline of medicine which deals with the physiology, anatomy and diseases of the eye. The area of ophthalmology requires a lot of expertise due to the speciality's complexity. This field included surgical, medical, and patient care skills ranging from paediatric to geriatric. ",
         "p1_2": "Ophthalmology is a speciality medicine field with plenty of career prospects. The students have job opportunities in private and government hospitals, health departments, health centres, and NGOs. While all ophthalmologists are educated to treat all types of eye disorders and conditions, some specialize in a specific area of medical or surgical eye care. This individual is referred to as a subspecialist. To rectify visual difficulties, an ophthalmologist diagnoses and treats all eye disorders, conducts eye surgery, and prescribes and fits eyeglasses and contact lenses.",
-        "img1": "../assets/images/blog/blog-details-optha.jpg",
+        "img1": "https://i.postimg.cc/fRYCdfpg/blog-details-optha.jpg",
         "alt1": "AIML Image",
         "desc": "Ophthalmologists are those people who help in the treatment of eye problems. This can range from a power problem to something serious that might require surgery. They are required to assess the problem and devise a treatment plan. As the population of our planet rises every day, the need for ophthalmologists will grow and there will always be employment opportunities. People who have completed their residency training can continue to pursue fellowship training in Subspecialties of Ophthalmology. Aspirants seeking to become licensed medical practitioners must hold a degree in medicine and complete a residency.",
         "skills": [
@@ -435,7 +435,7 @@
         "duration": "4 years",
         "p1_1": "Are you fascinated by computers and technology? If so, then you should seriously consider pursuing a career in Computer Science & Engineering. This field of engineering utilizes elements of both computer science and electronics to create computer systems. ",
         "p1_2": "Computer engineers are involved in tasks ranging from designing microcontrollers, personal computers, and supercomputers to working on circuit design. They deal with various aspects of hardware and software in computing. Beyond understanding the inner workings of computer systems, this field also emphasizes how they fit into the broader landscape of different industries. By merging electrical engineering with computer science, computer engineers are able to develop innovative computer hardware and software. They often work in roles as software and hardware engineers.",
-        "img1": "../assets/images/blog/blog-details-cse.jpg",
+        "img1": "https://i.postimg.cc/XJK6D5r2/blog-details-cse.jpg",
         "alt1": "CSE Image",
         "desc": "Computer engineers are tasked with the design, creation, and evaluation of computer systems and their integral parts, encompassing processors, circuit boards, memory units, networks, and routers. They hold the responsibility for a wide spectrum of tasks, ranging from software development, system and network establishment, to algorithm implementation and safeguarding system security for sensitive information. Furthermore, computer engineers are frequently relied upon to offer technical support to non-technical colleagues, including board members. Their scope of work encompasses both hardware and software, ensuring seamless integration and optimal functionality.",
         "skills": [
@@ -505,7 +505,7 @@
         "duration": "4 years",
         "p1_1": "Are you fascinated by the potential of machines to learn and make intelligent decisions? If so, a career in Artificial Intelligence (AI) and Machine Learning (ML) could be the perfect fit for you. This dynamic field revolves around the development of systems that can perform tasks requiring human-like intelligence.",
         "p1_2": "Artificial Intelligence and Machine Learning professionals utilize advanced algorithms, data analysis, and pattern recognition techniques to enable computers to learn from data and make predictions or decisions. They work on a diverse range of applications, from natural language processing and computer vision to robotics and autonomous systems. This field not only delves into the technical intricacies of AI and ML but also explores how they can revolutionize industries across the spectrum. By merging principles from computer science, mathematics, and cognitive sciences, AI and ML engineers pave the way for groundbreaking advancements in technology.",
-        "img1": "../assets/images/blog/blog-details-aiml.jpg",
+        "img1": "https://i.postimg.cc/j2QqN96S/blog-details-aiml.jpg",
         "alt1": "AIML Image",
         "desc": "Professionals in Artificial Intelligence and Machine Learning are at the forefront of creating intelligent systems capable of learning and making decisions. They specialize in developing algorithms and models that enable computers to process and understand complex data, allowing them to perform tasks traditionally requiring human intelligence. This involves designing neural networks, fine-tuning algorithms, and optimizing models for various applications. Additionally, AI and Machine Learning experts work on enhancing system security to safeguard sensitive information. They also play a vital role in translating technical concepts for non-technical stakeholders, providing valuable support to the board of directors and colleagues less familiar with these advanced technologies. Their work spans both software and hardware, ensuring seamless integration for optimal performance.",
         "skills": [
@@ -575,7 +575,7 @@
         "duration": "4 years",
         "p1_1": "Do you possess a keen interest in electronics, telecommunications, and their wide-ranging applications? If so, Electronics and Communications Engineering might be the perfect fit for you! This field of engineering delves into the study, design, and application of devices, systems, and equipment that harness the power of electronics, telecommunications, and electromagnetism. ",
         "p1_2": "Electronics and Communications Engineering encompasses various specialized areas such as signal processing, telecommunication systems, microelectronics, and more. It combines a strong technical foundation in circuit theory with essential managerial skills. This discipline is a blend of pure science and practical application, offering abundant professional opportunities. Engineers with additional management qualifications can explore administrative roles and venture into the corporate sector, further expanding their career horizons.",
-        "img1": "../assets/images/blog/blog-details-ece.jpg",
+        "img1": "https://i.postimg.cc/JzyVCvyH/blog-details-ece.jpg",
         "alt1": "ECE Image",
         "desc": "Electronics and Communications Engineers leverage their expertise in the principles of electronics, telecommunications, and signal processing to design and innovate electronic devices and communication systems. They tackle challenges, develop cutting-edge solutions, and rigorously test equipment. In the modern era, Electronics and Communications Engineers employ Computer-Aided Design (CAD) tools to create intricate schematics and circuit layouts. Their projects span a wide spectrum, encompassing areas like wireless communication systems, satellite technology, digital signal processors, integrated circuits, and more. These engineers find themselves in diverse roles including design, research, manufacturing, and supervision within the field of Electronics and Communications Engineering.",
         "skills": [
@@ -646,7 +646,7 @@
         "duration": "4 years",
         "p1_1": "Are you fascinated by the realm of electricity and its diverse applications? If so, electrical engineering could be the perfect fit for you! This branch of engineering revolves around the exploration, design, and implementation of devices, systems, and assorted equipment that harness the power of electricity, electronics, and electromagnetism.",
         "p1_2": "Within electrical engineering, there are specialized domains such as power engineering, control engineering, electronic engineering, and instrumentation engineering. It encompasses a broad spectrum of knowledge, encompassing technical aspects like circuit theory, alongside crucial managerial skills. With a substantial professional scope, electrical engineering is a field rooted in pure science. Engineers equipped with a management background have the opportunity to venture into administrative roles and potentially explore the corporate sector, thereby broadening their career horizons.",
-        "img1": "../assets/images/blog/blog-details-ee.jpg",
+        "img1": "https://i.postimg.cc/pTHg8dsK/blog-details-ee.jpg",
         "alt1": "EE Image",
         "desc": "Electrical engineers leverage their understanding of the principles of electricity, electromagnetism, and electronics, backed by a foundation in physics and mathematics, to conceive and innovate electrical equipment and systems. They address challenges, conduct equipment testing, and employ Computer-Aided Design (CAD) for tasks like schematic creation and circuit layout. In contemporary practice, electrical engineers are engaged in a diverse array of projects spanning from robotics and mobile devices to navigation systems, radars, computers, and more. They contribute their expertise across various domains, including design, manufacturing, supervision, and beyond.",
         "skills": [
@@ -717,7 +717,7 @@
         "duration": "4 years",
         "p1_1": "Are you intrigued by the intricate interplay of instruments and systems in various applications? If so, Electrical & Instrumentation Engineering might be the ideal path for you! This discipline is closely linked to the study, development, and utilization of devices, systems, and specialized equipment that involve electricity, electronics, and instrumentation. ",
         "p1_2": "Within Electrical & Instrumentation Engineering, there are diverse subfields, including process control systems, industrial automation, and measurement technologies. It encompasses both theoretical understanding, such as signal processing, and practical applications, making it a well-rounded field. Professionals in this domain often find themselves at the intersection of technical expertise and management skills. Moreover, Electrical & Instrumentation Engineering offers a dynamic professional landscape, with opportunities for those interested in administrative roles and corporate sectors to further enhance their career prospects.",
-        "img1": "../assets/images/blog/blog-details-eie.jpg",
+        "img1": "https://i.postimg.cc/c4b2hhDx/blog-details-eie.jpg",
         "alt1": "EIE Image",
         "desc": "Electrical and Instrumentation Engineers leverage their expertise in electrical systems, instrumentation, and control technologies to conceive, design, and advance sophisticated equipment and systems. They employ principles of electricity, electronics, and control theory to tackle complex challenges, as well as to validate and fine-tune equipment. In today's technological landscape, Electrical and Instrumentation Engineers proficiently utilize Computer-Aided Design (CAD) tools to craft detailed schematics and circuit layouts. Their scope of projects spans a wide spectrum, encompassing endeavors like refining industrial automation processes, optimizing power distribution networks, and enhancing instrumentation systems for precise control and monitoring. These engineers find opportunities in diverse domains, including design, manufacturing, supervision, and more, contributing significantly to sectors ranging from energy production to process control and beyond.",
         "skills": [
@@ -788,7 +788,7 @@
         "duration": "4 years",
         "p1_1": "Are you fascinated with aircrafts and spacecrafts? If the answer is yes, then aerospace engineering is the perfect choice for you. It is an engineering field which focuses on the science of aircrafts and spacecrafts. ",
         "p1_2": "It has two specialized fields, namely: aeronautical engineering and astronautical engineering. It involves studying various conditions like atmospheric pressure, temperature etc. and making use of aerodynamics, fluid dynamics propulsion and other such fields, in order to design the perfect aircraft/spacecraft for those conditions. This includes aircrafts, rockets and other spacecrafts as well, built according to the conditions of stratosphere or outer space. The field involves various aspects of science and mathematics. It covers two aspects of engineering: Aeronautical and Astronomical.",
-        "img1": "../assets/images/blog/blog-details-aero.jpg",
+        "img1": "https://i.postimg.cc/5N2Wn6b3/blog-details-aero.jpg",
         "alt1": "EIE Image",
         "desc": "Aerospace engineers are involved in designing, construction, and testing aircraft, missiles, and spacecraft. Professionals can either make them from scratch or they can work on testing and improving the aircraft design. They need to take care of each aspect, be it the radar cross-section used to measure distance or be it fluid dynamics, which helps an aircraft fly with an appropriate speed, without much turbulence. Mistakes in this field cost enormously and can even cost human life hence, professionals spend months working on a single project to eliminate mistakes. This field requires individuals to apply theory to practice.",
         "skills": [
@@ -851,7 +851,7 @@
         "duration": "4 years",
         "p1_1": "Are you interested in the fusion of engineering principles, material science, and mathematical concepts to design, analyze, manufacture, and maintain mechanical systems? If so, then the field of mechanical engineering may be the perfect fit for you. ",
         "p1_2": "Mechanical engineering revolves around the study of moving systems and objects, exerting a profound influence on virtually every aspect of modern life, including the intricate machinery within the human body. It stands as one of the oldest and most multifaceted branches of engineering, seamlessly integrating elements from aerospace, electrical, civil, chemical, materials science, and even bio-engineering, all underpinned by a strong foundation in physics and mathematics. Additionally, mechanical engineers excel in the creation and testing of technical prototypes, bringing innovative ideas and products to life.",
-        "img1": "../assets/images/blog/blog-details-mech.jpg",
+        "img1": "https://i.postimg.cc/D0D6rj7R/blog-details-mech.jpg",
         "alt1": "EIE Image",
         "desc": "Mechanical engineers design, manufacture, and assess a variety of mechanical and thermal devices, ranging from tools and engines to machinery. They oversee the production of diverse items, including medical instruments and innovative batteries. Mechanical engineers analyze issues to ascertain if mechanical and thermal systems can offer solutions and oversee the manufacturing process. They employ analytical techniques and utilize computer-aided design for the creation or modification of mechanical and thermal apparatus. Daily responsibilities may involve assessing and diagnosing mechanical and thermal equipment, devising solutions, and conducting necessary repairs.",
         "skills": [
@@ -916,7 +916,7 @@
         "duration": "4 years",
         "p1_1": "Are you always fascinated by different types of buildings and constructions? If yes then, civil engineering is the way to go. Civil engineering is a branch of engineering that deals with the design, development, and maintenance of the physical and naturally constructed environment, such as highways, bridges, canals, dams, airports, sewerage systems, pipes, building structural components, and railways. ",
         "p1_2": "It is the broadest of the engineering fields and one of the oldest and broadest engineering disciplines. Civil engineers are responsible for the construction of the world's infrastructure. They silently mold the past of nations all over the world in this way.",
-        "img1": "../assets/images/blog/blog-details-civil.jpg",
+        "img1": "https://i.postimg.cc/1t1ZHB3n/blog-details-civil.jpg",
         "alt1": "EIE Image",
         "desc": "Civil engineers analyze survey reports, maps, and other data to plan projects. They consider construction costs, government regulations, potential environmental hazards, and other factors in planning stages and risk analysis. Engineers use design software to plan and design transportation systems, hydraulic systems, and structures in line with industry and government standards. They perform or oversee, surveying operations to establish reference points, grades, and elevations to guide construction. They also manage the repair, maintenance, and replacement of public and private infrastructure.",
         "skills": [
@@ -981,7 +981,7 @@
         "duration": "3 years",
         "p1_1": "Do you want to learn about the inner workings of a business enterprise? Then, business administration can be a great field for you! The management of a commercial enterprise is referred to as business administration.",
         "p1_2": "It entails overseeing and supervising all parts of business operations. From the point of view of management and leadership, it also covers fields that include office building administration, accounting, finance, designing, development, quality assurance, data analysis, sales, project management, information technology management, research and development, and marketing. The execution or management of business operations and decision-making, as well as the effective organization of people and other resources to steer activities toward common goals and objectives, are all part of business administration.",
-        "img1": "../assets/images/blog/blog-details-ba.jpg",
+        "img1": "https://i.postimg.cc/GpyCGVdn/blog-details-ba.jpg",
         "alt1": "EE Image",
         "desc": "Overseeing and evaluating financial operations, approving purchases and expenditures, mediating between staff and other executives, choosing heads of departments, marketing and promoting the firm, and arranging training programs are all responsibilities of the business administrator. They are expected to drive and supervise positive business growth, detect wastage and improve efficiency, oversee day-to-day business activities, introduce and implement innovative short and long-term business goals, liaise and consult with clients, staff, and suppliers, evaluate and enhance employee performance, improve business programs, technologies, etc.",
         "skills": [
@@ -1037,7 +1037,7 @@
         "duration": "4 years",
         "p1_1": "Do you love sports and want to be the ones managing them? Then a career in Sports Management just for you. Sports management is a multidisciplinary field that incorporates marketing, legal, finance, and business concepts. Sports management consists of being involved in the administration and working of sporting entities such as leagues, teams or sporting organisations. It is a highly rewarding profession for those who love sports and want to be a part of the events coming as successes.",
         "p1_2": "The front office system in professional sports, college sports managers, recreational sport managers, sports marketing, event management, facilities management, sports economics, sports finance, and sports information are only a few examples of sport managers. As one is involved in the management of entities, they need to be able to communicate well enough with others that they manage or negotiate with.",
-        "img1": "../assets/images/blog/blog-details-sport.jpg",
+        "img1": "https://i.postimg.cc/GpyCGVdn/blog-details-ba.jpg",
         "alt1": "EE Image",
         "desc": "A career in Sports Management includes working with the business aspect of the sporting industry. Those working in this field are responsible for overseeing the business and promotion of the entity that they manage. They monitor finances, negotiate upon contracts with the athletes and/or teams and also manage events that may fall into their jurisdiction. This is a booming profession and the opportunities in it are bound to increase. People who want to combine their passion for sports with business skills and pursue a successful career in this industry should pursue a Sports Management degree.",
         "skills": [
@@ -1097,7 +1097,7 @@
         "duration": "4 years",
         "p1_1": "Do you think you are the one for a managerial position, then a course in management, and a career in the same sounds right for you? A manager is the position of power that acts as the little cogs that run the machine called the organization. ",
         "p1_2": "It’s a position that carries many responsibilities and importance. The coordination and administration of tasks to attain a goal are referred to as management. Setting the organization's strategy and organizing employee efforts to achieve these objectives through the application of available resources are examples of administrative activities. Managers in all tiers within a company are together responsible for its smooth functioning as an efficient and successful business entity. Management jobs pay well and have an upward curve for promotions, based on your experience.",
-        "img1": "../assets/images/blog/blog-details-proj.jpg",
+        "img1": "https://i.postimg.cc/X7CkMgj7/blog-details-proj.jpg",
         "alt1": "EE Image",
         "desc": "Managers must often make decisions about things. The manager is responsible for overseeing and leading the work of a group of people in many instances. The manager is also responsible for planning and maintaining work systems, procedures, and policies that enable and encourage the optimum performance of its people and other resources within a business unit. Organizations offer a wide range of managerial positions, ranging from front-line supervisory positions (Sales Manager, R&D Executive, General Manager, etc.) to the top executive level such as CEO, COO, and CTO.",
         "skills": [
@@ -1160,7 +1160,7 @@
         "duration": "3 years",
         "p1_1": "Do you want to plan and organize events? If yes, then you should consider event management as a career path for yourself. The use of project management techniques in the design and implementation of various large-scale events such as festivals, gatherings, ceremonies, weddings, formal parties, concerts, or conventions is known as event management. ",
         "p1_2": "Humans live in communities and enjoy organizing activities and social gatherings, so the process of preparing and arranging the event is critical. From the Olympics to corporate breakfast meetings, the events sector now covers events of all sizes. Budgeting, scheduling, site selection, obtaining necessary permits, coordinating transportation and parking, arranging for speakers or entertainers, arranging decor, event security, catering, coordinating with third-party vendors, and emergency plans are all examples of the process of planning and coordinating the event.",
-        "img1": "../assets/images/blog/blog-details-event.jpg",
+        "img1": "https://i.postimg.cc/nzpPrPLk/blog-details-event.jpg",
         "alt1": "EE Image",
         "desc": "An event manager is required to take care of the design, set-up, and execution of events that bring people together. The size of the events varies and the manager has to adjust according to that. Managing events is always a people-centric endeavour. The goal is to ensure people get the most from a given event. The jobs are very unpredictable as the plan never runs along so the professionals are more like spontaneous creatures. Networking is the main part of the job to get new assignments and to maintain old ones. The event manager is the person in charge of planning and executing the event, including the creative, technical, and logistical aspects.",
         "skills": [
@@ -1223,7 +1223,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to learn the mechanics of managing a fashion brand? Then, fashion business management is just the profession for you! Fashion Business Management entails assuming roles like sales, marketing, product development, retail management, etc. within the merchandising industry. ",
         "p1_2": "The world of fashion and luxury brands is complex and dynamic, thus allowing for a lot of scope. This is a very creative job and requires people to have a great knowledge of fashion along with a good understanding of business and management concepts. One requires a fairly good understanding of the theoretical, practical, and ethical processes involved in textile and clothing design, production, distribution, and consumption. They must also successfully communicate material supply, pricing, and schedules with their teams and manufacturers.",
-        "img1": "../assets/images/blog/blog-details-fashm.jpg",
+        "img1": "https://i.postimg.cc/FKj694hz/blog-details-fashm.jpg",
         "alt1": "EE Image",
         "desc": "A fashion manager is in charge of developing fresh and unique marketing techniques for a certain product to improve market demand. As a result, fashion management entails conducting extensive research and analysis of current fashion trends to forecast the success and popularity of a specific product among consumers based on its pricing and usefulness. As a result, fashion managers must have a keen eye for detail, excellent communication skills, and a thorough understanding of current industry trends. The field entails deals with using media and marketing to increase and maintain a product's brand value and awareness.",
         "skills": [
@@ -1287,7 +1287,7 @@
         "duration": "3 years",
         "p1_1": "Haven't we all been amazed when we saw wild animals on TV? If you could never get over your fascination for wild animals and everything else to do with them, then zoology is probably an apt choice for you. Zoology deals with the study of the animal kingdom. Zoology studies the behaviour, characteristics, evolutionary trends of the different species of animals. It also studies the changing environment and its impact on these species and vice versa.",
         "p1_2": "Zoology helps us study animals and their habitat from a closer lens. Those people who specialise in this field are known as zoologists. The study of animals has largely moved on to deal with form and function, adaptations, relationships between groups, behaviour and ecology.",
-        "img1": "../assets/images/blog/blog-details-zoo.jpg",
+        "img1": "https://i.postimg.cc/zBy0yYrT/blog-details-zoo.jpg",
         "alt1": "EE Image",
         "desc": "The career of a zoologist mainly includes a lot of responsibility towards the animal kingdom. Whatever work a zoologist does is to keep us informed about the ways in which the animal kingdom works, thus increasing our awareness. And hopefully, we can live in harmony with them by using the knowledge zoologists give to our world. Zoologists would have to have a great amount of organic knowledge in order to push themselves in this career. They might also have to travel a lot in case they want to study a particular species in a specific region. Systematics is the study of the diversification of living forms, the evolutionary history of a group is known as its phylogeny.",
         "skills": [
@@ -1353,7 +1353,7 @@
         "duration": "3 years",
         "p1_1": "Are you intrigued by plants? Then you can consider botany as a profession! Botany is the study of plant life, its mechanisms, etc. It is one of the branches of biology as a larger subject. Botany deals with plant life and its interaction with the environment. Furthermore, it studies the fundamental aspects of plants and focuses on understanding plant life mechanisms. It is very important since plants do photosynthesis and produce glucose, which is a simple sugar as well as oxygen.",
         "p1_2": "Botany is one of the oldest fields of science, having begun as herbalism with early humans' efforts to identify, and later produce edible, medicinal, and toxic plants. Botany in the modern era is a vast, multidisciplinary subject that incorporates elements from various fields of science and technology.",
-        "img1": "../assets/images/blog/blog-details-bot.jpg",
+        "img1": "https://i.postimg.cc/MpGZM9nz/blog-details-bot.jpg",
         "alt1": "EE Image",
         "desc": "A botanist would majorly be involved in a lot of research work at the highest level. The main aim should be to contribute to our existing knowledge of plant life. Botanists also study the impact of plant life on other living organisms, including the human species and animal life. It also helps in understanding the impact of different kinds of environments on plant life. These studies are important to build our knowledge and understand the impact we create on plant life and vice versa. Botanists also teach at colleges and help when it comes to agricultural growth.",
         "skills": [
@@ -1418,7 +1418,7 @@
         "duration": "3 years",
         "p1_1": "Are you intrigued by the various phenomena in the world of physics? If yes, then you should pursue a career in it. Physics is natural science and probably one of the oldest academic disciplines. It focuses on the study of matter, its motion and behaviour through space and time, and the related entities of energy and force. Physics is one of the most basic scientific disciplines, with the aim of understanding how the world works.",
         "p1_2": "It is concerned with the nature of matter and the relations between the observable universe's fundamental constituents. Physics advances frequently pave the way for new technologies. Advances in electromagnetism, solid-state physics, and nuclear physics, for example, led directly to the development of new products that have dramatically transformed modern-day society, such as television, computers, domestic appliances, and nuclear weapons.",
-        "img1": "../assets/images/blog/blog-details-phy.jpg",
+        "img1": "https://i.postimg.cc/CKN4PLFG/blog-details-phy.jpg",
         "alt1": "EE Image",
         "desc": "The physicist has to deal with all aspects related to matter and energy. A physicist studies the effects of forces, systems, and processes on the natural world. This job entails conducting extensive research in order to generate reports and technical papers that benefit the industry as a whole, as well as lecturing and educating students about physics laws. As a part of the analysis and evaluation of data, physicists perform complex calculations using computers. Their studies include the motion and properties of physical objects both large and small, the properties of waves, the properties of states of matter and the fundamental properties of matter and energy.",
         "skills": [
@@ -1477,7 +1477,7 @@
         "duration": "3 years",
         "p1_1": "Are you fascinated by the subject of chemistry and love to learn about various phenomena? If yes, then you should think of making a career in chemistry. Chemistry is the scientific field that involves elements and compounds composed of atoms, molecules and ions. This field aims to study their composition, structure, properties, behaviour and the changes they undergo during a reaction with other substances.",
         "p1_2": "Chemistry is everywhere, even our bodies are made up of chemical compounds. Our daily life activities are also a result of chemical reactions like cooking, fermenting milk to form a curd, lighting matches, making ice, etc. Chemistry helps us to understand our surroundings better by providing us with reasons.",
-        "img1": "../assets/images/blog/blog-details-chem.jpg",
+        "img1": "https://i.postimg.cc/WznjtZjD/blog-details-chem.jpg",
         "alt1": "EE Image",
         "desc": "Chemists are required to be creative, careful, and productive, furthermore, they need to think about the future. Chemistry is an academic field that requires experts to observe the basic properties of materials, conduct experiments and test their experimental limits. They do this to find the matter’s usage and application to make a product. Their duties involve modelling, analysis, synthesis, research, limited fieldwork, or even sales and information management. They measure proportions and reaction rates to understand unfamiliar substances and how they behave, or to create new compounds for use in a variety of practical applications.",
         "skills": [
@@ -1540,7 +1540,7 @@
         "duration": "3 years",
         "p1_1": "Do you like chatting and have a lot of energy? Then you should think about being a radio jockey. A radio jockey is an individual who provides entertainment to radio listeners. They broadcast music, deliver news, interact with listeners, run competitions, and interview guests. On commercial music television stations, a video jockey is an announcer who presents and plays videos.",
         "p1_2": "The only difference between a radio and a video jockey is that a radio jockey does not appear on the screen, while a video jockey does. The field has seen some major changes, since its inception. The main job of an RJ and a VJ is to communicate with the audience. A prospective candidate should have excellent communication skills. They introduce music videos on Television and also give some background information about the music being played. They bridge the gap between the audience and the musician.",
-        "img1": "../assets/images/blog/blog-details-rj.jpg",
+        "img1": "https://i.postimg.cc/g2bqG6jy/blog-details-rj.jpg",
         "alt1": "EE Image",
         "desc": "Radio jockeys are in high demand in the private sector since the opening of the airwaves. They will collaborate with a variety of top FM stations as well as private radio projects. Video jockey is becoming an exciting career option for the music-obsessed generation, thanks to the availability of various music channels on television. The VJs' main task is to present the majority of the host music-related shows and music videos on television. Producers of music shows, music networks, and film-based programs are the most common employers of video jockeys. The need for these practitioners is growing all the time.",
         "skills": [
@@ -1594,7 +1594,7 @@
         "duration": "3 years",
         "p1_1": "Do you want to do something of your own and be your boss? Then being an entrepreneur is just for you. Entrepreneurship is defined as the capacity and willingness to create, organize, and run a firm, including all of its risks, to make a profit. The most visible form of entrepreneurship is the establishment of new firms. It revolves around designing and pursuing a business idea and often starting a new business. Although there are no educational requirements for being an entrepreneur, a strong educational background allows you to be a better entrepreneur with you already knowing how to run a business.",
         "p1_2": "It can be defined as the creation or extraction of value. Entrepreneurs serve as managers, overseeing the start-up and growth of a business. Entrepreneurship is the process through which an individual or a group recognizes a business opportunity and obtains and deploys the resources needed to pursue it.",
-        "img1": "../assets/images/blog/blog-details-ent.jpg",
+        "img1": "https://i.postimg.cc/4y4qLSkd/blog-details-ent.jpg",
         "alt1": "EE Image",
         "desc": "To be a successful entrepreneur, one needs to have an innovative yet sustainable idea for a business and be extremely dedicated to their cause. It needs a lot of persistence, hard work, and time to often succeed. One often has to take risks and take challenging roads to be a successful entrepreneur. Being an entrepreneur entails having a business idea and putting it into action. Once a business idea is conceived, an entrepreneur must carry out several tasks to make it a reality. It involves market research to investigate competitors (if any) and determine the target audience to professional recruitment, financial management, and overall administration.",
         "skills": [
@@ -1650,7 +1650,7 @@
         "duration": "2 years",
         "p1_1": "Do you want to be a part of the governance system and help in the progress of the country? Then a career in Civil Services is just for you. Civil Servants are career bureaucrats hired based on their merits rather than election or appointment. They work under the direction of the government and form the political executive concerned with enforcing the policies of the state. ",
         "p1_2": "The Union Public Service Commission conducts a countrywide competitive examination in India for recruitment to several Civil Services of the Government of India, including the Indian Administrative Service, Indian Foreign Service, and Indian Police Service. They are hired on the basis of professional merit rather than being appointed or elected, and their institutional tenure often outlasts changes in political leadership.",
-        "img1": "../assets/images/blog/blog-details-cv.jpg",
+        "img1": "https://i.postimg.cc/TYwBnFJN/blog-details-cv.jpg",
         "alt1": "EE Image",
         "desc": "Civil Servants are primarily involved in governance and formulation of policies of the government. They can also be assigned various administrative or representative tasks depending on the branch of the Service they work in. It is a highly prestigious career and particularly fulfilling for those who want to serve their country. To be a Civil Servant, however, one has to pass the crucial and extremely difficult exams conducted by Union Public Services Commission. The civil service is a word that refers to a government sector that is mostly made up of career civil employees. ",
         "skills": [
@@ -1694,7 +1694,7 @@
         "duration": "2 years",
         "p1_1": "Pursuing a career in Railway Services in India offers a multitude of compelling reasons. Firstly, it provides an opportunity to contribute significantly to the nation's infrastructure development and connectivity, as the Indian Railways is one of the largest and most extensive railway networks in the world. Secondly, it offers job security and stability, along with competitive salaries and benefits. ",
         "p1_2": "Railway Services also offer a diverse range of job profiles, catering to various skill sets and qualifications, including engineering, management, and technical roles. Moreover, working in the Indian Railways allows individuals to experience the cultural diversity of the country, as it connects people from all corners of India. Lastly, it presents ample opportunities for career advancement and professional growth. Overall, a career in Railway Services in India not only promises a fulfilling job but also plays a crucial role in the nation's development and progress.",
-        "img1": "../assets/images/blog/blog-details-rails.jpg",
+        "img1": "https://i.postimg.cc/PxJ1SWVH/blog-details-rails.jpg",
         "alt1": "EE Image",
         "desc": "A career in Railway Services in India offers diverse opportunities for those with relevant educational qualifications. This field includes technical roles for engineers, management positions, and various other roles in railway operations. It plays a pivotal role in India's infrastructure development, promising job security, benefits, and a clear path for career progression. Pursuing studies for Railway Services typically involves qualifying competitive examinations conducted by UPSC or RRB, depending on the specific role of interest.",
         "skills": [
@@ -1750,7 +1750,7 @@
         "duration": "2 years",
         "p1_1": "Have you ever been intrigued by the import and export of goods? Then, customs and excise would be a great field for you! We have all had objects ordered or seen being ordered from outside our country.",
         "p1_2": "Have you ever wondered how people deal with the customs of these objects? Customs, Goods & Services Tax, Central Excise, Service Tax, and Narcotics are all administered by the Central Board of Indirect Taxes and Customs, which is India's main national agency. Customs is a government entity or agency in charge of collecting customs and controlling the movement of commodities into and out of a country, including animals, transportation, personal effects, and dangerous materials. But once this exam has been cleared, there’s amazing job security, constant salary and amazing privileges.",
-        "img1": "../assets/images/blog/blog-details-ces.jpg",
+        "img1": "https://i.postimg.cc/FsTN40D8/blog-details-ces.jpg",
         "alt1": "EE Image",
         "desc": "A Customs Officer is an agent who, on behalf of the government, enforces custom law. Customs Officers have to deal with the prevention of illegal goods such as drugs, tobacco, alcohol. They have to have a hawkeye to prevent smuggling in India. They are placed at International airports or ports so that they can govern the import and export of goods. They work in groups to prevent such fraudulent activities. The path to being a customs officer is very tough. The candidate has to prepare and give an exam (UPSC) for this job. Not only is its course tough, but also there are many phases to it. ",
         "skills": [
@@ -1791,7 +1791,7 @@
         "duration": "2 years",
         "p1_1": "Do you have an interest in taxes? Then you can make a career in income tax. An income tax is a tax levied on individuals or businesses based on their earnings or profits. In most cases, income tax is calculated as the product of a tax rate and taxable income.",
         "p1_2": "Tax rates may differ depending on the taxpayer's kind or qualities, as well as the sort of income. Total income less income producing expenses and other deductions is generally taxable income for taxpayers who live in the jurisdiction. In most cases, income only includes the net gain from the sale of property, including things held for sale. Distributions of earnings from a business are normally included in the income of a firm's shareholders. Total income less income producing expenses and other deductions is generally taxable income for taxpayers who live in the jurisdiction. ",
-        "img1": "../assets/images/blog/blog-details-it.jpg",
+        "img1": "https://i.postimg.cc/4ynwhkRz/blog-details-it.jpg",
         "alt1": "EE Image",
         "desc": "Work linked to desk job specifics that come with the title of Income Tax Inspector is included in a job in the assessment part. You will be in charge of determining how much income tax persons, businesses, and partnership firms owe. You will also be responsible for refund requests and TDS (Tax Deduction at Source) questions. Inspectors in this non-assessment division may be a part of the raiding team's fast response team. ITIs who are assigned non-assessment tasks are typically limited to clerical work. Their responsibilities are limited to filing formal documentation and accompanying raid teams on occasion.",
         "skills": [
@@ -1831,7 +1831,7 @@
         "duration": "2 years",
         "p1_1": "Want to contribute to the nation's economic development? Then, an alluring career is awaiting you. A service introduced by Prime Minister Jawaharlal Nehru for formulating and implementing economic policies and programs in India is one of the prestigious job opportunities of the Central Civil Services of the executive branch of the Government of India categorized under Group A.",
         "p1_2": "The Engineering Services Examination is conducted by the Union Public Service Commission to recruit officers for the services which cater to the technical functions of the Government of India. It is a three-stage competitive examination comprising objective, subjective and personality tests. After being selected, they are assigned to the position of Assistant Executive Engineer or Assistant Director.",
-        "img1": "../assets/images/blog/blog-details-iess.jpg",
+        "img1": "https://i.postimg.cc/PqzSgQM8/blog-details-iess.jpg",
         "alt1": "EE Image",
         "desc": "IES officers' roles can be categorized in terms of economic administration, implementation of various policies of development, working for the sake of economic reforms followed by price fixation, evaluation and monitoring. In addition to purely economic services, these officials make a critical contribution to policy development in social sectors. They would provide ongoing advice to the relevant ministries/ departments on all the policies influencing domestic and external economic management and facilitating reforms in the relevant fields. Roads, railways, manufacturing, defence, construction, telecommunications, and other technical fields are all covered by an IES Officer. ",
         "skills": [
@@ -1890,7 +1890,7 @@
         "duration": "3 years",
         "p1_1": "The process of imparting and distributing knowledge to wide parts of the public via mass media is known as mass communication. It is the process of developing, sending, receiving, and analyzing vocal and textual messages for big audiences. It's a broad area that covers not just how and why a message is developed, but also how and why it's delivered. Broadcast television, radio, social media, and print are examples of communication channels. The message is usually provided by a professional communicator who frequently represents an organization. Mass communication is multi-disciplinary, incorporating elements of related fields such as strategic communication, health communication, political communication, integrated marketing communications, journalism, and more.",
         "p1_2": "",
-        "img1": "../assets/images/mediajournalism/masco.jpg",
+        "img1": "https://i.postimg.cc/76CfgJxY/masco.jpg",
         "alt1": "AIML Image",
         "desc": "The variety of mass media formats and communication methods provides for professional choices that are both creative and flexible. To design, share, and analyze effective messages to broad, targeted audiences, mass communication experts employ their knowledge of rhetorical principles and strategic media methods. Public relations specialists, journalists, broadcast professionals, advertisers, content writers, graphic designers and illustrators, and other media professionals can use these strategies to create and launch calculated communication plans across nearly every industry, from broadcast news to online marketing campaigns.",
         "skills": [
@@ -1951,7 +1951,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to have the capacity to change/improve the reputation of an organization? If yes, then PR is the right job for you. The art of actively managing the spread of knowledge between a person or an entity and the general public is known as public relations. An organization or person can use public relations to gain attention to their audiences by using topics of public interest and news articles that do not require payment. Most multinational corporations have a public relations department that is in charge of all media relations. The public relations specialist is in charge of community outreach and volunteer services. They establish connections with potential investors. They also appear on a cable television news show to answer difficult questions. A good PR director not only knows which platform to use for what but has the skills to use each platform to its fullest potential.",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/Public%20Relation.jpg",
+        "img1": "https://i.postimg.cc/FKztRjZz/Public-Relation.jpg",
         "alt1": "AIML Image",
         "desc": "Performance in public relations necessitates a thorough understanding of each of the client's multiple publics' desires and concerns. The most important weapon in the PR trade is publicity, and the public relations professional must know how to effectively answer such concerns. In certain cases, the primary responsibility of a public relations professional is to write news releases that are sent to specific members of the media. However, limiting the concept of public relations to only publicity would be an underestimation of PR's increasing power and reach.",
         "skills": [
@@ -2012,7 +2012,7 @@
         "duration": "4 years",
         "p1_1": "Do you love writing? If yes, becoming a writer can be a great career path for you! Copywriters, authors, novelists, blog writers, and editors are only a few examples of various styles of writers. Writing professionals work in a variety of fields, including academia, business, journalism, and entertainment. Since the majority of authors are self-employed, it is a special profession. Along with superior writing skills, authors are often required to conduct extensive research while writing, so they must also possess superior research skills. Content has become a vital way for brands to support and endorse their company and goods in today's fast-paced internet era. This necessitates the recruiting of workers with strong writing skills and a broad knowledge base. They can revise or rewrite sections with the assistance of editors, looking for the best arrangement and phrasing.",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/Editor.jpg",
+        "img1": "https://i.postimg.cc/B6Pd54RG/Editor.jpg",
         "alt1": "AIML Image",
         "desc": "Writers and writers create written content for books, magazines, and online publications, such as stories and advertising. Strong research and the use of appropriate sources and citations are required for writers to build their reputation with editors and readers. Writers and writers choose the content they want to use and then communicate it to their readers. They were able to do this with the assistance of editors. Several authors work as freelancers, earning their living by selling their written material to book and magazine publishers, news media, advertising agencies, and film, theatre, and television producers.",
         "skills": [
@@ -2075,7 +2075,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to learn media and communication? Then, broadcasting may interest you! Broadcasting is the one-to-many distribution of audio or video content to a dispersed audience by any electronic mass communications media, but most commonly one that uses the electromagnetic spectrum. Over-the-air broadcasting is primarily linked with radio and television, while cable has lately begun to distribute both radio and television signals (cable television). The signal can be received by anyone with the necessary receiving technology and equipment (e.g., a radio or television set); the point is that anyone with the appropriate receiving technology and equipment can receive it. Later on, it came to be used to describe the mass dissemination of knowledge via printed materials or the telegraph.",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/Broadcasting.jpg",
+        "img1": "https://i.postimg.cc/Z5Tzkkvr/Broadcasting.jpg",
         "alt1": "AIML Image",
         "desc": "The majority of personnel in this business work in broadcast stations and studios that are clean and comfortable. Some personnel are involved in show creation and broadcasting, while others are involved in advertising, sales, promotions, and marketing. On electronic newsgathering trucks, broadcast personnel must ensure that the antenna on the mobile device is properly positioned for best transmission quality and to avoid electrocution from power lines. Field service engineers work on outdoor transmitting equipment and may be required to climb poles or antenna towers in a variety of weather conditions",
         "skills": [
@@ -2135,7 +2135,7 @@
         "duration": "4 years",
         "p1_1": "Are you passionate about reporting the news and happenings? If yes, then journalism is a great career option for you. Journalism is the process of creating and disseminating event reports. Gathering, evaluating, producing, and presenting news and information is what it is all about. Print, television, radio, the Internet, and, in the past, newsreels are examples of journalistic media. It is unique because it is a one-way message, or story, from the journalist to the audience. It is most unique because the message isn't the journalist's personal story or subjective thoughts. The story comes first, and journalists do whatever it takes to make it accurate and thought-provoking. News organizations face a difficult task in properly monetizing their digital arm while also improvising on the context in which they publish in print",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/Journalism.jpg",
+        "img1": "https://i.postimg.cc/R0DknNsR/Journalism.jpg",
         "alt1": "AIML Image",
         "desc": "Journalism helps to explain the events that impact our lives and is developed in several forms and styles. Each journalistic form and style uses different techniques and writes for different purposes and audiences. Beyond fact-checking, interviews, proofreads and contacts, a journalist is expected to be on the edge of their culture. No two days for a journalist are ever the same. Finding the best material for a story could mean attending a press conference, holding an interview over the phone, trawling through professional contacts, or hammering out paragraphs.",
         "skills": [
@@ -2198,7 +2198,7 @@
         "duration": "4 years",
         "p1_1": "Have you always had an interest in clothes and accessories? If yes, then fashion designing is a potential career option for you. Fashion design is one of the most popular creative courses among students.",
         "p1_2": "Fashion design is a humanities specialisation that encompasses the vast range of fabrics, designs, patterns, colours, and trends that characterize a given era's fashion. The art of applying style, aesthetics, and natural beauty to clothing and accessories is known as fashion design. Within a decade, the apparel industry has advanced by leaps and bounds. Manufacturers employ their unique designs. The essence of a designer's role is to interpret trends; however, there is variation within this that is determined by the buying and merchandising approach, as well as product quality; for example, budget retailers will use inexpensive fabrics to interpret trends, whereas high-end retailers will use the best available fabrics.",
-        "img1": "../assets/images/blog/blog-details-fashd.jpg",
+        "img1": "https://i.postimg.cc/nh95Pm5v/blog-details-fashd.jpg",
         "alt1": "EE Image",
         "desc": "Designers study fashion trends and translate them for their target audience. The purchasing and merchandising strategy, as well as product quality, decide the difference within this; for example, budget retailers will use cheap fabrics to interpret patterns, while high-end retailers will use the best available fabrics. Fashion designers generally work on wearable garments and try to make them aesthetically pleasing. Designers work within a wide range of materials, colours, patterns and styles, and choose the best option according to the client’s taste. Designers study fashion trends and interpret them for their target audience.",
         "skills": [
@@ -2263,7 +2263,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to be a digital expert and influence the brands? If yes, then you should consider UI/UX Design as a career option. The design of user interfaces for equipment and software, such as computers, home appliances, mobile devices, and other electronic devices, to optimize usability and the user experience, is known as user interface design or user interface engineering.",
         "p1_2": "User interface design (UI) is the design of user interfaces used for machines and software with the focus on maximizing usability and the User Experience (UX). The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing goals. UI/UX Designers have to work on various software’s. They have to design facilitators and conductors who rapidly conduct research.",
-        "img1": "../assets/images/blog/blog-details-uiux.jpg",
+        "img1": "https://i.postimg.cc/DftYb0m0/blog-details-uiux.jpg",
         "alt1": "EE Image",
         "desc": "UI/UX Designing is a technical job. The job of a UI/UX designer is to design all the screens through which a user will move and to create the visual elements—and their interactive properties—that facilitate this movement. Designers are responsible for the technical aspect of the product. Their work attracts customers and they make products convenient for the users. They do not work on the product as a physical entity instead, they work on the websites which help the product to sell and build its brand name. A UI/UX Designer requires specialized training as this position needs the elements of programming, psychology and digital design.",
         "skills": [
@@ -2329,7 +2329,7 @@
         "duration": "4 years",
         "p1_1": "Are you interested in digital designs and digital art? If yes, then you should consider graphic designing as a career option. Graphic design is the method of using typography, photography, and illustration to communicate visually and solve problems.",
         "p1_2": "A graphic designer is a person who works in the graphic design and graphic arts industry and creates designs by combining photographs, typography, and motion graphics. They use photographs and the style of websites and printed pages to convey ideas by combining art and technology. On projects, often graphic designers partner with colleagues or clients. Designers generally take up more than one project and work on them simultaneously. Graphic design as a field of application encompasses a wide range of skills centered on any visual communication system. It can be used in advertising campaigns or in the aviation industry, for example.",
-        "img1": "../assets/images/blog/blog-details-graphic.jpg",
+        "img1": "https://i.postimg.cc/J0hYcHZH/blog-details-graphic.jpg",
         "alt1": "EE Image",
         "desc": "Graphic design is an integral part of promoting and selling goods, as well as brochures and logos. Graphic designers, also known as graphic artists or communication designers, often collaborate with people in the advertising, public relations, and marketing fields. Graphic designers typically work in studios with drawing tables, computers, and the internet. Graphic designers usually work in studios with computers, and the tools they required to make their designs. Despite the fact that many graphic designers work alone, those who work for specialized graphic design firms are often part of a design team.",
         "skills": [
@@ -2393,7 +2393,7 @@
         "duration": "4 years",
         "p1_1": "Are you fascinated by interiors? If yes, then you should look into interior designing as a career option. Interior design is the art and science of improving a building's interior to make it cleaner and more aesthetically appealing for the people who use it.",
         "p1_2": "Interior design is all about how we interact with our surroundings. Designers use a diverse range of skills and technological expertise to create environments that anticipate our desires and cater to our emotions. The world of interior design has evolved dramatically since the early 20th century when it was just beginning to emerge as a profession. Interior designers must be able to read blueprints and be familiar with building codes and inspection requirements. Most interior designers use computer-aided design (CAD) software, even though some sketches or drawings are done freehand.",
-        "img1": "../assets/images/blog/blog-details-interior.jpg",
+        "img1": "https://i.postimg.cc/hjD2cQCZ/blog-details-interior.jpg",
         "alt1": "EE Image",
         "desc": "An interior designer is a professional who designs, researches, coordinates, and manages certain improvements. To decide how interior spaces can act, look, and be furnished, interior designers collaborate closely with architects, structural engineers, mechanical engineers, and builders. They determine space specifications and pick decoration to make interior spaces usable, safe, and beautiful. They determine space specifications and choose decorative objects such as colours, lighting, and materials to make interior spaces usable, safe, and beautiful.",
         "skills": [
@@ -2453,7 +2453,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to work on jewellery for a living? If yes, jewellery designing is an attractive field for you. Jewellery is the amalgamation of the creative skills of a designer and the accuracy of skilled artisans. The jewellery doesn't need to be made of precious stone; ornaments worn by the early humans can also be categorized as jewellery. Earlier artisans were also the designers of the jewellery and the market was in the hands of few but now the field of jewellery making has opened its doors to everyone.",
         "p1_2": "Jewellery designing can be proven as a flourishing career if the candidate is creative enough. In the Indian economy, jewelry is a key source of investment and has a significant economic impact. Jewelry designers create wearable works of art using precious metals, diamonds, beads, and gemstones.",
-        "img1": "../assets/images/blog/blog-details-jewellery.jpg",
+        "img1": "https://i.postimg.cc/y6rLCd0n/blog-details-jewellery.jpg",
         "alt1": "EE Image",
         "desc": "Making jewellery does not limit itself to designing but it progresses to manufacturing and then trade. Although most of the professionals stick to the designing part it is important to have knowledge of the stone and their cutting, polishing and testing. The knowledge of stone is necessary for the designer to envision the capacity, lustre and life of the stone. They need to make a practical design to ensure that the stone fits in the design. Computers play a significant role in today’s market. Designers must update themselves with the newly available software.",
         "skills": [
@@ -2521,7 +2521,7 @@
         "duration": "5 years",
         "p1_1": "Are you interested in numbers and finances? Then you can consider accountancy as a career! Auditing, accounting, administrative, and general management are all areas of business and finance where chartered accountants work. Some work in public practice, while others work in the private sector, and still others work for government agencies.",
         "p1_2": "The CA (Chartered Accountant) is a prestigious and demanding profession. The ICAI (Institute of Chartered Accountants of India) runs the chartered accountant program in India (Indian Chartered Accountants Institute). They are members of the Institute of Chartered Accountants of India (ICAI). The membership may be renewed by paying the prescribed fees or paying an annual charge.",
-        "img1": "../assets/images/blog/blog-details-ca.jpg",
+        "img1": "https://i.postimg.cc/tJHCsyxc/blog-details-ca.jpg",
         "alt1": "EE Image",
         "desc": "Chartered accountants manage financial systems and budgets, and undertake financial audits. They liaise with clients and provide financial information and advice. They advise clients on business transactions, such as mergers and acquisitions and also counsel clients on areas of business improvement, or dealing with insolvency. They help to detect and prevent fraud. They prepare financial statements, including monthly and annual accounts arranging financial management reports, including financial planning and forecasting. They advise on tax and treasury issues and also negotiate terms with suppliers.",
         "skills": [
@@ -2569,7 +2569,7 @@
         "duration": "3 years",
         "p1_1": "Do you hold a keen interest in finances and stocks? Then chartered market technician might be the right career path for you. The CMT Association certifies that an individual is equipped in conducting technical analysis, via the Chartered Market Technician designation. They look for patterns in prices and past trends in price movement to identify key indicators on the basis of market psychology.",
         "p1_2": "Professionals who achieve this designation have vast knowledge related to investment risk in portfolio management. Essentially, a CMT designation is a very prestigious designation in the technical analysis field. The Financial Industry Regulatory Authority recognized Chartered Market Technician Designation establishes credibility for those seeking new employment prospects in the financial services industry.",
-        "img1": "../assets/images/blog/blog-details-cmt.jpg",
+        "img1": "https://i.postimg.cc/Y2ftd5gp/blog-details-cmt.jpg",
         "alt1": "EE Image",
         "desc": "The Market Technicians Association has given the duty of checking the proficiency of an analyst in technical analysis, to the CMT Association. Employers who commonly hire CMT-designated analysts include stock brokerage firms, investment banks, mutual fund companies, and so on. To forecast the performance and market action of a stock, a business sector, or the economy, these analysts often employ a holistic approach to securities analysis that combines both fundamental and technical methods. On the basis of their analysis, these analysts make buy-and-sell recommendations for the company's exclusive portfolio or for customers of the particular firm.",
         "skills": [
@@ -2616,7 +2616,7 @@
         "duration": "4 years",
         "p1_1": "Do you have a keen interest in finance and its technicalities? Then CFA might be the perfect role for you! The Chartered Financial Analyst (CFA) Program is a postgraduate professional certification provided to investment and financial professionals worldwide by the American-based CFA Institute (formerly the Association for Investment Management and Research, or AIMR). Candidates must pass three levels of exams. These include topics like accounting, economics, ethics, financial management, and security analysis.",
         "p1_2": "The CFA charter is generally regarded as the gold standard in the field of investment research and is one of the most prestigious designations in finance. The CFA designation is meant to show that you have a solid foundation in advanced investment analysis and portfolio management, as well as a strong commitment to ethical behaviour.",
-        "img1": "../assets/images/blog/blog-details-cfa.jpg",
+        "img1": "https://i.postimg.cc/3w4K9Wj6/blog-details-cfa.jpg",
         "alt1": "EE Image",
         "desc": "Any work that involves large-scale wealth management, financial analysis, or complex accounting is likely to be held by a Chartered Financial Analyst (CFA). A financial analyst is in charge of collecting data, arranging information, analyzing historical results, forecasting and projecting future results, making suggestions, and creating Excel models and presentations. Depending on the company they work for, the sector they work in, and their level of seniority, analysts have a wide range of duties and responsibilities. The role encompasses relationship and asset management, credit analysis, trading, accounting and auditing, financial planning, etc.",
         "skills": [
@@ -2664,7 +2664,7 @@
         "duration": "4 years",
         "p1_1": "Do you have a flair for numbers and management, and are ready to put in your hours sincerely? Then, cost accounting is the right job for you! Cost accounting is a type of managerial accounting that tries to capture a company's entire cost of production by measuring both variable and fixed costs, such as a leasing fee. It is a job that involves reviewing costs in a company. It requires utmost sincerity and precision. Any risks, any potential business, you need to be wary of.",
         "p1_2": "A cost accountant is a job that is very taxing and very risky, but the rewards are often very ample and fulfilling. Cost accounting offers managers the complete cost data they need to manage present operations and plan for the future. Cost accounting, unlike financial accounting, which gives information to external financial statement consumers, is not bound by set standards and can be flexible to match management's needs.",
-        "img1": "../assets/images/blog/blog-details-coa.jpg",
+        "img1": "https://i.postimg.cc/02kPFVd7/blog-details-coa.jpg",
         "alt1": "EE Image",
         "desc": "As a cost accountant, you’ll be required to analyze and improve the cost control of a company. You will be required to plan budgets for the organization you’ll be working for. You’ll be asked to measure the performance based on the success of the company. The job is tailored to suit the needs of the agency or the company you’re working in. Basically, accounting for every last task in the company is your job. Its final purpose is to advise management on how to optimize corporate practices and procedures based on cost efficiency and capabilities. It is often considered a subset of managerial accounting.",
         "skills": [
@@ -2720,7 +2720,7 @@
         "duration": "5 years",
         "p1_1": "Are you intrigued by accountancy and similar fields? Then, CPA can be a great profession for you! Certified public accountants provide their services to public organizations. If you think you have a flair for accounts and want to serve the community, for the betterment of the community, then the work of a CPA might be the best job for you.",
         "p1_2": "Certified Public Accountant is a designation given to certified accountants in many English-speaking countries. In other English-speaking nations, it is roughly equal to the title of a chartered accountant. The CPA is a license that allows you to conduct public accounting services in the United States. State licensing standards vary, but the Uniform Certified Public Accountant Examination, 150 semester units of college education, and one year of accounting-related work are the minimum requirements.",
-        "img1": "../assets/images/blog/blog-details-cpa.jpg",
+        "img1": "https://i.postimg.cc/8c1g8CWT/blog-details-cpa.jpg",
         "alt1": "EE Image",
         "desc": "Certified Public Accountant or CPA provides accounting services to the public and organizations. They are primarily involved in auditing and attestation procedures. They should be well versed with accounting principles, business and financial concepts, tax, etc. CPAs are hired by organizations in the role of finance manager, financial analyst, chief financial officer, etc. They are usually hired by NGOs. As needed, organizing and updating accounting records (digital and physical) Creating and evaluating transaction reports. Conducting rigorous audits on a regular basis to check the accuracy of financial documentation, expenditures, and investments.",
         "skills": [
@@ -2775,7 +2775,7 @@
         "duration": "5 years",
         "p1_1": "Do you think your heart is a gem and you can devote to the service of your society? Then, being a counsellor is the right career path for you. A counsellor understands the troubles of their clients, emotional, mental, psychological, career oriented etc. and helps them solve it. Their job is to provide guidance to people who require it, particularly on personal issues. Children who have suffered in this way should seek help from a bereavement counselor.",
         "p1_2": "Professional counseling is a type of professional interaction that helps individuals, families, and groups achieve their mental health, wellness, education, and career goals. Counselors operate in a number of community settings to provide counseling, rehabilitation, and support services to people. Their responsibilities differ significantly based on their expertise, which is defined by the environment in which they work.",
-        "img1": "../assets/images/blog/blog-details-couns.jpg",
+        "img1": "https://i.postimg.cc/t4fb1p0z/blog-details-couns.jpg",
         "alt1": "EE Image",
         "desc": "A counsellor gets to know people and solve any trouble they’re having mentally. They’re supposed to build trust with their clients. They help them resolve their feelings. They let people rise above themselves and become better versions of themselves. They let people watch things from a new perspective and let them heal their minds. They have to assist clients in reaching their optimal level of psychosocial functioning through resolving negative patterns. They help them in rehabilitation and improving their quality of life. Counsellors must be aware of these difficulties in order to provide proper therapy and assistance to their clients.",
         "skills": [
@@ -2837,7 +2837,7 @@
         "duration": "6 years",
         "p1_1": "Do you love to share your knowledge and help others improve? If so, then a career in Teaching is just for you. Teachers are responsible for imparting knowledge and educating younger generations of people. They are responsible for the mental development of students at one of their most crucial stages of life and can have a lifelong impact on their students.",
         "p1_2": "Teachers are, without a doubt, the most important people in our society. They provide children with a sense of purpose, prepare them for success as global citizens, and instil in them a desire to do well and thrive in life. A teacher’s primary responsibility is to impart knowledge to their students, making the ability to effectively communicate very crucial.",
-        "img1": "../assets/images/blog/blog-details-tec.jpg",
+        "img1": "https://i.postimg.cc/J7y2nZrS/blog-details-tec.jpg",
         "alt1": "EE Image",
         "desc": "Working as a teacher can be a very rewarding job. They are responsible for assessing their students, taking into account their strengths and weaknesses and creating ways to impart education on their basis. Beyond simply teaching, they are also responsible for encouraging positive behaviours and discourage misbehaviour. A teacher thus gets the opportunity to help in the overall betterment of their pupils. They must design successful lessons, grade student classwork and provide them feedback, manage classroom materials, navigate the curriculum effectively, and communicate with other staff to accomplish this.",
         "skills": [
@@ -2891,7 +2891,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to help children who have trouble learning at a regular pace in classes? Then, being a special educator can be a great career path for you! We have all watched the movie ‘Taare Zameen Par’. There are a lot of kids out there with such disabilities, an inability to read, write or even understand. If you feel that you want to help by teaching them, then being a special educator might be the right task for you. It involves helping such children grow, and overcome their troubles.",
         "p1_2": "Learning disabilities (such as dyslexia), communication disorders, emotional and behavioral disorders (such as ADHD), physical disabilities (such as osteogenesis imperfecta, cerebral palsy, muscular dystrophy, spina bifida, and Friedreich's ataxia), and developmental disabilities (such as autistic spectrum disorders) are all addressed in special education.",
-        "img1": "../assets/images/blog/blog-details-spec.jpg",
+        "img1": "https://i.postimg.cc/vm3W7qzX/blog-details-spec.jpg",
         "alt1": "EE Image",
         "desc": "A career in special education is for those who have an incredible passion for teaching and attachment and concern for children with special needs. Special education means personalised schooling given to children with different disabilities both physical and mental. Children with such disabilities need special training and instruction by well-trained professionals in the field of special education. Special education offers different career opportunities including teaching, instruction and curriculum development for children with special needs and adults. The major responsibility of any special educator is to teach and interact with children who have a variety of disabilities.",
         "skills": [
@@ -2948,7 +2948,7 @@
         "duration": "7 years",
         "p1_1": "Do you love to share your knowledge and help others improve? If so, then a career in Teaching is just for you. Teachers are responsible for imparting knowledge and educating younger generations of people. They are responsible for the mental development of students at one of their most crucial stages of life and can have a lifelong impact on their students. Teachers are, without a doubt, the most important people in our society. They provide children with a sense of purpose, prepare them for success as global citizens, and instil in them a desire to do well and thrive in life.",
         "p1_2": "They supervise the performance of the faculties in the university and ensure student discipline on the campus. Professors are typically specialists in their fields and top-tier educators. Full professors have prominent management positions at many institutions, including directing departments, research teams, and institutes, as well as serving as president, principal, or vice-chancellor.",
-        "img1": "../assets/images/blog/blog-details-prof.jpg",
+        "img1": "https://i.postimg.cc/DfDPYNKM/blog-details-prof.jpg",
         "alt1": "EE Image",
         "desc": "Professors often carry out original research and give regular teachings to undergraduate, vocational, or postgraduate courses in their fields of expertise. In universities and institutions, they instruct and supervise students while conducting their research. Besides, they have several other duties to perform such as supervising the academic progress of the departments & students, monitoring the functions of Class Advisor’s I & II, Test Coordinators, Assessment Coordinators, holding the responsibility of approving the Internal Assessment marks for all students in all classes of both UG & PG.",
         "skills": [
@@ -3001,7 +3001,7 @@
         "duration": "3 years",
         "p1_1": "Do you want to work in a creative field and learn all about internet presence? The, digital marketing is the choice for you!Digital Marketing is the new age market. Right from logos to giant banner advertisements on screen, digital marketing is now a huge requirement for anyone coming into the field of marketing.",
         "p1_2": "Right down from content writing to scripting advertisements, a lot of attention goes into the attention span of putting across a message digitally. As a digital marketer, the job is to deliver the message as quickly and as impactful as possible. At a high level, digital marketing refers to advertising delivered through digital channels such as search engines, websites, social media, email, and mobile apps. ",
-        "img1": "../assets/images/blog/blog-details-digi.jpg",
+        "img1": "https://i.postimg.cc/B6BRCGzk/blog-details-digi.jpg",
         "alt1": "EE Image",
         "desc": "A career in digital marketing can be kick-started right from the comfort of your home. A blogger can successfully captivate minds if he/she can send the right idea across. Selling or buying isn’t the only end goal in digital marketing. The agenda includes adding more traffic to a website (like what’s happening here), forming the image of an organization or simply just conveying a message to the audience. They plan and execute all web, SEO/SEM, database marketing, email, social media, and display advertising campaigns. They also design, build, and maintain our social media presence.",
         "skills": [
@@ -3061,7 +3061,7 @@
         "duration": "3 years",
         "p1_1": "Are you always fascinated by different types of advertisements? Then advertising is the appropriate career pathway for you! Advertising is not a new field, everyone has seen advertisement in some form or the other. Advertising is a means of selling, by highlighting the key features of a product or service.",
         "p1_2": "It is often catchy, to attract the customers. It is one aspect of mass communication, and it involves communicating with a large audience, by the means of your advert. It requires quite a bit of market research, in order to narrow down the targeted demographic. Advertisements, or ads for short, are the real commercial messaging. Advertising's purpose is to contact those who are most inclined to pay for a company's products or services and persuade them to buy.",
-        "img1": "../assets/images/blog/blog-details-ad.jpg",
+        "img1": "https://i.postimg.cc/hjVKWw51/blog-details-ad.jpg",
         "alt1": "EE Image",
         "desc": "Advertising involves being creative and thinking out of the box. The adverts need to be very catchy and attractive. They need to convey to the customer how your product or service would add value to their lives. Experts in this field also need to possess good communication skills. The advertisements are specifically curated for different groups of people, divided based on factors like gender, age, preferences, geographical location, etc. The advertisements often use means of mass media, such as print media (magazines, newspapers, posters, flyers, billboards), or broadcast media (radio, television).",
         "skills": [
@@ -3124,7 +3124,7 @@
         "duration": "3 years",
         "p1_1": "Do you think you can work in pitching sales and convincing people to do (buy) stuff? hen the sales career path might be a match made in heaven for you. It involves (as you guessed) making sales to potential customers.",
         "p1_2": "It also involves effective communication, analytics, and the most important of all, patience. An inquisitive person today will be a customer tomorrow. A sale is a transaction in which the buyer obtains tangible or intangible products, services, or assets in return for money from two or more parties. In the financial markets, a sale can also refer to a pricing agreement between a buyer and a seller for security. You must have good communication skills to be a successful salesperson. A successful salesperson achieves sales goals while remaining courteous and helpful to consumers.",
-        "img1": "../assets/images/blog/blog-details-sales.jpg",
+        "img1": "https://i.postimg.cc/cJsRnyQr/blog-details-sales.jpg",
         "alt1": "EE Image",
         "desc": "A salesperson is responsible for selling products or services that meet customer needs. They identify prospective customers, establish trust, nurture prospects through the company's sales funnel, provide information on offerings, and bring in new customers by convincing people to make a purchase. Choosing a career in sales depends on your experience, company, and industry. It’s a background with a plethora of opportunities if you’re decent at what you do. Customers are greeted, assisted in finding things in the store, and transactions are rung up by the salesperson. ",
         "skills": [
@@ -3179,7 +3179,7 @@
         "duration": "3 years",
         "p1_1": "Do you want to design and create a product? If yes, then product designing is the favoured career option for you. The process of product design entails imagining and producing mass-produced products. The concept includes both the physical and functional characteristics that goods should have.",
         "p1_2": "It's an observational technique that uses a problem-solving approach to enhance the end-quality user's life and interactions with the environment. Certain experts, such as engineers and marketers, collaborate with product designers. Although they are not in control of the product's strictly mechanical and technical elements, they are concerned with usability. Understanding technology, production methods and materials is necessary as the designers use 3-D models, drawings and computer designs to express their ideas. ",
-        "img1": "../assets/images/blog/blog-details-prod.jpg",
+        "img1": "https://i.postimg.cc/LXQ3SCgh/blog-details-prod.jpg",
         "alt1": "EE Image",
         "desc": "Product designers use their design experience and technological expertise to enhance the functionality and appearance of existing products. Designers also work to reduce the product's expense by rethinking the development. Designers can not only work on existing products, but they can also work on the development of a completely new product. Product designers work closely with colleagues and clients. They even have to work with engineers, model makers, sales and marketing professionals, and other skilled people. Doing all the work designers do, they have to be on a budget and make it to the deadlines. ",
         "skills": [
@@ -3239,7 +3239,7 @@
         "duration": "3 years",
         "p1_1": "Do you want to design advertisements and marketing strategies for different companies? Then, marketing is a great field for you. Marketing is a means of understanding the ways in which our world is working at the moment, and using that as a way of promoting a product or service. ",
         "p1_2": "It's one of the most important aspects of business and trade. Marketers can target other firms or consumers directly with their goods. Creating demand in the market is also something that candidates who choose this career do. The environment surrounding the product, the results of marketing research and market research, and the features of the product's target market all influence the marketing mix, which describes the specifics of the product and how it will be sold.",
-        "img1": "../assets/images/blog/blog-details-mark.jpg",
+        "img1": "https://i.postimg.cc/DyJBvTgh/blog-details-mark.jpg",
         "alt1": "EE Image",
         "desc": "Marketing requires you to be on your toes. You need to brainstorm a lot in this field and come up with different ways to sell your product or service. Marketing executives strive to maximize revenues by creating sales tactics that are tailored to the needs of their customers and by pushing products, services, or ideas. Marketing executives plan and implement product and service promotion initiatives. There are other things also that fall under marketing such as keeping a track of data, looking at how your own products are doing in the market. Keeping a track of the market and its demand is also important. ",
         "skills": [
@@ -3300,7 +3300,7 @@
         "duration": "3 years",
         "p1_1": "Have you always been intrigued by how aircrafts are controlled? If yes, then you should think of becoming an air traffic controller. Land-based air traffic controllers provide air traffic control (ATC), which directs aircraft on the ground and through controlled airspace, as well as providing advisory services to aircraft in non-controlled airspace.",
         "p1_2": "They help pilots by preventing collisions, coordinating air traffic flow, and providing information and assistance. They communicate with pilots and track aircraft in their assigned airspace using radar. Air Traffic Controller enforces traffic separation laws to avoid accidents by ensuring that each aircraft has a minimum amount of empty space around it. This role is key, to the aviation sector.",
-        "img1": "../assets/images/blog/blog-details-atc.jpg",
+        "img1": "https://i.postimg.cc/zDnG9bmY/blog-details-atc.jpg",
         "alt1": "EE Image",
         "desc": "The air traffic controller is the instructor of the pilots. They assist the pilot’s landings and take-offs by monitoring and directing the movement of aircraft on the ground and in the air. They make use of radar tracking, computer systems, or visual references. They even control all ground traffic at airports, including baggage vehicles and airport workers. They even provide information to pilots, such as weather updates, runway closures, and other critical information. The air traffic controller plays a critical role in an emergency since they must immediately inform the appropriate authorities and warn emergency response personnel.",
         "skills": [
@@ -3355,7 +3355,7 @@
         "duration": "3 years",
         "p1_1": "Do you love aircraft and working with machines? If so, then a career as an Aircraft Maintenance Engineer is just for you. Aircraft maintenance is the execution of tasks required to ensure an aircraft or aircraft part's continued airworthiness, such as overhaul, inspection, replacement, defect rectification, and the embodiment of modifications, compliance with airworthiness directives, and repair.",
         "p1_2": "This is a very crucial profession as such professionals are responsible for maintenance, control and repairing of specialised aircraft parts and instrumentations. They are responsible for assessing the safety of the aircraft and repairing any inconsistency so as to prevent any malfunctioning. Assessing and handling repairs, executing regular inspections, and updating aircraft as needed are all part of this work.",
-        "img1": "../assets/images/blog/blog-details-ame.jpg",
+        "img1": "https://i.postimg.cc/zGPznThK/blog-details-ame.jpg",
         "alt1": "EE Image",
         "desc": "A licensed person who performs and certifies aircraft maintenance is known as an Aircraft Maintenance Engineer. The primary job of such professionals is to detect any detriment present in parts of the aircraft and repair or replace such flawed parts. They follow the engineering designs and plans and service the aircraft. They are also responsible for testing various gauges and instruments for any errors and work to solve any complaints registered by the pilots or co-pilots during the travel of the flight. It is a relatively challenging but rewarding profession. They are responsible for ensuring an aircraft operates properly and safely.",
         "skills": [
@@ -3414,7 +3414,7 @@
         "duration": "3 years",
         "p1_1": "Do you love travelling and interacting and helping people? If so, then a career as a part of the Cabin Crew is just for you. Cabin Crew members travel on flights to ensure that the journey of all people in the aeroplane is comfortable and without any problem. They are also responsible for ensuring everyone’s safety and lead in times of emergency.",
         "p1_2": "They are also supposed to fill out the flight reports and do the necessary paperwork for the flight. They also have to greet passengers as they board and exit the plane. show passengers to their seats, serve meals and refreshments, check the condition and provision of emergency equipment and information for passengers. Flight attendants are prepared to handle a wide range of emergencies and are first-aid certified.",
-        "img1": "../assets/images/blog/blog-details-cc.jpg",
+        "img1": "https://i.postimg.cc/R0kvY9X0/blog-details-cc.jpg",
         "alt1": "EE Image",
         "desc": "Being a part of the Cabin Crew is of great responsibility. The crew is responsible for checking all of the safety measures and look into the passenger list and facilitate the special requirements for some passengers. They also help passengers with any difficulty they might have during the flight and serve them refreshments. They are responsible for some of the important work to ensure that the passengers have a great experience of travelling. They have to answer queries and provide assistance to passengers to ensure their pleasure. Before taking off, they inspect the cabin for conformity with safety rules.",
         "skills": [
@@ -3474,7 +3474,7 @@
         "duration": "3 years",
         "p1_1": "Do you aspire to fly high? If yes then, the flight attendant is the perfect job for you. A flight attendant is a member of an aircrew employed by airlines aboard commercial flights, primarily to ensure the comfort of passengers.",
         "p1_2": "Their job is not just to serve people snacks and drinks but flight attendants are also in charge of the safety of the passengers onboard. Flight attendants are also responsible for briefing the passengers on safety standards specific to the aircraft in a safety demonstration. Passengers are made aware of how to locate their nearest emergency exit, how to properly buckle their safety belts, what to do in the event of turbulence, how to operate safety vests or flotation devices, and how to use the drop-down oxygen masks.",
-        "img1": "../assets/images/blog/blog-details-fa.jpg",
+        "img1": "https://i.postimg.cc/JhwgVnVS/blog-details-fa.jpg",
         "alt1": "EE Image",
         "desc": "The job of the flight attendant begins way before the flight takes off and ends with the landing of the flight. It begins with a briefing about the weather conditions, journey time, possible emergency situations, etc. The primary job of flight attendants is to keep passengers safe and to ensure that everyone follows security regulations. Along with that, they also serve and sometimes sell beverages, meals, or snacks or other items available on flight. Working hours of a flight attendant are not fixed; instead, it depends on the flight schedule and duration.",
         "skills": [
@@ -3533,7 +3533,7 @@
         "duration": "3 years",
         "p1_1": "Do you dream of taking control of the skies? If the answer is yes, then becoming a pilot might be your perfect career choice. A pilot is a skilled aviator responsible for operating aircraft, including airplanes and helicopters.",
         "p1_2": "Their role goes beyond simply flying the aircraft; pilots are entrusted with the safety and navigation of the entire flight. They must undergo extensive training and possess in-depth knowledge of aviation regulations, weather conditions, and flight systems. Pilots not only ensure a smooth takeoff, flight, and landing but also make critical decisions during emergencies, ensuring the safety and well-being of everyone on board.",
-        "img1": "../assets/images/blog/blog-details-pilot.jpg",
+        "img1": "https://i.postimg.cc/76Znp86p/blog-details-pilot.jpg",
         "alt1": "EE Image",
         "desc": "The role of a pilot is essential in ensuring the safe and efficient operation of an aircraft. Their responsibilities extend well before the plane takes off and continue until it safely lands. Their day typically starts with a comprehensive briefing, covering aspects such as weather conditions, flight duration, potential challenges, and more. Pilots are primarily responsible for the safe navigation and control of the aircraft, ensuring adherence to all aviation regulations and safety protocols. They collaborate closely with the flight crew, air traffic controllers, and ground staff to ensure a smooth flight. The working hours of a pilot can vary significantly, depending on factors such as flight routes, layovers, and the type of aircraft they operate.",
         "skills": [
@@ -3596,7 +3596,7 @@
         "duration": "4 years",
         "p1_1": "Have you ever wondered about the ancient eras, and want to study them? Then Archaeology is the right choice for you! Archaeology is the study of the human past, human civilisations and living conditions from remains. A person who studies archaeology for a living is known as an archaeologist. The study of human activity via the recovery and examination of material culture is known as archaeology. Although archaeology is frequently thought of as a branch of socio-cultural anthropology, archaeologists also use biological, geological, and environmental systems in their research. Archaeology is especially essential for understanding about prehistoric societies because there are no written records for them. From the Paleolithic through the introduction of literacy in communities around the world, prehistory encompasses almost 99 percent of human history.",
         "p1_2": "",
-        "img1": "../assets/images/humanities3/archaeology.jpg",
+        "img1": "https://i.postimg.cc/bJqtkwZZ/archaeology.jpg",
         "alt1": "AIML Image",
         "desc": "An archaeologist mainly works with evidence found. In other words, they try and excavate material remains that can be evidence for human existence, civilizations, history, etc. These archaeologists then try to study their origin, describe the remains, and try to give it more context and build on to give us knowledge about an entire time period or era to pass on information to the world about their findings, they also publish their research. They also research the habits, values, and social patterns of many cultures. In their job, many archaeologists employ advanced instruments and technologies.",
         "skills": [
@@ -3656,7 +3656,7 @@
         "duration": "4 years",
         "p1_1": "Public administration is a field where various functions that are expected from the government are executed by public administrators. The success of a well-functioning country solely lies in the performance of every small job performed. The aim of educating people in public administration is to train them in democratic values such as equality, justice, security, effectiveness, and order. It also prepares such human resources who can critically analyse and review public policies of the government. It is the process of putting government policies into action, as well as an academic subject that examines this process and trains civil servants to work in government. These public administrators are enabled to bear the responsibility of determining the policies and programs of the government like planning, organizing, directing, coordinating, and controlling government operations.",
         "p1_2": "",
-        "img1": "../assets/images/humanities3/publicadministration.jpg",
+        "img1": "https://i.postimg.cc/tR2hdWtp/publicadministration.jpg",
         "alt1": "AIML Image",
         "desc": "Public administrators are government officials who work in government departments and agencies at all levels. Due to several changes happening every day, there is always a promising career in public administration. Public administration requires a high level of diplomatic skills and thorough knowledge of public issues. Everyday tasks include a variety of jobs to analyse, observe and execute plans. They investigate, design, and recommend policies and programs that are both cost-effective and adhere to administrative and federal regulations.",
         "skills": [
@@ -3715,7 +3715,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to learn a lot of different areas under one subject? Then, this is the subject to study. Home science isn't just a subject that teaches you how to cook. There's a lot that this subject encounters. Even though it might be seen as a subject merely for women, this is a stereotypical idea. The subject goes from nutrition, to child development and even financial management as well as leadership skills. Thus as you can see it's an umbrella subject. Home science has great opportunities in the tourism industry and/or in hotels, tourist resorts, etc. as catering agents, interior designer, cook, food analysts, bakers as well as a healthcare professional. They are employed as dieticians in hospitals, schools and various other organizations. There are 5 streams of home science: Food and Nutrition, Resource Management, Human Development, Fabric and Apparel Science and Communication and Extension.",
         "p1_2": "",
-        "img1": "../assets/images/humanities3/homescience.jpg",
+        "img1": "https://i.postimg.cc/sDx5TxwS/homescience.jpg",
         "alt1": "AIML Image",
         "desc": "As mentioned above, home science focuses on a number of topics. Thus an individual can Branch out and choose a career that best suits him/her. Nutrition is one of the foremost careers that people go for after choosing to study home science. Interior designing, child development are other fields that they can branch into as well. Home science is a vast field where the student can learn about nutrition, resources, home management, hygiene, general health, effective communication skills, ethics, clothing and textile management. One can specialize in any of the five streams of home science",
         "skills": [
@@ -3773,7 +3773,7 @@
         "duration": "4 years",
         "p1_1": "Do you enjoy learning about different places and their terrains? Then geography is the right choice for you! Geography is the study of the physical features of our planet Earth. In geography, a person usually studies the terrains, vegetation, formations and other such aspects. It's an in-depth study of the planet we live on about aspects such as weather and natural calamities as well. It is the study of places and people's interactions with their surroundings. Geographers study the physical features of the Earth's surface as well as the human societies that live there. An active interest in the environment and everything that affects life on Earth is important. Geography tries to figure out where things are, why they're there, and how they evolve and change over time.",
         "p1_2": "",
-        "img1": "../assets/images/humanities3/geography (1).jpg",
+        "img1": "https://i.postimg.cc/rFHx3TPH/geography-1.jpg",
         "alt1": "AIML Image",
         "desc": "A geographer is a physical scientist, social scientist, or humanist who studies geography. The career and work-life of a geographer can be quite interesting. Different jobs could hire a geographer such as working with national geographic, to working with the forest department. The work-life thus depends on the course that a geographer chooses to take. Geographers examine the distribution of phenomena, processes, and features in space and time and the interaction of humans and their environment. Geography is very interdisciplinary since space and place have an impact on a wide range of themes, including economics, health, climate, plants, and animals",
         "skills": [
@@ -3833,7 +3833,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to learn about the inner workings of a government? Then, politics is a great choice for you! Politics is the working of people in communities to grow and solve problems effectively. Politicians are the ones who are involved in law-making and enforcement for the betterment of the country. Anything involved in this context would be considered politics. Political science is the study of politics, political scenarios, strategies and more in a university or institution. Within a society, a political system is a framework that determines permissible political techniques. They'll have to keep their knowledge updated about the political scenario and the politicians. Some of them can even move forward and enter politics.",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/Pol Sc.jpg",
+        "img1": "https://i.postimg.cc/T17gRvYp/politicalscience.jpg",
         "alt1": "AIML Image",
         "desc": "Candidates who study political science would have to be great at communication. The more languages they know the greater their flexibility. This is because these Candidates would have to be involved with the political scenario and stay in touch with ground reality as much as they can. They can then work for political parties as campaign strategists or analysts. They can also work to build policies and work with government agencies. Law and political consultancy is also something they work with. Mostly these candidates will interact with people minute by minute.",
         "skills": [
@@ -3894,7 +3894,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to study languages, and learn about words and their origins? Then you should choose languages as a major! A language is a systematic system of communication used by humans that is based on speech and gestures, sign language, and, in some cases, writing. The grammar of a language is its structure, whereas the vocabulary is its free component. All of us can communicate with each other only because of the medium of language that exists between us. Language as we all know helps us communicate effectively and also understand a lot more about cultures and communities. Linguistics is the scientific study of language. Critical studies of languages, such as language philosophy, the links between language and cognition, and how words express reality, have been argued at least since the time of Gorgias and Plato in ancient Greece.",
         "p1_2": "",
-        "img1": "../assets/images/humanities3/language.jpg",
+        "img1": "https://i.postimg.cc/Twxr0c4Y/language.jpg",
         "alt1": "AIML Image",
         "desc": "Linguists research language and the elements that influence how people communicate. They can work in a variety of fields, including translation, analysis, research, and interpretation. Linguists work in a variety of settings, including education, government, and other public and commercial organizations. Studying languages and especially foreign languages takes a different kind of dedication. These people would mostly have to interact with a lot of people from various backgrounds. Especially with foreign languages, it could involve travelling also. They would also have to read and be good at analyzing.",
         "skills": [
@@ -3951,7 +3951,7 @@
         "duration": "4 years",
         "p1_1": "How have we grown as a community? Haven’t we changed from generation to generation? How does this social change occur? These are a few questions that sociology addresses. Sociology is the study of human social behaviour. It's focused on studying the original and evolution of humans as social beings, in context with their surroundings. It focuses on how people interact with each other and live together in the same community. It is the study of social life, social change, and the social causes and consequences of human conduct. Sociologists study the structure of groups, organizations, and communities, as well as how people interact with them. They are required to thus, help in increasing the welfare of communities and individuals collectively. Communication Skills are key to becoming a sociologist as you need to be able to communicate with various groups and understand the ways of their culture",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/Sociology.jpg",
+        "img1": "https://i.postimg.cc/nr8N0Nt9/Sociology.jpg",
         "alt1": "AIML Image",
         "desc": "Sociologists need to be aware of their surroundings constantly. Sociologists examine society and social behaviour using several methodologies. They study how people form groups, cultures, organizations, social institutions, and processes, then apply what they learn in the actual world. They need to closely observe human behaviour and try to understand how environmental factors contribute to such behaviour. Especially in a diverse country like India, sociology helps in understanding the effects of different cultures on human behaviour. Based on the course an individual decides to take, sociology as a career can be flexible or stressful.",
         "skills": [
@@ -4011,7 +4011,7 @@
         "duration": "4 years",
         "p1_1": "Do you want to interact with international state representatives? Then you should pursue international relations. The study of the interactions of nation-states and non-governmental organizations in subjects such as politics, economics, and security is known as international relations. The evolving nature of state and non-state players involved in international decision-making. International relations (sometimes known as international affairs) serves a broad purpose in modern society by attempting to comprehend the causes of conflict and how to keep the peace, within the global system, the nature and exercise of power, the evolving nature of state and non-state actors involved in international decision-making. The role entails discussing, negotiating and mediating with the local government issues about peace and war, trade, commerce, economics, as well as social and cultural aspects.",
         "p1_2": "",
-        "img1": "../assets/images/humanities2/international.jpg",
+        "img1": "https://i.postimg.cc/brQWMLzC/international.jpg",
         "alt1": "AIML Image",
         "desc": "In this globally interconnected world, you'll have the chance to maintain positive diplomatic relations between countries, prevent international wars, and ensure that things operate smoothly between governments. In addition to politics, you will have a wide range of professional opportunities as an international relations specialist, including economics, social systems, and community culture. The job would entail acting as a link between the country you represent and the country where you are stationed, collecting and reporting on all the information that would affect the interests of your nation",
         "skills": [

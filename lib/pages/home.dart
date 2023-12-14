@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
   int score=0;
   int total=questions.length-1;
   var array=[1,2,3];
-  String _prediction="yolo";
+  String _prediction=" ";
  
 
 
@@ -193,13 +193,19 @@ class _HomePageState extends State<HomePage> {
 
               SizedBox(height: 10,),
 
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal:10.0), 
-                child: Text(      
-                  "Based on the character assessment test here are some careers recomended for you: $_prediction",
-                  style:
-                  TextStyle(fontSize: 14,color: Colors.grey[700], fontFamily: 'FontMain'),               
-                ),         
+              GestureDetector(
+                 onTap: () => {
+                  Navigator.pushNamed(context, '/skillQuestion')
+                
+                },
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal:10.0), 
+                  child: Text(      
+                    "Based on the character assessment test here are some careers recomended for you: $_prediction",
+                    style:
+                    TextStyle(fontSize: 14,color: Colors.grey[700], fontFamily: 'FontMain'),               
+                  ),         
+                ),
               ),
             
               SizedBox(height: 20,),

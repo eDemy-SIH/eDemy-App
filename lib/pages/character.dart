@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
 import 'package:sih_app/pages/home.dart';
+import 'package:sih_app/pages/skill_start.dart';
 import 'package:sih_app/widgets/anwer_card.dart';
 import 'package:sih_app/widgets/motivate.dart';
 import 'package:sih_app/widgets/next_buttons.dart';
@@ -63,9 +64,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
     sdb.updateTheme();
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
-        builder: (_) => HomePage(
-          
-        ),
+        builder: (_) => SkillStart(),
       ),
     );
     
