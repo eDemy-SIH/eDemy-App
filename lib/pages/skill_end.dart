@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
+import 'package:sih_app/db/db.dart';
+import 'package:sih_app/pages/home.dart';
 import 'package:sih_app/widgets/next_buttons.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -14,10 +17,19 @@ class SkillEnd extends StatefulWidget {
 
 class _SkillEndState extends State<SkillEnd> {
 
-  List<String> topThreeElements =['ty'];
+  List<String> topFour =['demo'];
+
+  final recommendedbox = Hive.box("Recommended_db");
+  RecommendedDb rdb = RecommendedDb();
 
 
-   
+   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+
+  
     
 
   @override
@@ -34,7 +46,20 @@ class _SkillEndState extends State<SkillEnd> {
 
 
 
-    List<String> topThreeElements = sortedOccurrences.take(3).map((entry) => entry.key).toList();
+    List<String> topFour = sortedOccurrences.take(4).map((entry) => entry.key).toList();
+
+    goHome(){
+    setState(() {
+      rdb.userSelections = topFour;
+    });
+    rdb.updateRec();
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (_) => HomePage(),
+      ),
+    );
+    
+  }
 
    
     return Scaffold(
@@ -58,25 +83,25 @@ class _SkillEndState extends State<SkillEnd> {
 
                   child: Center(
                     child: Container(
-                      child: Text("Great, now we will ask you some questions about your preffered jobs ",style: TextStyle(fontSize: 20,fontFamily: 'FontMain' ),),
+                      child: Text("Thanks, for taking the test, continue to see your recommended careers ",style: TextStyle(fontSize: 24,fontFamily: 'FontMain' ),),
                     ),
                   ),
                 ),
 
                 
-                Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  for (String element in topThreeElements)
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        element,
-                        style: TextStyle(fontSize: 18,color: Colors.black),
-                      ),
-                    ),
-                ],
-              ),
+              //   Column(
+              //   crossAxisAlignment: CrossAxisAlignment.start,
+              //   children: [
+              //     for (String element in topFour)
+              //       Padding(
+              //         padding: const EdgeInsets.all(8.0),
+              //         child: Text(
+              //           element,
+              //           style: TextStyle(fontSize: 18,color: Colors.black),
+              //         ),
+              //       ),
+              //   ],
+              // ),
 
                 Expanded(
                     child: Align(
@@ -85,9 +110,9 @@ class _SkillEndState extends State<SkillEnd> {
                         padding: const EdgeInsets.only(bottom: 20),
                         child: GestureDetector(
                           onTap: () => {
-                              Navigator.pushNamed(context, '/skillQuestion')      
+                              goHome()   
                             },
-                          child: NextButton(text: "End")
+                          child: NextButton(text: "Continue")
                         ),
                       ),
                     ),

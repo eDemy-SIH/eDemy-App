@@ -104,7 +104,7 @@ class _AppDrawerState extends State<AppDrawer> {
             ),
             SizedBox(height: 30,),
             GestureDetector(
-              onTap: () {
+              onDoubleTap: () {
                 _retakeTest();
               },
 

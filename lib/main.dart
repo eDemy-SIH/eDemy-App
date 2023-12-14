@@ -41,6 +41,7 @@ void main() async{
   await Hive.openBox("Start_db");
   await Hive.openBox("Aptitude_db");
   await Hive.openBox("BasicInfo-db");
+  await Hive.openBox("Recommended_db");
 
 
     WidgetsFlutterBinding.ensureInitialized();
@@ -88,7 +89,7 @@ class _MyAppState extends State<MyApp> {
         Myroutes.basicInfoRoute: (context) => StudentInfo(),
         // Myroutes.educationInfoRoute: (context) => EducationInfo(),
         Myroutes.skillStartRoute: (context) => SkillStart(),
-        Myroutes.skillQuestionsRoute: (context) => SkillQuestions(),
+        Myroutes.skillQuestionsRoute: (context) => SkillQuestions(characteristic: "",),
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
         Myroutes.careerDetailsRoute: (context) => CareerPage(careerId: 'doctor'),
         Myroutes.reportRoute: (context) => UserReport(),

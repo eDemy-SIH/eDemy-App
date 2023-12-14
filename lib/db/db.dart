@@ -109,3 +109,25 @@ class BasicDB{
   }
 }
 
+class RecommendedDb{
+
+  List<String> userSelections = [];
+
+  final startbox = Hive.box("Recommended_db");
+
+   //create initial data
+  void createRec() {
+    userSelections = ['1','2','3','4'];
+  }
+
+  //load data from db
+  void loadRec() {
+    userSelections = startbox.get("REC");
+  }
+
+  //update data
+  void updateRec() {
+    startbox.put("REC", userSelections);
+  }
+
+}

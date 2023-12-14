@@ -1,22 +1,30 @@
-import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:sih_app/pages/skill_end.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 
 class SkillQuestions extends StatefulWidget {
+
+  SkillQuestions({super.key,required this.characteristic});
+
+  String characteristic=" ho";
+
   @override
   _SkillQuestionsState createState() => _SkillQuestionsState();
 }
 
 class _SkillQuestionsState extends State<SkillQuestions> {
 
+  // List<String> stringList = [
+  //   "Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science'
+  // ];
   List<String> stringList = [
-    "Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science'
+    'Apple', 'Banana', 'Cherry', 'Date', 'Grape', 'Kiwi', 'Lemon',
   ];
 
   Map<String, String> stringMap = {
-      "Business Administration":'businessadministration',
+  "Business Administration":'businessadministration',
   "Sports Management":"sportmanagement",
   "Project Management":"projectm",
   "Event Management":"eventm",
@@ -89,15 +97,54 @@ class _SkillQuestionsState extends State<SkillQuestions> {
   List<String> combinations = [];
   List<String> userSelections = [];
   int currentIndex = 0;
+  int totalIndex=15;
 
   bool isAnswer=true;
 
   @override
   void initState() {
+    getList(widget.characteristic);
     super.initState();
     combinations = generateAllCombinations(stringList);
     combinations.shuffle(); // Randomly shuffle the combinations
-    combinations = combinations.take(15).toList();
+  }
+
+  void getList(String char){
+
+    print(char);
+
+    if(char=='A'){
+        stringList = [
+          "Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science'
+        ];    
+    }
+    if(char=='C'){
+      stringList = [
+        'Customs and Excises', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service'
+      ];    
+    }
+    if(char=='E'){
+      stringList = [
+        'Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales', 'Marketing', 'Digital Marketing', 'Customs and Excises', 'Civil Services', "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", 'Indian Economic System', "Railway Services", "Pilot", 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management'
+      ];    
+    }
+
+    if(char=='I'){
+      stringList = [
+        "Artificial Intelligence & Machine Learning", "Pathology", "Ophthalmology", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Indian Economic System', 'Computer Science and Engineering', 'Surgeon', 'Orthopaedic', 'Geography', 'Doctor', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"
+      ];    
+    }
+    if(char=='C'){
+      stringList = [
+        'Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", "Railway Services", "Pilot", "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"
+      ];    
+    }
+    if(char=='S'){
+      stringList = [
+        "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil Services', 'Doctor', 'Veterinary', 'Professor', 'Nursing', 'Counselor', 'Special Educator', 'Sociology', 'Home Science', 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management'
+      ];    
+    }
+
   }
 
   @override
@@ -113,37 +160,29 @@ class _SkillQuestionsState extends State<SkillQuestions> {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 20),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
 
-                  Text("Would you rather chosse"),
+                  Text("Would You Rather Pursue -", style: TextStyle(fontSize: 24),),
+                  const SizedBox(height: 50),
                   GestureDetector(
                     onTap: () => handleElementTap(combinations[currentIndex].split(' - ')[0]),
                     child:  Container(
                       height: 60,
                       padding: const EdgeInsets.all(16.0),
                       decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(10),
-                        border: Border.all(
-                          color: 
-                              // ? const Color.fromARGB(255, 96, 233, 100)
-                              isAnswer
-                                  ? const Color.fromARGB(255, 96, 233, 100)
-                                  : Colors.white,
-                          width: 3,
-                        ),    
+                        color:context.cardColor,
+                        borderRadius: BorderRadius.circular(10), 
                       ),
                       child: Row(
-                        children: [
-                         
+                        children: [                         
                              Text(
                               combinations[currentIndex].split(' - ')[0],
-                              style: const TextStyle(
+                              style: TextStyle(
                                 fontSize: 16,
+                                color: context.theme.splashColor
                               ),
-                            ),
-                         
+                            ),                    
                           const SizedBox(height: 10),
                         ],
                       ),
@@ -156,28 +195,42 @@ class _SkillQuestionsState extends State<SkillQuestions> {
                       height: 60,
                       padding: const EdgeInsets.all(16.0),
                       decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(10),
-                        border: Border.all(
-                          color: 
-                              // ? const Color.fromARGB(255, 96, 233, 100)
-                              isAnswer
-                                  ? const Color.fromARGB(255, 96, 233, 100)
-                                  : Colors.white,
-                          width: 3,
-                        ),
-                        
+                        color:context.cardColor,                        
+                        borderRadius: BorderRadius.circular(10),       
                       ),
                       child: Row(
-                        children: [
-                          
-                            Text(
-                              combinations[currentIndex].split(' - ')[1],
-                              style: const TextStyle(
-                                fontSize: 16,
-                              ),
+                        children: [                   
+                          Text(
+                            combinations[currentIndex].split(' - ')[1],
+                            style: TextStyle(
+                              fontSize: 16,
+                              color: context.theme.splashColor,
                             ),
-                          
+                          ),                 
+                          const SizedBox(height: 10),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 20,),
+                  GestureDetector(
+                    onTap: () {handleNone();},
+                    child:  Container(
+                      height: 60,
+                      padding: const EdgeInsets.all(16.0),
+                      decoration: BoxDecoration(
+                        color:context.cardColor,                        
+                        borderRadius: BorderRadius.circular(10),       
+                      ),
+                      child: Row(
+                        children: [                   
+                          Text(
+                            "None",
+                            style: TextStyle(
+                              fontSize: 16,
+                              color: context.theme.splashColor,
+                            ),
+                          ),                 
                           const SizedBox(height: 10),
                         ],
                       ),
@@ -191,7 +244,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
           Container(
             padding: EdgeInsets.all(16.0),
             child: Text(
-              'Selected Elements: ${userSelections.length}/15',
+              'Selected: ${userSelections.length}/${totalIndex}',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ),
@@ -210,7 +263,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
     });
 
     // Move to the next combination
-    if (currentIndex < combinations.length - 1) {
+    if (currentIndex < totalIndex) {
       setState(() {
         currentIndex++;
       });
@@ -222,6 +275,13 @@ class _SkillQuestionsState extends State<SkillQuestions> {
         );
       });
     }
+  }
+
+  void handleNone(){
+     setState(() {
+        currentIndex++;
+        totalIndex++;
+      });
   }
 
   List<String> generateAllCombinations(List<String> strings) {

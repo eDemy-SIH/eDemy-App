@@ -1,12 +1,9 @@
-import 'dart:convert';
-
 import 'package:flutter/cupertino.dart';
 import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
 import 'package:sih_app/widgets/drawer.dart';
 import 'package:sih_app/widgets/career_cards.dart';
 import 'package:flutter/material.dart';
-import 'package:pie_chart/pie_chart.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:sih_app/widgets/question_list.dart';
 import 'package:http/http.dart' as http;
@@ -24,17 +21,28 @@ class _HomePageState extends State<HomePage> {
   final aptitudebox = Hive.box("Aptitude_db");
   AptitudeDB db = AptitudeDB();
 
+  final recommendedbox = Hive.box("Recommended_db");
+  RecommendedDb rdb = RecommendedDb();
+
   int score=0;
   int total=questions.length-1;
   var array=[1,2,3];
   String _prediction=" ";
- 
-
-
+  List<String> recommended = ['4','5','7','9'];
 
 
   @override
   void initState() {
+
+   if (recommendedbox.get("REC") == null) {
+      rdb.createRec();
+      recommended = rdb.userSelections;
+    }
+    else{
+      rdb.loadRec();
+      recommended=rdb.userSelections;
+    } 
+
 
     if (aptitudebox.get("SCORE") == null) {
       db.createScore();
@@ -79,7 +87,6 @@ class _HomePageState extends State<HomePage> {
     
     final response = await http.get(Uri.parse('https://model-server-mxrg.onrender.com/$inputString'));
     print(response);
-    print("Helloooo:$response.body");
     if (response.statusCode == 200) {
       setState(() {
         
@@ -97,9 +104,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
 
-      final dataMap = <String, double>{
-        "Progress": score.toDouble(),
-      };
+      // final dataMap = <String, double>{
+      //   "Progress": score.toDouble(),
+      // };
 
     return Scaffold(
       backgroundColor: context.canvasColor,
@@ -195,13 +202,13 @@ class _HomePageState extends State<HomePage> {
 
               GestureDetector(
                  onTap: () => {
-                  Navigator.pushNamed(context, '/skillQuestion')
+                  // Navigator.pushNamed(context, '/skillQuestion')
                 
                 },
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal:10.0), 
                   child: Text(      
-                    "Based on the character assessment test here are some careers recomended for you: $_prediction",
+                    "Based on the character assessment test here are some careers recomended for you:",
                     style:
                     TextStyle(fontSize: 14,color: Colors.grey[700], fontFamily: 'FontMain'),               
                   ),         
@@ -222,11 +229,13 @@ class _HomePageState extends State<HomePage> {
                           
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            CareerCard(text: "Software Engineer",col_index: 0,imagePath: "assets/images/graphics-designer-real-min.jpg",),
+                            CareerCard(id: recommended[0],col_index: 0,imagePath: "assets/images/graphics-designer-real-min.jpg",),
                             SizedBox(height: 25,),
-                            CareerCard(text: "Mechanical Engineer",col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
+                            CareerCard(id: recommended[1],col_index: 1,imagePath: "assets/images/Mechanical-Engineer-Real-min.jpg",),
                             SizedBox(height: 25,),
-                            CareerCard(text: "Civil Engineer",col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
+                            CareerCard(id: recommended[2],col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
+                            SizedBox(height: 25,),
+                            CareerCard(id: recommended[3],col_index: 2,imagePath: "assets/images/Civil-Engineer-Real-min.jpg",),
                           ],
                         ),
                       ),

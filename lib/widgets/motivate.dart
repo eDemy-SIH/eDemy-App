@@ -10,7 +10,7 @@ class MotivateForTest extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        child: Text(question,style: TextStyle(fontSize: 20,fontFamily: 'FontMain' ),),
+        child: Text(question,style: TextStyle(fontSize: 24,fontFamily: 'FontMain' ),),
       ),
     );
   }

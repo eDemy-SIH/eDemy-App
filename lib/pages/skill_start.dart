@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
+import 'package:sih_app/pages/skill_questions.dart';
 import 'package:sih_app/widgets/next_buttons.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:http/http.dart' as http;
@@ -128,7 +129,7 @@ class _SkillStartState extends State<SkillStart> {
 
                   child: Center(
                     child: Container(
-                      child: Text("Great, now we will ask you some questions about your preffered jobs $characteristic",style: TextStyle(fontSize: 20,fontFamily: 'FontMain' ),),
+                      child: Text("Your Choice Test's Over ! Now It's Time To Choose Your Interests.",style: TextStyle(fontSize: 24,fontFamily: 'FontMain' ),),
                     ),
                   ),
                 ),
@@ -140,7 +141,12 @@ class _SkillStartState extends State<SkillStart> {
                         padding: const EdgeInsets.only(bottom: 20),
                         child: GestureDetector(
                           onTap: () => {
-                              Navigator.pushNamed(context, '/skillQuestion')      
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => SkillQuestions(characteristic: characteristic),
+                                ),
+                              ),     
                             },
                           child: NextButton(text: "Start")
                         ),
