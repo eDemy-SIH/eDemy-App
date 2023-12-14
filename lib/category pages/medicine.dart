@@ -16,37 +16,37 @@ class MedicineListPage extends StatelessWidget {
         title: 'Surgeon',
         subtitle: 'Qualification : Master of Surgery (MS)',
         imageUrl: 'https://placekitten.com/80/81', 
-        id: 'doctor',
+        id: 'surgeon',
       ),
       CareerTile(
         title: 'Pathology',
         subtitle: 'Qualification : Doctor of Medicine (MD) in Pathology',
         imageUrl: 'https://placekitten.com/80/82',
-        id: 'doctor', 
+        id: 'pathology', 
       ),
       CareerTile(
         title: 'Veterinary',
         subtitle: 'Qualification : Bachelor of Veterinary Science and Animal Husbandry (BVSc & AH)',
         imageUrl: 'https://placekitten.com/80/83', 
-        id: 'doctor',
+        id: 'veterinary',
       ),
       CareerTile(
         title: 'Orthopaedic',
         subtitle: 'Qualification : Master of Surgery (MS) in Orthopedics',
         imageUrl: 'https://placekitten.com/80/84',
-        id: 'doctor', 
+        id: 'orthopaedic', 
       ),
       CareerTile(
         title: 'Ophthalmology',
         subtitle: 'Qualification : Master of Surgery (MS) in Ophthalmology',
         imageUrl: 'https://placekitten.com/80/85', 
-        id: 'doctor',
+        id: 'optha',
       ),
       CareerTile(
         title: 'Nursing',
         subtitle: 'Qualification : Bachelor of Science (B.Sc) in Nursing',
         imageUrl: 'https://placekitten.com/80/87', 
-        id: 'doctor',
+        id: 'nursing',
       ),
     ];
 

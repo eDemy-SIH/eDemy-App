@@ -10,25 +10,25 @@ class EducationListPage extends StatelessWidget {
         title: 'Counsellor',
         subtitle: 'Qualification : Bachelor of Arts in Psychology',
         imageUrl: 'https://placekitten.com/80/80',
-        id: "journalism", 
+        id: "counsellor", 
       ),
       CareerTile(
         title: 'Teacher',
         subtitle: 'Qualification : Bachelor of Education (B.Ed)',
         imageUrl: 'https://placekitten.com/80/81', 
-        id: "journalism",
+        id: "teacher",
       ),
       CareerTile(
         title: 'Special Educatorr',
         subtitle: 'Qualification : Bachelor of Education in Special Education',
         imageUrl: 'https://placekitten.com/80/82', 
-        id: "journalism",
+        id: "speced",
       ),
       CareerTile(
         title: 'Professor',
         subtitle: 'Qualification : Doctor of Philosophy (Ph.D)',
         imageUrl: 'https://placekitten.com/80/83', 
-        id: "journalism",
+        id: "prof",
       ),
     ];
 

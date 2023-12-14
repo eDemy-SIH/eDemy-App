@@ -10,31 +10,31 @@ class GraphicsListPage extends StatelessWidget {
         title: 'Fashion Designer',
         subtitle: 'Qualification : Bachelor of Design (B.Des)',
         imageUrl: 'https://placekitten.com/80/80', 
-        id: "journalism",
+        id: "fashiondesigner",
       ),
       CareerTile(
         title: 'UI/UX Designer',
         subtitle: 'Qualification : Bachelor of Computer Application',
         imageUrl: 'https://placekitten.com/80/81', 
-        id: "journalism",
+        id: "uiux",
       ),
       CareerTile(
         title: 'Graphic Designer',
         subtitle: 'Qualification : Bachelor of Design (B.Des)',
         imageUrl: 'https://placekitten.com/80/82', 
-        id: "journalism",
+        id: "graphic",
       ),
       CareerTile(
         title: 'Interior Designer',
         subtitle: 'Qualification : Bachelor of Design (B.Des)',
         imageUrl: 'https://placekitten.com/80/83', 
-        id: "journalism",
+        id: "interior",
       ),
       CareerTile(
         title: 'Jewellery Designer',
         subtitle: 'Qualification : Bachelor of Design (B.Des) in Jewellery Retail and Export Management',
         imageUrl: 'https://placekitten.com/80/84', 
-        id: "journalism",
+        id: "jewellery",
       ),
     ];
 

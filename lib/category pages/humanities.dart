@@ -10,50 +10,50 @@ class HumanitiesListPage extends StatelessWidget {
         title: 'Archaeology',
         subtitle: "Qualification : Bachelor's degree in Archaeology",
         imageUrl: 'https://placekitten.com/80/80', 
-        id: "journalism",
+        id: "arch",
       ),
       CareerTile(
         title: 'Public Administration',
         subtitle: 'Qualification : Bachelor Degree In Public Admministration',
         imageUrl: 'https://placekitten.com/80/81', 
-        id: "journalism",
+        id: "PA",
       ),
       CareerTile(
         title: 'Home Science',
         subtitle: 'Qualification : Bachelor Degree In Home Science',
         imageUrl: 'https://placekitten.com/80/82', 
-        id: "journalism",
+        id: "HomeSc",
       ),
       CareerTile(
         title: 'Geography',
         subtitle: "Qualification : Bachelor's degree in Geography",
         imageUrl: 'https://placekitten.com/80/80',
-        id: "journalism",
+        id: "Geo",
       ),
       CareerTile(
         title: 'Political Science',
         subtitle: "Qualification : Bachelor Degree In Political Science",
         imageUrl: 'https://placekitten.com/80/83', 
-        id: "journalism",
+        id: "PoliSc",
       ),
       CareerTile(
         title: 'Language',
         subtitle: "Qualification : Bachelor Of Arts (BA)",
         imageUrl: 'https://placekitten.com/80/83', 
-        id: "journalism",
+        id: "lang",
       ),
 
       CareerTile(
         title: 'Sociology',
         subtitle: 'Qualification : Bachelor Degree In Sociology',
         imageUrl: 'https://placekitten.com/80/84', 
-        id: "journalism",
+        id: "sociology",
       ),
       CareerTile(
         title: 'International Relation',
         subtitle: 'Qualification : Bachelor Degree In International Relation',
         imageUrl: 'https://placekitten.com/80/85', 
-        id: "journalism",
+        id: "intreln",
       ),
     ];
 

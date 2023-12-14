@@ -16,25 +16,25 @@ class CivilListPage extends StatelessWidget {
         title: 'Railway Services',
         subtitle: "Qualification : Any Bachelor's Degree",
         imageUrl: 'https://placekitten.com/80/81',
-        id: "civils",
+        id: "rails",
       ),
       CareerTile(
         title: 'Customs And Excises',
         subtitle: "Qualification : Any Bachelor's Degree",
         imageUrl: 'https://placekitten.com/80/82', 
-        id: "civils",
+        id: "ces",
       ),
       CareerTile(
         title: 'Income Tax Service',
         subtitle: "Qualification : Any Bachelor's Degree",
         imageUrl: 'https://placekitten.com/80/83',
-        id: "civils", 
+        id: "its", 
       ),
       CareerTile(
         title: 'Indian Economic System',
         subtitle: 'Qualification : Master of Science (M.Sc) in Economics',
         imageUrl: 'https://placekitten.com/80/84',
-        id: "civils", 
+        id: "iess", 
       ),
     ];
 

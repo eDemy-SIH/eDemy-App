@@ -16,31 +16,31 @@ class GraduateListPage extends StatelessWidget {
         title: 'Botany',
         subtitle: 'Qualification : Bachelor of Science (B.Sc)',
         imageUrl: 'https://placekitten.com/80/81', 
-        id:"zoo"
+        id:"botany"
       ),
       CareerTile(
         title: 'Physics Hons.',
         subtitle: 'Qualification : Bachelor of Science (B.Sc)',
         imageUrl: 'https://placekitten.com/80/82', 
-        id:"zoo"
+        id:"phyhon"
       ),
       CareerTile(
         title: 'Chemistry Hons.',
         subtitle: 'Qualification : Bachelor of Science (B.Sc)',
         imageUrl: 'https://placekitten.com/80/83', 
-        id:"zoo"
+        id:"chemhon"
       ),
       CareerTile(
         title: 'Radio Jockey',
         subtitle: "Qualification : Any Bachelor's Degree",
         imageUrl: 'https://placekitten.com/80/84', 
-        id:"zoo"
+        id:"rj"
       ),
       CareerTile(
         title: 'Entrepreneurship',
         subtitle: "Qualification : Any Bachelor's Degree",
         imageUrl: 'https://placekitten.com/80/84', 
-        id:"zoo"
+        id:"ent"
       ),
 
     ];
