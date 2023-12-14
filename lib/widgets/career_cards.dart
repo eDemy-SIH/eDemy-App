@@ -141,9 +141,9 @@ class _CareerCardState extends State<CareerCard> {
                 ClipRRect(
                   
                   borderRadius: BorderRadius.circular(20),
-                  child: Image.asset(
-                    fit: BoxFit.fill,
-                    widget.imagePath,
+                  child: Image.network(
+                    careerData.img1,
+                    fit: BoxFit.cover,
                     width: 90,
                     height: 90,
                     color: Color.fromARGB(59, 68, 60, 60),
@@ -155,9 +155,12 @@ class _CareerCardState extends State<CareerCard> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                     children: [    
-                      Text(
-                        careerData.title,
-                        style: TextStyle(fontSize: 16, fontFamily: 'FontMain'),
+                      Container(
+                        width: 200,
+                        child: Text(
+                          careerData.title,
+                          style: TextStyle(fontSize: 18, fontFamily: 'FontMain'),
+                        ),
                       ),                 
                       SizedBox(height: 20,),
                       GestureDetector(

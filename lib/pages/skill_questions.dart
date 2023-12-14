@@ -4,6 +4,7 @@ import 'package:sih_app/pages/skill_end.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 
+// ignore: must_be_immutable
 class SkillQuestions extends StatefulWidget {
 
   SkillQuestions({super.key,required this.characteristic});

@@ -161,7 +161,7 @@ class _CareerPageState extends State<CareerPage> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(16.0),
                       child: Image.network(
-                        'https://i.postimg.cc/CLqqQ1pg/Journalism.jpg',
+                        careerData.img1,
                         fit: BoxFit.cover,
                       ),
                     )
