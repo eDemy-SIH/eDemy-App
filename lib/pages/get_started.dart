@@ -33,12 +33,12 @@ class _GetStartedState extends State<GetStarted> {
             ),
             Onboarding(
               title: "Discover Unique Careers",
-              subtitle: "Here in eDemy, we provides best career counseling using artificial intelligence and machne learning to provide youngsters with best possible career choices",
+              subtitle: "Discover all ways to pursue your career from our extensive career roadmaps for all types of jobs acrross multiple fields.",
               imagestring: "assets/images/student1.png",
             ),
             Onboarding(
-              title: " AI based Aptitude Testing",
-              subtitle: "Here in eDemy, we provides best career counseling using artificial intelligence and machne learning to provide youngsters with best possible career choices",
+              title: "AI And Counselor Support",
+              subtitle: "Use our career assistant chatbot to find your perfect career or directly chat with experienced career counselor",
               imagestring: "assets/images/student1.png",
             ),
           ],
