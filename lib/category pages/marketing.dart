@@ -9,31 +9,31 @@ class MarketingListPage extends StatelessWidget {
       CareerTile(
         title: 'Digital Marketing',
         subtitle: 'Qualification : Bachelor Degree In Any Field',
-        imageUrl: 'https://placekitten.com/80/80', 
+        imageUrl: 'https://i.postimg.cc/B6BRCGzk/blog-details-digi.jpg', 
         id: "digi",
       ),
       CareerTile(
         title: 'Advertisement',
         subtitle: 'Qualification : Bachelor In Any Field',
-        imageUrl: 'https://placekitten.com/80/81', 
+        imageUrl: 'https://i.postimg.cc/hjVKWw51/blog-details-ad.jpg', 
         id: "ad",
       ),
       CareerTile(
         title: 'Sales',
         subtitle: 'Qualification : Bachelor Of Business Administration (BBA)',
-        imageUrl: 'https://placekitten.com/80/82', 
+        imageUrl: 'https://i.postimg.cc/cJsRnyQr/blog-details-sales.jpg', 
         id: "sales",
       ),
       CareerTile(
         title: 'Product Designer',
         subtitle: "Qualification : Bachelor's Degree in Industrial Design, Manufacturing",
-        imageUrl: 'https://placekitten.com/80/83', 
+        imageUrl: 'https://i.postimg.cc/LXQ3SCgh/blog-details-prod.jpg"', 
         id: "prod",
       ),
       CareerTile(
         title: 'Marketing',
         subtitle: 'Qualification : Bachelor Of Business Administration (BBA)',
-        imageUrl: 'https://placekitten.com/80/84', 
+        imageUrl: 'https://i.postimg.cc/DyJBvTgh/blog-details-mark.jpg', 
         id: "mark",
       ),
     ];

@@ -9,31 +9,31 @@ class AviationListPage extends StatelessWidget {
       CareerTile(
         title: 'Air Traffic Controller',
         subtitle: 'Qualification : Bachelor of Technology (B.Tech)',
-        imageUrl: 'https://placekitten.com/80/80', 
+        imageUrl: 'https://i.postimg.cc/zDnG9bmY/blog-details-atc.jpg', 
         id: "atc",
       ),
       CareerTile(
         title: 'Aircraft Maintanence Engineer',
         subtitle: 'Qualification : Bachelor Of Technology (BTech)',
-        imageUrl: 'https://placekitten.com/80/81',
+        imageUrl: 'https://i.postimg.cc/zGPznThK/blog-details-ame.jpg',
         id: "ame", 
       ),
       CareerTile(
         title: 'Cabin Crew',
         subtitle: 'Qualification : Engineering Diploma (Diploma)',
-        imageUrl: 'https://placekitten.com/80/82', 
+        imageUrl: 'https://i.postimg.cc/R0kvY9X0/blog-details-cc.jpg', 
         id: "cc",
       ),
       CareerTile(
         title: 'Flight Attendant',
         subtitle: 'Qualification : Undergrad Degree In Aviation',
-        imageUrl: 'https://placekitten.com/80/83', 
+        imageUrl: 'https://i.postimg.cc/JhwgVnVS/blog-details-fa.jpg', 
         id: "fa",
       ),
       CareerTile(
         title: 'Pilot',
         subtitle: 'Qualification : High School Diploma',
-        imageUrl: 'https://placekitten.com/80/84', 
+        imageUrl: 'https://i.postimg.cc/76Znp86p/blog-details-pilot.jpg', 
         id: "pilot",
       ),
     ];

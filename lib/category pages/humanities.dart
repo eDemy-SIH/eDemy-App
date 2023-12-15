@@ -9,50 +9,50 @@ class HumanitiesListPage extends StatelessWidget {
       CareerTile(
         title: 'Archaeology',
         subtitle: "Qualification : Bachelor's degree in Archaeology",
-        imageUrl: 'https://placekitten.com/80/80', 
+        imageUrl: 'https://i.postimg.cc/bJqtkwZZ/archaeology.jpg', 
         id: "arch",
       ),
       CareerTile(
         title: 'Public Administration',
         subtitle: 'Qualification : Bachelor Degree In Public Admministration',
-        imageUrl: 'https://placekitten.com/80/81', 
+        imageUrl: 'https://i.postimg.cc/tR2hdWtp/publicadministration.jpg', 
         id: "PA",
       ),
       CareerTile(
         title: 'Home Science',
         subtitle: 'Qualification : Bachelor Degree In Home Science',
-        imageUrl: 'https://placekitten.com/80/82', 
+        imageUrl: 'https://i.postimg.cc/sDx5TxwS/homescience.jpg', 
         id: "HomeSc",
       ),
       CareerTile(
         title: 'Geography',
         subtitle: "Qualification : Bachelor's degree in Geography",
-        imageUrl: 'https://placekitten.com/80/80',
+        imageUrl: 'https://i.postimg.cc/rFHx3TPH/geography-1.jpg',
         id: "Geo",
       ),
       CareerTile(
         title: 'Political Science',
         subtitle: "Qualification : Bachelor Degree In Political Science",
-        imageUrl: 'https://placekitten.com/80/83', 
+        imageUrl: 'https://i.postimg.cc/T17gRvYp/politicalscience.jpg', 
         id: "PoliSc",
       ),
       CareerTile(
         title: 'Language',
         subtitle: "Qualification : Bachelor Of Arts (BA)",
-        imageUrl: 'https://placekitten.com/80/83', 
+        imageUrl: 'https://i.postimg.cc/Twxr0c4Y/language.jpg', 
         id: "lang",
       ),
 
       CareerTile(
         title: 'Sociology',
         subtitle: 'Qualification : Bachelor Degree In Sociology',
-        imageUrl: 'https://placekitten.com/80/84', 
+        imageUrl: 'https://i.postimg.cc/nr8N0Nt9/Sociology.jpg', 
         id: "sociology",
       ),
       CareerTile(
         title: 'International Relation',
         subtitle: 'Qualification : Bachelor Degree In International Relation',
-        imageUrl: 'https://placekitten.com/80/85', 
+        imageUrl: 'https://i.postimg.cc/brQWMLzC/international.jpg', 
         id: "intreln",
       ),
     ];

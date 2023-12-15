@@ -9,31 +9,31 @@ class FinanceListPage extends StatelessWidget {
       CareerTile(
         title: 'Chartered Accountant',
         subtitle: 'Qualification : Chartered Accountancy (CA)',
-        imageUrl: 'https://placekitten.com/80/80', 
+        imageUrl: 'https://i.postimg.cc/tJHCsyxc/blog-details-ca.jpg', 
         id: "ca",
       ),
       CareerTile(
         title: 'Chartered Market Technicianr',
         subtitle: 'Qualification : Bachelor of Commerce in Finance',
-        imageUrl: 'https://placekitten.com/80/81',
+        imageUrl: 'https://i.postimg.cc/Y2ftd5gp/blog-details-cmt.jpg',
         id: "cmt", 
       ),
       CareerTile(
         title: 'Chartered Financial Analyst',
         subtitle: 'Qualification : Bachelor of Commerce in Finance',
-        imageUrl: 'https://placekitten.com/80/82', 
+        imageUrl: 'https://i.postimg.cc/3w4K9Wj6/blog-details-cfa.jpg', 
         id: "cfa",
       ),
       CareerTile(
         title: 'coa',
         subtitle: 'Qualification : Intermediate course of Cost Accountancy (ICA)',
-        imageUrl: 'https://placekitten.com/80/83', 
+        imageUrl: 'https://i.postimg.cc/02kPFVd7/blog-details-coa.jpg', 
         id: "journalism",
       ),
       CareerTile(
         title: 'cpa',
         subtitle: 'Qualification : Bachelor of Commerce in Finance',
-        imageUrl: 'https://placekitten.com/80/84',
+        imageUrl: 'https://i.postimg.cc/8c1g8CWT/blog-details-cpa.jpg',
         id: "journalism", 
       ),
     ];

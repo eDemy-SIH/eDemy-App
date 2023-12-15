@@ -8,6 +8,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:velocity_x/velocity_x.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../utils/routes.dart';
 
@@ -66,6 +67,16 @@ class _AppDrawerState extends State<AppDrawer> {
     // TODO: implement initState
     super.initState();
   }
+
+
+//  void _launchURL(String uri) async {
+//     final uri=Uri.parse(uri);
+//     if (await canLaunchUrl(uri)) {
+//       await launchUrl(uri);
+//     } else {
+//       throw 'Could not launch $uri';
+//     }
+//   }
 
   _retakeTest(){
     setState(() {
@@ -177,8 +188,9 @@ class _AppDrawerState extends State<AppDrawer> {
 
 
             ListTile(
-              onTap: () async {
-                // Navigator.pushNamed(context, '/report');
+              onTap: () async {                
+               final url = Uri.parse('https://edemy-32175.vercel.app/index.html');
+              launchUrl(url);
               },
               //5th Title
               leading: Icon(

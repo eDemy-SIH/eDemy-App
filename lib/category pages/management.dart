@@ -9,31 +9,31 @@ class ManagemensListPage extends StatelessWidget {
       CareerTile(
         title: 'Business Administration',
         subtitle: 'Qualification : Bachelor of Business Administration (BBA)',
-        imageUrl: 'https://placekitten.com/80/80', 
+        imageUrl: 'https://i.postimg.cc/GpyCGVdn/blog-details-ba.jpg', 
         id: "businessadministration",
       ),
       CareerTile(
         title: 'Sports Management',
         subtitle: 'Qualification : Bachelor of Arts (BA)',
-        imageUrl: 'https://placekitten.com/80/81', 
+        imageUrl: 'https://i.postimg.cc/GpyCGVdn/blog-details-ba.jpg', 
         id: "sportmanagement",
       ),
       CareerTile(
         title: 'Project Management',
         subtitle: 'Qualification : Master of Business Administration (MBA)',
-        imageUrl: 'https://placekitten.com/80/82', 
+        imageUrl: 'https://i.postimg.cc/X7CkMgj7/blog-details-proj.jpg', 
         id: "projectm",
       ),
       CareerTile(
         title: 'Event Management',
         subtitle: 'Qualification : Bachelor of Business Administration (BBA)',
-        imageUrl: 'https://placekitten.com/80/83', 
+        imageUrl: 'https://i.postimg.cc/nzpPrPLk/blog-details-event.jpg', 
         id: "eventm",
       ),
       CareerTile(
         title: 'Fashion Business Management',
         subtitle: 'Qualification : Bachelor of Business Administration (BBA)',
-        imageUrl: 'https://placekitten.com/80/84', 
+        imageUrl: 'https://i.postimg.cc/FKj694hz/blog-details-fashm.jpg', 
         id: "fash",
       ),
     ];

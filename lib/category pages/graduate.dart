@@ -9,37 +9,37 @@ class GraduateListPage extends StatelessWidget {
       CareerTile(
         title: 'Zoology',
         subtitle: 'Qualification : Bachelor of Science (B.Sc)',
-        imageUrl: 'https://placekitten.com/80/80',
+        imageUrl: 'https://i.postimg.cc/zBy0yYrT/blog-details-zoo.jpg',
         id: "zoo",
       ),
       CareerTile(
         title: 'Botany',
         subtitle: 'Qualification : Bachelor of Science (B.Sc)',
-        imageUrl: 'https://placekitten.com/80/81', 
+        imageUrl: 'https://i.postimg.cc/MpGZM9nz/blog-details-bot.jpg', 
         id:"botany"
       ),
       CareerTile(
         title: 'Physics Hons.',
         subtitle: 'Qualification : Bachelor of Science (B.Sc)',
-        imageUrl: 'https://placekitten.com/80/82', 
+        imageUrl: 'https://i.postimg.cc/CKN4PLFG/blog-details-phy.jpg', 
         id:"phyhon"
       ),
       CareerTile(
         title: 'Chemistry Hons.',
         subtitle: 'Qualification : Bachelor of Science (B.Sc)',
-        imageUrl: 'https://placekitten.com/80/83', 
+        imageUrl: 'https://i.postimg.cc/WznjtZjD/blog-details-chem.jpg', 
         id:"chemhon"
       ),
       CareerTile(
         title: 'Radio Jockey',
         subtitle: "Qualification : Any Bachelor's Degree",
-        imageUrl: 'https://placekitten.com/80/84', 
+        imageUrl: 'https://i.postimg.cc/g2bqG6jy/blog-details-rj.jpg', 
         id:"rj"
       ),
       CareerTile(
         title: 'Entrepreneurship',
         subtitle: "Qualification : Any Bachelor's Degree",
-        imageUrl: 'https://placekitten.com/80/84', 
+        imageUrl: 'https://i.postimg.cc/4y4qLSkd/blog-details-ent.jpg', 
         id:"ent"
       ),
 
