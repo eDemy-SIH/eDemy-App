@@ -137,19 +137,22 @@ class _CareerPageState extends State<CareerPage> {
                     width: 130,
                     decoration: BoxDecoration(
                       color: context.cardColor,
-                      borderRadius: BorderRadius.circular(10)
+                      borderRadius: BorderRadius.circular(12)
                     ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text("Duration:",style: TextStyle(color: context.theme.splashColor),),
-                        Text(careerData.duration,style: TextStyle(color: context.theme.splashColor),)
-                      ],
-                      
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 4),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text("Duration:",style: TextStyle(color: context.theme.splashColor),),
+                          Text(careerData.duration,style: TextStyle(color: context.theme.splashColor),)
+                        ],
+                        
+                      ),
                     )
                   ),
                   SizedBox(height: 16),
-                  Text("What Makes This Career Worth Pursuing?",style: TextStyle(fontSize: 18),),
+                  Text("What Makes This Career Worth Pursuing?",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
                   Text(careerData.p1_1),
                   SizedBox(height: 8),
@@ -167,19 +170,19 @@ class _CareerPageState extends State<CareerPage> {
                     )
                   ),
 
-                  SizedBox(height: 16),
-                  Text("Description",style: TextStyle(fontSize: 18),),
+                  SizedBox(height: 18),
+                  Text("Description",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
                   Text(careerData.desc),
                   SizedBox(height: 16),
-                  Text("Skills You Need",style: TextStyle(fontSize: 18),),
+                  Text("Skills You Need",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: careerData.skills.map((skill) => Text("-$skill")).toList(),
                   ),
                   SizedBox(height: 16),
-                  Text("How To Pursue",style: TextStyle(fontSize: 18),),
+                  Text("How To Pursue",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -188,7 +191,7 @@ class _CareerPageState extends State<CareerPage> {
                   SizedBox(height: 16),
 
 
-                  Text("Job Opportunities",style: TextStyle(fontSize: 18),),
+                  Text("Job Opportunities",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
 
                   Row(
@@ -224,7 +227,7 @@ class _CareerPageState extends State<CareerPage> {
                   // ),
                   SizedBox(height: 16),
 
-                  Text("Top Indian Institutes",style: TextStyle(fontSize: 18),),
+                  Text("Top Indian Institutes",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -241,7 +244,7 @@ class _CareerPageState extends State<CareerPage> {
                   ),
                   SizedBox(height: 16),
 
-                  Text("Cons",style: TextStyle(fontSize: 18),),
+                  Text("Cons",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,

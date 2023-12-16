@@ -7,6 +7,7 @@ import 'package:velocity_x/velocity_x.dart';
 import 'package:printing/printing.dart';
 
 import 'package:pdf/widgets.dart' as pw;
+import 'package:pdf/pdf.dart';
 import 'package:path_provider/path_provider.dart';
 
 
@@ -367,12 +368,264 @@ class _UserReportState extends State<UserReport> {
     final pdf = pw.Document();
 
     pdf.addPage(pw.Page(
+      margin: pw.EdgeInsets.zero,
       build: (pw.Context context) {
-        return pw.Center(
-          child: pw.Container(
-            child: CustomPdfWidget(), // Use a custom pw.Widget for the PDF content
+        return  pw.Container(
+          width: double.infinity,
+          decoration: const pw.BoxDecoration(
+            color: PdfColor(0.92, 0.92, 0.92, 1)
           ),
+
+            child: pw.Column(
+            crossAxisAlignment: pw.CrossAxisAlignment.start,
+            children: [
+
+              pw.Container(
+                width: double.infinity,
+                height: 110,
+                decoration: pw.BoxDecoration(
+                  color: const PdfColor(0, 0.8, 0.6, 1),
+                ),
+                child: pw.Center(
+                  child: pw.Text("eDemy Career Report",style: pw.TextStyle(color:  PdfColor(1, 1, 1, 1),fontSize: 30) )
+                )              
+              ),
+
+             pw.Padding(
+              padding: const pw.EdgeInsets.all(30.0),
+              child: pw.Column(
+                crossAxisAlignment: pw.CrossAxisAlignment.start,
+                children: [
+                  pw.SizedBox(height: 15),
+                  pw.Text(userName,style: pw.TextStyle( fontSize: 30)),
+                  pw.SizedBox(height: 10),
+                  pw.Text("Personal Information"),
+                  pw.SizedBox(height: 10),
+                  pw.Container(
+                    width: double.infinity,
+                    decoration: pw.BoxDecoration(
+                      color: const PdfColor(1, 1, 1, 1),
+                      borderRadius: pw.BorderRadius.circular(10)
+                    ),
+                    child: pw.Padding(
+                      padding: const pw.EdgeInsets.all(0.0),
+                      child: pw.Column(
+                        crossAxisAlignment: pw.CrossAxisAlignment.start,
+                        children:[
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 15,right: 12,bottom: 5),
+                            child: pw.Row(
+                              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                // pw.Icon(
+                                //   pw.Icons.email,
+                                //   color: context.cardColor ,
+                                //   size: 22,  
+                                // ),
+                                pw.SizedBox(width: 15,),
+                                pw.Text(
+                                  "Email",
+                                  style: pw.TextStyle(fontSize: 14),    
+                                ),
+                                pw.Spacer(),
+                                pw.Text(
+                                  userMail,
+                                  style: pw.TextStyle(fontSize: 16),    
+                                ),
+                              ],
+                            ),
+                          ),
+                          pw.Divider(
+                            thickness: 2,
+                          ),
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 5,right: 12,bottom: 5),
+                            child: pw.Row(
+                              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                // Icon(
+                                //   Icons.phone,
+                                //   color: context.cardColor ,
+                                //   size: 22,  
+                                // ),
+                                pw.SizedBox(width: 15,),
+                                pw.Text(
+                                  "Phone",
+                                  style: pw.TextStyle(fontSize: 14),    
+                                ),
+                                pw.Spacer(),
+                                pw.Text(
+                                  userPhn,
+                                  style: pw.TextStyle(fontSize: 16),    
+                                ),
+                              ],
+                            ),
+                          ),
+                          pw.Divider(
+                            thickness: 2,
+                          ),
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 5,right: 12,bottom: 5),
+                            child: pw.Row(
+                              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                // Icon(
+                                //   Icons.calendar_month,
+                                //   color: context.cardColor ,
+                                //   size: 22,  
+                                // ),
+                                pw.SizedBox(width: 15,),
+                                pw.Text(
+                                  "YOB",
+                                  style: pw.TextStyle(fontSize: 14),    
+                                ),
+                                pw.Spacer(),
+                                pw.Text(
+                                  userAge,
+                                  style: pw.TextStyle(fontSize: 16),    
+                                ),
+                              ],
+                            ),
+                          ),
+                          pw.Divider(
+                            thickness: 2,
+                          ),
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 5,right: 12,bottom: 5),
+                            child: pw.Row(
+                              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                // Icon(
+                                //   Icons.landscape,
+                                //   color: context.cardColor ,
+                                //   size: 22,  
+                                // ),
+                                pw.SizedBox(width: 15,),
+                                pw.Text(
+                                  "State",
+                                  style: pw.TextStyle(fontSize: 14),    
+                                ),
+                                pw.Spacer(),
+                                pw.Text(
+                                  userState,
+                                  style: pw.TextStyle(fontSize: 16),    
+                                ),
+                              ],
+                            ),
+                          ),
+                          pw.Divider(
+                            thickness: 2,
+                          ),
+                          pw.Padding(
+                            padding: pw.EdgeInsets.only(left: 12,top: 5,right: 12,bottom: 15),
+                            child: pw.Row(
+                              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                // Icon(
+                                //   Icons.email,
+                                //   color: context.cardColor ,
+                                //   size: 22,  
+                                // ),
+                                pw.SizedBox(width: 15,),
+                                pw.Text(
+                                  "City",
+                                  style: pw.TextStyle(fontSize: 14),    
+                                ),
+                                pw.Spacer(),
+                                pw.Text(
+                                  userCity,
+                                  style: pw.TextStyle(fontSize: 16),    
+                                ),
+                              ],
+                            ),
+                          ),
+                        ]
+                        
+                      ),
+                    ),
+                  ),
+          
+                pw.SizedBox(height: 30),
+          
+                  
+                pw.Text("Charaterestic Information"),
+                  pw.SizedBox(height: 10),
+                  pw.Container(
+                    width: double.infinity,
+                    decoration: pw.BoxDecoration(
+                      color: PdfColor(1, 1, 1, 1),
+                      borderRadius: pw.BorderRadius.circular(10)
+                    ),
+                    child: pw.Padding(
+                      padding: const pw.EdgeInsets.all(0.0),
+                      child: pw.Column(
+                        crossAxisAlignment: pw.CrossAxisAlignment.start,
+                        children:[
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 15,right: 12,bottom: 5),
+                            child: pw.Row(
+                              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                pw.Text(
+                                  "Dominant Character Trait",
+                                  style: pw.TextStyle(fontSize: 16),    
+                                ),
+                                pw.Spacer(),
+                                pw.Text(
+                                  "Realistic",
+                                  style: pw.TextStyle(fontSize: 16),    
+                                ),
+                              ],
+                            ),
+                          ),
+                          pw.Divider(
+                            thickness: 2,
+                          ),
+          
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 5,right: 12,bottom: 5),
+                            child: pw.Text(
+                              "Description:",
+                              style: pw.TextStyle(fontSize: 16),    
+                            ),
+                          ),
+                          pw.SizedBox(height: 10,),
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 0,right: 12,bottom: 5),
+                            child: pw.Text(
+                              "Realistic individuals are pragmatic and hands-on. They thrive in practical environments, excelling in trades, construction, engineering, and physical work. They are problem solvers who enjoy tangible challenges and applying practical skills.",
+                              style: pw.TextStyle(fontSize: 14),    
+                            ),
+                          ),
+                          pw.Divider(
+                            thickness: 2,
+                          ),
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 5,right: 12,bottom: 5),
+                            child: pw.Text(
+                              "Suitable Jobs:",
+                              style: pw.TextStyle(fontSize: 16),    
+                            ),
+                          ),
+                          pw.SizedBox(height: 10,),
+                          pw.Padding(
+                            padding: const pw.EdgeInsets.only(left: 12,top: 0,right: 12,bottom: 15),
+                            child: pw.Text(
+                              "Carpenter \nElectrician \nAuto Mechanic \nSurveyor",
+                              style: pw.TextStyle(fontSize: 14),    
+                            ),
+                          ),       
+                        ]
+                        
+                      ),
+                    ),
+                  ),
+                ]
+              )
+            )
+            ])
         );
+        
       },
     ));
 
