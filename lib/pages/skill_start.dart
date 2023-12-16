@@ -98,9 +98,6 @@ class _SkillStartState extends State<SkillStart> {
     setState(() {
        characteristic=predictionValue;
     });
-   
-
-
   }
 
 
@@ -120,16 +117,14 @@ class _SkillStartState extends State<SkillStart> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
 
-
-
                 SizedBox(height: 30,),
 
                 Padding(
-                  padding: EdgeInsets.only(top: 30,left: 20,right: 20),
+                  padding: EdgeInsets.only(top: 60,left: 20,right: 20),
 
                   child: Center(
                     child: Container(
-                      child: Text("Your Choice Test's Over ! Now It's Time To Choose Your Interests.",style: TextStyle(fontSize: 24,fontFamily: 'FontMain' ),),
+                      child: Text("Your Character Test's Over ! Now It's Time To Choose Your Interests.",style: TextStyle(fontSize: 24,fontFamily: 'FontMain' ),),
                     ),
                   ),
                 ),
@@ -141,12 +136,15 @@ class _SkillStartState extends State<SkillStart> {
                         padding: const EdgeInsets.only(bottom: 20),
                         child: GestureDetector(
                           onTap: () => {
-                              Navigator.push(
+                            Future.delayed(Duration(seconds: 2), (){
+                                 Navigator.push(
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) => SkillQuestions(characteristic: characteristic),
                                 ),
-                              ),     
+                              );
+                            })
+                                 
                             },
                           child: NextButton(text: "Start")
                         ),

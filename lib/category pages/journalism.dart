@@ -64,7 +64,7 @@ class JournalismListPage extends StatelessWidget {
                     style: TextStyle(fontSize: 14, fontFamily: 'FontMain'),
                   ),
                 ),
-                SizedBox(height: 40,),
+                SizedBox(height: 20,),
 
              
 

@@ -99,6 +99,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
   List<String> userSelections = [];
   int currentIndex = 0;
   int totalIndex=15;
+  int selected=0;
 
   bool isAnswer=true;
 
@@ -159,82 +160,88 @@ class _SkillQuestionsState extends State<SkillQuestions> {
         children: [
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 20),
+              padding: const EdgeInsets.symmetric(horizontal: 40,vertical: 40),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
 
-                  Text("Would You Rather Pursue -", style: TextStyle(fontSize: 24),),
+                  Text("Would You Rather Pursue :", style: TextStyle(fontSize: 24,fontFamily: 'FontMain' ),),
                   const SizedBox(height: 50),
-                  GestureDetector(
-                    onTap: () => handleElementTap(combinations[currentIndex].split(' - ')[0]),
-                    child:  Container(
-                      height: 60,
-                      padding: const EdgeInsets.all(16.0),
-                      decoration: BoxDecoration(
-                        color:context.cardColor,
-                        borderRadius: BorderRadius.circular(10), 
-                      ),
-                      child: Row(
-                        children: [                         
-                             Text(
-                              combinations[currentIndex].split(' - ')[0],
-                              style: TextStyle(
-                                fontSize: 16,
-                                color: context.theme.splashColor
-                              ),
-                            ),                    
-                          const SizedBox(height: 10),
-                        ],
-                      ),
-                    )
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: GestureDetector(
+                      onTap: () => handleElementTap(combinations[currentIndex].split(' - ')[0]),
+                      child:  Container(
+                        height: 60,
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(16.0),
+                        decoration: BoxDecoration(
+                          color:context.cardColor,
+                          borderRadius: BorderRadius.circular(10), 
+                        ),
+                        child: Center(
+                          child: Text(
+                            combinations[currentIndex].split(' - ')[0],
+                            style: TextStyle(
+                              fontSize: 16,
+                              color: context.theme.splashColor,
+                              fontFamily: 'FontMain' 
+                            ),
+                          ),
+                        ),                                                
+                      )
+                    ),
                   ),
-                  const SizedBox(height: 20,),
-                  GestureDetector(
-                    onTap: () => handleElementTap(combinations[currentIndex].split(' - ')[1]),
-                    child:  Container(
-                      height: 60,
-                      padding: const EdgeInsets.all(16.0),
-                      decoration: BoxDecoration(
-                        color:context.cardColor,                        
-                        borderRadius: BorderRadius.circular(10),       
-                      ),
-                      child: Row(
-                        children: [                   
-                          Text(
+                  const SizedBox(height: 30,),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: GestureDetector(
+                      onTap: () => handleElementTap(combinations[currentIndex].split(' - ')[1]),
+                      child:  Container(
+                        height: 60,
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(16.0),
+                        decoration: BoxDecoration(
+                          color:context.cardColor,
+                          borderRadius: BorderRadius.circular(10), 
+                        ),
+                        child: Center(
+                          child: Text(
                             combinations[currentIndex].split(' - ')[1],
                             style: TextStyle(
                               fontSize: 16,
                               color: context.theme.splashColor,
+                              fontFamily: 'FontMain' 
                             ),
-                          ),                 
-                          const SizedBox(height: 10),
-                        ],
-                      ),
+                          ),
+                        ),                                                
+                      )
                     ),
                   ),
-                  const SizedBox(height: 20,),
-                  GestureDetector(
-                    onTap: () {handleNone();},
-                    child:  Container(
-                      height: 60,
-                      padding: const EdgeInsets.all(16.0),
-                      decoration: BoxDecoration(
-                        color:context.cardColor,                        
-                        borderRadius: BorderRadius.circular(10),       
-                      ),
-                      child: Row(
-                        children: [                   
-                          Text(
+                  const SizedBox(height: 30,),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: GestureDetector(
+                      onTap: () {handleNone();},
+                      child:  Container(
+                        height: 60,
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(16.0),
+                        decoration: BoxDecoration(
+                          color:context.cardColor,
+                          borderRadius: BorderRadius.circular(10), 
+                        ),
+                        child: Center(
+                          child: Text(
                             "None",
                             style: TextStyle(
                               fontSize: 16,
                               color: context.theme.splashColor,
+                              fontFamily: 'FontMain' 
                             ),
-                          ),                 
-                          const SizedBox(height: 10),
-                        ],
-                      ),
+                          ),
+                        ),                                                
+                      )
                     ),
                   ),
                 ],
@@ -245,7 +252,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
           Container(
             padding: EdgeInsets.all(16.0),
             child: Text(
-              'Selected: ${userSelections.length}/${totalIndex}',
+              'Selected: $selected/15',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ),
@@ -257,6 +264,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
   }
 
   void handleElementTap(String selectedElement) {
+    selected++;
     String selectedId = stringMap[selectedElement] ?? '';
     // Add selected element to the userSelections list
     setState(() {

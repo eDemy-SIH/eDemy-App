@@ -111,20 +111,17 @@ class _StudentInfoState extends State<StudentInfo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: context.canvasColor,
       resizeToAvoidBottomInset: false,
       body: SafeArea(
           
-        child: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(15),
-            color: context.canvasColor,
-          ),
+
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
 
               const Padding(
-                padding: EdgeInsets.only(top: 30,left: 20),
+                padding: EdgeInsets.only(top: 40,left: 20),
                 child: Text(
                   "Student Information",
                   style: TextStyle(
@@ -135,7 +132,7 @@ class _StudentInfoState extends State<StudentInfo> {
               ),
 
               const Padding(
-                padding: EdgeInsets.only(top: 30,left: 20),
+                padding: EdgeInsets.only(top: 15,left: 20),
                 child: Text(
                   "Please enter all the details to continue",                
                   style: TextStyle(
@@ -398,7 +395,7 @@ class _StudentInfoState extends State<StudentInfo> {
 
             ],
           ),
-        ),
+        
       ),
     );
       

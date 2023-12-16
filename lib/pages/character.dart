@@ -105,7 +105,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
 
-
+                const SizedBox(height:20),
                 Padding(
                   padding: EdgeInsets.only(top: 40,left: 20,right: 20),
                   child: 

@@ -30,7 +30,7 @@ class _ChatHomePageState extends State<ChatHomePage> {
       backgroundColor: context.theme.canvasColor,
       appBar: AppBar(
         title: Text("Talk with Counselor",
-          style: TextStyle(fontSize: 24,color: Colors.black )),
+          style: TextStyle(fontSize: 24,color: context.cardColor,fontFamily: 'FontMain')),
         actions: [
           IconButton(onPressed: signUserout, icon: Icon(Icons.logout))
         ],
@@ -57,16 +57,27 @@ class _ChatHomePageState extends State<ChatHomePage> {
           return const Text('loading...');
         }
         if(_auth.currentUser!.email != 'admin@gmail.com'){
+
           return ListTile(
+
+          leading: CircleAvatar(
+              backgroundColor: Color.fromRGBO(210, 247, 245, 1),
+              child: Icon(
+                Icons.person_outlined,
+                color: const Color.fromRGBO(0, 202, 153, 1),
+                size: 24,
+              ),
+          ),
+
           title: Text("Career Counselor 1"),
           onTap: (){
             Navigator.push(context, MaterialPageRoute(builder: (context)=> ChatPage(
               receiverEmail: 'Career Counselor 1',
               receiverId: '5hHHFRYsuxQnTc6wepp2TtJ68nL2',
-
             )));
           },
         );
+
         }
         return ListView(
           children: snapshot.data!.docs
@@ -81,35 +92,27 @@ class _ChatHomePageState extends State<ChatHomePage> {
     Map<String, dynamic> data=document.data()! as Map<String, dynamic>;
 
 
-    // if(_auth.currentUser!.email != 'admin@gmail.com'){
-
-    //   return Container(
-    //     child: Text("Admin"),
-    //   );
-
-
-    //   // return ListTile(
-    //   //   title: Text("Admin"),
-    //   //   onTap: (){
-    //   //     Navigator.push(context, MaterialPageRoute(builder: (context)=> ChatPage(
-    //   //       receiverEmail: data['email'],
-    //   //       receiverId: data['uid'],
-
-    //   //     )));
-    //   //   },
-    //   // );
-    // }
-
     if(_auth.currentUser!.email !=data['email']){
-      return ListTile(
-        title: Text(data['email']),
-        onTap: (){
-          Navigator.push(context, MaterialPageRoute(builder: (context)=> ChatPage(
-            receiverEmail: data['email'],
-            receiverId: data['uid'],
-
-          )));
-        },
+      return Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 4,vertical: 5),
+        child: ListTile(
+          leading: CircleAvatar(
+              backgroundColor: Color.fromRGBO(210, 247, 245, 1),
+              child: Icon(
+                Icons.person_outlined,
+                color: const Color.fromRGBO(0, 202, 153, 1),
+                size: 24,
+              ),
+          ),
+          title: Text(data['email']),
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=> ChatPage(
+              receiverEmail: data['email'],
+              receiverId: data['uid'],
+        
+            )));
+          },
+        ),
       );
     } 
     else{

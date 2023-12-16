@@ -112,9 +112,8 @@ class _LoginPageState extends State<LoginPage> {
                       top: 0, right: 0, left: 0, bottom: 0),
                   child: Image.asset(
                     //top image
-                    context.isDarkMode
-                        ? "assets/images/app_logo.png"
-                        : "assets/images/app_logo.png",
+                    "assets/images/student3.png",
+                 
                     fit: BoxFit.contain,
                     height: 300,
                     width: 300,

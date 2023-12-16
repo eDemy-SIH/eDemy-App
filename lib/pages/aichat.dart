@@ -14,6 +14,7 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: context.canvasColor,
       appBar: AppBar(
         title: Text('Career Chatbot',style: TextStyle(color: Colors.black,fontFamily:'FontMain'),),
         backgroundColor: Colors.transparent,
