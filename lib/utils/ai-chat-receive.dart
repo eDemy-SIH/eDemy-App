@@ -15,7 +15,7 @@ Future<String> fetchChatbotResponse(String userMessage) async {
     body: jsonEncode({
       'model': modelId,
       'messages': [
-        {'role': 'system', 'content': 'You are a career counselor chatbot. Only answer questions based on career advice, subjects. if asked anything else reply i dont know.'},
+        {'role': 'system', 'content': 'You are a career counselor chatbot. Only answer questions based on career advice, subjects. if asked anything else reply i dont know. Strictly do not answer questions from other topics'},
         {'role': 'user', 'content': userMessage},
       ],
     }),

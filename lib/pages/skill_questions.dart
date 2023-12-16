@@ -96,8 +96,8 @@ class _SkillQuestionsState extends State<SkillQuestions> {
 
   List<String> combinations = [];
   List<String> userSelections = [];
-  int currentIndex = 0;
-  int totalIndex=15;
+  int currentIndex = 1;
+  int totalIndex=20;
   int selected=0;
 
   bool isAnswer=true;
@@ -121,8 +121,8 @@ class _SkillQuestionsState extends State<SkillQuestions> {
     }
     if(char=='C'){
       stringList = [
-        'Customs and Excises', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service'
-      ];    
+        'Customs and Excises', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Business Administration', 'Project Management', 'Event Management', 'Entrepreneurship', 'Sales', 'Marketing', 'Digital Marketing', 'Civil Services'
+      ];
     }
     if(char=='E'){
       stringList = [
@@ -142,7 +142,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
     }
     if(char=='S'){
       stringList = [
-        "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil Services', 'Doctor', 'Veterinary', 'Professor', 'Nursing', 'Counselor', 'Special Educator', 'Sociology', 'Home Science', 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management'
+        "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil Services', 'Doctor', 'Veterinary', 'Professor', 'Nursing', 'Counsellor', 'Special Educator', 'Sociology', 'Home Science', 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management'
       ];    
     }
 
@@ -270,7 +270,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
       userSelections.add(selectedId);
     });
 
-    // Move to the next combination
+    
     if (currentIndex < totalIndex) {
       setState(() {
         currentIndex++;

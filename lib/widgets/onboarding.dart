@@ -9,7 +9,7 @@ class Onboarding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color:Color.fromARGB(255, 213, 255, 234),
+      color:Color.fromARGB(255, 211, 255, 216),
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Column(

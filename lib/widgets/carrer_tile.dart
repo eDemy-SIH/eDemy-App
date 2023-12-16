@@ -16,7 +16,7 @@ class CareerTile extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: Container(
-        height: 100,
+        
         decoration: BoxDecoration(
           color: Color.fromARGB(255, 255, 255, 255),
           borderRadius: BorderRadius.circular(10)
