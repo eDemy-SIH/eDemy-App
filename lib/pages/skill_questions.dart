@@ -251,7 +251,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
           Container(
             padding: EdgeInsets.all(16.0),
             child: Text(
-              'Selected: $selected/15',
+              'Selected: $selected/20',
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ),
