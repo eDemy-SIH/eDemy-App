@@ -81,8 +81,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
   "Product Designer":"prod",
   "Marketing":"mark",
   "Air Traffic Controller":"atc",
-  "Aircraft Maintanence Engineer": "ame",
-  "Cabin Crew": "cc",
+  "Aircraft Maintenance Engineer": "ame",
   "Flight Attendant" : "fa",
   "Pilot" : "pilot",
   "Archaeology":"arch",
@@ -136,7 +135,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
         "Artificial Intelligence & Machine Learning", "Pathology", "Ophthalmology", "Zoology", "Botany", "Physics Hons.", "Chemistry Hons.", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", 'Archaeology', 'Chartered Accountant', 'Chartered Market Technician', 'Chartered Financial Analyst', 'Cost Accountant', 'Certified Public Accountant', 'Income Tax Service', 'Indian Economic System', 'Computer Science and Engineering', 'Surgeon', 'Orthopaedic', 'Geography', 'Doctor', 'Veterinary', 'Professor', "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"
       ];    
     }
-    if(char=='C'){
+    if(char=='R'){
       stringList = [
         'Artificial Intelligence & Machine Learning', 'Computer Science and Engineering', 'Surgeon', 'Geography', "Electronics and Communication Engineering", "Electrical Engineering", "Aerospace Engineering", "Mechanical Engineering", "Civil Engineering", "Railway Services", "Pilot", "Electrical and Instrumentation Engineering", "Air Traffic Controller", "Aircraft Maintenance Engineer"
       ];    
