@@ -83,6 +83,14 @@ const List<Question> questions = [
     ],
   ),
   Question(
+    question:'Q10) I like working with numbers or charts',
+    correctAnswerIndex: 0,
+    options: [
+      'A. YES',
+      'B. NO',
+    ],
+  ),
+  Question(
     question: 'Q11) I am good at math',
     correctAnswerIndex: 0,
     options: [

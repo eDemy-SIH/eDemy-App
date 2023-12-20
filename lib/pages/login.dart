@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
+import 'package:sih_app/utils/auth_services.dart';
 import 'package:sih_app/utils/routes.dart';
 
 import 'package:velocity_x/velocity_x.dart';
@@ -230,63 +231,65 @@ class _LoginPageState extends State<LoginPage> {
                 const SizedBox(
                   height: 30,
                 ),
-                // Row(
-                //   //google login
-                //   mainAxisAlignment: MainAxisAlignment.center,
-                //   children: [
-                //     GestureDetector(
-                //       onTap: () {
-                //         setState(() {
-                //           isLoading = true;
-                //         });
-                //         // Future.delayed(const Duration(milliseconds: 800), () {
-                //         //   setState(() {
-                //         //     AuthService().signInGoogle();
-                //         //     isLoading = false;
-                //         //   });
-                //         // });
-                //       },
-                //       child: Container(
-                //           padding: const EdgeInsets.fromLTRB(15, 10, 15, 10),
-                //           decoration: BoxDecoration(
-                //               border:
-                //                   Border.all(color: context.theme.splashColor),
-                //               color: context.theme.splashColor,
-                //               borderRadius: BorderRadius.circular(15)),
-                //           child: isLoading
-                //               ? Row(
-                //                   mainAxisAlignment: MainAxisAlignment.center,
+                const SizedBox(
+                height: 24,
+              ),
+              Row(
+                //google login
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        isLoading = true;
+                      });
+                      Future.delayed(const Duration(milliseconds: 800), () {
+                        setState(() {
+                          AuthService().signInGoogle();
+                          isLoading = false;
+                        });
+                      });
+                    },
+                    child: Container(
+                        padding: const EdgeInsets.fromLTRB(15, 10, 15, 10),
+                        decoration: BoxDecoration(
+                            border: Border.all(color: context.canvasColor),
+                            color: context.canvasColor,
+                            borderRadius: BorderRadius.circular(15)),
+                        child: isLoading
+                            ? Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
 
-                //                   // ignore: prefer_const_literals_to_create_immutables
-                //                   children: [
-                //                     const Text(
-                //                       'Loading...',
-                //                       style: TextStyle(fontSize: 16),
-                //                     ),
-                //                     const SizedBox(
-                //                       width: 16,
-                //                     ),
-                //                     const CircularProgressIndicator(
-                //                       color: Colors.purple,
-                //                     ),
-                //                   ],
-                //                 )
-                //               : Row(children: [
-                //                   Image.asset(
-                //                     "assets/images/google.png",
-                //                     height: 30,
-                //                   ),
-                //                   const SizedBox(
-                //                     width: 10,
-                //                   ),
-                //                   const Text(
-                //                     "Google",
-                //                     style: TextStyle(fontSize: 16),
-                //                   )
-                //                 ])),
-                //     )
-                //   ],
-                // ),
+                                // ignore: prefer_const_literals_to_create_immutables
+                                children: [
+                                  const Text(
+                                    'Loading...',
+                                    style: TextStyle(fontSize: 16),
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  const CircularProgressIndicator(
+                                    color: Colors.purple,
+                                  ),
+                                ],
+                              )
+                            : Row(children: [
+                                Image.asset(
+                                  "assets/images/google.png",
+                                  height: 30,
+                                ),
+                                const SizedBox(
+                                  width: 10,
+                                ),
+                                const Text(
+                                  "Google",
+                                  style: TextStyle(fontSize: 16),
+                                )
+                              ])),
+                  )
+                ],
+              ),
                 const SizedBox(
                   height: 36,
                 ),

@@ -35,22 +35,11 @@ class _SkillEndState extends State<SkillEnd> {
   @override
   Widget build(BuildContext context) {
 
-     Map<String, int> occurrences = {};
-
-    for (String element in widget.userSelections) {
-      occurrences[element] = (occurrences[element] ?? 0) + 1;
-    }
-
-    List<MapEntry<String, int>> sortedOccurrences = occurrences.entries.toList()
-      ..sort((a, b) => b.value.compareTo(a.value));
-
-
-
-    List<String> topFour = sortedOccurrences.take(4).map((entry) => entry.key).toList();
+    
 
     goHome(){
     setState(() {
-      rdb.userSelections = topFour;
+      rdb.userSelections = widget.userSelections;
     });
     rdb.updateRec();
     Navigator.of(context).pushReplacement(
@@ -83,7 +72,7 @@ class _SkillEndState extends State<SkillEnd> {
 
                   child: Center(
                     child: Container(
-                      child: Text("Thanks, for taking the test, continue to see your recommended careers ",style: TextStyle(fontSize: 24,fontFamily: 'FontMain' ),),
+                      child: Text("Thanks, for taking the test, continue to see your recommended careers",style: TextStyle(fontSize: 24,fontFamily: 'FontMain' ),),
                     ),
                   ),
                 ),

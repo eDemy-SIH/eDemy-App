@@ -189,8 +189,8 @@ class _AppDrawerState extends State<AppDrawer> {
 
             ListTile(
               onTap: () async {                
-               final url = Uri.parse('https://edemy-32175.vercel.app/index.html');
-              launchUrl(url);
+              //  final url = Uri.parse('https://edemy-32175.vercel.app/index.html');
+              // launchUrl(url);
               },
               //5th Title
               leading: Icon(

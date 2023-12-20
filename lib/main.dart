@@ -18,8 +18,7 @@ import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/character.dart';
 
 import 'package:sih_app/pages/login.dart';
-import 'package:sih_app/pages/skill_questions.dart';
-import 'package:sih_app/pages/skill_start.dart';
+
 import 'package:sih_app/pages/student_info.dart';
 import 'package:sih_app/pages/get_started.dart';
 import 'package:sih_app/pages/home.dart';
@@ -88,8 +87,7 @@ class _MyAppState extends State<MyApp> {
         Myroutes.homeRoute: (context) => HomePage(),
         Myroutes.basicInfoRoute: (context) => StudentInfo(),
         // Myroutes.educationInfoRoute: (context) => EducationInfo(),
-        Myroutes.skillStartRoute: (context) => SkillStart(),
-        Myroutes.skillQuestionsRoute: (context) => SkillQuestions(characteristic: "",),
+
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
         Myroutes.careerDetailsRoute: (context) => CareerPage(careerId: 'doctor'),
         Myroutes.reportRoute: (context) => UserReport(),

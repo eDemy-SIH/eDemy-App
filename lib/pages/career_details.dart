@@ -179,14 +179,38 @@ class _CareerPageState extends State<CareerPage> {
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.skills.map((skill) => Text("-$skill")).toList(),
+                    children: careerData.cons.map(
+                      (skill) => Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 4),
+                            child: Icon(Icons.fiber_manual_record, color: context.cardColor,size: 10,),
+                          ),
+                          SizedBox(width: 8),
+                          Expanded(child: Text(skill)),
+                        ],
+                      ),
+                    ).toList(),
                   ),
                   SizedBox(height: 16),
                   Text("How To Pursue",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.educ.map((edu) => Text("-$edu")).toList(),
+                    children: careerData.cons.map(
+                      (edu) => Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 4),
+                            child: Icon(Icons.fiber_manual_record, color: context.cardColor,size: 10,),
+                          ),
+                          SizedBox(width: 8),
+                          Expanded(child: Text(edu)),
+                        ],
+                      ),
+                    ).toList(),
                   ),
                   SizedBox(height: 16),
 
@@ -197,42 +221,37 @@ class _CareerPageState extends State<CareerPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Container(
-                        width: 170,
-                        child: Column( 
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: careerData.oppL.map((opp) => Text("-$opp")).toList(),
-                        ),
-                      ),
-                      Container(
-                        width: 170,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: careerData.oppR.map((opp) => Text("-$opp")).toList(),
-                        ),
-                      ),
+                      _buildOpportunityColumn(careerData.oppL),
+                      _buildOpportunityColumn(careerData.oppR),
                     ],
                   ),
-                  // Column(
-                  //   crossAxisAlignment: CrossAxisAlignment.start,
-                  //   children: careerData.oppL.map((opp) => Text("- $opp")).toList(),
-                  // ),
-                  // SizedBox(height: 16),
-                  // Text('Opportunities on the Right:'),
-                  // Column(
-                  //   crossAxisAlignment: CrossAxisAlignment.start,
-                  //   children: careerData.oppR.map((opp) => Text("- $opp")).toList(),
-                  // ),
+                
                   SizedBox(height: 16),
 
                   Text("Top Indian Institutes",style: TextStyle(fontSize: 20),),
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.insti.map((institute) =>
-                        Text("- ${institute['name']} (${institute['link']})")).toList(),
+                    children: careerData.insti.map(
+                      (institute) => Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 4),
+                            child: Icon(Icons.fiber_manual_record, size: 10, color: context.cardColor),
+                          ),
+                          SizedBox(width: 8),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(institute['name'] ?? ''),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ).toList(),
                   ),
                   SizedBox(height: 16),
 
@@ -240,7 +259,19 @@ class _CareerPageState extends State<CareerPage> {
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.pros.map((pro) => Text("- $pro")).toList(),
+                    children: careerData.cons.map(
+                      (pro) => Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 4),
+                            child: Icon(Icons.fiber_manual_record, color: context.cardColor,size: 10,),
+                          ),
+                          SizedBox(width: 8),
+                          Expanded(child: Text(pro)),
+                        ],
+                      ),
+                    ).toList(),
                   ),
                   SizedBox(height: 16),
 
@@ -248,7 +279,19 @@ class _CareerPageState extends State<CareerPage> {
                   SizedBox(height: 8),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: careerData.cons.map((con) => Text("- $con")).toList(),
+                    children: careerData.cons.map(
+                      (con) => Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 4),
+                            child: Icon(Icons.fiber_manual_record, color: context.cardColor,size: 10,),
+                          ),
+                          SizedBox(width: 8),
+                          Expanded(child: Text(con)),
+                        ],
+                      ),
+                    ).toList(),
                   ),
                 ],
               ),
@@ -264,4 +307,34 @@ class _CareerPageState extends State<CareerPage> {
       
     );
   }
+
+
+
+    Widget _buildOpportunityColumn(List<String?> opportunities) {
+    return Container(
+      width: 170,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: opportunities.map((opp) {
+          return Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(top:4),
+                child: Icon(Icons.check_circle, size: 15, color: context.cardColor),
+              ),
+              SizedBox(width: 8),
+              Expanded(
+                child: Text(opp ?? ''),
+              ),
+            ],
+          );
+        }).toList(),
+      ),
+    );
+  }
+
 }
+
+

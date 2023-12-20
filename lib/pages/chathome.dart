@@ -73,7 +73,7 @@ class _ChatHomePageState extends State<ChatHomePage> {
           onTap: (){
             Navigator.push(context, MaterialPageRoute(builder: (context)=> ChatPage(
               receiverEmail: 'Career Counselor 1',
-              receiverId: '5hHHFRYsuxQnTc6wepp2TtJ68nL2',
+              receiverId: '6fxpvqVokoakd6x10VVRBh1yVip1',
             )));
           },
         );

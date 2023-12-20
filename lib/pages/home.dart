@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
@@ -28,13 +30,14 @@ class _HomePageState extends State<HomePage> {
   int total=questions.length-1;
   var array=[1,2,3];
   String _prediction=" ";
-  List<String> recommended = ['4','5','7','9'];
+  List<String> recommended = ['phyhon','doctor','civils','atc'];
+  String characteristic="S";
 
 
   @override
   void initState() {
 
-   if (recommendedbox.get("REC") == null) {
+    if (recommendedbox.get("REC") == null) {
       rdb.createRec();
       recommended = rdb.userSelections;
     }
@@ -87,17 +90,48 @@ class _HomePageState extends State<HomePage> {
     
     final response = await http.get(Uri.parse('https://model-server-mxrg.onrender.com/$inputString'));
     print(response);
+    print("Helloooo:$response.body");
     if (response.statusCode == 200) {
       setState(() {
         
         _prediction = response.body;
         print(_prediction);
+        showCharacter(_prediction);
+
+        String jsonString = _prediction;
+
+        // Parse the JSON string
+        Map<String, dynamic> jsonMap = json.decode(jsonString);
+
+       
+        String predictionValue = jsonMap['prediction'];
+
+        characteristic=predictionValue;
+
+        print(predictionValue);
+
       });
     } else {
       setState(() {
         _prediction = 'Error: ${response.statusCode}';
       });
     }
+  }
+
+    void showCharacter(_prediction){
+    String jsonString = _prediction;
+
+    // Parse the JSON string
+    Map<String, dynamic> jsonMap = json.decode(jsonString);
+
+   
+    String predictionValue = jsonMap['prediction'];
+
+    print(predictionValue);
+
+    setState(() {
+       characteristic=predictionValue;
+    });
   }
 
 
@@ -129,50 +163,6 @@ class _HomePageState extends State<HomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
       
-              //   GestureDetector(
-              //      onTap: () {
-              //       _getPrediction();
-              //      },
-              //     child: Center(
-              //       child: Text(
-              //         "Your Aptitude Score",
-              //         style:TextStyle(
-              //           fontSize: 18, 
-              //           fontFamily: 'FontMain'
-              //         ) 
-                      
-              //       )
-              //     ),
-              //   ),
-
-              //   SizedBox(height: 20,),
-
-              //   PieChart(
-              //     chartRadius: 180,
-              //     centerText:  "$score/$total",
-              //     initialAngleInDegree: 270,
-              //     centerTextStyle: TextStyle(
-              //       fontSize: 28,
-              //       color: Colors.black
-              //     ),
-              //     dataMap: dataMap,
-              //     chartType: ChartType.ring,
-              //     baseChartColor: Color.fromARGB(255, 54, 61, 50).withOpacity(0.15),
-              //     colorList: colorList,
-              //     legendOptions: LegendOptions(
-              //       showLegends: false
-              //     ),
-              
-              //     chartValuesOptions:  ChartValuesOptions(
-              //       showChartValuesInPercentage: true,
-              //       chartValueStyle: TextStyle(
-              //         fontSize: 10,
-              //         color: Colors.black
-              //       ),
-              //       chartValueBackgroundColor: context.canvasColor
-              //     ),
-              //     totalValue: total.toDouble(),
-              // ),
 
 
               //  SizedBox(height: 20,),
@@ -188,9 +178,9 @@ class _HomePageState extends State<HomePage> {
                     FontWeight.bold,
                     shadows: [
                       Shadow(
-                        color: Color.fromARGB(98, 0, 0, 0),      // Choose the color of the shadow
-                        blurRadius: 2.0,          // Adjust the blur radius for the shadow effect
-                        offset: Offset(2.0, 2.0), // Set the horizontal and vertical offset for the shadow
+                        color: Color.fromARGB(98, 0, 0, 0),      
+                        blurRadius: 2.0,          
+                        offset: Offset(2.0, 2.0), 
                       ),
                     ],
                     ), 

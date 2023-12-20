@@ -111,13 +111,13 @@ class BasicDB{
 
 class RecommendedDb{
 
-  List<String> userSelections = [];
+  List<String> userSelections =['phyhon','doctor','civils','atc'];
 
   final startbox = Hive.box("Recommended_db");
 
    //create initial data
   void createRec() {
-    userSelections = ['1','2','3','4'];
+    userSelections = ['phyhon','doctor','civils','atc'];;
   }
 
   //load data from db

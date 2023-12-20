@@ -17,9 +17,7 @@ class SkillQuestions extends StatefulWidget {
 
 class _SkillQuestionsState extends State<SkillQuestions> {
 
-  // List<String> stringList = [
-  //   "Graphic Designer", "Fashion Business Management", "Fashion Designer", "Interior Designer", "Jewellery Designer", "Broadcasting", "Advertisement", "UI/UX Designer", "Writer, Editor, Copywriter", "Product Designer", "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Digital Marketing', 'Archaeology', 'Home Science'
-  // ];
+
   List<String> stringList = [
     'Apple', 'Banana', 'Cherry', 'Date', 'Grape', 'Kiwi', 'Lemon',
   ];
@@ -83,6 +81,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
   "Air Traffic Controller":"atc",
   "Aircraft Maintenance Engineer": "ame",
   "Flight Attendant" : "fa",
+  "Cabin Crew": "cc",
   "Pilot" : "pilot",
   "Archaeology":"arch",
   "Public Administration": "PA",
@@ -96,9 +95,14 @@ class _SkillQuestionsState extends State<SkillQuestions> {
 
   List<String> combinations = [];
   List<String> userSelections = [];
+
+  List<String> finlSelections = [];
   int currentIndex = 1;
   int totalIndex=20;
   int selected=0;
+
+
+  List<String> allCombinations = [];
 
   bool isAnswer=true;
 
@@ -270,19 +274,52 @@ class _SkillQuestionsState extends State<SkillQuestions> {
       userSelections.add(selectedId);
     });
 
-    
-    if (currentIndex < totalIndex) {
-      setState(() {
-        currentIndex++;
-      });
-    } else {
+    if (finlSelections.length==4) {
+      print(finlSelections);
       setState(() {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) =>  SkillEnd(userSelections: userSelections,)),
+          MaterialPageRoute(builder: (context) =>  SkillEnd(userSelections: finlSelections)),
         );
       });
     }
+    else{
+
+      if (currentIndex >= combinations.length) {
+        currentIndex = 0;
+      }
+      currentIndex++;
+      // print(userSelections);
+      
+      Map<String, int> occurrences = {};
+
+      for (String element in userSelections) {
+        occurrences[element] = (occurrences[element] ?? 0) + 1;
+      }
+
+
+      List<MapEntry<String, int>> sortedOccurrences = occurrences.entries.toList()
+    ..sort((a, b) => b.value.compareTo(a.value));
+
+      int desiredOccurrences = 4;
+
+      print("Elements with $desiredOccurrences occurrences:");
+      for (var entry in sortedOccurrences) {
+        print("helooooooooooooooooooooooo");
+        if (entry.value == desiredOccurrences) {
+          setState(() {
+            finlSelections.add(entry.key);
+            finlSelections=finlSelections.toSet().toList();
+
+            for(String i in finlSelections){
+              allCombinations.removeWhere((element) => element.contains(i));
+            }
+          });
+          
+        }
+      }
+    }
+    
   }
 
   void handleNone(){
@@ -293,7 +330,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
   }
 
   List<String> generateAllCombinations(List<String> strings) {
-    List<String> allCombinations = [];
+    
 
     for (int i = 0; i < strings.length - 1; i++) {
       for (int j = i + 1; j < strings.length; j++) {

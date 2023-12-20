@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:sih_app/db/db.dart';
+import 'package:sih_app/pages/home.dart';
 import 'package:sih_app/pages/skill_start.dart';
+
 import 'package:sih_app/widgets/anwer_card.dart';
 import 'package:sih_app/widgets/motivate.dart';
 import 'package:sih_app/widgets/next_buttons.dart';
@@ -109,7 +111,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                 Padding(
                   padding: EdgeInsets.only(top: 40,left: 20,right: 20),
                   child: 
-                  counter==20? null: 
+                  (counter == 10 || counter == 20) ? null: 
                   Text(
                     question.question,
                     style:  TextStyle(fontSize: 20, fontFamily: 'FontMain'),            
@@ -121,7 +123,10 @@ class _AptitudeTestState extends State<AptitudeTest> {
                   padding: EdgeInsets.only(top: 30,left: 20,right: 20),
 
                   child:  
-                  counter==20? 
+                  counter == 10? 
+                  MotivateForTest(question: 'You Are Doing Great ! Keep Going !', ):
+
+                  counter==20?
                   MotivateForTest(question: 'You Are Doing Great ! Just A Few More Questions !', ):
               
                   ListView.builder(
@@ -168,7 +173,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                           onTap: () => {
                               
                             selectedAnswerIndex!=null ? goNext() : 
-                            counter==20? goNext(): 
+                            (counter == 10 || counter == 20) ? goNext(): 
                             null
                             },
                           child: NextButton(text: "Next")
