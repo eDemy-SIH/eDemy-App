@@ -251,10 +251,10 @@ class _LoginPageState extends State<LoginPage> {
                       });
                     },
                     child: Container(
-                        padding: const EdgeInsets.fromLTRB(15, 10, 15, 10),
+                        padding: const EdgeInsets.fromLTRB(25, 15, 25, 15),
                         decoration: BoxDecoration(
                             border: Border.all(color: context.canvasColor),
-                            color: context.canvasColor,
+                            color: context.theme.splashColor,
                             borderRadius: BorderRadius.circular(15)),
                         child: isLoading
                             ? Row(

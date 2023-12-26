@@ -99,7 +99,7 @@ class _StudentInfoState extends State<StudentInfo> {
     });
     if (formKey.currentState!.validate()) {
       Future.delayed(Duration(seconds: 1));
-      Navigator.pushNamed(context, Myroutes.aptitudeRoute);
+      Navigator.pushNamed(context, Myroutes.characterStartRoute);  //aptiroute
     }
     usercontroller.clear();
     // weightcontroller.clear();

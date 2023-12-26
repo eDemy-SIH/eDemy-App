@@ -109,6 +109,41 @@ class BasicDB{
   }
 }
 
+
+class HealthDb{
+
+  final healthbox = Hive.box("HealthInfo-db");
+
+
+  bool visual=false;
+  bool cognitive=false;
+  bool mobility=false;
+  bool hearing=false;
+
+  void createInitialInfo() {
+     visual=false;
+     cognitive=false;
+     mobility=false;
+     hearing=false;
+  }
+
+  //load data from db
+  void loadDataInfo() {
+    visual=healthbox.get("VISUAL");
+    cognitive=healthbox.get("COGNITIVE");
+    mobility=healthbox.get("MOBILITY");
+    hearing=healthbox.get("HEARING");
+  }
+
+  //update data
+  void updateDbInfo() {
+    healthbox.put("VISUAL", visual);
+    healthbox.put("COGNITIVE", cognitive);
+    healthbox.put("MOBILITY", mobility);
+    healthbox.put("HEARING", hearing);
+  }
+}
+
 class RecommendedDb{
 
   List<String> userSelections =['phyhon','doctor','civils','atc'];

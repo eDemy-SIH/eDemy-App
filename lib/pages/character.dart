@@ -111,7 +111,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                 Padding(
                   padding: EdgeInsets.only(top: 40,left: 20,right: 20),
                   child: 
-                  (counter == 10 || counter == 20) ? null: 
+                  (counter == 10 || counter == 21) ? null: 
                   Text(
                     question.question,
                     style:  TextStyle(fontSize: 20, fontFamily: 'FontMain'),            
@@ -126,7 +126,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                   counter == 10? 
                   MotivateForTest(question: 'You Are Doing Great ! Keep Going !', ):
 
-                  counter==20?
+                  counter==21?
                   MotivateForTest(question: 'You Are Doing Great ! Just A Few More Questions !', ):
               
                   ListView.builder(
@@ -173,7 +173,7 @@ class _AptitudeTestState extends State<AptitudeTest> {
                           onTap: () => {
                               
                             selectedAnswerIndex!=null ? goNext() : 
-                            (counter == 10 || counter == 20) ? goNext(): 
+                            (counter == 10 || counter == 21) ? goNext(): 
                             null
                             },
                           child: NextButton(text: "Next")

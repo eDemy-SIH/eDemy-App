@@ -19,7 +19,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
 
 
   List<String> stringList = [
-    'Apple', 'Banana', 'Cherry', 'Date', 'Grape', 'Kiwi', 'Lemon',
+    "Radio Jockey", "Mass Communication", "Journalism", "Language", 'Civil Services', 'Doctor', 'Veterinary', 'Professor', 'Nursing', 'Counsellor', 'Special    Educator', 'Sociology', 'Home Science', 'Teacher', 'Public Relations', 'Cabin Crew', 'Flight Attendant', 'Public Administration', 'Political Science', 'International Relations', 'Sports Management'
   ];
 
   Map<String, String> stringMap = {
@@ -251,14 +251,14 @@ class _SkillQuestionsState extends State<SkillQuestions> {
               ),
             ),
           ),
-          Divider(height: 1),
-          Container(
-            padding: EdgeInsets.all(16.0),
-            child: Text(
-              'Selected: $selected/20',
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-          ),
+          // Divider(height: 1),
+          // Container(
+          //   padding: EdgeInsets.all(16.0),
+          //   child: Text(
+          //     'Selected: $selected/20',
+          //     style: TextStyle(fontWeight: FontWeight.bold),
+          //   ),
+          // ),
         
 
         ],
@@ -301,7 +301,7 @@ class _SkillQuestionsState extends State<SkillQuestions> {
       List<MapEntry<String, int>> sortedOccurrences = occurrences.entries.toList()
     ..sort((a, b) => b.value.compareTo(a.value));
 
-      int desiredOccurrences = 4;
+      int desiredOccurrences = 3;
 
       print("Elements with $desiredOccurrences occurrences:");
       for (var entry in sortedOccurrences) {

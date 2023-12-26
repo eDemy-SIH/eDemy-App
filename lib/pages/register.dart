@@ -258,7 +258,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         padding: const EdgeInsets.fromLTRB(15, 10, 15, 10),
                         decoration: BoxDecoration(
                             border: Border.all(color: context.canvasColor),
-                            color: context.canvasColor,
+                            color: context.theme.splashColor,
                             borderRadius: BorderRadius.circular(15)),
                         child: isLoading
                             ? Row(

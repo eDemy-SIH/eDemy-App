@@ -14,8 +14,10 @@ import 'package:sih_app/category%20pages/medicine.dart';
 import 'package:sih_app/firebase_options.dart';
 import 'package:sih_app/pages/aichat.dart';
 import 'package:sih_app/pages/career_details.dart';
+import 'package:sih_app/pages/character_start.dart';
 import 'package:sih_app/pages/discover_jobs.dart';
 import 'package:sih_app/pages/character.dart';
+import 'package:sih_app/pages/health_info.dart';
 
 import 'package:sih_app/pages/login.dart';
 
@@ -41,13 +43,13 @@ void main() async{
   await Hive.openBox("Aptitude_db");
   await Hive.openBox("BasicInfo-db");
   await Hive.openBox("Recommended_db");
+  await Hive.openBox("HealthInfo-db");
 
 
     WidgetsFlutterBinding.ensureInitialized();
     await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
     runApp(MyApp());
   
- 
 
 }
 
@@ -86,11 +88,12 @@ class _MyAppState extends State<MyApp> {
         Myroutes.getStartedRoute: (context) => GetStarted(),
         Myroutes.homeRoute: (context) => HomePage(),
         Myroutes.basicInfoRoute: (context) => StudentInfo(),
-        // Myroutes.educationInfoRoute: (context) => EducationInfo(),
+        Myroutes.disabilitiesRoute: (context) => Disabilities(),
 
         Myroutes.discoverRoute: (context) => DiscoverCareers(),
         Myroutes.careerDetailsRoute: (context) => CareerPage(careerId: 'doctor'),
         Myroutes.reportRoute: (context) => UserReport(),
+        Myroutes.characterStartRoute: (context) => CharacterStart(),
 
 
         Myroutes.engineerListRote: (context) => EngineeringListPage(),

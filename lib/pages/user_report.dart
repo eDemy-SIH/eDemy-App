@@ -303,8 +303,8 @@ class _UserReportState extends State<UserReport> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Center(
-                child: Text(
+              
+                 Text(
                   userName,
                   style: TextStyle(
                     fontSize: 30, 
@@ -318,8 +318,8 @@ class _UserReportState extends State<UserReport> {
                     ],
                   ),
                 ),
-              ),
-              SizedBox(height: 40),
+              
+              SizedBox(height: 20),
               Text("Personal Information"),
               SizedBox(height: 10),
               Container(

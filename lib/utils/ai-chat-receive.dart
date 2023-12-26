@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 Future<String> fetchChatbotResponse(String userMessage) async {
-  final apiKey = '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';
+  final apiKey = 'YOUR_API_KEY';
   final modelId = 'gpt-3.5-turbo';
   final apiUrl = 'https://api.openai.com/v1/chat/completions';
 
