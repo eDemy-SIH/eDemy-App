@@ -95,8 +95,8 @@ This project would not have been possible without the efforts of the following p
 
 ## Repositories used in this project
 
-[eDemy App](https://github.com/eDemy-SIH/eDemy-App) <br>
-[eDemy Website](https://github.com/eDemy-SIH/eDemy-Website) <br>
+- [eDemy-App](https://github.com/eDemy-SIH/eDemy-App) <br>
+- [eDemy-Website](https://github.com/eDemy-SIH/eDemy-Website) <br>
 
 
 ## License
