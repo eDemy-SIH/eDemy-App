@@ -8,7 +8,7 @@ Scan the QR Code to Download the app
 
 <img src="https://i.postimg.cc/HkTnNwDC/e-Demy-qr-code.png" height="300px">
 
-Note: The chat with ai feature might not work since it uses open ai api keys and it might expire.
+Note: The Chat With AI feature might not work since it uses OpenAI API Key which might expire.
 
 ## How does our software work ?
 
