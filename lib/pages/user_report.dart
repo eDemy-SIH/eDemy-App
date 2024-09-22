@@ -591,7 +591,7 @@ class _UserReportState extends State<UserReport> {
     final file = File('${output.path}/captured_page.pdf');
     await file.writeAsBytes(pdf);
 
-    Printing.sharePdf(bytes: pdf, filename: 'eDemy_career_report.pdf');
+    Printing.sharePdf(bytes: pdf, filename: 'Edvance_career_report.pdf');
   }
 
   Future<Uint8List> generatePDF() async {

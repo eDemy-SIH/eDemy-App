@@ -151,49 +151,52 @@ class _CareerCardState extends State<CareerCard> {
                   ),
                 ),
                 
-                SizedBox(width: 40,),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [    
-                      Container(
-                        width: 200,
-                        child: Text(
-                          careerData.title,
-                          style: TextStyle(fontSize: 18, fontFamily: 'FontMain'),
-                        ),
-                      ),                 
-                      SizedBox(height: 20,),
-                      GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => CareerPage(careerId: careerData.careerId),
-                            ),
-                          );
-                        },
-                        child: Container(
-                          height: 35,
-                          width: 120,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(6),
-                            color: context.cardColor
-                          ),
-                          child: Center(
+                SizedBox(width: 30,),
+                Flexible(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [    
+                        Padding(
+                          padding: const EdgeInsets.only(left:10),
+                          child: Container(
+                            width: 200,
                             child: Text(
-                              "View More",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14
-                              ),
+                              careerData.title,
+                              style: TextStyle(fontSize: 18, fontFamily: 'FontMain'),
                             ),
-                          ),                     
-                        ),
-                      )
-                    ],
+                          ),
+                        ),                 
+                        SizedBox(height: 20,),
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => CareerPage(careerId: careerData.careerId),
+                              ),
+                            );
+                          },
+                          child: Container(
+                            height: 35,
+                            width: 120,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(6),
+                              color: context.cardColor
+                            ),
+                            child: const Center(
+                              child: Text(
+                                "View More",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 14
+                                ),
+                              ),
+                            ),                     
+                          ),
+                        )
+                      ],
+                  ),
                 ),
-              
-
               ],
             );
         }})

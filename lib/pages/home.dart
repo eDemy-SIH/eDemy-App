@@ -170,7 +170,7 @@ class _HomePageState extends State<HomePage> {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal:10.0), 
                 child: Text(      
-                  "eDemy",
+                  "Edvance",
                   style:
                   TextStyle(
                     fontSize: 36,color:context.cardColor, 
